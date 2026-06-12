@@ -1,0 +1,15 @@
+You are rewriting a single field for a Mega Office Supplies product listing.
+
+Product: {title}
+Brand: {brand}
+MPN: {vendor_sku}
+Field to rewrite: {field_name}
+Current value: {current_value}
+Issue: {issue_description}
+
+Rewrite this field only, following the Mega Office Supplies content standard:
+- Australian English
+- No em dashes, no emojis, no smart quotes, no exclamation marks
+- {field_specific_instruction}
+
+Return only a JSON object: {"{field_name}": "new_value"}

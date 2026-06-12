@@ -1,0 +1,78 @@
+You are enriching a product listing for Mega Office Supplies (megaofficesupplies.com.au), an Australian office supplies retailer.
+
+INPUT DATA:
+- Product title (raw): {raw_title}
+- Brand: {brand}
+- Vendor SKU / MPN: {vendor_sku}
+- Category path: {category_path}
+- Supplier description (if available): {feed_description}
+- Key specs from feed (if available): {feed_specs}
+- Compatible products / models (if available): {compatible_with}
+- Price (ex GST): {price}
+- RRP (ex GST): {rrp}
+- GTIN / EAN: {gtin}
+- Tier: {tier}
+
+EXISTING STORE CONTENT (current Shopify values — may be partial, inconsistent, or off-standard):
+- Existing body: {existing_body_html}
+- Existing key features: {existing_key_features}
+- Existing applications: {existing_applications}
+- Existing specifications: {existing_specifications}
+- Existing pack size: {existing_pack_size}
+- Existing unit: {existing_unit}
+
+TASK: Generate a complete product enrichment JSON object conforming exactly to the schema below. Every field is required unless marked optional. Do not output anything except the JSON object.
+
+USING EXISTING CONTENT:
+1. Treat existing content as a FACTUAL REFERENCE, not a style template. Preserve every accurate, concrete fact — especially numeric specs (dimensions, capacities, yields, temperatures, model/reference numbers). Do not drop them.
+2. Reconcile with supplier/brand data when available. For any conflict, source precedence is: live supplier/brand data > existing store content > your own inference. Never replace a concrete existing fact with an invented or less specific one.
+3. Do NOT invent specifications. If a spec is not present in the existing content or supplier data, leave it out — do not guess.
+4. Rewrite everything to the content standard: apply the tone rules and banned-phrase list (e.g. remove "Shop Now", "Whether you are"), and the canonical per-field structure (specifications as a "Label: Value" list, applications as a list, etc.).
+5. Improve and fill gaps: tighten wording, add obvious supportable facts, and normalise weak fields — e.g. convert pack_size sentences like "Price is per each diary" into a clean value such as "1".
+
+SCHEMA:
+{
+  "title": "string — clean product title, 30-100 chars, Title Case, no dashes as separators",
+  "body_html": "string — full HTML description, see structure rules below",
+  "seo_title": "string — max 60 chars, format: [Brand] [Model] [Type] [Key attribute] | Mega Office Supplies",
+  "seo_description": "string — max 160 chars, benefit-led, includes key spec and brand trust signal",
+  "key_features": ["array of 5-7 strings — standout differentiators, NOT a repeat of description bullets"],
+  "applications": ["array of 4-6 strings — real-world use cases and environments"],
+  "specifications": ["array of 8-15 strings — technical fact sheet in 'Label: Value' format"],
+  "faqs": [{"question": "string", "answer": "string"}],
+  "tags": ["array of exactly 10 strings — see tag rules below"],
+  "pack_size": "string — clean value only e.g. '1', 'Pack of 4', '20 Sheets'. Never a sentence.",
+  "unit": "string — one of: Each, Pack, Box, Roll, Ream, Carton",
+  "google_product_category_id": "string — numeric Google taxonomy ID",
+  "image_alt_texts": {
+    "hero": "string — descriptive alt text for main product shot",
+    "lifestyle_1": "string — descriptive alt text for first lifestyle image",
+    "lifestyle_2": "string — descriptive alt text for second lifestyle image (T1 only, null for T2)"
+  }
+}
+
+BODY_HTML STRUCTURE (follow exactly):
+<h2>[Benefit-led emotional headline — outcome for customer, not a feature list]</h2>
+<p><strong>[Bold lead sentence: what the product is and the primary benefit it delivers]</strong></p>
+<p>[Paragraph 1: Context — why genuine/quality matters for this category, primary use case, weave in one key spec naturally. 50-80 words.]</p>
+<p>[Paragraph 2: Secondary benefits — output quality, protection/compatibility, versatility of use. 40-60 words.]</p>
+<p>[Paragraph 3: Closing — environment/user fit, confidence signal, soft call to action. 30-50 words. No exclamation marks.]</p>
+
+RICH-TEXT HYGIENE: All list fields (key_features, applications, specifications) must use clean Shopify rich-text JSON — no empty trailing nodes, no stray \n inside list items.
+
+TAG RULES — exactly 10 tags per product, mixing these categories:
+1. Brand + model number (e.g. "Brother LC536XLY")
+2. Brand + model + colour/variant (e.g. "Brother LC536XLY Yellow")
+3. Printer/equipment compatibility 1
+4. Printer/equipment compatibility 2
+5. Product type — descriptive (e.g. "High Yield Ink Cartridge")
+6. Product type — common search term (e.g. "Yellow Printer Ink")
+7. Brand trust signal (e.g. "Genuine Brother Ink")
+8. Brand category (e.g. "Brother Printer Consumables")
+9. Use case / audience (e.g. "office printing supplies")
+10. Additional compatibility or feature
+Use Title Case for multi-word tags. No hashtags. No punctuation.
+
+FAQs (T1 only — return empty array [] for T2):
+Generate 3-5 FAQ pairs. Questions: compatibility, yield, authenticity, value, installation.
+Answers: 2-4 sentences, confident, factual, no fluff.

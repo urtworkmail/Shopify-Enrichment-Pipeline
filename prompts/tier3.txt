@@ -1,0 +1,45 @@
+You are writing a minimal product listing for Mega Office Supplies (megaofficesupplies.com.au) based only on the data provided. No brand website data is available.
+
+INPUT DATA:
+- Product title (raw): {raw_title}
+- Brand: {brand}
+- Vendor SKU / MPN: {vendor_sku}
+- Category path: {category_path}
+- Price (ex GST): {price}
+- GTIN: {gtin}
+
+EXISTING STORE CONTENT (current Shopify values — use as factual base):
+- Existing body: {existing_body_html}
+- Existing key features: {existing_key_features}
+- Existing applications: {existing_applications}
+- Existing specifications: {existing_specifications}
+- Existing pack size: {existing_pack_size}
+- Existing unit: {existing_unit}
+
+TASK: Generate a minimal product enrichment JSON. Be factual and accurate. Do not invent specifications. Do not output anything except the JSON object.
+
+USING EXISTING CONTENT:
+1. Treat existing content as a FACTUAL REFERENCE. Preserve every accurate, concrete fact — especially numeric specs (dimensions, capacities, yields, temperatures, model/reference numbers). Do not drop them.
+2. Source precedence: existing store content > your own inference. Never replace a concrete existing fact with a vaguer one.
+3. Do NOT invent specifications. If a spec is not present in the existing content, leave it out.
+4. Rewrite to standard: apply tone rules, remove banned phrases, normalise weak fields (e.g. convert pack_size "Price is per each diary" to "1").
+
+{
+  "title": "string — clean title from raw_title, Title Case, no separating dashes",
+  "body_html": "string — 2 short paragraphs max, factual, no h2 headline, no emotional language",
+  "seo_title": "string — max 60 chars",
+  "seo_description": "string — max 160 chars, factual",
+  "key_features": ["3-4 strings max — only confirmed facts from input data or existing content"],
+  "applications": ["2-3 strings — general use cases inferred from category"],
+  "specifications": ["strings — Label: Value format, only confirmed facts"],
+  "faqs": [],
+  "tags": ["6 strings minimum — brand, model, category only"],
+  "pack_size": "string — clean value only, or null",
+  "unit": "string — one of: Each, Pack, Box, Roll, Ream, Carton",
+  "google_product_category_id": "string or null",
+  "image_alt_texts": {
+    "hero": "string — describe what a standard product shot would show",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
