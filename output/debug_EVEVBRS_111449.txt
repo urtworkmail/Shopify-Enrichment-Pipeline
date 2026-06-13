@@ -1,0 +1,47 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T3
+TOKENS IN: 1542
+TOKENS OUT: 554
+
+RAW:
+```json
+{
+  "title": "Educational Colours Rainbow Brush Set of 7",
+  "body_html": "<p>The Educational Colours Rainbow Brush Set includes seven nylon brushes with graduated ombre colours. Each brush is designed for a specific painting technique, from fine detail to broad coverage. Sizes and styles include small flat, small angle, extra small round, medium round, medium filbert and large flat.</p>\n<p>The set provides versatility for watercolour, acrylic and tempera painting. Nylon bristles offer durability and consistent performance across classroom, studio and home use.</p>",
+  "seo_title": "Rainbow Brush Set of 7 | Mega Office Supplies",
+  "seo_description": "Educational Colours Rainbow Brush Set with 7 nylon brushes in graduated colours. Includes flat, angle, round and filbert styles for versatile painting.",
+  "key_features": [
+    "7 nylon brushes in graduated ombre colours",
+    "Includes small flat, small angle, extra small round, medium round, medium filbert and large flat",
+    "Suitable for watercolour, acrylic and tempera painting"
+  ],
+  "applications": [
+    "Art classrooms and school painting activities",
+    "Home craft projects and creative hobbies"
+  ],
+  "specifications": [
+    "Number of Brushes: 7",
+    "Brush Styles: Small Flat, Small Angle, Extra Small Round, Medium Round, Medium Filbert, Large Flat",
+    "Material: Nylon",
+    "Carton Quantity: 24"
+  ],
+  "faqs": [],
+  "tags": [
+    "Educational Colours",
+    "Rainbow Brush Set",
+    "Paint Brushes",
+    "Nylon Brushes",
+    "Art Supplies",
+    "Painting Tools",
+    "EVEVBRS"
+  ],
+  "pack_size": "7",
+  "unit": "Pack",
+  "google_product_category_id": "505379",
+  "image_alt_texts": {
+    "hero": "Educational Colours Rainbow Brush Set of 7 nylon paint brushes with graduated ombre colours displayed together",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
+```

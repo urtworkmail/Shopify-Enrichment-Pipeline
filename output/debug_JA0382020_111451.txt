@@ -1,0 +1,83 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T1
+TOKENS IN: 2448
+TOKENS OUT: 1535
+
+RAW:
+```json
+{
+  "title": "Art Fusion Flip-Out Visual Diary A3 Original",
+  "body_html": "<h2>Expand Your Creative Canvas with Every Page</h2>\n<p><strong>The Art Fusion Flip-Out Visual Diary A3 Original transforms how you approach large-scale sketching and design projects with five ingenious flip-out pages that extend your working surface when inspiration demands more space.</strong></p>\n<p>Artists, designers and students know the frustration of running out of room mid-sketch. This A3 visual diary solves that challenge with a unique flip-out design that extends select pages into panoramic canvases, perfect for landscapes, architectural renderings, storyboarding sequences, and any creative work that refuses to be confined. Premium-quality paper accepts pencil, pen, marker and light wet media without bleed-through, while the durable binding keeps your portfolio intact through transport and daily studio use.</p>\n<p>The five strategically placed flip-out pages give you flexibility to expand only when your composition requires it, maintaining the compact A3 format for standard work while unlocking double-width possibilities for feature pieces. Suitable for tertiary art students, professional illustrators, graphic designers and dedicated hobbyists who value versatility in their sketchbooks.</p>\n<p>Built for Australian creative environments from university studios to home workspaces, this visual diary supports your artistic development with thoughtful design that adapts to your vision. Add to your cart to secure this final unit and experience the freedom of expandable creative space.</p>",
+  "seo_title": "Art Fusion A3 Flip-Out Diary | Mega Office Supplies",
+  "seo_description": "Art Fusion A3 visual diary with 5 flip-out pages for extended creative surfaces. Premium paper for sketching, design and illustration. Last unit available.",
+  "key_features": [
+    "Five flip-out pages extend your working surface for panoramic sketches and large-scale compositions",
+    "A3 format balances portability with generous standard page size for detailed work",
+    "Premium paper stock accepts multiple media including pencil, pen, marker and light wet techniques",
+    "Durable binding withstands frequent use and portfolio transport",
+    "Unique expandable design adapts to project requirements without bulk",
+    "Ideal for storyboarding, landscape work, architectural sketches and sequential art",
+    "Final unit available for immediate dispatch"
+  ],
+  "applications": [
+    "Tertiary art and design student portfolio development and coursework",
+    "Professional illustration projects requiring extended composition space",
+    "Architectural sketching and landscape rendering with panoramic layouts",
+    "Storyboarding and sequential art planning for animation and comics",
+    "Graphic design concept development and visual brainstorming",
+    "Mixed-media artwork combining standard and large-format pages"
+  ],
+  "specifications": [
+    "Brand: Art Fusion",
+    "Model: Original Flip-Out Visual Diary",
+    "Size: A3 (297 × 420mm)",
+    "Special Feature: 5 flip-out pages for extended surface area",
+    "Paper Type: Premium quality multi-media paper",
+    "Suitable Media: Pencil, pen, marker, light wet media",
+    "Binding: Durable bound spine",
+    "Primary Use: Sketching, drawing, illustration, design work",
+    "Ideal For: Artists, designers, students, illustrators",
+    "Stock Status: Final unit available",
+    "Country of Sale: Australia",
+    "Vendor SKU: JA0382020"
+  ],
+  "faqs": [
+    {
+      "question": "How do the flip-out pages work in this visual diary?",
+      "answer": "The Art Fusion Flip-Out Visual Diary includes five specially designed pages that fold out to extend your drawing surface horizontally, effectively doubling the width for panoramic compositions. The remaining pages function as standard A3 sheets, giving you flexibility to choose expanded or regular format based on your project needs. The flip-out mechanism is integrated into the binding for smooth operation and durability."
+    },
+    {
+      "question": "What types of art media can I use with this diary?",
+      "answer": "The premium paper stock is designed to handle pencil, pen, fine-liner, marker and light wet media applications without significant bleed-through. For heavy wet media like watercolour or acrylic, we recommend testing on a single sheet first, as the paper is optimised primarily for dry and semi-dry techniques. The surface texture accommodates detailed sketching and illustration work across most common art supplies."
+    },
+    {
+      "question": "Is this suitable for professional portfolio work or just student use?",
+      "answer": "This visual diary serves both professional artists and students equally well. The A3 size and flip-out feature make it particularly valuable for professional illustration, storyboarding, architectural sketching and concept development where larger compositions enhance presentation quality. Many tertiary art programmes also specify visual diaries of this format for major projects and assessment portfolios."
+    },
+    {
+      "question": "Why is this listed as the last unit available?",
+      "answer": "This is the final Art Fusion Flip-Out Visual Diary A3 Original currently in our warehouse inventory. Once this unit sells, we cannot guarantee immediate restocking. If you require this specific model for upcoming projects or coursework, we recommend securing it now to avoid disappointment. Check with our customer service team if you need information about alternative visual diary options or future availability."
+    }
+  ],
+  "tags": [
+    "Art Fusion Visual Diary",
+    "Art Fusion Flip-Out A3",
+    "A3 Visual Diary",
+    "Flip-Out Sketchbook",
+    "Artist Visual Diary",
+    "Design Student Sketchbook",
+    "Multi-Media Art Diary",
+    "Professional Illustration Book",
+    "Expandable Drawing Diary",
+    "Art Supplies Australia"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "505378",
+  "image_alt_texts": {
+    "hero": "Art Fusion Flip-Out Visual Diary A3 Original showing flip-out page mechanism and premium paper quality",
+    "lifestyle_1": "Artist using Art Fusion A3 Flip-Out Visual Diary with extended page for landscape sketch composition",
+    "lifestyle_2": "Close-up of Art Fusion visual diary flip-out pages demonstrating panoramic drawing surface and durable binding"
+  }
+}
+```

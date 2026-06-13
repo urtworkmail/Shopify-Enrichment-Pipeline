@@ -1,0 +1,83 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 1751
+TOKENS OUT: 1446
+
+RAW:
+```json
+{
+  "title": "Spirax 56280 No.280 A4 Portrait Wirebound Notebook 200 Page",
+  "body_html": "<h2>Stay organised and productive with a notebook built for serious note-taking</h2>\n<p><strong>The Spirax 56280 No.280 A4 portrait wirebound notebook delivers 200 pages of premium 7mm ruled paper, engineered for clarity, comfort and daily reliability.</strong></p>\n<p>Professional note-taking demands more than just blank pages. This A4 portrait notebook combines a durable wirebound spine with high-quality ruled paper that resists bleed-through and feathering, keeping your handwriting crisp and legible. The 7mm ruling provides generous line spacing for fast, comfortable writing during meetings, lectures or project planning. With 200 pages (100 sheets) at your disposal, you have the capacity to capture weeks of detailed notes in a single, portable volume.</p>\n<p>The wirebound format allows the notebook to lie completely flat on any surface, making it easier to write at your desk, on a clipboard or in transit. The rigid cover protects your notes from creasing and damage, while the portrait orientation suits standard filing systems and bag compartments. Spirax has been manufacturing trusted Australian stationery for decades, and this notebook reflects that commitment to functional, no-nonsense design.</p>\n<p>Ideal for office environments, educational settings and fieldwork where reliable documentation matters. Your notes deserve a notebook that keeps up with your pace and preserves your ideas without compromise.</p>",
+  "seo_title": "Spirax 56280 No.280 A4 Wirebound Notebook 200 Page | Mega Office Supplies",
+  "seo_description": "Spirax 56280 A4 portrait wirebound notebook with 200 pages of 7mm ruled paper. Professional quality, lies flat, resists bleed-through. Trusted Australian brand.",
+  "key_features": [
+    "200 pages (100 sheets) of 7mm ruled paper for extended note-taking capacity",
+    "A4 portrait format fits standard filing systems and bags",
+    "Wirebound spine allows notebook to lie completely flat for comfortable writing",
+    "Premium paper resists bleed-through and feathering for clean, legible notes",
+    "Rigid cover protects contents from creasing and damage",
+    "Made by Spirax, a trusted Australian stationery manufacturer",
+    "Generous 7mm line spacing suits fast handwriting and detailed notation"
+  ],
+  "applications": [
+    "Meeting minutes and project documentation in office environments",
+    "University and TAFE lecture notes and assignment planning",
+    "Field notes and site documentation for technical and trade work",
+    "Client consultations and professional service records",
+    "Training sessions and workshop materials",
+    "Personal journaling and daily task management"
+  ],
+  "specifications": [
+    "Brand: Spirax",
+    "Model Number: 56280",
+    "Product Code: No.280",
+    "Page Count: 200 pages (100 sheets)",
+    "Paper Size: A4 (210mm x 297mm)",
+    "Orientation: Portrait",
+    "Ruling: 7mm ruled",
+    "Binding Type: Wirebound",
+    "Cover: Rigid cover",
+    "Paper Quality: Premium ruled paper with bleed-through resistance",
+    "Country of Brand: Australia",
+    "Unit of Sale: Each"
+  ],
+  "faqs": [
+    {
+      "question": "How many pages does this notebook contain?",
+      "answer": "The Spirax 56280 contains 200 pages (100 sheets) of 7mm ruled paper. This provides substantial capacity for extended note-taking over weeks or months, depending on usage intensity."
+    },
+    {
+      "question": "What is the difference between portrait and landscape orientation?",
+      "answer": "Portrait orientation means the notebook is taller than it is wide, matching standard A4 document orientation. This format suits most writing styles and fits easily into briefcases, backpacks and filing systems. The Spirax 56280 is designed in portrait format for maximum compatibility with professional and educational workflows."
+    },
+    {
+      "question": "Does the wirebound design make the notebook durable for daily use?",
+      "answer": "Yes, the wirebound spine is engineered for frequent opening and closing without degrading. The wire binding allows the notebook to lie completely flat, reducing stress on the spine during use. Combined with the rigid cover, this construction protects your notes throughout the life of the notebook, even in demanding office or field environments."
+    },
+    {
+      "question": "Will ink bleed through the pages when using fountain pens or markers?",
+      "answer": "The Spirax 56280 uses premium ruled paper designed to resist bleed-through and feathering with standard ballpoint, gel and rollerball pens. For heavy fountain pen or marker use, we recommend testing on a single page first, as bleed-through resistance can vary with ink viscosity and nib width."
+    }
+  ],
+  "tags": [
+    "Spirax 56280",
+    "Spirax No.280 Notebook",
+    "A4 Wirebound Notebook",
+    "A4 Portrait Notebook",
+    "200 Page Notebook",
+    "7mm Ruled Notebook",
+    "Spirax Wirebound Notebooks",
+    "Office Notebooks",
+    "Student Note Taking",
+    "Professional Stationery"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "922",
+  "image_alt_texts": {
+    "hero": "Spirax 56280 No.280 A4 portrait wirebound notebook with rigid cover and 200 ruled pages",
+    "lifestyle_1": "Spirax 56280 notebook lying flat on office desk showing 7mm ruled pages and wirebound spine",
+    "lifestyle_2": "Close-up of Spirax 56280 notebook pages demonstrating premium ruled paper quality and line spacing"
+  }
+}
+```

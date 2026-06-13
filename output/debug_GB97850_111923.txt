@@ -1,0 +1,67 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2720
+TOKENS OUT: 1198
+
+RAW:
+```json
+{
+  "title": "Goldbuch Handicraft School Cone Assorted Colours 68cm Hexagonal Pack 10",
+  "body_html": "<h2>Turn the first day of school into a treasured memory</h2>\n<p><strong>These 68cm hexagonal craft cones let families and teachers create personalised school cones that celebrate new beginnings with colour, creativity and heartfelt meaning.</strong></p>\n<p>Inspired by the cherished German Schultüte tradition, the Goldbuch Handicraft School Cone brings excitement and personalisation to the start of the school year. Each cone arrives flat packed for easy storage and snaps together into a sturdy 3D honeycomb structure in seconds. The assorted colours and blank surface invite children, parents and educators to decorate with paint, stickers, ribbons and printed motifs, transforming a simple craft project into a keepsake filled with treats, school supplies and encouragement.</p>\n<p>The durable corrugated cardboard construction keeps the cone lightweight yet strong enough to hold gifts without sagging or tearing. The hexagonal shape adds visual interest and makes decorating easier, while the simple four-way snap closure means no tape or glue is needed for assembly. Each pack of 10 ensures classrooms and families have enough cones for group celebrations or sibling sets.</p>\n<p>Perfect for prep teachers, homeschool families and craft coordinators looking to add tradition and joy to the first school day. Goldbuch school cones combine quality materials with creative freedom, helping you mark milestones with care and imagination.</p>",
+  "seo_title": "School Cone 68cm Hexagonal Pack 10 | Mega Office Supplies",
+  "seo_description": "Goldbuch 68cm hexagonal school cones in assorted colours. Durable 3D honeycomb design, flat packed for easy assembly. Pack of 10 for classrooms and families.",
+  "key_features": [
+    "Durable 3D corrugated honeycomb design provides strength while remaining lightweight and easy to decorate",
+    "Flat packed with a simple four-way snap closure for quick assembly, perfect for classrooms and craft groups",
+    "Assorted colours allow each child to create a unique cone for a personalised first day of school experience",
+    "68cm height provides generous space for treats, gifts and school supplies without overwhelming young children",
+    "Hexagonal shape offers a distinctive look and smooth surfaces ideal for paint, stickers and ribbon decoration",
+    "Pack of 10 ensures classrooms, prep groups and families have enough cones for multiple students or siblings",
+    "Blank surface supports full creative freedom with no preset motifs or characters to constrain design choices"
+  ],
+  "applications": [
+    "Ideal for personalising with paint, stickers, paper craft, ribbons and printed motifs for a unique first day of school gift",
+    "Suitable for prep classrooms, craft sessions and family projects celebrating the start of kindergarten or primary school",
+    "Perfect for homeschool families and playgroups marking educational milestones with traditional German Schultüte ceremonies",
+    "Designed to hold small gifts, treats, school supplies and encouraging notes that welcome children to their new classroom",
+    "Great for before-school care programmes and orientation days where educators want to create memorable welcome experiences",
+    "Versatile enough for birthday parties, graduation celebrations and other milestone events requiring decorative gift cones"
+  ],
+  "specifications": [
+    "Brand: Goldbuch",
+    "Product Code: GB97850",
+    "Height: 68 cm",
+    "Shape: Hexagonal",
+    "Material: 3D corrugated cardboard",
+    "Colour: Assorted",
+    "Design: Without motif or image",
+    "Construction: Honeycomb structure",
+    "Assembly: Four-way snap closure",
+    "Packaging: Flat packed",
+    "Pack Size: 10",
+    "Product Type: Craft bag / School cone",
+    "Suitable For: Boys and girls, all ages"
+  ],
+  "faqs": [],
+  "tags": [
+    "Goldbuch School Cone",
+    "Goldbuch GB97850",
+    "School Cone 68cm",
+    "Hexagonal School Cone",
+    "Craft School Cone",
+    "First Day Of School Cone",
+    "Schultüte Craft Cone",
+    "Assorted Colour Cone",
+    "Classroom Craft Supplies",
+    "School Celebration Cone"
+  ],
+  "pack_size": "Pack of 10",
+  "unit": "Pack",
+  "google_product_category_id": "505826",
+  "image_alt_texts": {
+    "hero": "Goldbuch 68cm hexagonal school cone in assorted colours with 3D honeycomb structure, flat packed",
+    "lifestyle_1": "Children decorating Goldbuch school cones with paint and stickers for first day of school celebration",
+    "lifestyle_2": null
+  }
+}
+```

@@ -1,0 +1,49 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T3
+TOKENS IN: 1521
+TOKENS OUT: 659
+
+RAW:
+```json
+{
+  "title": "Dymo LabelManager 160 Handheld Labeller Value Pack with D1 Tapes",
+  "body_html": "<p>The Dymo LabelManager 160 Value Pack bundles the handheld labeller with bonus D1 tape rolls, providing everything needed to start labelling immediately. This compact portable labeller features one-touch formatting, 200 symbols and text preview. It accepts D1 tape in 6mm, 9mm and 12mm widths, making it suitable for a wide range of labelling tasks across offices and workplaces.</p><p>The value pack format eliminates the need for a separate tape purchase, enabling you to begin labelling straight out of the box. Ideal for filing, cables, shelves, equipment labels and general workplace organisation.</p>",
+  "seo_title": "Dymo LabelManager 160 Value Pack | Mega Office Supplies",
+  "seo_description": "Dymo LabelManager 160 handheld labeller value pack with D1 tapes included. Compact portable design with one-touch formatting, 200 symbols and text preview.",
+  "key_features": [
+    "Compact handheld labeller with one-touch formatting and text preview",
+    "Compatible with D1 tape in 6mm, 9mm and 12mm widths",
+    "Value pack includes D1 tape rolls for immediate use out of the box",
+    "200 symbols available for professional workplace labelling"
+  ],
+  "applications": [
+    "Filing, cable management, shelving and equipment labelling in offices",
+    "General workplace organisation and identification tasks",
+    "Professional labelling for businesses upgrading from consumer-grade labellers"
+  ],
+  "specifications": [
+    "Tape Compatibility: D1 tape in 6mm, 9mm and 12mm widths",
+    "Symbols: 200 available",
+    "Features: One-touch formatting, text preview"
+  ],
+  "faqs": [],
+  "tags": [
+    "Dymo",
+    "LabelManager 160",
+    "Handheld Labeller",
+    "Label Maker",
+    "D1 Tape",
+    "Value Pack",
+    "Office Supplies",
+    "Labelling"
+  ],
+  "pack_size": "1 Labeller + D1 Tape Rolls",
+  "unit": "Each",
+  "google_product_category_id": "922",
+  "image_alt_texts": {
+    "hero": "Dymo LabelManager 160 handheld labeller with included D1 tape rolls in value pack",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
+```

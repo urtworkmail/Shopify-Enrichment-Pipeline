@@ -1,0 +1,67 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2667
+TOKENS OUT: 1076
+
+RAW:
+```json
+{
+  "title": "Educational Colours Jumbols Jumbo Washable Colouring Pencils with Sharpener Pack of 12",
+  "body_html": "<h2>Bring Bold, Washable Colour to Every Young Artist's Hands</h2>\n<p><strong>Educational Colours Jumbols Jumbo Washable Colouring Pencils deliver vibrant, strongly-pigmented colour in a chunky, easy-grip format designed for small hands and big imaginations.</strong></p>\n<p>These Australian-made hexagonal pencils feature bonded leads that resist breakage during enthusiastic use, while the 1cm diameter barrel provides comfortable control for children aged 3 and up. Each pencil measures 17.5cm in length and delivers rich, washable colour that lifts easily from skin and most fabrics. The pack includes 12 assorted colours and a bonus sharpener, ready to use straight from the hangsell packaging.</p>\n<p>Non-toxic and tested to Australian safety standards, these jumbo pencils support early fine motor development while giving educators and parents confidence in both performance and safety. The washable formulation means less stress over spills and stains, while the hexagonal shape prevents rolling off desks and tables.</p>\n<p>Perfect for early learning centres, kindergartens, primary classrooms, and home craft activities where durability and ease of use matter as much as colour quality. Trusted by Australian educators for reliable, mess-forgiving creative play.</p>",
+  "seo_title": "Jumbo Washable Colouring Pencils 12pk | Mega Office",
+  "seo_description": "Educational Colours Jumbols jumbo washable colouring pencils with sharpener. Australian-made, non-toxic, 1cm grip, 12 vibrant colours. Ages 3+.",
+  "key_features": [
+    "Jumbo 1cm diameter barrel for easy grip and control by small hands",
+    "Bonded leads resist breakage during vigorous colouring",
+    "Washable formulation lifts easily from skin and most fabrics",
+    "Australian-made and tested to safety standards for ages 3+",
+    "Hexagonal shape prevents rolling off tables and desks",
+    "12 strongly-pigmented assorted colours plus bonus sharpener",
+    "Non-toxic formulation safe for early learning environments"
+  ],
+  "applications": [
+    "Early learning centres and kindergarten colouring activities",
+    "Primary school art and craft lessons",
+    "Home creative play and drawing practice",
+    "Fine motor skill development exercises",
+    "Group colouring projects in childcare settings",
+    "Take-home art packs and student stationery kits"
+  ],
+  "specifications": [
+    "Brand: Educational Colours",
+    "Product Code: ECJUMBOLS",
+    "Pencil Length: 17.5cm",
+    "Barrel Diameter: 1cm",
+    "Lead Type: Bonded, strongly-pigmented",
+    "Barrel Shape: Hexagonal",
+    "Quantity: 12 assorted colours",
+    "Inclusions: Bonus sharpener",
+    "Washable: Yes",
+    "Non-Toxic: Yes",
+    "Recommended Age: 3 years and up",
+    "Country of Manufacture: Australia",
+    "Packaging: Hangsell"
+  ],
+  "faqs": [],
+  "tags": [
+    "Educational Colours Jumbols",
+    "Jumbo Colouring Pencils",
+    "Washable Colouring Pencils",
+    "Educational Colours ECJUMBOLS",
+    "Kids Colouring Pencils",
+    "Australian Made Pencils",
+    "Non-Toxic Pencils",
+    "Early Learning Art Supplies",
+    "Kindergarten Colouring Supplies",
+    "Preschool Art Materials"
+  ],
+  "pack_size": "Pack of 12",
+  "unit": "Pack",
+  "google_product_category_id": "505387",
+  "image_alt_texts": {
+    "hero": "Educational Colours Jumbols jumbo washable colouring pencils pack of 12 with sharpener in hangsell packaging",
+    "lifestyle_1": "Close-up of Educational Colours jumbo hexagonal colouring pencils showing 1cm diameter and vibrant colour range",
+    "lifestyle_2": null
+  }
+}
+```

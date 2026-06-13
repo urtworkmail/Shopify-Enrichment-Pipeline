@@ -1,0 +1,54 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T3
+TOKENS IN: 1735
+TOKENS OUT: 659
+
+RAW:
+```json
+{
+  "title": "Epson S041256 Matte Paper Heavyweight A4 167gsm Pack 50 Sheets",
+  "body_html": "<p>Epson S041256 Matte Paper Heavyweight delivers a bright white, coated surface ideal for newsletters, flyers, reports and presentations containing photos or graphics. The smooth matte finish produces bright colours and dark text on 167gsm A4 sheets.</p>\n<p>Compatible with all printer brands, this paper combines with Epson inks to deliver vivid colours, beautiful tones and incredible detail. Each pack contains 50 sheets of A4 (210 x 297 mm) matte paper.</p>",
+  "seo_title": "Epson S041256 A4 Matte Paper 167gsm | Mega Office Supplies",
+  "seo_description": "Epson S041256 A4 matte paper heavyweight 167gsm. Bright white coated surface for vivid colours and dark text. Pack of 50 sheets. Compatible with all printers.",
+  "key_features": [
+    "167gsm heavyweight matte finish for professional results",
+    "Bright white coated paper for vivid colours and dark text",
+    "A4 size (210 x 297 mm), 50 sheets per pack",
+    "Compatible with all printer brands and inks"
+  ],
+  "applications": [
+    "Newsletters, flyers and marketing materials",
+    "Reports and presentations with photos or graphics",
+    "Business correspondence and promotional documents"
+  ],
+  "specifications": [
+    "Product Code: S041256 (Epson Global Code: C13S041256)",
+    "Media Type: Sheets",
+    "Paper Size: A4 (210 x 297 mm)",
+    "Paper Weight: 167gsm",
+    "Sheets Per Pack: 50",
+    "Finish: Matte"
+  ],
+  "faqs": [],
+  "tags": [
+    "Epson",
+    "S041256",
+    "C13S041256",
+    "Matte Paper",
+    "A4 Paper",
+    "Heavyweight Paper",
+    "167gsm",
+    "Office Supplies",
+    "Printer Paper",
+    "Presentation Paper"
+  ],
+  "pack_size": "50",
+  "unit": "Pack",
+  "google_product_category_id": "956",
+  "image_alt_texts": {
+    "hero": "Epson S041256 Matte Paper Heavyweight A4 167gsm pack of 50 sheets with bright white coated finish",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
+```

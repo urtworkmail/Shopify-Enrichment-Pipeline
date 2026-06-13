@@ -1,0 +1,51 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T3
+TOKENS IN: 1601
+TOKENS OUT: 607
+
+RAW:
+```json
+{
+  "title": "Deflecto DocuPocket Smoke Landscape",
+  "body_html": "<p>The Deflecto DocuPocket mounts to walls and keeps A4, legal, and foolscap documents visible and within reach. This landscape-oriented pocket frees up desk space while providing clear access to frequently referenced files, forms, and schedules. Wall mounting hardware is included for fast, secure installation.</p>\n<p>Measuring 375mm wide by 178mm high by 102mm deep, the smoke-tinted pocket suits offices, reception areas, healthcare facilities, classrooms, and shared workspaces where organisation and accessibility matter.</p>",
+  "seo_title": "Deflecto DocuPocket Smoke | Mega Office Supplies",
+  "seo_description": "Wall-mounted landscape document pocket for A4, legal, and foolscap files. Smoke finish. Dimensions: 375mm W x 178mm H x 102mm D. Includes mounting hardware.",
+  "key_features": [
+    "Holds A4, legal, and foolscap documents in landscape orientation",
+    "Wall-mounted design frees desk space and keeps files visible",
+    "Dimensions: 375mm width x 178mm height x 102mm depth",
+    "Includes wall mounting hardware for secure installation"
+  ],
+  "applications": [
+    "Offices, reception areas, and shared workspaces for forms and reference documents",
+    "Healthcare facilities and classrooms for schedules and visible file storage"
+  ],
+  "specifications": [
+    "Brand: Deflecto",
+    "Item Number: 63102",
+    "Colour: Smoke",
+    "Dimensions: 375mm W x 178mm H x 102mm D",
+    "Orientation: Landscape",
+    "Compatible Sizes: A4, legal, foolscap"
+  ],
+  "faqs": [],
+  "tags": [
+    "Deflecto",
+    "DocuPocket",
+    "JP63102",
+    "wall-mounted document holder",
+    "landscape document pocket",
+    "office organisation",
+    "smoke document holder",
+    "wall file holder"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "922",
+  "image_alt_texts": {
+    "hero": "Deflecto DocuPocket in smoke finish, landscape orientation, shown with wall mounting hardware",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
+```

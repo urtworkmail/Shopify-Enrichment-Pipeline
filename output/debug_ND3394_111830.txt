@@ -1,0 +1,66 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2676
+TOKENS OUT: 1095
+
+RAW:
+```json
+{
+  "title": "Luxor Non-Permanent Whiteboard Marker Bullet Green Box of 10",
+  "body_html": "<h2>Keep Your Board Flexible and Ideas Flowing</h2>\n<p><strong>Smooth-writing green whiteboard markers that erase cleanly every time, supporting confident communication in busy workspaces.</strong></p>\n<p>Quality whiteboard markers matter when clarity and adaptability drive your day. The Luxor Non-Permanent Whiteboard Marker in vibrant green delivers smooth, consistent ink flow with a bullet nib that handles everything from meeting notes to classroom diagrams. Alcohol-based ink writes boldly and wipes away cleanly with a standard eraser or dry tissue, so your board stays fresh and ready for the next idea. With ten markers per box, you have the supply to keep collaboration moving without interruption.</p>\n<p>The bullet nib produces clean, legible lines suitable for text, charts and emphasis marks, while the polyester fibre tip resists wear through daily use. A ventilated safety cap protects the nib and prevents ink from drying out between sessions. These markers perform reliably on whiteboards, glass and other non-porous dry-erase surfaces, making them versatile across different presentation environments.</p>\n<p>Ideal for offices, training rooms, schools and meeting spaces where information changes frequently. The Luxor Non-Permanent Whiteboard Marker in green gives you the performance and erasability to keep your workspace adaptable and your messages clear.</p>",
+  "seo_title": "Luxor Green Whiteboard Marker Box 10 | Mega Office Supplies",
+  "seo_description": "Luxor non-permanent green whiteboard markers with bullet nib. Smooth writing, clean erasing on whiteboards and glass. Box of 10 for offices and classrooms.",
+  "key_features": [
+    "Alcohol-based ink erases cleanly with standard whiteboard eraser or dry tissue",
+    "Bullet nib delivers consistent 1-3 mm lines for writing and diagrams",
+    "Ventilated safety cap prevents drying and extends marker life",
+    "Durable polyester fibre tip withstands frequent daily use",
+    "Vibrant green ink provides clear contrast without visual strain",
+    "Compatible with whiteboards, glass and non-porous dry-erase surfaces",
+    "Box of 10 ensures ready supply for high-traffic environments"
+  ],
+  "applications": [
+    "Team meetings and brainstorming sessions requiring frequent board updates",
+    "Classroom instruction and student presentations on whiteboards",
+    "Training rooms and workshops with interactive whiteboard activities",
+    "Office planning boards and project tracking displays",
+    "Reception areas and meeting rooms with glass writing surfaces",
+    "Collaborative workspaces where ideas evolve quickly throughout the day"
+  ],
+  "specifications": [
+    "Brand: Luxor",
+    "Vendor SKU: ND3394",
+    "Colour: Green",
+    "Ink Type: Alcohol-based, non-permanent",
+    "Nib Type: Bullet nib",
+    "Line Width: Approximately 1-3 mm",
+    "Tip Material: Polyester fibre",
+    "Cap Type: Ventilated safety cap",
+    "Surface Compatibility: Whiteboards, glass, non-porous dry-erase surfaces",
+    "Erasability: Clean removal with whiteboard eraser or dry tissue",
+    "Pack Quantity: 10 markers per box",
+    "Suitable For: Offices, classrooms, training rooms, meeting spaces"
+  ],
+  "faqs": [],
+  "tags": [
+    "Luxor Whiteboard Marker",
+    "Luxor Green Marker",
+    "Non-Permanent Whiteboard Marker",
+    "Bullet Nib Marker",
+    "Green Whiteboard Ink",
+    "Luxor Office Supplies",
+    "Whiteboard Markers Box of 10",
+    "Dry Erase Markers",
+    "Office Presentation Supplies",
+    "Classroom Whiteboard Markers"
+  ],
+  "pack_size": "Box of 10",
+  "unit": "Box",
+  "google_product_category_id": "2991",
+  "image_alt_texts": {
+    "hero": "Luxor Non-Permanent Whiteboard Marker with bullet nib in green, box of 10 markers",
+    "lifestyle_1": "Green Luxor whiteboard marker being used on office whiteboard during team meeting",
+    "lifestyle_2": null
+  }
+}
+```

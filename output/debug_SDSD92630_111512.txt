@@ -1,0 +1,52 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T3
+TOKENS IN: 1497
+TOKENS OUT: 671
+
+RAW:
+```json
+{
+  "title": "Dymo LetraTag Label Tape 12mm x 4m Black on White Paper Twin Pack",
+  "body_html": "<p>Genuine Dymo LetraTag paper label tape in black on white, twin pack of 2 rolls. Each roll measures 12mm x 4m and fits Dymo LetraTag LT-100H, LT-100T and LetraTag 200B label makers. Crisp black text on white paper for everyday organisation, filing, storage bins and personal labelling.</p><p>Twin pack ensures you always have a spare roll ready when the first runs out. Standard white paper tape for dry indoor use in home and office environments.</p>",
+  "seo_title": "Dymo LetraTag 12mm Black/White Twin Pack | Mega Office Supplies",
+  "seo_description": "Genuine Dymo LetraTag 12mm x 4m black on white paper label tape, twin pack. Fits LT-100H, LT-100T, LetraTag 200B. Everyday labelling for home and office.",
+  "key_features": [
+    "Twin pack of 2 rolls, 12mm x 4m each",
+    "Black on white paper tape for LetraTag label makers",
+    "Compatible with LT-100H, LT-100T and LetraTag 200B",
+    "Genuine Dymo tape for crisp, clear labelling"
+  ],
+  "applications": [
+    "Home organisation — labelling storage boxes, pantry containers, shelves and drawers",
+    "Office filing — folder tabs, binder spines and document organisation"
+  ],
+  "specifications": [
+    "Tape Width: 12mm",
+    "Tape Length: 4m per roll",
+    "Text Colour: Black",
+    "Tape Colour: White",
+    "Material: Paper",
+    "Pack Quantity: 2 rolls",
+    "Compatible Models: LetraTag LT-100H, LT-100T, LetraTag 200B"
+  ],
+  "faqs": [],
+  "tags": [
+    "Dymo",
+    "LetraTag",
+    "Label Tape",
+    "12mm",
+    "Black on White",
+    "Paper Tape",
+    "Twin Pack",
+    "Office Supplies"
+  ],
+  "pack_size": "Twin Pack (2 x 4m Rolls)",
+  "unit": "Pack",
+  "google_product_category_id": "950",
+  "image_alt_texts": {
+    "hero": "Dymo LetraTag 12mm black on white paper label tape twin pack, two rolls shown with product packaging",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
+```

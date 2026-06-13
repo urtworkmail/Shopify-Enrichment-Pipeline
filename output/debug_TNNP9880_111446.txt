@@ -1,0 +1,81 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T1
+TOKENS IN: 3107
+TOKENS OUT: 1425
+
+RAW:
+```json
+{
+  "title": "Protext Mesh Pouch A4 with Note Card Holder Assorted Zipper",
+  "body_html": "<h2>Keep Documents Visible, Secure and Organised Without the Clutter</h2>\n<p><strong>A reinforced A4 mesh pouch with integrated note card holder that lets you see what you need at a glance.</strong></p>\n<p>When shared spaces and busy schedules demand instant access to materials, a transparent storage solution saves time and reduces frustration. The Protext A4 Mesh Pouch combines durable mesh construction with a heavy duty overstitched zipper, allowing you to store documents, stationery and learning resources securely while keeping contents visible. Measuring 380 x 270 mm, it accommodates full-size A4 folders and papers comfortably, making it a reliable choice for classrooms, offices and travel.</p>\n<p>The reinforced nylon strip adds structural strength, while the built-in note card holder supports quick identification in shared storage systems or multi-user environments. Available in assorted colours, this pouch suits individual users and bulk organisational needs alike, delivering breathable, flexible storage that stands up to daily handling.</p>\n<p>Ideal for schools, workplaces and home offices where visibility and durability matter. Protext delivers practical organisation that keeps your materials secure, accessible and easy to manage across fast-paced and shared environments.</p>",
+  "seo_title": "Protext A4 Mesh Pouch w/ Note Card | Mega Office Supplies",
+  "seo_description": "Durable A4 mesh pouch with heavy duty zipper and note card holder. See contents at a glance. 380 x 270 mm. Perfect for schools, offices and shared spaces.",
+  "key_features": [
+    "Mesh construction provides clear visibility of contents while maintaining flexible, breathable storage.",
+    "Heavy duty overstitched zipper ensures smooth, reliable closure and long-lasting performance.",
+    "Reinforced nylon strip adds structural strength and extends product lifespan under daily use.",
+    "Built-in note card holder supports fast identification and organisation in shared environments.",
+    "A4 size (380 x 270 mm) accommodates full-size documents, folders and stationery comfortably.",
+    "Assorted colours suit individual preferences and bulk organisational needs.",
+    "Lightweight yet robust design ideal for classrooms, offices, travel and portable storage."
+  ],
+  "applications": [
+    "Storing and transporting A4 documents, folders and stationery in schools and classrooms.",
+    "Organising shared supplies and learning resources in fast-paced educational environments.",
+    "Managing office documents, contracts and client materials with visible, secure storage.",
+    "Packing travel essentials, cables and portable office supplies for mobile workers.",
+    "Supporting bulk storage and distribution systems with easy-to-identify note card labelling.",
+    "Keeping home office paperwork, receipts and reference materials organised and accessible."
+  ],
+  "specifications": [
+    "Product Type: Mesh pouch",
+    "Size: A4",
+    "Dimensions: 380 x 270 mm",
+    "Closure Type: Zipper",
+    "Zipper Construction: Heavy duty overstitched",
+    "Material: Mesh with reinforced nylon strip",
+    "Colour: Assorted",
+    "Note Card Holder: Integrated",
+    "Brand: Protext",
+    "Vendor SKU: TNNP9880"
+  ],
+  "faqs": [
+    {
+      "question": "What size documents can this mesh pouch hold?",
+      "answer": "The Protext mesh pouch measures 380 x 270 mm and is designed to hold A4-size documents, folders and stationery comfortably. It accommodates full-size sheets without folding, making it suitable for reports, assignments and office paperwork."
+    },
+    {
+      "question": "Is the zipper strong enough for daily classroom or office use?",
+      "answer": "Yes, the pouch features a heavy duty overstitched zipper designed for frequent opening and closing. Combined with the reinforced nylon strip, it delivers reliable performance under daily handling in busy educational and office environments."
+    },
+    {
+      "question": "Can I label the pouch for shared storage or classroom use?",
+      "answer": "Absolutely. The integrated note card holder allows you to insert identification cards, labels or name tags, making it ideal for shared spaces, bulk storage systems and classroom organisation. This feature supports quick identification and retrieval in multi-user settings."
+    },
+    {
+      "question": "What colours are available, and can I choose a specific colour?",
+      "answer": "The Protext mesh pouch is sold in assorted colours. Specific colour selection is typically not available, making it well-suited for bulk orders where variety is preferred or individual purchases where colour preference is flexible."
+    }
+  ],
+  "tags": [
+    "Protext Mesh Pouch",
+    "Protext A4 Mesh Pouch",
+    "A4 Mesh Pouch",
+    "Document Storage Pouch",
+    "Mesh Pouch with Zipper",
+    "Office Document Organiser",
+    "School Stationery Pouch",
+    "Classroom Supply Storage",
+    "Protext Filing Products",
+    "Mesh Document Wallet"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "956",
+  "image_alt_texts": {
+    "hero": "Protext A4 mesh pouch with heavy duty zipper and note card holder in assorted colour",
+    "lifestyle_1": "Protext mesh pouch storing A4 documents and stationery with visible contents through mesh construction",
+    "lifestyle_2": "Close-up of Protext mesh pouch reinforced nylon strip and overstitched zipper with integrated note card holder"
+  }
+}
+```

@@ -1,0 +1,54 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T3
+TOKENS IN: 1809
+TOKENS OUT: 685
+
+RAW:
+```json
+{
+  "title": "Visionchart PB3612 Porcelain Whiteboard 3600 x 1200mm",
+  "body_html": "<p>The Visionchart PB3612 is a heavy-duty porcelain whiteboard built for schools, universities, conference centres and medical facilities. The magnetic vitreous enamel surface resists staining and ghosting, backed by a 25-year guarantee. Concealed wall fittings and a galvanised steel backing ensure lasting durability.</p><p>Measuring 3600 x 1200mm, this whiteboard includes a full-length aluminium pen tray and standard aluminium frame. The dry-wipe, magnetic-receptive surface handles constant use without degradation.</p>",
+  "seo_title": "Visionchart PB3612 Porcelain 3600x1200 | Mega Office Supplies",
+  "seo_description": "Heavy-duty porcelain whiteboard with magnetic surface, 25-year guarantee. 3600 x 1200mm. Ideal for schools, universities and conference centres.",
+  "key_features": [
+    "Porcelain vitreous enamel surface with 25-year guarantee",
+    "Magnetic receptive dry-wipe surface",
+    "Full-length aluminium pen tray and standard aluminium frame",
+    "Galvanised steel backing with concealed wall fittings"
+  ],
+  "applications": [
+    "Schools and higher education institutions",
+    "Conference centres and meeting rooms",
+    "Medical facilities and hospitals"
+  ],
+  "specifications": [
+    "Dimensions: 3600 x 1200mm",
+    "Surface: Porcelain (vitreous enamel)",
+    "Backing: Galvanised steel sheet",
+    "Frame: Standard aluminium",
+    "Pen Tray: Full-length aluminium",
+    "Magnetic: Yes",
+    "Wall Fittings: Concealed",
+    "Warranty: 25 years"
+  ],
+  "faqs": [],
+  "tags": [
+    "Visionchart",
+    "PB3612",
+    "Porcelain Whiteboard",
+    "Magnetic Whiteboard",
+    "Office Supplies",
+    "Whiteboards",
+    "3600x1200mm",
+    "Educational Supplies"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "2907",
+  "image_alt_texts": {
+    "hero": "Visionchart PB3612 porcelain whiteboard with aluminium frame and pen tray, 3600 x 1200mm",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
+```

@@ -1,0 +1,66 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2688
+TOKENS OUT: 1183
+
+RAW:
+```json
+{
+  "title": "Papermate Inkjoy 50ST/100ST Capped Ballpoint Pen Medium Blue Box of 12",
+  "body_html": "<h2>Smooth, Vibrant Writing That Makes Every Task Feel Effortless</h2>\n<p><strong>Experience ultra-smooth blue ink that flows consistently from the first stroke to the last.</strong></p>\n<p>The Papermate Inkjoy 50ST/100ST Capped Ballpoint Pen in Medium Blue transforms everyday writing into a comfortable, reliable experience. Built with Inkjoy's advanced low-viscosity ink system, this 1.0 mm medium ballpoint delivers crisp blue lines with minimal hand pressure, reducing fatigue during long note-taking sessions, daily correspondence and administrative tasks. The translucent colour-tinted barrel gives you a quick visual reference, while the triangular grip design promotes natural hand positioning for improved control and precision.</p>\n<p>Ideal for office environments, classrooms and home workspaces, these capped ballpoint pens start quickly without skipping or dragging across paper. The secure cap protects the nib and prevents ink from drying out between uses, ensuring every pen in your box of 12 performs consistently when you need it. The vivid blue ink creates clear, professional-looking text that remains easy to read for documentation, forms and handwritten records.</p>\n<p>Stock your desk, supply cupboard or classroom with a writing tool that balances comfort, quality and value. The Papermate Inkjoy delivers dependable performance for teams, students and professionals who rely on clear, effortless handwriting throughout the working day.</p>",
+  "seo_title": "Papermate Inkjoy Ballpoint Blue 12pk | Mega Office Supplies",
+  "seo_description": "Papermate Inkjoy 50ST/100ST capped ballpoint pens in medium blue. Ultra-smooth 1.0 mm ink flow, triangular grip, box of 12. Perfect for office and school use.",
+  "key_features": [
+    "Ultra-smooth low-viscosity ink system reduces hand pressure and writes effortlessly across all paper types",
+    "Fast-starting ballpoint tip delivers consistent blue lines with no skipping, dragging or interruptions",
+    "Triangular barrel design promotes natural grip positioning for improved comfort during extended writing",
+    "Translucent colour-tinted body provides quick visual identification and adds style to your desk",
+    "Protective cap prevents nib damage and keeps ink fresh between writing sessions",
+    "1.0 mm medium nib produces clear, professional blue text suitable for forms, notes and correspondence",
+    "Box of 12 pens offers excellent value for teams, classrooms and high-volume writing environments"
+  ],
+  "applications": [
+    "Daily note-taking and meeting minutes in office and corporate environments",
+    "Classroom writing tasks, homework assignments and student exam work",
+    "Form completion, document signing and administrative paperwork",
+    "Journalling, diary entries and personal correspondence at home",
+    "Stockroom and warehouse inventory labelling and record keeping",
+    "Reception desk sign-in sheets and visitor logs requiring consistent blue ink"
+  ],
+  "specifications": [
+    "Ink Colour: Blue",
+    "Nib Type: Medium ballpoint",
+    "Nib Size: 1.0 mm",
+    "Pen Style: Capped ballpoint",
+    "Barrel Design: Triangular grip",
+    "Body Material: Translucent colour-tinted plastic",
+    "Ink Technology: Inkjoy low-viscosity system",
+    "Cap: Yes, protective cap included",
+    "Pack Quantity: Box of 12 pens",
+    "Brand: Papermate Inkjoy",
+    "Model: 50ST/100ST",
+    "Vendor SKU: SDAP012975"
+  ],
+  "faqs": [],
+  "tags": [
+    "Papermate Inkjoy Pens",
+    "Inkjoy Blue Ballpoint",
+    "Medium Ballpoint Pens",
+    "1.0mm Blue Ink Pens",
+    "Capped Ballpoint Pens",
+    "Office Writing Supplies",
+    "School Stationery Pens",
+    "Triangular Grip Pens",
+    "Box of 12 Pens",
+    "Papermate Office Supplies"
+  ],
+  "pack_size": "Box of 12",
+  "unit": "Box",
+  "google_product_category_id": "932",
+  "image_alt_texts": {
+    "hero": "Papermate Inkjoy 50ST/100ST capped ballpoint pen in medium blue with triangular grip and translucent barrel, box of 12",
+    "lifestyle_1": "Papermate Inkjoy blue ballpoint pen being used for note-taking and office writing tasks with smooth ink flow",
+    "lifestyle_2": null
+  }
+}
+```

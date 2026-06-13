@@ -1,0 +1,49 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T3
+TOKENS IN: 1398
+TOKENS OUT: 543
+
+RAW:
+```json
+{
+  "title": "Cadbury Cafe Blend Drinking Chocolate 1.75kg",
+  "body_html": "<p>Cadbury Cafe Blend Drinking Chocolate delivers the rich, creamy flavour of Cadbury chocolate in a convenient beverage format. Perfect for cafes, offices, and hospitality venues serving high volumes.</p>\n<p>Contains 22% cocoa solids. Ingredients: Sugar, cocoa powder, maltodextrin, milk solids, starch (maize or tapioca), flavour, anticaking agent (551), salt. Contains milk.</p>",
+  "seo_title": "Cadbury Cafe Blend Chocolate 1.75kg | Mega Office Supplies",
+  "seo_description": "Cadbury Cafe Blend Drinking Chocolate 1.75kg. Rich, creamy flavour with 22% cocoa solids. Ideal for cafes, offices, and hospitality. Contains milk.",
+  "key_features": [
+    "1.75kg bulk pack for high-volume use",
+    "22% cocoa solids",
+    "Premium Cadbury chocolate flavour"
+  ],
+  "applications": [
+    "Cafes and coffee shops",
+    "Office kitchens and breakrooms",
+    "Hotels and hospitality venues"
+  ],
+  "specifications": [
+    "Weight: 1.75kg",
+    "Cocoa Solids: 22%",
+    "Allergens: Contains milk",
+    "Vendor SKU: CC967090"
+  ],
+  "faqs": [],
+  "tags": [
+    "Cadbury",
+    "Drinking Chocolate",
+    "Cafe Blend",
+    "1.75kg",
+    "Hot Chocolate",
+    "Office Supplies",
+    "Beverage",
+    "Bulk Pack"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "422",
+  "image_alt_texts": {
+    "hero": "Cadbury Cafe Blend Drinking Chocolate 1.75kg canister on white background",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
+```

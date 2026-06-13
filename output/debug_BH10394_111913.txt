@@ -1,0 +1,64 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2714
+TOKENS OUT: 1038
+
+RAW:
+```json
+{
+  "title": "Quill Hardcover Notebook Ruled 70gsm A4 160 Pages Beige Pack of 5",
+  "body_html": "<h2>Professional Ruled Notebooks That Keep Your Ideas Organised</h2>\n<p><strong>Durable A4 hardcover notebooks with feint 7mm ruling deliver reliable, structured writing for every professional setting.</strong></p>\n<p>Quality matters when capturing important information. The Quill Hardcover Notebook combines robust beige hardcovers with smooth 70gsm ruled paper to protect your notes while providing a comfortable writing surface. Each A4 notebook features 160 pages of feint 7mm ruled paper that keeps handwriting neat and aligned, ideal for meeting minutes, lecture notes and project planning. The professional beige cover presents a refined appearance in any business or educational environment.</p>\n<p>Black twin loop spiral binding allows pages to lay completely flat, making writing comfortable whether at a desk or on the move. The hardcover construction shields your work from daily wear, transport and handling. With five notebooks per pack, you have consistent stationery for teams, long-term projects or shared office supplies.</p>\n<p>Suited to offices, classrooms, home workspaces and conference rooms, these notebooks deliver dependable performance where structured note-taking matters. Quill provides Australian businesses and professionals with stationery that combines durability, functionality and value.</p>",
+  "seo_title": "Quill A4 Ruled Hardcover Notebook 5pk | Mega Office Supplies",
+  "seo_description": "Professional A4 ruled notebook with durable beige hardcover, 160 pages of 70gsm paper and twin loop binding. Pack of 5 for offices, schools and teams.",
+  "key_features": [
+    "Beige hardcover construction protects notes from daily wear, transport and handling.",
+    "160 pages of smooth 70gsm paper in each A4 notebook support extended use.",
+    "Feint 7mm ruled lines maintain neat, consistent handwriting across all pages.",
+    "Black twin loop spiral binding allows notebooks to lay flat for comfortable writing.",
+    "Pack of 5 notebooks provides long-term supply for individuals or shared office environments.",
+    "Professional beige appearance suits business meetings, educational settings and corporate offices.",
+    "A4 size accommodates detailed notes, diagrams and project documentation."
+  ],
+  "applications": [
+    "Recording meeting minutes, project notes and business documentation in professional offices.",
+    "Capturing lecture notes, study materials and coursework in schools and universities.",
+    "Managing daily task lists, planning sessions and personal journalling at home workspaces.",
+    "Supporting team brainstorming, workshop facilitation and collaborative planning sessions.",
+    "Maintaining client records, appointment notes and consultation documentation across service industries.",
+    "Organising training materials, reference notes and procedural documentation in corporate environments."
+  ],
+  "specifications": [
+    "Size: A4",
+    "Paper Weight: 70gsm",
+    "Ruling: 7mm feint ruled",
+    "Pages: 160 per notebook",
+    "Cover Material: Hardcover",
+    "Cover Colour: Beige",
+    "Binding Type: Black twin loop spiral",
+    "Pack Size: Pack of 5 notebooks",
+    "Brand: Quill",
+    "Vendor SKU: BH10394"
+  ],
+  "faqs": [],
+  "tags": [
+    "Quill Hardcover Notebook",
+    "Quill BH10394",
+    "A4 Ruled Notebook",
+    "Hardcover Spiral Notebook",
+    "70gsm Ruled Paper",
+    "Beige Hardcover Notebook",
+    "160 Page Notebook",
+    "Office Ruled Notebooks",
+    "Business Note Taking",
+    "Professional Stationery Pack"
+  ],
+  "pack_size": "Pack of 5",
+  "unit": "Pack",
+  "google_product_category_id": "922",
+  "image_alt_texts": {
+    "hero": "Quill beige hardcover A4 ruled notebook with black twin loop spiral binding showing 160 pages",
+    "lifestyle_1": "Open Quill A4 hardcover notebook displaying feint 7mm ruled pages on an office desk with pen",
+    "lifestyle_2": null
+  }
+}
+```

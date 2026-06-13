@@ -24,22 +24,31 @@ USING EXISTING CONTENT:
 3. Do NOT invent specifications. If a spec is not present in the existing content, leave it out.
 4. Rewrite to standard: apply tone rules, remove banned phrases, normalise weak fields (e.g. convert pack_size "Price is per each diary" to "1").
 
-{
+CRITICAL RULES:
+- SEO TITLE: MUST be 60 characters or fewer. MUST end with exactly " | Mega Office Supplies". If the full title would exceed 60 characters, shorten the preceding text but NEVER drop the suffix.
+- SEO DESCRIPTION: MUST be 160 characters or fewer. Aim for 150‑158 characters to leave a safety margin.
+- FAQs: T3 products MUST have an empty FAQs array: []. Do NOT generate any FAQs. The JSON must contain "faqs": [].
+- TAGS: minimum 6 tags required. More is acceptable but not required.
+
+SCHEMA:
+{{
   "title": "string — clean title from raw_title, Title Case, no separating dashes",
   "body_html": "string — 2 short paragraphs max, factual, no h2 headline, no emotional language",
-  "seo_title": "string — max 60 chars",
+  "seo_title": "string — max 60 chars. MUST end with exactly ' | Mega Office Supplies'.",
   "seo_description": "string — max 160 chars, factual",
-  "key_features": ["3-4 strings max — only confirmed facts from input data or existing content"],
-  "applications": ["2-3 strings — general use cases inferred from category"],
+  "key_features": ["3‑4 strings max — only confirmed facts from input data or existing content"],
+  "applications": ["2‑3 strings — general use cases inferred from category"],
   "specifications": ["strings — Label: Value format, only confirmed facts"],
   "faqs": [],
   "tags": ["6 strings minimum — brand, model, category only"],
   "pack_size": "string — clean value only, or null",
   "unit": "string — one of: Each, Pack, Box, Roll, Ream, Carton",
   "google_product_category_id": "string or null",
-  "image_alt_texts": {
+  "image_alt_texts": {{
     "hero": "string — describe what a standard product shot would show",
     "lifestyle_1": null,
     "lifestyle_2": null
-  }
-}
+  }}
+}}
+
+Return ONLY the JSON object. No markdown, no preamble, no explanation.

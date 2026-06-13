@@ -1,0 +1,65 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2692
+TOKENS OUT: 1150
+
+RAW:
+```json
+{
+  "title": "Posca PC-8K Paint Marker Pen Chisel Bold Assorted Wallet of 8",
+  "body_html": "<h2>Bold, Opaque Coverage That Commands Attention</h2>\n<p><strong>The Posca PC-8K Paint Marker delivers professional-grade colour control with a broad 8.0 mm chisel tip built for high-impact creative work.</strong></p>\n<p>Signwriters, muralists and display artists rely on markers that offer both speed and precision. This assorted wallet of 8 delivers opaque, water-based pigment ink that covers strongly on the first pass and remains fade-resistant across paper, wood, canvas, glass, metal and plastic. The wide chisel tip fills large areas quickly while maintaining clean edges and smooth curves, giving you the flexibility to work at scale without sacrificing detail.</p>\n<p>Each pen blends seamlessly when wet and layers cleanly once dry, allowing you to build depth and texture with confidence. Washable, removable tips maintain consistent ink flow over time, while the low-odour, non-toxic formula supports extended creative sessions in shared or enclosed spaces. From bold posters to intricate window displays, every stroke stays sharp and readable from a distance.</p>\n<p>Trusted by professionals and educators across Australia, Posca markers bring reliability to environments where visibility and durability matter. Add this versatile 8-colour set to your workspace and create with clarity.</p>",
+  "seo_title": "Posca PC-8K Chisel Paint Markers 8pk | Mega Office Supplies",
+  "seo_description": "Posca PC-8K chisel markers deliver bold, fade-resistant colour with an 8.0 mm tip. Water-based, opaque ink on glass, wood, canvas. Assorted 8-pack.",
+  "key_features": [
+    "Broad 8.0 mm chisel tip covers large areas and creates controlled lines and smooth curves.",
+    "Water-based pigment ink blends when wet and layers cleanly when dry for versatile techniques.",
+    "Opaque, fade-resistant colour performs reliably on paper, wood, canvas, glass, metal and plastic.",
+    "Washable, removable tips maintain consistent ink flow and support long-term performance.",
+    "Low-odour, non-toxic formula suitable for extended use in shared creative and educational spaces.",
+    "Assorted wallet of 8 colours: white, yellow, pink, red, dark blue, light blue, green, black."
+  ],
+  "applications": [
+    "Professional sign writing and bold typography for retail displays and events.",
+    "Window art and glass decoration that remains removable for seasonal updates.",
+    "Large-scale murals, posters and creative projects requiring high-impact visibility.",
+    "Educational workshops and art programs where safety and easy cleanup are priorities.",
+    "Permanent marking on porous surfaces including wood, canvas and paper for archival work."
+  ],
+  "specifications": [
+    "Tip Type: Chisel bold",
+    "Tip Size: 8.0 mm",
+    "Ink Type: Water-based pigment",
+    "Ink Characteristics: Non-toxic, low odour, opaque",
+    "Colours Included: White, yellow, pink, red, dark blue, light blue, green, black",
+    "Pack Quantity: 8 paint marker pens",
+    "Surface Compatibility: Paper, wood, canvas, glass, metal, plastic",
+    "Performance on Porous Surfaces: Permanent",
+    "Performance on Glass: Removable",
+    "Tip Maintenance: Washable and removable for consistent flow",
+    "Fade Resistance: High",
+    "Brand: Posca",
+    "Vendor SKU: UMPC8K8A"
+  ],
+  "faqs": [],
+  "tags": [
+    "Posca PC-8K",
+    "Posca PC-8K Chisel Bold",
+    "Posca Paint Markers",
+    "Chisel Tip Paint Markers",
+    "Bold Paint Pens 8mm",
+    "Assorted Paint Markers",
+    "Water Based Paint Pens",
+    "Opaque Marker Set",
+    "Sign Writing Markers",
+    "Art Supplies Australia"
+  ],
+  "pack_size": "Wallet of 8",
+  "unit": "Pack",
+  "google_product_category_id": "505379",
+  "image_alt_texts": {
+    "hero": "Posca PC-8K chisel bold paint marker pens in assorted colours wallet of 8 with white cap removed showing broad tip",
+    "lifestyle_1": "Hand using Posca PC-8K chisel marker creating bold lettering on white paper showing opaque colour coverage",
+    "lifestyle_2": null
+  }
+}
+```

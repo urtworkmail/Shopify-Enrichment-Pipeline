@@ -1,0 +1,64 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2747
+TOKENS OUT: 964
+
+RAW:
+```json
+{
+  "title": "Derwent Procolour Pencil Blue Grey Box of 6",
+  "body_html": "<h2>Precision Detail and Smooth Coverage in Every Stroke</h2>\n<p><strong>Derwent Procolour pencils deliver the perfect balance of a strong, sharp point and richly pigmented colour laydown, making detailed artwork effortless.</strong></p>\n<p>Professional artists and hobbyists alike need pencils that respond with precision. Derwent Procolour combines the covering power of wax-based pencils with the smooth glide of oil, giving you clean, smudge-free results on every surface. The highly pigmented core maintains a sharp point through extended use, ideal for intricate illustration, technical drawing, and fine colouring work. Each Blue Grey 70 pencil in this box of 6 offers consistent colour saturation and reliable performance.</p>\n<p>The unique texture allows seamless layering and blending without waxy buildup, while the strong core resists breakage under pressure. Perfect for shading, cross-hatching, and rendering subtle tonal transitions, these pencils suit both studio projects and fieldwork portfolios.</p>\n<p>Trusted by artists of all levels, Derwent Procolour pencils bring professional-grade quality to your creative toolkit. Add precision and versatility to your next project with confidence.</p>",
+  "seo_title": "Derwent Procolour Blue Grey Pencils | Mega Office Supplies",
+  "seo_description": "Derwent Procolour Blue Grey pencils combine wax coverage with oil-smooth glide. Strong point, rich pigment, clean finish. Box of 6. Ideal for artists.",
+  "key_features": [
+    "Strong and smooth richly coloured core",
+    "Clean, smudge-free finish",
+    "Texture that has the covering power of wax but glides like oil",
+    "Maintains a sharp point for detailed drawing",
+    "Highly pigmented with smooth colour application",
+    "Resists breakage under pressure",
+    "Ideal for layering and blending"
+  ],
+  "applications": [
+    "Technical illustration and architectural drawing",
+    "Fine art sketching and detailed colouring",
+    "Portrait shading and tonal rendering",
+    "Graphic design and commercial artwork",
+    "Art education and skill development",
+    "Mixed media projects and studio work"
+  ],
+  "specifications": [
+    "Brand: Derwent Academy",
+    "Product: Procolour Pencil",
+    "Colour: Blue Grey 70",
+    "Pack Quantity: 6 pencils",
+    "Core Type: Wax-oil blend",
+    "Finish: Smudge-free",
+    "Point Retention: High",
+    "Pigmentation: Highly pigmented",
+    "Suitable For: Artists, hobbyists, students 14+",
+    "Vendor SKU: AA2302502"
+  ],
+  "faqs": [],
+  "tags": [
+    "Derwent Procolour",
+    "Derwent Blue Grey Pencil",
+    "Procolour Pencil Box 6",
+    "Artist Colouring Pencils",
+    "Professional Drawing Pencils",
+    "Blue Grey Art Supplies",
+    "Derwent Academy Pencils",
+    "Wax Oil Blend Pencils",
+    "Fine Art Supplies",
+    "Studio Drawing Tools"
+  ],
+  "pack_size": "Box of 6",
+  "unit": "Box",
+  "google_product_category_id": "505379",
+  "image_alt_texts": {
+    "hero": "Derwent Procolour Blue Grey pencil box of 6 showing pencils with strong pigmented cores",
+    "lifestyle_1": "Derwent Procolour Blue Grey pencils in use for detailed artwork and shading",
+    "lifestyle_2": null
+  }
+}
+```

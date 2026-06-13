@@ -1,0 +1,57 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T3
+TOKENS IN: 1531
+TOKENS OUT: 665
+
+RAW:
+```json
+{
+  "title": "Colby 328F Polywally Wallet Foolscap Hook and Loop Closure White Pack of 12",
+  "body_html": "<p>These Colby Polywally wallets in white keep foolscap documents protected and organised. Featuring a 30mm gusset and secure hook and loop closure, they are made from archival-quality, acid-free and copy-safe polypropylene for long-term storage.</p>\n<p>Supplied in a pack of 12, these white wallets provide consistent, professional filing for office, education or studio environments where clean presentation matters.</p>",
+  "seo_title": "Colby 328F White Foolscap Wallets 12pk | Mega Office",
+  "seo_description": "Colby Polywally foolscap wallets in white with 30mm gusset and hook and loop closure. Archival-quality polypropylene. Pack of 12 for secure document storage.",
+  "key_features": [
+    "30mm gusset accommodates larger files and paperwork",
+    "Hook and loop closure for secure document storage",
+    "Made from archival-quality, acid-free and copy-safe polypropylene",
+    "Supplied in a pack of 12 for consistent filing"
+  ],
+  "applications": [
+    "Organising and filing foolscap documents in office environments",
+    "Archival storage of important records and paperwork",
+    "Categorising documents with a clean, professional appearance"
+  ],
+  "specifications": [
+    "Brand: Colby",
+    "Model: 328F",
+    "Colour: White",
+    "Size: Foolscap",
+    "Gusset: 30mm",
+    "Closure: Hook and loop",
+    "Material: Polypropylene (acid-free, copy-safe)",
+    "Pack Quantity: 12"
+  ],
+  "faqs": [],
+  "tags": [
+    "Colby",
+    "328F",
+    "Document Wallets",
+    "Foolscap",
+    "White",
+    "Polypropylene",
+    "Hook and Loop",
+    "Office Supplies",
+    "Filing",
+    "Archival Storage",
+    "Polywally"
+  ],
+  "pack_size": "12",
+  "unit": "Pack",
+  "google_product_category_id": "922",
+  "image_alt_texts": {
+    "hero": "Colby 328F white polypropylene foolscap document wallet with hook and loop closure, showing 30mm gusset and flap detail",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
+```

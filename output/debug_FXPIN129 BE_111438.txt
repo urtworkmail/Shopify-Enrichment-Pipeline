@@ -1,0 +1,62 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 3218
+TOKENS OUT: 1012
+
+RAW:
+```json
+{
+  "title": "Rapidline Standard Pinboard 1200 x 900mm Blue Upholstery",
+  "body_html": "<h2>Keep Your Workspace Organised and Visually Focused</h2>\n<p><strong>The Rapidline Standard Pinboard in blue upholstery transforms scattered notes into a centralised visual hub, helping teams and individuals stay aligned and productive.</strong></p>\n<p>In busy offices and classrooms, reliable communication tools prevent missed deadlines and lost messages. This 1200 x 900mm pinboard delivers a soft, pinnable blue felt surface that makes important notices stand out against neutral walls. The galvanised steel backing and low-density fibreboard core provide durability for high-traffic environments, while the concealed corner fixing system ensures a clean, professional installation that blends seamlessly into any workspace.</p>\n<p>The vibrant blue upholstery not only adds visual interest but helps highlight priority information, making it ideal for schedules, project updates, and team rosters. Pins are included so you can start organising immediately. The board accepts push pins securely and releases them without damaging documents or leaving residue on the surface.</p>\n<p>Suitable for corporate offices, meeting rooms, school administration areas, and home workspaces, this pinboard supports clearer communication and better planning. It arrives ready to mount, bringing order and focus to environments where information flows fast.</p>",
+  "seo_title": "Rapidline 1200x900mm Blue Pinboard | Mega Office Supplies",
+  "seo_description": "Rapidline 1200x900mm blue upholstered pinboard with galvanised steel backing. Concealed fixing, includes pins. Ideal for offices and classrooms.",
+  "key_features": [
+    "1200 x 900mm surface provides generous space for notices, schedules, and project updates.",
+    "Vibrant blue upholstered felt makes important information stand out in any workspace.",
+    "Concealed corner fixing delivers a clean, professional appearance with secure wall mounting.",
+    "Galvanised steel backing with fibreboard core ensures long-lasting durability in busy environments.",
+    "Includes pins so you can begin organising notices and documents immediately.",
+    "Soft pinnable surface accepts and releases push pins without tearing or marking documents."
+  ],
+  "applications": [
+    "Office workspaces for team notices, project timelines, and internal communication boards.",
+    "School staff rooms and administration areas for schedules, rosters, and announcements.",
+    "Meeting rooms and conference spaces to display agendas, action items, and follow-up notes.",
+    "Home offices for planning boards, inspiration walls, and personal task management.",
+    "Reception areas and common spaces where high-visibility notices improve communication flow."
+  ],
+  "specifications": [
+    "Product Type: Standard pinboard",
+    "Dimensions: 1200mm (W) x 15mm (D) x 900mm (H)",
+    "Surface Material: Blue upholstered felt",
+    "Backing: Galvanised steel",
+    "Core: Low-density fibreboard",
+    "Fixing Type: Concealed corner fixing",
+    "Colour: Blue",
+    "Includes: Pins",
+    "Brand: Rapidline",
+    "Model: FXPIN129 BE"
+  ],
+  "faqs": [],
+  "tags": [
+    "Rapidline FXPIN129",
+    "Rapidline Blue Pinboard",
+    "1200x900mm Pinboard",
+    "Blue Upholstered Pinboard",
+    "Standard Pinboard",
+    "Office Pinboard",
+    "Rapidline Pinboards",
+    "Wall Mounted Pinboard",
+    "Classroom Notice Board",
+    "Office Communication Board"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "2890",
+  "image_alt_texts": {
+    "hero": "Rapidline 1200x900mm blue upholstered pinboard with concealed corner fixing",
+    "lifestyle_1": "Rapidline blue felt pinboard mounted in office workspace displaying notices and schedules",
+    "lifestyle_2": null
+  }
+}
+```

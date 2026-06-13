@@ -1,0 +1,66 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2841
+TOKENS OUT: 1088
+
+RAW:
+```json
+{
+  "title": "Dolphy 1L Stainless Steel Kettle Black",
+  "body_html": "<h2>Boil Water Faster, Start Your Day Smarter</h2>\n<p><strong>The Dolphy 1L Stainless Steel Kettle delivers rapid boiling and safe operation in a compact, durable design that fits any kitchen, hotel room, or office breakroom.</strong></p>\n<p>Built with Grade-304 stainless steel, this kettle resists rust and corrosion while heating water efficiently with its 1000-watt concealed element. The 1.0-litre capacity suits personal use and small gatherings, and the 360-degree swivel base accommodates both left and right-handed users. Automatic shut-off activates once water reaches boiling point, preventing dry boiling and saving energy.</p>\n<p>A cool-touch exterior with dual-layer construction protects your hands even when the interior is at full boil. Lightweight at just 0.82 kg, the kettle moves easily between countertops and travel destinations. The sleek black finish complements modern interiors while the stainless steel interior ensures pure-tasting water every time.</p>\n<p>Suitable for home kitchens, hotel rooms, motels, and office pantries, this kettle combines safety, speed, and reliability. Backed by Dolphy Australia's reputation for quality appliances, it delivers consistent performance day after day.</p>",
+  "seo_title": "Dolphy 1L Kettle Black | Mega Office Supplies",
+  "seo_description": "Dolphy 1L stainless steel kettle with 1000W rapid boil, auto shut-off, cool-touch exterior. Grade-304 construction. Perfect for office, hotel, home.",
+  "key_features": [
+    "Grade-304 stainless steel construction resists rust and ensures long-lasting durability",
+    "1000-watt concealed heating element boils water rapidly and simplifies cleaning",
+    "Automatic shut-off activates at boiling point for energy savings and safety",
+    "Cool-touch dual-layer exterior keeps surface safe to handle during operation",
+    "360-degree swivel base allows convenient placement for left and right-handed users",
+    "Compact 1.0-litre capacity and 0.82 kg weight ideal for travel and small spaces",
+    "Sleek black finish complements modern kitchens, hotels, and office breakrooms"
+  ],
+  "applications": [
+    "Office breakrooms and pantries for tea and coffee preparation",
+    "Hotel and motel guest rooms for in-room beverage service",
+    "Home kitchens for daily hot water needs",
+    "Small gatherings and personal use",
+    "Travel and temporary accommodation",
+    "Waiting rooms and reception areas"
+  ],
+  "specifications": [
+    "Product Code: DKTL0044",
+    "Kettle Material: Grade-304 Stainless Steel",
+    "Colour: Black",
+    "Capacity: 1.0 Litre",
+    "Power: 1000 Watts",
+    "Voltage: 220-240V, 50-60 Hz",
+    "Net Weight: 0.82 kg",
+    "Heating Element: Concealed 360-degree",
+    "Base: 360-degree swivel for cordless operation",
+    "Safety Features: Automatic shut-off at boiling point",
+    "Construction: 2-layer cool-touch exterior",
+    "Brand: Dolphy Australia"
+  ],
+  "faqs": [],
+  "tags": [
+    "Dolphy Electric Kettle",
+    "Dolphy 1L Kettle Black",
+    "Stainless Steel Kettle",
+    "1 Litre Electric Kettle",
+    "Office Kettle",
+    "Hotel Room Kettle",
+    "Compact Electric Kettle",
+    "Auto Shut Off Kettle",
+    "Dolphy Australia Appliances",
+    "Travel Kettle"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "2901",
+  "image_alt_texts": {
+    "hero": "Dolphy 1L stainless steel electric kettle in black with cool-touch handle and swivel base",
+    "lifestyle_1": "Dolphy black kettle on kitchen counter boiling water for morning tea",
+    "lifestyle_2": null
+  }
+}
+```

@@ -1,0 +1,53 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T3
+TOKENS IN: 1614
+TOKENS OUT: 611
+
+RAW:
+```json
+{
+  "title": "White Polka Dots Scalloped Borders Pack of 12",
+  "body_html": "<p>These white polka dot scalloped borders frame classroom displays and whiteboards with clean, versatile style. Made from quality card, each border measures 90cm x 5.8cm and snaps together quickly for a total length of 10.8 metres.</p>\n<p>Designed in Australia by Australian Teaching Aids, these borders assemble and remove easily without leaving marks. Pack of 12 borders included.</p>",
+  "seo_title": "White Polka Dots Scalloped Borders | Mega Office Supplies",
+  "seo_description": "White polka dot scalloped borders for classroom displays. 12 borders per pack, 10.8m total length. Quality card, easy assembly. Australian designed.",
+  "key_features": [
+    "Pack of 12 scalloped borders, 10.8m x 5.8cm total coverage",
+    "Each border measures 90cm x 5.8cm",
+    "Quality card construction for easy assembly and removal",
+    "Designed in Australia by Australian Teaching Aids"
+  ],
+  "applications": [
+    "Framing classroom displays and bulletin boards",
+    "Decorating whiteboards and learning spaces",
+    "Creating visual boundaries in educational environments"
+  ],
+  "specifications": [
+    "Dimensions per border: 90cm x 5.8cm",
+    "Total border length: 10.8m x 5.8cm",
+    "Pack quantity: 12 borders",
+    "Material: High quality card",
+    "Colour: White with polka dots",
+    "Edge style: Scalloped",
+    "Country of design: Australia"
+  ],
+  "faqs": [],
+  "tags": [
+    "Australian Teaching Aids",
+    "Scalloped Borders",
+    "Classroom Borders",
+    "Display Borders",
+    "White Polka Dots",
+    "Educational Supplies",
+    "Whiteboard Borders",
+    "Bulletin Board Borders"
+  ],
+  "pack_size": "12",
+  "unit": "Pack",
+  "google_product_category_id": "922",
+  "image_alt_texts": {
+    "hero": "White polka dots scalloped border pack showing 12 individual borders with decorative scalloped edges on white background",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
+```

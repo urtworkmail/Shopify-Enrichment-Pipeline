@@ -1,0 +1,65 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2417
+TOKENS OUT: 924
+
+RAW:
+```json
+{
+  "title": "3L Twin Tabs 40mm White Pack of 24",
+  "body_html": "<h2>Keep every file at your fingertips with double-sided indexing tabs</h2>\n<p><strong>3L Twin Tabs deliver clear, professional document organisation with adhesive tabs you can write on from both sides.</strong></p>\n<p>Filing systems only work when you can find what you need instantly. These 40mm white tabs attach securely to dividers, folders and file edges, giving you a clean surface on both sides for handwritten labels or codes. Built for durability, they stay firmly in place through repeated handling, making them ideal for active filing environments in offices, schools and home workspaces.</p>\n<p>The double-sided write-on surface lets you index documents from either angle, helping teams navigate shared filing cabinets without confusion. White tabs maintain a consistent, professional appearance across all your filing systems, and the adhesive backing holds without curling or peeling over time.</p>\n<p>Whether you manage client records, student files or project archives, these tabs create visual clarity that saves time every day. Each pack contains 24 tabs ready to streamline your document retrieval.</p>",
+  "seo_title": "3L Twin Tabs 40mm White 24pk | Mega Office Supplies",
+  "seo_description": "Double-sided adhesive indexing tabs for clear file organisation. 40mm white tabs with write-on surfaces. Pack of 24. Durable 3L quality for office filing.",
+  "key_features": [
+    "Double-sided write-on surface for indexing from both angles",
+    "Strong adhesive backing holds firmly to dividers and file edges",
+    "40mm size provides ample space for handwritten labels",
+    "White finish maintains professional consistency across filing systems",
+    "Durable construction withstands repeated handling in active files",
+    "Pack of 24 tabs for immediate filing projects",
+    "Compatible with standard office filing cabinets and dividers"
+  ],
+  "applications": [
+    "Indexing client files and folders in professional offices",
+    "Organising student records and school administrative documents",
+    "Creating quick-access systems for project archives",
+    "Labelling shared filing cabinets in team environments",
+    "Managing home office paperwork and tax records",
+    "Categorising reference materials in libraries and resource centres"
+  ],
+  "specifications": [
+    "Brand: 3L",
+    "Product Code: 100852429",
+    "Vendor SKU: BXB10533",
+    "Tab Size: 40mm",
+    "Colour: White",
+    "Pack Quantity: 24 tabs",
+    "Write-On Surface: Double-sided",
+    "Adhesive Type: Permanent adhesive backing",
+    "Material: Durable indexing tab stock",
+    "Application: File dividers, folders, document edges",
+    "Status: To be discontinued once stock runs out"
+  ],
+  "faqs": [],
+  "tags": [
+    "3L Twin Tabs",
+    "3L 100852429",
+    "40mm Indexing Tabs",
+    "White Filing Tabs",
+    "Double Sided Tabs",
+    "Adhesive Document Tabs",
+    "Office Filing Supplies",
+    "File Divider Tabs",
+    "Document Organisation",
+    "3L Office Products"
+  ],
+  "pack_size": "Pack of 24",
+  "unit": "Pack",
+  "google_product_category_id": "922",
+  "image_alt_texts": {
+    "hero": "3L Twin Tabs 40mm white adhesive indexing tabs pack of 24 for file organisation",
+    "lifestyle_1": "3L Twin Tabs attached to office file dividers showing double-sided write-on surface",
+    "lifestyle_2": null
+  }
+}
+```

@@ -1,0 +1,83 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T1
+TOKENS IN: 3066
+TOKENS OUT: 1550
+
+RAW:
+```json
+{
+  "title": "Brother TD-4420TN 4 Inch Thermal Transfer Desktop Printer with USB and Network Connectivity",
+  "body_html": "<h2>Print professional barcodes and labels with precision and speed</h2>\n<p><strong>The Brother TD-4420TN thermal transfer desktop printer delivers commercial-grade labelling performance for inventory, shipping, and asset management across warehouses, retail, and healthcare environments.</strong></p>\n<p>Accurate barcode printing underpins efficient operations. This 203dpi thermal transfer printer produces crisp, durable labels up to 108mm wide at speeds reaching 152.4mm per second, handling high-volume workflows without compromise. USB, RS-232C, and Ethernet connectivity enable integration into existing systems, while ZPLII emulation and Brother's b-PAC SDK ensure compatibility with legacy and modern software platforms alike.</p>\n<p>The generous 108mm print width accommodates shelf labels, shipping documents, and compliance tags in a single pass. Thermal transfer technology resists fading and smudging, protecting critical tracking information through handling, transport, and storage. Brother's proven print head design minimises downtime and supports consistent output across extended print runs.</p>\n<p>Built for demanding commercial and industrial settings, the TD-4420TN combines robust construction with straightforward operation. Brother backs the printer with a two-year return-to-base warranty on hardware and six months on print heads, with optional rapid exchange available. Australian businesses trust Brother for reliable labelling solutions that scale with operational needs.</p>",
+  "seo_title": "Brother TD-4420TN Thermal Printer | Mega Office Supplies",
+  "seo_description": "Brother TD-4420TN 4\" thermal transfer printer: 203dpi, 152.4mm/sec speed, USB & network connectivity. Professional barcode & label printing for business.",
+  "key_features": [
+    "203dpi resolution produces sharp, scannable barcodes and detailed labels",
+    "Prints at speeds up to 152.4mm per second for high-volume workflows",
+    "108mm maximum print width accommodates wide-format labels and documents",
+    "USB 2.0, RS-232C, and 10/100Base-TX Ethernet for flexible connectivity",
+    "ZPLII emulation and b-PAC SDK enable seamless legacy system integration",
+    "Two-year return-to-base warranty on hardware with optional rapid exchange",
+    "Thermal transfer technology delivers fade-resistant, durable prints"
+  ],
+  "applications": [
+    "Warehouse inventory tracking and asset labelling",
+    "Retail shelf labels and product identification tags",
+    "Shipping and logistics documentation",
+    "Healthcare patient wristbands and specimen labelling (Cerner certified)",
+    "Manufacturing compliance and safety labels",
+    "Office mailroom and records management"
+  ],
+  "specifications": [
+    "Print Technology: Thermal Transfer",
+    "Print Resolution: 203dpi",
+    "Maximum Print Speed: 152.4mm per second",
+    "Maximum Print Width: 108mm (4 inches)",
+    "Connectivity: USB 2.0 (High Speed), RS-232C, 10/100Base-TX Ethernet",
+    "Printer Emulation: ZPLII, b-PAC SDK support",
+    "Media Handling: Desktop form factor",
+    "Certification: Cerner certified for healthcare applications",
+    "Warranty (Hardware): 2 years return to base",
+    "Warranty (Print Head): 6 months return to base",
+    "Model Number: TD-4420TN",
+    "Vendor SKU: SLTD-4420TN"
+  ],
+  "faqs": [
+    {
+      "question": "What types of labels and media can the TD-4420TN print on?",
+      "answer": "The TD-4420TN accepts thermal transfer labels up to 108mm wide, including paper and synthetic materials. It handles a wide range of label stocks for barcodes, shipping labels, shelf tags, and compliance documentation. The thermal transfer method uses ribbon, ensuring durable, fade-resistant prints suitable for long-term identification and outdoor or harsh environments."
+    },
+    {
+      "question": "Does this printer integrate with existing warehouse or retail management systems?",
+      "answer": "Yes. The TD-4420TN supports ZPLII emulation and Brother's b-PAC software development kit, enabling integration with most inventory, ERP, and point-of-sale systems. USB, RS-232C serial, and Ethernet connectivity provide flexible connection options for legacy and modern platforms. Brother provides drivers and documentation to streamline deployment across Windows and other operating environments."
+    },
+    {
+      "question": "What warranty and support does Brother provide with the TD-4420TN?",
+      "answer": "Brother includes a two-year return-to-base warranty on the printer hardware and a six-month warranty on the print head. Optional rapid exchange service is available for businesses requiring minimal downtime. Brother's Australian support team provides technical assistance, and replacement parts and consumables are readily available through authorised channels."
+    },
+    {
+      "question": "Is the TD-4420TN suitable for high-volume printing environments?",
+      "answer": "Absolutely. With a maximum print speed of 152.4mm per second and a robust thermal transfer mechanism, the TD-4420TN handles demanding workflows in warehouses, distribution centres, and retail environments. The reliable construction and replaceable print head support extended daily operation, and network connectivity allows multiple workstations to share a single printer for efficient resource use."
+    }
+  ],
+  "tags": [
+    "Brother TD-4420TN",
+    "Brother Thermal Transfer Printer",
+    "4 Inch Label Printer",
+    "Barcode Printer",
+    "Network Label Printer",
+    "Brother Desktop Printer",
+    "Thermal Transfer Barcode Printer",
+    "Warehouse Labelling Printer",
+    "Brother Business Printers",
+    "Industrial Label Printer"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "2082",
+  "image_alt_texts": {
+    "hero": "Brother TD-4420TN 4 inch thermal transfer desktop printer front view with USB and network connectivity",
+    "lifestyle_1": "Brother TD-4420TN thermal transfer printer printing barcode labels in warehouse environment",
+    "lifestyle_2": "Close-up of Brother TD-4420TN printer producing professional shipping and inventory labels"
+  }
+}
+```

@@ -1,0 +1,65 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2913
+TOKENS OUT: 1089
+
+RAW:
+```json
+{
+  "title": "VELCRO Brand Removable Strips 44 x 19mm White Pack of 4",
+  "body_html": "<h2>Display photos and decorations without damaging your walls</h2>\n<p><strong>VELCRO Brand Removable Strips deliver clean, reliable mounting for everyday decorating and organisation without nails, screws, or surface damage.</strong></p>\n<p>Refresh your workspace or home with confidence using these practical mounting strips. Perfect for renters, students, teachers, and office managers, they help you display posters, photos, lightweight signs, artwork, and decorations while keeping walls and surfaces clean and mark-free. The low-profile white design blends discreetly into most interiors for a tidy, professional finish. Each 44 x 19mm strip holds up to 225 grams, providing dependable hold for lightweight household and office displays.</p>\n<p>These removable mounting strips adhere securely to smooth indoor surfaces including painted walls, glass, metal, plastic, and finished wood. The simple peel-and-stick application makes decorating and organising effortless, while the removable adhesive allows you to reposition or remove items cleanly when needed. Strong enough for seasonal decorations, classroom projects, office notices, and creative displays, they offer flexibility without compromise.</p>\n<p>Ideal for organised workspaces, bedroom decoration, or event preparation, VELCRO Brand Removable Strips provide trusted fastening performance with damage-free convenience. Enjoy flexible decorating and organised living with the brand that invented hook-and-loop technology.</p>",
+  "seo_title": "VELCRO Removable Strips 44x19mm White 4pk | Mega Office Supplies",
+  "seo_description": "VELCRO Brand Removable Strips (44x19mm, white, 4-pack) mount photos, posters & decorations damage-free. Holds 225g. Perfect for offices, classrooms & rental properties.",
+  "key_features": [
+    "Removable adhesive mounting strips for damage-free hanging on walls and surfaces",
+    "Each strip measures 44mm x 19mm and holds up to 225 grams",
+    "Low-profile white design blends seamlessly into most interiors",
+    "Simple peel-and-stick application with clean removal",
+    "Works on painted walls, glass, metal, plastic, and finished wood",
+    "Pack contains 4 strips for multiple mounting projects"
+  ],
+  "applications": [
+    "Hanging lightweight posters, photos, and framed artwork in offices and homes",
+    "Classroom displays, student projects, and educational materials",
+    "Rental property decoration without permanent wall damage",
+    "Temporary event signage, seasonal decorations, and promotional displays",
+    "Office organisation including notices, calendars, and lightweight boards",
+    "Home office decoration and workspace customisation"
+  ],
+  "specifications": [
+    "Product Type: Removable Mounting Strips",
+    "Brand: VELCRO Brand",
+    "Strip Size: 44mm x 19mm",
+    "Colour: White",
+    "Quantity: Pack of 4 strips",
+    "Shape: Strips",
+    "Holding Capacity: Up to 225 grams per strip",
+    "Adhesive Type: Removable",
+    "Surface Compatibility: Painted walls, glass, metal, plastic, finished wood",
+    "Application: Indoor use on smooth surfaces",
+    "Design: Low-profile",
+    "Vendor SKU: V95189"
+  ],
+  "faqs": [],
+  "tags": [
+    "VELCRO Brand Removable Strips",
+    "VELCRO White Mounting Strips",
+    "Damage Free Wall Mounting",
+    "Removable Adhesive Strips",
+    "Office Wall Displays",
+    "Classroom Display Supplies",
+    "Rental Friendly Mounting",
+    "VELCRO Office Supplies",
+    "Lightweight Picture Hanging",
+    "Repositionable Wall Strips"
+  ],
+  "pack_size": "Pack of 4",
+  "unit": "Pack",
+  "google_product_category_id": "632",
+  "image_alt_texts": {
+    "hero": "VELCRO Brand Removable Strips 44 x 19mm white pack of 4 for damage-free wall mounting",
+    "lifestyle_1": "VELCRO Brand Removable Strips holding photo frames on painted wall without damage",
+    "lifestyle_2": null
+  }
+}
+```

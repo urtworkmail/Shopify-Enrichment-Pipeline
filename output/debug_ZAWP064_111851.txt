@@ -1,0 +1,67 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2334
+TOKENS OUT: 1069
+
+RAW:
+```json
+{
+  "title": "Creative School Supply Surfboard with Stand Small 36cm",
+  "body_html": "<h2>Turn Creative Imagination Into a Finished Masterpiece With a Canvas That Stands Alone</h2>\n<p><strong>This 36cm wooden surfboard with stand offers students, crafters and hobbyists a unique self-standing canvas that inspires creativity and makes display effortless.</strong></p>\n<p>Made from 10mm thick FSC plywood, this surfboard canvas provides a smooth, flat surface ready to accept paint, markers, collage and mixed media. The natural unsealed wood invites decoration while rounded edges deliver a professional finish that complements the classic surfboard shape. At 36cm long and 15cm wide, the board is sized perfectly for individual student projects, fundraising activities or keepsake crafts that capture coastal Australian spirit.</p>\n<p>The two-piece wooden stand slots together easily and holds the surfboard upright or horizontally, so finished designs can be displayed with pride on desks, shelves or classroom walls. The stable base measures 13cm x 6cm, providing reliable support without tipping. This design removes the need for frames or mounting hardware, making it simple to showcase completed work immediately.</p>\n<p>Ideal for art classrooms, holiday programmes, craft workshops and home projects, this surfboard canvas suits decorators of all ages. The FSC-certified plywood ensures responsible sourcing while the smooth surface guarantees clean, vibrant results every time.</p>",
+  "seo_title": "Wooden Surfboard Canvas 36cm | Mega Office Supplies",
+  "seo_description": "36cm FSC plywood surfboard with stand. Smooth natural surface for painting and decorating. Self-standing display. Perfect for students and crafters.",
+  "key_features": [
+    "FSC-certified 10mm thick plywood construction for durability and responsible sourcing",
+    "Smooth, flat natural wood surface ready for paint, markers, collage and mixed media",
+    "Rounded edges for a polished, professional finish on the classic surfboard shape",
+    "Two-piece wooden stand (13cm x 6cm) slots together easily for upright or horizontal display",
+    "36cm length and 15cm width sized perfectly for individual student and craft projects",
+    "Self-standing design eliminates the need for frames or mounting hardware",
+    "Unsealed wood accepts all common craft materials for maximum creative flexibility"
+  ],
+  "applications": [
+    "Primary and secondary school art projects and painting activities",
+    "Fundraising events and community craft workshops",
+    "Holiday programme activities and vacation care sessions",
+    "Keepsake gifts and personalised coastal-themed decorations",
+    "Home craft projects for children and hobbyists of all ages",
+    "Display pieces for classrooms, bedrooms and retail spaces"
+  ],
+  "specifications": [
+    "Product Type: Wooden Surfboard Canvas with Stand",
+    "Brand: The Creative School Supply Company",
+    "Model: ZAWP064",
+    "Material: FSC-Certified Plywood",
+    "Plywood Thickness: 10mm",
+    "Surfboard Length: 36cm",
+    "Surfboard Width: 15cm",
+    "Stand Dimensions: 13cm x 6cm",
+    "Surface Finish: Natural Unsealed Wood",
+    "Edge Finish: Rounded",
+    "Stand Design: Two-Piece Slotting Bracket",
+    "Display Orientation: Upright or Horizontal",
+    "Suitable For: Students, Hobbyists, Crafters of All Ages"
+  ],
+  "faqs": [],
+  "tags": [
+    "Creative School Supply Surfboard",
+    "Wooden Surfboard Canvas",
+    "Surfboard with Stand 36cm",
+    "FSC Plywood Craft Canvas",
+    "Self Standing Art Board",
+    "School Art Supplies",
+    "Craft Project Canvas",
+    "Painting Canvas with Stand",
+    "Student Craft Activities",
+    "Wooden Display Board"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "505378",
+  "image_alt_texts": {
+    "hero": "Creative School Supply wooden surfboard canvas with stand, 36cm FSC plywood with natural finish and rounded edges",
+    "lifestyle_1": "Decorated surfboard canvas displayed upright on wooden stand showing painted coastal design",
+    "lifestyle_2": null
+  }
+}
+```

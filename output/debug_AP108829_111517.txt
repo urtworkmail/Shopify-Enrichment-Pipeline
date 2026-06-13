@@ -1,0 +1,66 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2713
+TOKENS OUT: 1134
+
+RAW:
+```json
+{
+  "title": "Mondi Colour Copy Paper 200gsm A4 210 x 297mm Ream of 250 Sheets",
+  "body_html": "<h2>Create Presentations and Documents That Command Attention</h2>\n<p><strong>Premium 200gsm A4 paper engineered for digital colour laser printing that delivers exceptional clarity and impact.</strong></p>\n<p>When your reports, proposals and presentations need to make a lasting impression, paper quality becomes part of your message. Mondi Colour Copy Paper 200gsm A4 is crafted specifically for digital colour laser printing, enhancing colour depth and sharpness while providing a substantial, professional feel. The 200gsm weight adds opacity and strength, ensuring documents handle well and look polished from first page to last. Approved by leading printer manufacturers, this paper feeds smoothly through all dry toner colour laser printers, reducing jams and delivering consistent, reliable results every time.</p>\n<p>The premium weight and high whiteness (CIE 160) create the ideal surface for crisp text and vibrant graphics, helping your work stand out in meetings, client presentations and internal communications. FSC certified and produced to exacting European standards, each sheet reflects attention to detail and a commitment to quality. Sold in convenient 250-sheet reams, it provides the perfect balance of volume and storage efficiency for busy office environments.</p>\n<p>Ideal for professional offices, design studios and administrative teams who understand that document quality reflects organisational standards. When your work deserves more than standard copy paper, Mondi Colour Copy 200gsm delivers the confidence and visual impact you need.</p>",
+  "seo_title": "Mondi Colour Copy 200gsm A4 Ream | Mega Office Supplies",
+  "seo_description": "Premium 200gsm A4 colour laser paper. 250 sheets per ream. Exceptional colour brilliance, high opacity, FSC certified. Approved for all dry toner printers.",
+  "key_features": [
+    "Engineered specifically for digital colour laser printing to maximise colour vibrancy and image sharpness",
+    "200gsm heavyweight construction provides superior opacity, preventing show-through on double-sided prints",
+    "CIE 160 whiteness rating creates optimal contrast for crisp text and vivid graphics",
+    "Approved for all dry toner colour laser printers, ensuring reliable feeding and consistent performance",
+    "FSC certified paper sourced from responsibly managed forests",
+    "Precision cut A4 dimensions (210 x 297mm) fit all standard laser printers and copiers",
+    "Wrapped ream packaging protects sheets from moisture and dust until use"
+  ],
+  "applications": [
+    "High-impact client presentations, proposals and pitch documents requiring premium appearance",
+    "Marketing materials, brochures and promotional flyers for internal and external distribution",
+    "Report covers, dividers and executive summaries that need extra weight and durability",
+    "Design proofs, colour mockups and creative work requiring accurate colour reproduction",
+    "Certificates, awards and formal documents where quality reinforces credibility",
+    "Premium correspondence and branded stationery for professional communications"
+  ],
+  "specifications": [
+    "Size: A4 210 x 297mm",
+    "Weight: 200gsm",
+    "Pack Size: Ream of 250 sheets",
+    "Whiteness: CIE 160",
+    "Colour: White",
+    "Product Type: Wrapped sheets",
+    "Certification: FSC Certified",
+    "Printer Compatibility: All dry toner colour laser printers",
+    "Technology: Optimised for digital colour laser printing",
+    "Brand: Mondi",
+    "Vendor SKU: AP108829",
+    "Origin: European manufacture to ISO standards"
+  ],
+  "faqs": [],
+  "tags": [
+    "Mondi Colour Copy Paper",
+    "200gsm A4 Paper",
+    "Colour Laser Paper",
+    "Premium Presentation Paper",
+    "FSC Certified Paper",
+    "High Whiteness Paper",
+    "Professional Printing Paper",
+    "Office Laser Paper",
+    "Heavyweight Copy Paper",
+    "Digital Printing Paper"
+  ],
+  "pack_size": "Ream of 250 Sheets",
+  "unit": "Ream",
+  "google_product_category_id": "956",
+  "image_alt_texts": {
+    "hero": "Mondi Colour Copy 200gsm A4 paper ream of 250 sheets with high whiteness for laser printing",
+    "lifestyle_1": "Mondi Colour Copy 200gsm paper producing vibrant colour documents from office laser printer",
+    "lifestyle_2": null
+  }
+}
+```

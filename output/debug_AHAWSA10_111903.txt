@@ -1,0 +1,50 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T3
+TOKENS IN: 1705
+TOKENS OUT: 647
+
+RAW:
+```json
+{
+  "title": "AeroWound Super Absorbent Wound Dressing 10 x 10cm",
+  "body_html": "<p>AeroWound Super Absorbent Wound Dressing manages moderate to heavily exuding wounds with advanced fluid absorption and retention technology. The breathable barrier is permeable to vapour yet impermeable to bacteria, while the conformable design adapts to body contours for patient comfort.</p>\n<p>Suitable for venous leg ulcers, diabetic foot ulcers and pressure ulcers. Maintains optimal moisture levels at the wound interface to support faster healing and reduce the risk of maceration. For external use only. Always read the label and follow directions for use.</p>",
+  "seo_title": "AeroWound Absorbent Dressing 10x10cm | Mega Office Supplies",
+  "seo_description": "AeroWound super absorbent wound dressing 10 x 10cm manages moderate to heavy exudate. Breathable, conformable design for ulcers and pressure wounds.",
+  "key_features": [
+    "Ultra-high absorbency core manages fluid and reduces maceration risk",
+    "Breathable outer layer permeable to vapour, impermeable to bacteria",
+    "Conformable design adapts to body contours for patient comfort",
+    "10 x 10cm dressing size, 20 per carton"
+  ],
+  "applications": [
+    "Venous leg ulcers, diabetic foot ulcers and pressure ulcers",
+    "Moderate to heavily exuding wounds requiring high absorbency"
+  ],
+  "specifications": [
+    "Dressing Size: 10 x 10cm",
+    "Package Dimensions: 14.6 × 5 × 16.3 cm",
+    "Weight: 0.07 kg",
+    "Carton Quantity: 20",
+    "MPN: AHAWSA10"
+  ],
+  "faqs": [],
+  "tags": [
+    "Aero Healthcare",
+    "AeroWound",
+    "wound dressing",
+    "super absorbent dressing",
+    "medical supplies",
+    "first aid",
+    "ulcer care",
+    "10x10cm"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "491",
+  "image_alt_texts": {
+    "hero": "AeroWound super absorbent wound dressing 10 x 10cm in sterile packaging",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
+```

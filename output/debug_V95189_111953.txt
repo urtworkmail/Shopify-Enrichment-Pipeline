@@ -1,0 +1,66 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2913
+TOKENS OUT: 1057
+
+RAW:
+```json
+{
+  "title": "Velcro Brand Removable Strips 44 x 19mm White Pack of 4",
+  "body_html": "<h2>Display photos and decorations without damaging walls or surfaces</h2>\n<p><strong>VELCRO Brand Removable Strips provide clean, reliable mounting for everyday decorating and organisation without nails, screws, or wall damage.</strong></p>\n<p>Refresh your space with confidence using these practical mounting strips. Perfect for renters, students, teachers, and office managers, they help you display posters, photos, lightweight signs, artwork, and decorations while keeping walls and surfaces mark-free. The low-profile white design blends discreetly into most interiors for a tidy, professional finish. Each strip measures 44mm x 19mm and holds up to 225 grams, making them ideal for lightweight displays in homes, classrooms, and workplaces.</p>\n<p>The simple peel-and-stick application adheres securely to smooth indoor surfaces including painted walls, glass, metal, plastic, and finished wood. Removable adhesive allows you to reposition or remove items cleanly when needed, protecting rental deposits and maintaining pristine walls. Strong enough for seasonal decorations, classroom projects, office notices, and creative displays, they deliver dependable performance without compromise.</p>\n<p>Create organised workspaces, decorate bedrooms, or prepare for events with mounting strips that respect your surfaces. VELCRO Brand brings trusted fastening performance to damage-free decorating, giving you the flexibility to change displays as often as you need.</p>",
+  "seo_title": "Velcro Removable Strips 44x19mm White 4pk | Mega Office Supplies",
+  "seo_description": "VELCRO Brand Removable Strips 44x19mm in white. Damage-free mounting for posters, photos and decorations. Holds 225g. Perfect for offices and rentals.",
+  "key_features": [
+    "Removable adhesive protects walls and surfaces from damage",
+    "Simple peel-and-stick application for fast setup",
+    "Each strip holds up to 225 grams securely",
+    "Low-profile white design blends discreetly into interiors",
+    "Works on painted walls, glass, metal, plastic and wood",
+    "Clean removal allows repositioning without residue",
+    "Trusted VELCRO Brand quality and performance"
+  ],
+  "applications": [
+    "Hanging lightweight posters and framed photos in offices",
+    "Classroom displays and educational bulletin boards",
+    "Decorating rental properties without losing deposits",
+    "Temporary signage and event decorations",
+    "Home office organisation and notice boards",
+    "Seasonal decorations and rotating displays"
+  ],
+  "specifications": [
+    "Product Type: Removable Mounting Strips",
+    "Brand: VELCRO Brand",
+    "Strip Size: 44mm x 19mm",
+    "Colour: White",
+    "Quantity: Pack of 4 strips",
+    "Shape: Strips",
+    "Maximum Hold Weight: 225 grams per strip",
+    "Application: Peel and stick",
+    "Surface Compatibility: Painted walls, glass, metal, plastic, finished wood",
+    "Environment: Indoor use",
+    "Adhesive Type: Removable",
+    "Vendor SKU: V95189"
+  ],
+  "faqs": [],
+  "tags": [
+    "VELCRO Brand V95189",
+    "Velcro Removable Strips White",
+    "Damage Free Mounting Strips",
+    "Removable Wall Strips",
+    "Office Wall Mounting",
+    "Classroom Display Strips",
+    "Velcro Brand Fasteners",
+    "Rental Safe Mounting",
+    "Photo Hanging Strips",
+    "Removable Adhesive Strips"
+  ],
+  "pack_size": "Pack of 4",
+  "unit": "Pack",
+  "google_product_category_id": "632",
+  "image_alt_texts": {
+    "hero": "VELCRO Brand Removable Strips 44mm x 19mm white pack of 4 for damage-free wall mounting",
+    "lifestyle_1": "White Velcro removable mounting strips holding framed photo on painted wall without damage",
+    "lifestyle_2": null
+  }
+}
+```

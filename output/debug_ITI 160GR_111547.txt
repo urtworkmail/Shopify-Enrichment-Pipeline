@@ -1,0 +1,61 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2643
+TOKENS OUT: 1041
+
+RAW:
+```json
+{
+  "title": "Italplast GreenR Magazine Stand Recycled Black",
+  "body_html": "<h2>Organise Smarter, Tread Lighter</h2>\n<p><strong>GECA certified recycled magazine stand that keeps documents visible and accessible while reducing your environmental footprint.</strong></p>\n<p>The Italplast GreenR Magazine Stand in Recycled Black brings serious environmental credentials to everyday desk organisation. Made from recycled materials and fully recyclable at end of life, this stand supports circular resource use without compromising on strength or functionality. Measuring 258 mm L × 92 mm W × 298 mm H, it holds manuals, reports, project files and office paperwork in an upright, easy-to-scan position. The sleek recycled black finish suits modern workspaces, and front and rear label spaces make categorisation intuitive.</p>\n<p>GECA certification confirms this stand meets recognised environmental standards, giving procurement teams and office managers confidence in their sustainable purchasing decisions. The durable construction handles daily use in busy offices, schools and home work environments. Recycled content reduces virgin material demand, while the 100 per cent recyclable design ensures responsible disposal when the stand reaches end of life.</p>\n<p>Ideal for green offices, education settings and workplaces committed to reducing waste. The Italplast GreenR Magazine Stand delivers dependable document organisation with a clear environmental advantage. Stock your workspace with purpose.</p>",
+  "seo_title": "Italplast GreenR Magazine Stand Black | Mega Office",
+  "seo_description": "GECA certified recycled magazine stand. 258×92×298mm. Holds reports, manuals & files. 100% recyclable. Italplast GreenR for sustainable Australian offices.",
+  "key_features": [
+    "GECA certified for meeting recognised environmental standards, offering confidence in sustainable product choice.",
+    "Constructed from recycled materials and 100 per cent recyclable, supporting circular resource use and reduced waste.",
+    "Front and rear label spaces allow quick identification, making everyday filing efficient and intuitive.",
+    "Recycled black finish provides a modern, understated look that suits contemporary workspaces.",
+    "Durable construction handles daily use in busy offices, schools and home environments without compromise.",
+    "Compact 258 × 92 × 298 mm footprint fits standard desks while holding manuals, reports and project files upright."
+  ],
+  "applications": [
+    "Office document organisation for reports, manuals, magazines and project files.",
+    "Education settings requiring sustainable, durable storage for teaching materials and reference documents.",
+    "Green office fit-outs and workplaces committed to reducing environmental impact through responsible purchasing.",
+    "Home office filing where space efficiency and environmental responsibility matter.",
+    "Reception areas and shared workspaces needing visible, accessible document storage."
+  ],
+  "specifications": [
+    "Dimensions: 258 mm L × 92 mm W × 298 mm H",
+    "Colour: Recycled Black",
+    "Material: Recycled content, 100 per cent recyclable",
+    "Certification: GECA certified",
+    "Type: Magazine and document stand",
+    "Brand: Italplast Products",
+    "Model: ITI 160GR",
+    "Label Spaces: Front and rear for easy identification",
+    "Environmental Attribute: Made from recycled materials, fully recyclable at end of life"
+  ],
+  "faqs": [],
+  "tags": [
+    "Italplast GreenR",
+    "Recycled Magazine Stand",
+    "GECA Certified Office Products",
+    "Sustainable Desk Organisation",
+    "Recycled Black Magazine Stand",
+    "Eco Friendly Office Supplies",
+    "Document Stand Recyclable",
+    "Italplast Products",
+    "Green Office Storage",
+    "Recycled Desk Accessories"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "922",
+  "image_alt_texts": {
+    "hero": "Italplast GreenR Magazine Stand in Recycled Black holding documents upright on office desk",
+    "lifestyle_1": "Italplast GreenR Recycled Magazine Stand organising reports and manuals in modern workspace",
+    "lifestyle_2": null
+  }
+}
+```

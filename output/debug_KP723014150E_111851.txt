@@ -1,0 +1,66 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2721
+TOKENS OUT: 1192
+
+RAW:
+```json
+{
+  "title": "Hamilton Sunscreen SPF50 Bundle 6 x 1L Bottles with Metal Dispenser",
+  "body_html": "<h2>Sun Safety Made Simple for High Traffic Environments</h2>\n<p><strong>Six 1L bottles of SPF50+ sunscreen with a free metal dispenser for convenient daily protection.</strong></p>\n<p>Protecting staff, students and visitors from Australia's harsh UV rays requires more than good intentions. The Hamilton Sunscreen SPF50 Bundle delivers very high broad spectrum protection in a format built for busy workplaces, schools, sporting facilities and community centres. This Australian-made formula provides four-hour water resistance with a dry touch, fast-absorbing finish that won't leave skin greasy or attract dust and dirt during outdoor work.</p>\n<p>The included metal wall-mounted dispenser makes regular reapplication effortless. Position it at building exits, poolside, on sports fields or in warehouses to encourage sun-safe habits year-round. Suitable for all skin types and face or body application, this non-greasy formula absorbs quickly so workers and students can stay protected without interrupting their day.</p>\n<p>Ideal for organisations managing sun exposure compliance or families with active outdoor routines. Hamilton's proven Australian formulation gives you confidence that protection will hold up through sweat, swimming and extended time outdoors. Make sun safety as routine as hand washing with convenient, visible access to quality sunscreen.</p>",
+  "seo_title": "Hamilton SPF50 Bundle 6 x 1L | Mega Office Supplies",
+  "seo_description": "6 x 1L Hamilton SPF50+ sunscreen with free metal dispenser. 4-hour water resistance, dry touch formula. Australian made for workplaces, schools & clubs.",
+  "key_features": [
+    "SPF50+ broad spectrum UVA and UVB protection supports safe outdoor activity for families, staff and visitors.",
+    "Four-hour water resistance and sweat resistance keeps protection effective during work, sport and recreation.",
+    "Dry touch, fast-absorbing and non-greasy formula ensures dirt and dust are less likely to cling to skin.",
+    "Free metal wall-mounted dispenser encourages regular reapplication in high traffic areas.",
+    "Australian-made formula designed specifically for harsh local UV conditions.",
+    "Suitable for all skin types with face and body application.",
+    "Six 1L bottles provide extended coverage for workplaces, schools, clubs and sporting facilities."
+  ],
+  "applications": [
+    "Install in workplaces with outdoor staff to support sun safety compliance and duty of care obligations.",
+    "Position at school exits, playgrounds and sports fields to encourage student sun protection habits.",
+    "Mount poolside at aquatic centres, gyms and clubs for convenient reapplication after swimming.",
+    "Place at warehouse dispatch areas, construction sites and landscaping depots for workers exposed to extended UV.",
+    "Use in community sporting facilities, golf clubs and recreation centres to protect members and visitors.",
+    "Keep in active family homes with outdoor play areas, pools or regular beach and park outings."
+  ],
+  "specifications": [
+    "Bundle Includes: 6 x 1L sunscreen bottles plus 1 metal wall-mounted dispenser",
+    "Protection Level: SPF50+ broad spectrum",
+    "Water Resistance: 4 hours",
+    "Sweat Resistance: Yes",
+    "Formula: Dry touch, fast absorbing, non-greasy",
+    "Suitable For: All skin types, body and face application",
+    "Active Ingredients: Octyl Salicylate 5%, Homosalate 10%, Butyl Methoxydibenzoylmethane 4%, Octocrylene 8%",
+    "Country of Manufacture: Australia",
+    "Application: Apply 20 minutes before sun exposure, reapply every 2 hours or after swimming, sweating or towelling",
+    "Dispenser Type: Metal wall-mounted",
+    "Total Volume: 6 litres",
+    "Brand: Hamilton"
+  ],
+  "faqs": [],
+  "tags": [
+    "Hamilton Sunscreen SPF50",
+    "Hamilton SPF50 Bundle",
+    "SPF50 Sunscreen Dispenser",
+    "Workplace Sun Protection",
+    "School Sunscreen Station",
+    "Water Resistant Sunscreen",
+    "Australian Made Sunscreen",
+    "1L Sunscreen Bottle",
+    "High Traffic Sun Safety",
+    "Metal Dispenser Bundle"
+  ],
+  "pack_size": "Bundle of 6 x 1L with dispenser",
+  "unit": "Pack",
+  "google_product_category_id": "567",
+  "image_alt_texts": {
+    "hero": "Hamilton SPF50 sunscreen bundle showing six 1L bottles with metal wall-mounted dispenser",
+    "lifestyle_1": "Metal sunscreen dispenser installed in outdoor workplace environment with Hamilton SPF50 bottle",
+    "lifestyle_2": null
+  }
+}
+```

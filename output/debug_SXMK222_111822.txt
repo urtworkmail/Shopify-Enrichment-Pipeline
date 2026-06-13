@@ -1,0 +1,54 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T3
+TOKENS IN: 1616
+TOKENS OUT: 666
+
+RAW:
+```json
+{
+  "title": "Brother Labelling Tape 9mm Red on White MK222",
+  "body_html": "<p>This Brother MK222 labelling tape produces red text on a white background and measures 9mm wide by 8 metres long. It uses non-laminated material with standard strength adhesive, designed for flat, dry surfaces in home, office, school and business environments.</p>\n<p>Compatible with Brother P-Touch label makers including PT-100, PT-55, PT-65, PT-70, PT-80 and PT-90 models. Ideal for general labelling tasks where lamination is not required.</p>",
+  "seo_title": "Brother MK222 9mm Red on White Tape | Mega Office Supplies",
+  "seo_description": "Brother MK222 labelling tape: 9mm wide, red on white, 8 metres long. Non-laminated with standard adhesive. Fits PT-100, PT-55, PT-65, PT-70, PT-80, PT-90.",
+  "key_features": [
+    "9mm wide red on white non-laminated tape, 8 metres total length",
+    "Standard strength adhesive for flat, dry surfaces",
+    "Compatible with Brother PT-100, PT-55, PT-65, PT-70, PT-80 and PT-90 models"
+  ],
+  "applications": [
+    "General office and home labelling tasks",
+    "File and folder identification",
+    "Equipment and asset labelling"
+  ],
+  "specifications": [
+    "Tape Width: 9mm",
+    "Total Length: 8 metres",
+    "Text Colour: Red",
+    "Background Colour: White",
+    "Material: Non-laminated",
+    "Adhesive Type: Standard strength",
+    "Compatible Models: Brother PT-100, PT-55, PT-65, PT-70, PT-80, PT-90",
+    "Model Number: MK222",
+    "Vendor SKU: SXMK222"
+  ],
+  "faqs": [],
+  "tags": [
+    "Brother",
+    "MK222",
+    "Labelling Tape",
+    "P-Touch",
+    "9mm Tape",
+    "Red on White",
+    "Office Supplies",
+    "Label Maker Tape"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "922",
+  "image_alt_texts": {
+    "hero": "Brother MK222 labelling tape cartridge, 9mm red on white, for P-Touch label makers",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
+```

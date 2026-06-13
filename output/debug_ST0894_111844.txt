@@ -1,0 +1,53 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T3
+TOKENS IN: 1334
+TOKENS OUT: 615
+
+RAW:
+```json
+{
+  "title": "Stylus PP99 Acrylic Packaging Tape Clear 48mm x 75m",
+  "body_html": "<p>This clear acrylic packaging tape delivers reliable adhesion for carton sealing and bundling. Each roll measures 48mm wide by 75m long, providing consistent performance across high-volume packing operations.</p>\n<p>Sold in a bulk pack of 10 cartons containing 36 rolls each, for a total of 360 rolls. Ideal for warehouses, distribution centres and businesses with ongoing packaging requirements.</p>",
+  "seo_title": "Stylus PP99 Packaging Tape 48mm | Mega Office Supplies",
+  "seo_description": "Stylus PP99 clear acrylic packaging tape, 48mm x 75m. Bulk pack of 360 rolls (10 cartons). Reliable adhesion for carton sealing and bundling operations.",
+  "key_features": [
+    "360 rolls total (10 cartons of 36 rolls each)",
+    "48mm x 75m per roll",
+    "Clear acrylic adhesive for secure carton sealing"
+  ],
+  "applications": [
+    "Carton sealing and bundling",
+    "Warehouse and distribution packing operations"
+  ],
+  "specifications": [
+    "Width: 48mm",
+    "Length: 75m per roll",
+    "Pack Configuration: 36 rolls per carton",
+    "Total Quantity: 360 rolls (10 cartons)",
+    "Adhesive Type: Acrylic",
+    "Colour: Clear",
+    "Model: PP99",
+    "SKU: ST0894"
+  ],
+  "faqs": [],
+  "tags": [
+    "Stylus",
+    "PP99",
+    "Packaging Tape",
+    "Clear Tape",
+    "Acrylic Tape",
+    "48mm Tape",
+    "Bulk Packaging Tape",
+    "Carton Sealing Tape",
+    "Office Supplies"
+  ],
+  "pack_size": "10 cartons (360 rolls)",
+  "unit": "Carton",
+  "google_product_category_id": "956",
+  "image_alt_texts": {
+    "hero": "Stylus PP99 clear acrylic packaging tape roll, 48mm width, shown with carton packaging",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
+```

@@ -1,0 +1,52 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T3
+TOKENS IN: 1648
+TOKENS OUT: 629
+
+RAW:
+```json
+{
+  "title": "Twinings Tea Chest 6 Compartment",
+  "body_html": "<p>The Twinings Tea Chest is a wooden six compartment storage box designed for workplaces that serve a range of tea preferences. It holds six varieties of Twinings tea bags in separate sections, providing organised access and a tidy presentation in kitchens, boardrooms and staff rooms.</p>\n<p>Supplied as a starter kit with six boxes of ten tea bags, the chest includes English Breakfast, Earl Grey, Pure Green Tea, Pure Peppermint, Camomile Honey Vanilla and Australian Afternoon. The wooden construction and clear compartments make it simple to identify and restock tea supplies.</p>",
+  "seo_title": "Twinings Tea Chest 6 Compartment | Mega Office Supplies",
+  "seo_description": "Wooden 6 compartment tea chest with Twinings classics. Starter kit includes English Breakfast, Earl Grey, Green, Peppermint, Camomile and Australian Afternoon.",
+  "key_features": [
+    "Wooden tea chest with six compartments for organised storage",
+    "Starter kit includes six boxes with ten tea bags each",
+    "Selection includes English Breakfast, Earl Grey, Pure Green Tea, Pure Peppermint, Camomile Honey Vanilla and Australian Afternoon"
+  ],
+  "applications": [
+    "Office kitchens and staff rooms",
+    "Boardrooms and meeting spaces",
+    "Events and hospitality areas"
+  ],
+  "specifications": [
+    "Brand: Twinings",
+    "Model: LA80014",
+    "Compartments: 6",
+    "Starter Kit Contents: 6 boxes of 10 tea bags each",
+    "Material: Wooden chest"
+  ],
+  "faqs": [],
+  "tags": [
+    "Twinings",
+    "LA80014",
+    "Tea Chest",
+    "Office Supplies",
+    "Tea Storage",
+    "Kitchen Supplies",
+    "Wooden Tea Box",
+    "Herbal Tea",
+    "Green Tea",
+    "Black Tea"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "6873",
+  "image_alt_texts": {
+    "hero": "Twinings wooden tea chest with six compartments filled with assorted tea varieties including English Breakfast, Earl Grey and herbal teas",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
+```

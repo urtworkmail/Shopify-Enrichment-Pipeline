@@ -1,0 +1,46 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T3
+TOKENS IN: 1602
+TOKENS OUT: 512
+
+RAW:
+```json
+{
+  "title": "Mega Promotion Mystery Box",
+  "body_html": "<p>The Mega Promotion Mystery Box rewards customers who spend $300 inc GST or more in a single order. Packed with over $50 worth of curated office supplies, this complimentary addition brings variety and value to your workspace. Contents vary and may include stationery, desk accessories, and everyday essentials selected to complement your order.</p><p>Available while stocks last. Automatically added to qualifying orders at checkout. A practical thank you for choosing Mega Office Supplies.</p>",
+  "seo_title": "Mega Promotion Mystery Box | Mega Office Supplies",
+  "seo_description": "Free with orders over $300 inc GST. Over $50 worth of curated office supplies in every Mega Promotion Mystery Box. Available while stocks last.",
+  "key_features": [
+    "Contains over $50 worth of office supplies selected for everyday work needs",
+    "Automatically qualifies when you spend $300 inc GST or more in a single order",
+    "Available while stocks last"
+  ],
+  "applications": [
+    "Complimentary addition for businesses placing bulk orders",
+    "Suitable for offices restocking supplies or customers discovering new stationery"
+  ],
+  "specifications": [
+    "Product Name: Mega Promotion Mystery Box",
+    "Minimum Spend: $300 inc GST",
+    "Value Inside: Over $50 worth of office supplies",
+    "Availability: While stocks last"
+  ],
+  "faqs": [],
+  "tags": [
+    "Mega Office Supplies",
+    "Promotion",
+    "Mystery Box",
+    "Office Supplies",
+    "Free Gift",
+    "Bulk Order Reward"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": null,
+  "image_alt_texts": {
+    "hero": "Mega Promotion Mystery Box containing assorted office supplies and stationery items",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
+```

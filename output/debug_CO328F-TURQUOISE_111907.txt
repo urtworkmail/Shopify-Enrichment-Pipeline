@@ -1,0 +1,66 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2401
+TOKENS OUT: 1057
+
+RAW:
+```json
+{
+  "title": "Colby 328F Polywally Wallet Foolscap Hook and Loop Turquoise Pack 12",
+  "body_html": "<h2>Bright, Secure Filing that Brings Order to Your Foolscap Documents</h2>\n<p><strong>Keep your foolscap paperwork safe, organised and easy to identify with these vibrant turquoise Colby Polywally wallets featuring secure hook and loop closures.</strong></p>\n<p>Document storage demands durability and protection. These foolscap wallets are constructed from archival-quality polypropylene that is acid-free and copy safe, ensuring your important files remain in pristine condition over time. The 30mm expandable gusset provides generous capacity for thicker files and multi-page documents, while the protective flap shields contents from dust and damage. Each wallet in this 12-pack delivers reliable performance for high-volume filing needs.</p>\n<p>The hook and loop closure system keeps papers securely contained, preventing loss during transport or storage. The solid turquoise colour makes these wallets ideal for colour-coded filing systems, allowing instant visual identification of document categories or projects. Durable polypropylene construction withstands daily handling in busy office, school or home environments.</p>\n<p>Perfect for legal offices, educational institutions, government departments and any workspace managing large volumes of foolscap documentation. This 12-pack provides excellent value for teams implementing organised, long-lasting filing solutions.</p>",
+  "seo_title": "Colby Polywally Foolscap Wallet Turquoise 12Pk | Mega Office Supplies",
+  "seo_description": "Colby foolscap wallets with 30mm gusset, hook and loop closure. Archival-quality polypropylene in turquoise. Pack of 12 for colour-coded filing systems.",
+  "key_features": [
+    "30mm expandable gusset accommodates thick files and multi-page documents",
+    "Hook and loop closure prevents document loss during handling and transport",
+    "Acid-free, archival-quality polypropylene protects files long-term",
+    "Vibrant turquoise colour enables instant visual identification in colour-coded systems",
+    "Protective flap shields contents from dust, moisture and damage",
+    "Copy-safe construction prevents ink transfer and document degradation",
+    "Pack of 12 provides excellent value for high-volume filing operations"
+  ],
+  "applications": [
+    "Colour-coded filing systems in legal offices and government departments",
+    "Project documentation organisation in corporate and education environments",
+    "Client file management in professional services firms",
+    "Archive storage for long-term document retention",
+    "Student assignment and coursework organisation in schools and universities",
+    "Meeting papers and board documentation for executives and administrators"
+  ],
+  "specifications": [
+    "Brand: Colby",
+    "Model: 328F",
+    "Colour: Turquoise",
+    "Size: Foolscap",
+    "Gusset Width: 30mm",
+    "Closure Type: Hook and Loop",
+    "Material: Polypropylene",
+    "Material Quality: Archival quality, acid-free",
+    "Copy Safe: Yes",
+    "Protective Flap: Yes",
+    "Pack Quantity: 12 wallets",
+    "Country of Origin: Australia"
+  ],
+  "faqs": [],
+  "tags": [
+    "Colby 328F",
+    "Colby Polywally Wallet",
+    "Foolscap Document Wallets",
+    "Hook and Loop Wallets",
+    "Turquoise Filing Wallets",
+    "Archival Quality Wallets",
+    "Colour Coded Filing",
+    "Office Filing Supplies",
+    "Document Storage Solutions",
+    "Polypropylene Wallets"
+  ],
+  "pack_size": "Pack of 12",
+  "unit": "Pack",
+  "google_product_category_id": "922",
+  "image_alt_texts": {
+    "hero": "Colby 328F turquoise polypropylene foolscap wallet with hook and loop closure and 30mm gusset, pack of 12",
+    "lifestyle_1": "Turquoise Colby Polywally wallets organised in colour-coded office filing system with documents",
+    "lifestyle_2": null
+  }
+}
+```

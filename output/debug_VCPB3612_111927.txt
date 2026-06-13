@@ -1,0 +1,53 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T3
+TOKENS IN: 1809
+TOKENS OUT: 652
+
+RAW:
+```json
+{
+  "title": "Visionchart PB3612 Porcelain Whiteboard 3600 x 1200mm",
+  "body_html": "<p>The Visionchart PB3612 porcelain whiteboard delivers professional performance for schools, universities, conference centres and medical facilities. The magnetic porcelain surface resists staining and ghosting, backed by a 25-year guarantee.</p><p>The standard aluminium frame includes a full-length pentray and concealed wall fittings. Galvanised steel backing provides stability and magnetic receptivity across the entire 3600 x 1200mm dry-wipe surface.</p>",
+  "seo_title": "Visionchart PB3612 Porcelain Whiteboard | Mega Office",
+  "seo_description": "Visionchart PB3612 porcelain whiteboard 3600 x 1200mm. Magnetic surface, 25-year guarantee, aluminium frame with pentray. Ideal for schools and offices.",
+  "key_features": [
+    "Magnetic porcelain surface with 25-year guarantee",
+    "3600 x 1200mm dry-wipe area",
+    "Full-length aluminium pentray and concealed wall fittings",
+    "Galvanised steel backing for stability"
+  ],
+  "applications": [
+    "Schools and higher education facilities",
+    "Conference centres and meeting rooms",
+    "Medical facilities and office environments"
+  ],
+  "specifications": [
+    "Dimensions: 3600 x 1200mm",
+    "Surface: Magnetic porcelain (vitreous enamel)",
+    "Frame: Standard aluminium",
+    "Backing: Galvanised steel sheet",
+    "Pentray: Full-length aluminium",
+    "Warranty: 25 years",
+    "Model: VCPB3612"
+  ],
+  "faqs": [],
+  "tags": [
+    "Visionchart",
+    "PB3612",
+    "Porcelain Whiteboard",
+    "Magnetic Whiteboard",
+    "3600x1200mm",
+    "Office Supplies",
+    "Educational Supplies",
+    "Whiteboards"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "922",
+  "image_alt_texts": {
+    "hero": "Visionchart PB3612 porcelain whiteboard 3600 x 1200mm with aluminium frame and full-length pentray",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
+```

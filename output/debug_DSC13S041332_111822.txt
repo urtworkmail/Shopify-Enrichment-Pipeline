@@ -1,0 +1,52 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T3
+TOKENS IN: 1738
+TOKENS OUT: 616
+
+RAW:
+```json
+{
+  "title": "Epson S041332 Premium Semi Gloss Photo Paper A4 251gsm Pack 20 Sheets",
+  "body_html": "<p>Premium Semi-gloss Photo Paper delivers the look and feel of true photographic paper with a semigloss finish. This 251gsm media produces vivid colours, beautiful tones and incredible detail when paired with quality inks.</p>\n<p>Ideal for printing displays, scenic colour images and professional photo presentations. Compatible with Epson printers and other manufacturers' printers for consistent, high-quality results on A4 format.</p>",
+  "seo_title": "Epson Semi Gloss Photo Paper A4 | Mega Office Supplies",
+  "seo_description": "Epson S041332 Premium Semi Gloss Photo Paper. A4, 251gsm, 20 sheets per pack. Professional photographic finish for vivid colour prints and displays.",
+  "key_features": [
+    "251gsm premium semi-gloss finish delivers true photographic paper quality",
+    "A4 (210 x 297 mm) format, 20 sheets per pack",
+    "Compatible with Epson printers and other manufacturers' printers",
+    "Produces vivid colours and incredible detail for professional photo printing"
+  ],
+  "applications": [
+    "Professional photo printing and colour displays",
+    "Scenic colour images and photography presentations",
+    "High-quality marketing materials and visual communications"
+  ],
+  "specifications": [
+    "Product Code: S041332 (Epson Global Code: C13S041332)",
+    "Paper Size: A4 (210 x 297 mm)",
+    "Paper Weight: 251gsm",
+    "Finish: Semigloss",
+    "Sheets Per Pack: 20"
+  ],
+  "faqs": [],
+  "tags": [
+    "Epson",
+    "S041332",
+    "photo paper",
+    "semi gloss paper",
+    "A4 paper",
+    "premium paper",
+    "251gsm",
+    "printer paper",
+    "office supplies"
+  ],
+  "pack_size": "20",
+  "unit": "Pack",
+  "google_product_category_id": "956",
+  "image_alt_texts": {
+    "hero": "Epson S041332 Premium Semi Gloss Photo Paper A4 251gsm pack of 20 sheets",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
+```

@@ -1,0 +1,64 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2325
+TOKENS OUT: 928
+
+RAW:
+```json
+{
+  "title": "Creative School Supply Papier Mâché Bird Mask",
+  "body_html": "<h2>Transform Learning Through Creative Expression</h2>\n<p><strong>The Creative School Supply Papier Mâché Bird Mask turns drama studies and art projects into hands-on creative experiences that students remember.</strong></p>\n<p>Crafted from sturdy papier mâché, this full-face bird mask provides a blank canvas for collage, paint, or markers. The distinctive bird-like features inspire character development in drama classes and cultural storytelling projects, while the robust construction withstands repeated handling in busy classrooms. Measuring approximately 25 x 18cm, the mask accommodates most students and includes elastic for secure, comfortable wear during performances and presentations.</p>\n<p>The textured surface accepts a wide range of decorating methods, from acrylic paints to tissue paper collage, letting students explore different artistic techniques. Teachers value the mask's versatility across drama, language studies, and visual arts curricula, while the durable construction ensures it survives enthusiastic creative sessions.</p>\n<p>Ideal for primary and secondary classrooms, drama clubs, and home craft activities, this mask supports creative learning outcomes while meeting the practical demands of educational environments. Stock your art supply cupboard with a creative resource that brings curriculum to life.</p>",
+  "seo_title": "Papier Mâché Bird Mask | Mega Office Supplies",
+  "seo_description": "Sturdy papier mâché bird mask (25x18cm) for drama, art projects and creative learning. Blank canvas ready for paint, collage or markers. Includes elastic.",
+  "key_features": [
+    "Full-face bird mask with distinctive features ready for customisation",
+    "Sturdy papier mâché construction withstands classroom use",
+    "Accepts paint, markers, collage and mixed media techniques",
+    "Includes elastic for secure and comfortable wear",
+    "Approximately 25 x 18cm to fit most students",
+    "Blank canvas supports open-ended creative expression",
+    "Versatile across drama, language studies and visual arts"
+  ],
+  "applications": [
+    "Drama and theatre studies character development",
+    "Cultural storytelling and language arts projects",
+    "Visual arts and mixed media exploration",
+    "Themed classroom parties and celebrations",
+    "School performances and presentations",
+    "Home craft activities and creative play"
+  ],
+  "specifications": [
+    "Material: Papier Mâché",
+    "Mask Type: Full face bird mask",
+    "Approximate Dimensions: 25 x 18cm",
+    "Attachment: Elastic included",
+    "Decorating Methods: Paint, markers, collage, mixed media",
+    "Features: Bird-like facial features with beak",
+    "Surface: Textured papier mâché ready for decoration",
+    "Brand: The Creative School Supply Company",
+    "Vendor SKU: CSFA141",
+    "Suitable For: Drama studies, art projects, performances"
+  ],
+  "faqs": [],
+  "tags": [
+    "Creative School Supply",
+    "Papier Mâché Bird Mask",
+    "Bird Mask",
+    "Drama Mask",
+    "Art Supplies",
+    "Creative Learning Resources",
+    "School Art Projects",
+    "Theatre Props",
+    "Classroom Craft Supplies",
+    "Educational Art Materials"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "505371",
+  "image_alt_texts": {
+    "hero": "Creative School Supply papier mâché bird mask with elastic, blank white surface ready for decoration",
+    "lifestyle_1": "Student decorating papier mâché bird mask with paint and markers in classroom art project",
+    "lifestyle_2": null
+  }
+}
+```

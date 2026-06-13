@@ -1,0 +1,65 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2874
+TOKENS OUT: 1052
+
+RAW:
+```json
+{
+  "title": "Velcro Brand Heavy Duty Hook and Loop Strip Tape 25mm x 1m Black",
+  "body_html": "<h2>Mount tools and equipment with industrial strength fastening that holds without damaging walls</h2>\n<p><strong>Heavy duty black hook and loop tape delivers 675g holding power per 25mm square for reliable workshop and office organisation.</strong></p>\n<p>When you need to secure tools, cables or equipment without drilling holes or leaving adhesive residue, this Velcro Brand Heavy Duty Strip Tape provides the solution. The 25mm wide black tape offers strong holding power on smooth surfaces including painted wallboard, glass, metal and most plastics, making it ideal for workshops, garages, offices and storage areas where permanent fixtures are impractical. Cut to your required length from the 1 metre roll and press firmly to activate the adhesive backing.</p>\n<p>The heavy duty construction handles demanding everyday use while the repositionable hook and loop design allows you to adjust mounting positions as your workspace evolves. The black finish integrates seamlessly with darker equipment and surfaces, maintaining a professional appearance while keeping your space organised and accessible.</p>\n<p>Suitable for Australian business environments from busy workshops to home offices, this industrial grade fastening tape offers a practical alternative to nails, screws and permanent adhesives. Trusted Velcro Brand quality ensures dependable performance for your most important organisation tasks.</p>",
+  "seo_title": "Velcro Heavy Duty Tape 25mm Black | Mega Office Supplies",
+  "seo_description": "Velcro Brand Heavy Duty Hook & Loop Tape 25mm x 1m in black. Holds up to 675g per 25mm square. Industrial strength fastening for tools, cables & equipment.",
+  "key_features": [
+    "Industrial strength holding capacity up to 675g per 25 x 25mm square",
+    "Black finish blends seamlessly with darker equipment and workshop surfaces",
+    "Repositionable hook and loop design allows flexible mounting adjustments",
+    "Adheres to painted wallboard, glass, metal and most plastic surfaces",
+    "Cut to length design from 1 metre roll for customised applications",
+    "Non permanent fastening alternative to nails, screws and permanent adhesives",
+    "Trusted Velcro Brand quality for demanding commercial environments"
+  ],
+  "applications": [
+    "Securing tools and equipment in workshops, garages and storage facilities",
+    "Cable management and organisation in offices and home workspaces",
+    "Mounting lightweight accessories and supplies on smooth vertical surfaces",
+    "Temporary equipment positioning in retail and commercial environments",
+    "Workshop organisation where drilling or permanent fixtures are not permitted"
+  ],
+  "specifications": [
+    "Product Type: Heavy duty hook and loop strip tape",
+    "Brand: Velcro Brand",
+    "Model Number: AMV25556",
+    "Dimensions: 25mm width x 1m length",
+    "Colour: Black",
+    "Format: Tape strip",
+    "Holding Capacity: Up to 675g per 25 x 25mm square",
+    "Surface Compatibility: Painted wallboard, glass, metal, most plastics",
+    "Adhesive Type: Pressure sensitive backing",
+    "Application: Heavy duty fastening and mounting",
+    "Repositionable: Yes",
+    "Recommended Cure Time: 24 hours for maximum adhesive strength"
+  ],
+  "faqs": [],
+  "tags": [
+    "Velcro Brand AMV25556",
+    "Velcro Heavy Duty Tape",
+    "Hook and Loop Tape",
+    "25mm Fastening Tape",
+    "Black Velcro Tape",
+    "Industrial Strength Tape",
+    "Workshop Organisation",
+    "Cable Management Tape",
+    "Velcro Brand Products",
+    "Non Permanent Mounting"
+  ],
+  "pack_size": "1 roll, 25mm x 1m",
+  "unit": "Each",
+  "google_product_category_id": "632",
+  "image_alt_texts": {
+    "hero": "Velcro Brand Heavy Duty Hook and Loop Strip Tape 25mm x 1m in black on white background",
+    "lifestyle_1": "Black Velcro heavy duty tape securing tools and equipment on workshop wall",
+    "lifestyle_2": null
+  }
+}
+```

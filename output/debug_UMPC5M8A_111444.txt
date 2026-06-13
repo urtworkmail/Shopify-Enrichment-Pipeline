@@ -1,0 +1,67 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2691
+TOKENS OUT: 1171
+
+RAW:
+```json
+{
+  "title": "Posca PC-5M Paint Marker Pen Bullet Medium Assorted Wallet of 8",
+  "body_html": "<h2>Bold Colour and Precision for Every Creative Project</h2>\n<p><strong>Deliver vibrant, professional results with paint markers trusted by artists, educators and signwriters across Australia.</strong></p>\n<p>The Posca PC-5M Medium Bullet Marker set brings water-based pigment ink technology to your workspace, offering dense, fade-resistant colour that performs across paper, cardboard, wood, plastic, glass and metal. The 2.5 mm bullet tip strikes the ideal balance between coverage and control, so you can fill large areas quickly or add fine detail with the same pen. Whether you're producing signage, decorating surfaces or bringing illustrations to life, these markers deliver consistent, reliable performance without the mess or fumes of solvent-based alternatives.</p>\n<p>Quick-drying and non-toxic, the ink is acid-free and safe for use in classrooms, studios and home offices. Colours remain vivid over time, and the ink becomes permanent on porous surfaces while staying removable from glass for flexible creative applications. Each wallet contains eight essential colours: black, white, blue, light blue, green, yellow, pink and red.</p>\n<p>Ideal for schools, design studios, retail environments and creative businesses, this assorted set supports confident expression and professional presentation. The Posca PC-5M combines the immediacy of a marker with the richness of paint, giving you the tools to move from concept to finished work with clarity and control.</p>",
+  "seo_title": "Posca PC-5M Marker Assorted 8 Pack | Mega Office Supplies",
+  "seo_description": "Posca PC-5M medium bullet paint markers in 8 vibrant colours. Water-based, non-toxic, multi-surface performance. Trusted by Australian artists and educators.",
+  "key_features": [
+    "2.5 mm bullet tip delivers precise lines and smooth coverage for illustration, signage and craft projects.",
+    "Water-based pigment ink is non-toxic, acid-free and fade-resistant for safe, long-lasting colour.",
+    "Multi-surface versatility works on paper, cardboard, wood, plastic, glass and metal.",
+    "Quick-drying formula reduces smudging and speeds up project turnaround times.",
+    "Eight assorted colours in one wallet: black, white, blue, light blue, green, yellow, pink and red.",
+    "Permanent on porous surfaces, removable from glass for flexible creative and signage use.",
+    "Trusted by Australian artists, educators and signwriters for consistent, professional results."
+  ],
+  "applications": [
+    "Poster making, signage and display work for retail, education and events.",
+    "Illustration, colouring and fine art projects in studios and classrooms.",
+    "Craft decoration on wood, fabric, ceramics and mixed media surfaces.",
+    "Labelling and product marking on cardboard, plastic and metal packaging.",
+    "Window and glass decoration for seasonal displays and promotional campaigns.",
+    "School and home office creative tasks requiring reliable, vibrant colour."
+  ],
+  "specifications": [
+    "Brand: Posca",
+    "Model: PC-5M",
+    "Vendor SKU: UMPC5M8A",
+    "Tip Type: Medium bullet",
+    "Tip Size: 2.5 mm",
+    "Ink Type: Water-based pigment",
+    "Ink Properties: Non-toxic, acid-free, fade-resistant",
+    "Colours Included: Black, white, blue, light blue, green, yellow, pink, red",
+    "Pack Quantity: 8 paint marker pens",
+    "Surface Compatibility: Paper, cardboard, wood, plastic, glass, metal",
+    "Permanence: Permanent on porous surfaces, removable from glass",
+    "Drying Time: Quick-drying",
+    "Packaging: Wallet"
+  ],
+  "faqs": [],
+  "tags": [
+    "Posca PC-5M",
+    "Posca Paint Markers",
+    "Medium Bullet Markers",
+    "Paint Marker Pens",
+    "Multi Surface Markers",
+    "Water Based Paint Pens",
+    "Assorted Colour Markers",
+    "Non Toxic Art Supplies",
+    "Creative Marker Set",
+    "Artist Paint Markers"
+  ],
+  "pack_size": "8",
+  "unit": "Pack",
+  "google_product_category_id": "932",
+  "image_alt_texts": {
+    "hero": "Posca PC-5M medium bullet paint marker pens in assorted colours wallet of 8",
+    "lifestyle_1": "Posca PC-5M paint markers creating vibrant illustrations and signage on multiple surfaces",
+    "lifestyle_2": null
+  }
+}
+```

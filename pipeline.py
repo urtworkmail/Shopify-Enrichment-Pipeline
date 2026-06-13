@@ -1,5 +1,13 @@
 """
 pipeline.py -- V2.1 main orchestrator.
+
+Usage:
+    python pipeline.py --limit 100 --skip-writeback       # M1: 100-product test
+    python pipeline.py --limit 500                        # M2: 500-product QA
+    python pipeline.py                                    # M3: full run
+    python pipeline.py --skip-fetch                       # reuse cached Shopify data
+    python pipeline.py --writeback-only --resume <id>     # write-back a completed run
+    python pipeline.py --resume <id>                      # resume interrupted run
 """
 
 import argparse
@@ -7,7 +15,7 @@ from datetime import datetime
 from pathlib import Path
 
 from config import config
-from database import init_db, get_db, Product, Enrichment, Run, Log, get_run_stats, SessionLocal, engine
+from database import init_db, get_db, Product, Enrichment, Run, Log, get_run_stats
 from token_manager import (
     initialise as init_token,
     smoke_test,
@@ -27,8 +35,7 @@ def _log(db, run_id, level, module, message, sku=None):
 
 # ── Phase 1: Enrichment ───────────────────────────────────────────────────────
 
-def run_enrichment_phase(run_id: int, limit: int = None, batch_size: int = 50):
-    # Step 1: Load products and pre-create enrichment rows (uses standard get_db session)
+def run_enrichment_phase(run_id: int, limit: int = None, batch_size: int = 50, filter_prefix: str = None):
     with get_db() as db:
         run = db.query(Run).filter_by(id=run_id).first()
 
@@ -39,12 +46,15 @@ def run_enrichment_phase(run_id: int, limit: int = None, batch_size: int = 50):
         query = db.query(Product).filter(Product.sku.notin_(already_done))
         if limit:
             query = query.limit(limit)
+            if filter_prefix:
+                query = query.filter(Product.sku.startswith(filter_prefix))
         products = query.all()
 
         run.total_products = len(products) + len(already_done)
         _log(db, run_id, "INFO", "pipeline",
              f"Enrichment: {len(products)} products pending, {len(already_done)} already done")
 
+        # Snapshot to dicts so we can use outside DB session
         snapshots = [
             {
                 "id": p.id,
@@ -60,11 +70,14 @@ def run_enrichment_phase(run_id: int, limit: int = None, batch_size: int = 50):
                 "image_count": len(p.images or []),
                 "barcode": getattr(p, "barcode", ""),
                 "raw_csv_data": p.raw_csv_data or {},
+                # Fix 3: existing Shopify metafield content -- augment base for Claude
                 "existing_content": getattr(p, "existing_content", None) or {},
+                "mpn": getattr(p, "mpn", "") or "",  # ← ADD THIS LINE
             }
             for p in products
         ]
 
+        # Pre-create enrichment rows so dashboard shows pending immediately
         enrichment_id_map: dict[str, int] = {}
         for snap in snapshots:
             e = Enrichment(
@@ -77,7 +90,6 @@ def run_enrichment_phase(run_id: int, limit: int = None, batch_size: int = 50):
             db.flush()
             enrichment_id_map[snap["sku"]] = e.id
 
-    # Step 2: Scrape + enrich in batches using a single DB session per batch
     total_success = 0
     total_fail = 0
 
@@ -86,17 +98,20 @@ def run_enrichment_phase(run_id: int, limit: int = None, batch_size: int = 50):
         batch_num = batch_start // batch_size + 1
         print(f"\n[pipeline] Batch {batch_num}/{-(-len(snapshots)//batch_size)}: {len(batch)} products")
 
+        # Build enrichment items: resolve supplier content and tier per product
+        # Use a SINGLE session for the whole batch to prevent connection-pool exhaustion.
         items = []
-        batch_session = SessionLocal()
-
+        from database import engine as _db_engine, SessionLocal as _SessionLocal
+        _db_engine.dispose()  # release any lingering connections before the batch
+        _batch_db = _SessionLocal()
         try:
             for snap in batch:
                 sku = snap["sku"]
                 brand = snap.get("vendor") or snap.get("brand") or ""
-                supplier_content = {}
 
+                # ── scrape ──────────────────────────────────────────────────
+                supplier_content: dict = {}
                 try:
-                    # --- Scrape supplier ---
                     csv_data = snap.get("raw_csv_data") or {}
                     if csv_data.get("bigcommerce_description"):
                         supplier_content = {
@@ -106,34 +121,36 @@ def run_enrichment_phase(run_id: int, limit: int = None, batch_size: int = 50):
                             "features": csv_data.get("bigcommerce_features", ""),
                         }
                     elif config.SCRAPER_ENABLED:
-                        supplier_content = scrape_product(sku, brand, snap.get("title", ""))
+                        supplier_content = scrape_product(
+                            sku, brand, snap.get("title", ""),
+                            mpn=snap.get("mpn", "")  # ← ADD THIS
+                        )
                     else:
                         supplier_content = {"status": "disabled"}
 
-                    # --- Update scrape_status in DB ---
-                    enrichment = batch_session.query(Enrichment).filter_by(
+                    e = _batch_db.query(Enrichment).filter_by(
                         id=enrichment_id_map[sku]
                     ).first()
-                    if enrichment:
-                        enrichment.scrape_status = supplier_content.get("status", "")
-                        batch_session.flush()
+                    if e:
+                        e.scrape_status = supplier_content.get("status", "")
+                        _batch_db.flush()
 
                 except Exception as exc:
-                    print(f"[pipeline] {sku}: ERROR in scrape/update - {exc}", flush=True)
-                    batch_session.rollback()
-                    supplier_content = {"status": "error", "error": str(exc)}
+                    print(f"[pipeline] {sku}: ERROR in scrape -- {exc}", flush=True)
+                    _batch_db.rollback()
+                    supplier_content = {"status": "error"}
                     try:
-                        enrichment = batch_session.query(Enrichment).filter_by(
+                        e = _batch_db.query(Enrichment).filter_by(
                             id=enrichment_id_map[sku]
                         ).first()
-                        if enrichment:
-                            enrichment.scrape_status = "error"
-                            enrichment.error_message = str(exc)
-                            batch_session.flush()
+                        if e:
+                            e.scrape_status = "error"
+                            e.error_message = str(exc)[:200]
+                            _batch_db.flush()
                     except Exception:
-                        pass
+                        _batch_db.rollback()
 
-                # --- Classify tier ---
+                # ── tier classification ──────────────────────────────────────
                 has_feed_desc = bool(
                     supplier_content.get("description", "").strip()
                     or supplier_content.get("features", "").strip()
@@ -144,31 +161,31 @@ def run_enrichment_phase(run_id: int, limit: int = None, batch_size: int = 50):
                 image_count = snap.get("image_count", len(snap.get("images", [])))
                 tier = classify_tier(
                     has_feed_desc, has_brand_url, image_count,
-                    existing_content=snap.get("existing_content", {}),
+                    existing_content=snap.get("existing_content", {})
                 )
 
                 try:
-                    enrichment = batch_session.query(Enrichment).filter_by(
+                    e = _batch_db.query(Enrichment).filter_by(
                         id=enrichment_id_map[sku]
                     ).first()
-                    if enrichment:
-                        enrichment.tier = tier
-                        batch_session.flush()
+                    if e:
+                        e.tier = tier
+                        _batch_db.flush()
                 except Exception as exc:
-                    print(f"[pipeline] {sku}: ERROR updating tier - {exc}", flush=True)
-                    batch_session.rollback()
+                    print(f"[pipeline] {sku}: ERROR updating tier -- {exc}", flush=True)
+                    _batch_db.rollback()
 
-                # --- Commit after each product ---
-                batch_session.commit()
+                # commit after every product so a crash on the next one
+                # doesn't lose what we already wrote
+                _batch_db.commit()
                 items.append((enrichment_id_map[sku], snap, supplier_content, tier))
 
-        except Exception as e:
-            batch_session.rollback()
+        except Exception as batch_exc:
+            _batch_db.rollback()
             raise
         finally:
-            batch_session.close()
+            _batch_db.close()
 
-        # --- Call Claude for the whole batch ---
         results = enrich_batch(items, run_id)
         ok = sum(1 for r in results if r["status"] == "success")
         fail = sum(1 for r in results if r["status"] != "success")
@@ -233,6 +250,8 @@ def print_summary(run_id: int):
 
 def main():
     parser = argparse.ArgumentParser(description="Mega Office Enrichment Pipeline v2.1")
+    parser.add_argument("--filter-prefix", type=str, default=None, help="Only process products with this SKU prefix")
+    parser.add_argument("--filter-prefix", type=str, default=None, help="Only process products whose SKU starts with this prefix (e.g. AA, DS, GN)")
     parser.add_argument("--limit", type=int, default=None)
     parser.add_argument("--skip-fetch", action="store_true")
     parser.add_argument("--skip-writeback", action="store_true")
@@ -263,6 +282,7 @@ def main():
         print_summary(args.resume)
         return
 
+    # Create or resume run
     if args.resume:
         run_id = args.resume
         with get_db() as db:
@@ -291,7 +311,7 @@ def main():
             fetch_and_merge(use_cache=True)
 
         print("\n[pipeline] Phase 1b: Claude enrichment ...")
-        run_enrichment_phase(run_id, limit=args.limit)
+        run_enrichment_phase(run_id, limit=args.limit, filter_prefix=args.filter_prefix)
 
         if not args.skip_writeback:
             print("\n[pipeline] Phase 2: Bulk write-back ...")

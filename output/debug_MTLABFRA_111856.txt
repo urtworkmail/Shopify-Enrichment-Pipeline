@@ -1,0 +1,64 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2685
+TOKENS OUT: 984
+
+RAW:
+```json
+{
+  "title": "Warehouse and Shipping Labels Fragile 90 x 52mm Roll of 1000",
+  "body_html": "<h2>Keep Fragile Shipments Safe With High Visibility Warning Labels</h2>\n<p><strong>Pre-printed fragile labels that reduce handling damage and protect goods in transit.</strong></p>\n<p>In fast-paced dispatch and logistics environments, clear communication prevents costly breakages. These 90 x 52mm fragile labels feature bold red on white text that commands immediate attention, ensuring handlers recognise delicate items the moment they touch the package. The permanent adhesive bonds securely to cartons, boxes and parcels, maintaining visibility from warehouse to doorstep. With 1000 labels per roll, you have the volume to support high-throughput operations without constant reordering.</p>\n<p>The gloss varnished paper finish delivers a professional appearance while resisting scuffs and moisture during handling. Labels apply quickly and lie flat, eliminating air bubbles and peeling that can obscure your warning message. Suitable for manual application or compatible label dispensers, they integrate seamlessly into existing packing workflows.</p>\n<p>Australian-made quality ensures consistent adhesion and print clarity across every label in the roll. Reduce claims, protect your reputation, and give your team the tools to handle fragile goods with the care they deserve.</p>",
+  "seo_title": "Fragile Labels 90x52mm Roll 1000 | Mega Office Supplies",
+  "seo_description": "Pre-printed fragile warning labels with permanent adhesive. 90 x 52mm, 1000 per roll. Red on white gloss finish for high visibility in shipping and warehousing.",
+  "key_features": [
+    "Pre-printed FRAGILE text in high-contrast red on white ensures immediate handler recognition",
+    "Permanent adhesive maintains secure attachment throughout the shipping journey",
+    "Gloss varnished paper finish resists scuffs and moisture during transit",
+    "1000 labels per roll supports high-volume dispatch operations",
+    "90 x 52mm size provides clear visibility without dominating package surfaces",
+    "Australian-made for consistent quality and reliable adhesion",
+    "Compatible with manual application and standard label dispensers"
+  ],
+  "applications": [
+    "Warehousing and logistics operations handling fragile inventory",
+    "Retail dispatch departments shipping delicate goods to customers",
+    "E-commerce fulfilment centres processing breakable products",
+    "Manufacturing facilities marking sensitive components for internal transfer",
+    "Removalist and storage companies protecting clients' valuables during transport",
+    "Export packing operations requiring clear international handling warnings"
+  ],
+  "specifications": [
+    "Label Size: 90 x 52mm",
+    "Quantity: 1000 labels per roll",
+    "Printer Type: Pre-printed",
+    "Adhesive Type: Permanent",
+    "Colour: Red on white",
+    "Material: Paper",
+    "Finish: Gloss varnished",
+    "Origin: Australian-made",
+    "Application Method: Manual or dispenser-compatible",
+    "Core Size: Standard label roll core"
+  ],
+  "faqs": [],
+  "tags": [
+    "Fragile Labels",
+    "Warehouse Shipping Labels",
+    "Pre Printed Warning Labels",
+    "90 x 52mm Labels",
+    "Permanent Adhesive Labels",
+    "Red And White Labels",
+    "Logistics Packing Labels",
+    "Australian Made Labels",
+    "Mega Office Supplies Labels",
+    "Carton Warning Stickers"
+  ],
+  "pack_size": "Roll of 1000",
+  "unit": "Roll",
+  "google_product_category_id": "505826",
+  "image_alt_texts": {
+    "hero": "Roll of 1000 pre-printed fragile warning labels in red and white, 90 x 52mm size with permanent adhesive",
+    "lifestyle_1": "Fragile label applied to cardboard shipping box in warehouse dispatch environment",
+    "lifestyle_2": null
+  }
+}
+```

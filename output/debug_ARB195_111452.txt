@@ -1,0 +1,65 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2597
+TOKENS OUT: 1068
+
+RAW:
+```json
+{
+  "title": "Arnos B195 Flippa A4 Brochure Display Panel Single",
+  "body_html": "<h2>Organise and display brochures with ease</h2>\n<p><strong>The Arnos B195 Flippa single panel delivers versatile A4 brochure display in a compact, space-saving format.</strong></p>\n<p>Built for busy offices, reception areas and showrooms, this single A4 panel holds up to 50 sheets per side with dual-sided standard pockets plus one 5mm deep pocket for bulkier catalogues and booklets. The clear acrylic construction keeps your materials visible and protected while the panel design slots seamlessly into Flippa wall mount or desk base systems. Whether you need to distribute product catalogues, corporate brochures or training manuals, the B195 adapts to your display needs without taking up valuable desk or counter space.</p>\n<p>The deep pocket accommodates thick booklets and multi-page documents that standard holders cannot manage, while the double-sided layout maximises your display capacity. Each panel includes adjustable index tabs with paper inserts for easy categorisation and quick reference. Manufactured in Australia by Arnos, a family-owned company with over 80 years of experience in office organisation solutions, this panel is built to last in high-traffic environments.</p>\n<p>Perfect for professional offices, medical clinics, educational institutions and retail environments where clear, accessible information display matters. Add to your existing Flippa system or start fresh with a wall bracket or desk base. Your brochures deserve better than scattered stacks.</p>",
+  "seo_title": "Arnos B195 Flippa A4 Panel | Mega Office Supplies",
+  "seo_description": "Single A4 brochure display panel holds 50 sheets per side with deep pocket for catalogues. Dual-sided, Australian-made by Arnos. Ideal for offices and reception.",
+  "key_features": [
+    "Holds up to 50 A4 sheets per panel with dual-sided display",
+    "5mm deep pocket accommodates bulky booklets and thick catalogues",
+    "Clear acrylic construction keeps materials visible and protected",
+    "Includes adjustable index tabs with paper inserts for easy categorisation",
+    "Compatible with Flippa wall mount brackets and desk base systems",
+    "Australian-made by Arnos with over 80 years manufacturing experience",
+    "Double-sided layout maximises display capacity in minimal space"
+  ],
+  "applications": [
+    "Reception area brochure and catalogue display",
+    "Retail point-of-sale product information distribution",
+    "Medical clinic patient information and forms dispensing",
+    "Educational institution course guide and prospectus display",
+    "Corporate office training manual and policy document organisation",
+    "Showroom and exhibition stand literature presentation"
+  ],
+  "specifications": [
+    "Product Code: ARB195",
+    "Brand: Arnos",
+    "Panel Size: A4",
+    "Sheet Capacity: 50 x A4 sheets per panel",
+    "Pocket Depth: 5mm deep pocket (one side)",
+    "Pocket Configuration: Standard pockets both sides plus one deep pocket",
+    "Material: Clear acrylic",
+    "Includes: Adjustable index tabs with paper inserts",
+    "System Compatibility: Flippa wall mount brackets and desk base (sold separately)",
+    "Country of Manufacture: Australia",
+    "Quantity: Single panel"
+  ],
+  "faqs": [],
+  "tags": [
+    "Arnos B195",
+    "Arnos Flippa Display Panel",
+    "A4 Brochure Holder",
+    "Single Display Panel",
+    "Brochure Display System",
+    "Office Brochure Rack",
+    "Arnos Display Solutions",
+    "Reception Brochure Holder",
+    "Wall Mount Literature Display",
+    "Australian Made Display"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "922",
+  "image_alt_texts": {
+    "hero": "Arnos B195 Flippa A4 brochure display panel showing clear acrylic construction with dual-sided pockets",
+    "lifestyle_1": "Arnos B195 Flippa single panel mounted on wall holding A4 brochures in office reception area",
+    "lifestyle_2": null
+  }
+}
+```

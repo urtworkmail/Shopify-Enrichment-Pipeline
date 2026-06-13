@@ -1,0 +1,62 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2707
+TOKENS OUT: 993
+
+RAW:
+```json
+{
+  "title": "Derwent Coloursoft Pencil Green C420 Box of 6",
+  "body_html": "<h2>Vibrant Green Colour That Builds Bold, Expressive Artwork</h2>\n<p><strong>Derwent Coloursoft Pencil Green C420 delivers rich, velvety colour with the softest texture in the Derwent range, engineered for artists who need fast, bold colour application.</strong></p>\n<p>Built with a wide, ultra-soft core, this professional-grade coloured pencil lays down pigment quickly and smoothly, making it ideal for contemporary landscapes, still-life drawing, and vibrant illustration work. The C420 green shade offers depth and versatility, blending seamlessly with other Coloursoft hues to create nuanced tones and gradients. Lightfast tested and acid-free, your artwork retains its brilliance over time.</p>\n<p>The soft texture allows effortless blending and layering, giving you control over colour intensity without heavy pressure. Whether you're adding foliage to a landscape or creating dimensional effects in mixed media, the velvety strip responds to your touch with consistent, saturated colour. Compatible with fixatives and blending tools for advanced techniques.</p>\n<p>Trusted by professional artists and illustrators across Australia, this box of 6 pencils ensures you have enough stock for ongoing projects. Each pencil is manufactured to Derwent's exacting quality standards, delivering reliable performance from first stroke to last.</p>",
+  "seo_title": "Derwent Coloursoft Green Pencil C420 | Mega Office Supplies",
+  "seo_description": "Derwent Coloursoft Green C420 pencil with ultra-soft core for bold, vibrant colour. Lightfast, acid-free, perfect for professional artwork. Box of 6.",
+  "key_features": [
+    "Ultra-soft core texture for effortless, fast colour application",
+    "Wide colour strip delivers rich, vibrant green pigment with minimal pressure",
+    "Blends and layers seamlessly to create custom tones and gradients",
+    "Lightfast tested and acid-free for archival-quality artwork",
+    "Professional-grade construction trusted by illustrators and fine artists",
+    "Box of 6 pencils provides consistent stock for ongoing creative projects"
+  ],
+  "applications": [
+    "Contemporary landscape drawing and botanical illustration",
+    "Bold still-life and mixed media artwork",
+    "Professional illustration and design projects",
+    "Fine art blending and layering techniques",
+    "Studio and classroom use for advanced colouring work"
+  ],
+  "specifications": [
+    "Brand: Derwent Academy",
+    "Product Code: AA700994",
+    "Colour: Green C420",
+    "Pencil Type: Coloursoft",
+    "Core Texture: Ultra-soft",
+    "Lightfast: Yes",
+    "Acid-Free: Yes",
+    "Quantity: 6 pencils per box",
+    "Application: Drawing and colouring",
+    "Intended Use: Professional and leisure artists"
+  ],
+  "faqs": [],
+  "tags": [
+    "Derwent Coloursoft",
+    "Derwent Green C420",
+    "Coloursoft Pencils",
+    "Professional Coloured Pencils",
+    "Soft Core Pencils",
+    "Artist Drawing Supplies",
+    "Lightfast Pencils",
+    "Derwent Academy",
+    "Illustration Pencils",
+    "Green Colouring Pencils"
+  ],
+  "pack_size": "Box of 6",
+  "unit": "Box",
+  "google_product_category_id": "505379",
+  "image_alt_texts": {
+    "hero": "Derwent Coloursoft Green C420 pencil box of 6 showing vibrant soft-core colouring pencils",
+    "lifestyle_1": "Derwent Coloursoft Green pencil creating rich colour on paper with smooth blending",
+    "lifestyle_2": null
+  }
+}
+```

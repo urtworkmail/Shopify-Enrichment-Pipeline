@@ -1,0 +1,318 @@
+{
+  "discovered": {
+    "arnos.com.au": {
+      "search_url_template": "https://arnos.com.au/?s={query}&post_type=product",
+      "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
+      "respect_robots": false,
+      "content_selectors": [
+        ".product-description",
+        ".product__description",
+        "[data-product-description]",
+        "#product-description",
+        ".product-details__description",
+        ".description"
+      ],
+      "spec_selectors": [
+        ".product-specifications",
+        ".specifications",
+        ".product-specs",
+        ".spec-table",
+        "table.specs"
+      ],
+      "auto_discovered": true
+    },
+    "au.whogivesacrap.org": {
+      "search_url_template": "https://au.whogivesacrap.org/search?q={query}",
+      "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
+      "respect_robots": false,
+      "content_selectors": [
+        ".product-description",
+        ".product__description",
+        "[data-product-description]",
+        "#product-description",
+        ".product-details__description",
+        ".description"
+      ],
+      "spec_selectors": [
+        ".product-specifications",
+        ".specifications",
+        ".product-specs",
+        ".spec-table",
+        "table.specs"
+      ],
+      "auto_discovered": true
+    },
+    "dolphy.com.au": {
+      "search_url_template": "https://dolphy.com.au/?s={query}&post_type=product",
+      "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
+      "respect_robots": false,
+      "content_selectors": [
+        ".product-description",
+        ".product__description",
+        "[data-product-description]",
+        "#product-description",
+        ".product-details__description",
+        ".description"
+      ],
+      "spec_selectors": [
+        ".product-specifications",
+        ".specifications",
+        ".product-specs",
+        ".spec-table",
+        "table.specs"
+      ],
+      "auto_discovered": true
+    },
+    "rapidline.com.au": {
+      "search_url_template": "https://rapidline.com.au/?s={query}&post_type=product",
+      "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
+      "respect_robots": false,
+      "content_selectors": [
+        ".product-description",
+        ".product__description",
+        "[data-product-description]",
+        "#product-description",
+        ".product-details__description",
+        ".description"
+      ],
+      "spec_selectors": [
+        ".product-specifications",
+        ".specifications",
+        ".product-specs",
+        ".spec-table",
+        "table.specs"
+      ],
+      "auto_discovered": true
+    },
+    "spencil.com.au": {
+      "search_url_template": "https://spencil.com.au/?s={query}&post_type=product",
+      "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
+      "respect_robots": false,
+      "content_selectors": [
+        ".product-description",
+        ".product__description",
+        "[data-product-description]",
+        "#product-description",
+        ".product-details__description",
+        ".description"
+      ],
+      "spec_selectors": [
+        ".product-specifications",
+        ".specifications",
+        ".product-specs",
+        ".spec-table",
+        "table.specs"
+      ],
+      "auto_discovered": true
+    },
+    "www.3m.com.au": {
+      "search_url_template": "https://www.3m.com.au/search?q={query}",
+      "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
+      "respect_robots": false,
+      "content_selectors": [
+        ".product-description",
+        ".product__description",
+        "[data-product-description]",
+        "#product-description",
+        ".product-details__description",
+        ".description"
+      ],
+      "spec_selectors": [
+        ".product-specifications",
+        ".specifications",
+        ".product-specs",
+        ".spec-table",
+        "table.specs"
+      ],
+      "auto_discovered": true
+    },
+    "www.faber-castell.com.au": {
+      "search_url_template": "https://www.faber-castell.com.au/products/search?q={query}",
+      "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
+      "respect_robots": false,
+      "content_selectors": [
+        ".product-description",
+        ".product__description",
+        "[data-product-description]",
+        "#product-description",
+        ".product-details__description",
+        ".description"
+      ],
+      "spec_selectors": [
+        ".product-specifications",
+        ".specifications",
+        ".product-specs",
+        ".spec-table",
+        "table.specs"
+      ],
+      "auto_discovered": true
+    },
+    "www.jasco.com.au": {
+      "search_url_template": "https://www.jasco.com.au/search?q={query}",
+      "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
+      "respect_robots": false,
+      "content_selectors": [
+        ".product-description",
+        ".product__description",
+        "[data-product-description]",
+        "#product-description",
+        ".product-details__description",
+        ".description"
+      ],
+      "spec_selectors": [
+        ".product-specifications",
+        ".specifications",
+        ".product-specs",
+        ".spec-table",
+        "table.specs"
+      ],
+      "auto_discovered": true
+    },
+    "www.jshayes.com.au": {
+      "search_url_template": "https://www.jshayes.com.au/?s={query}&post_type=product",
+      "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
+      "respect_robots": false,
+      "content_selectors": [
+        ".product-description",
+        ".product__description",
+        "[data-product-description]",
+        "#product-description",
+        ".product-details__description",
+        ".description"
+      ],
+      "spec_selectors": [
+        ".product-specifications",
+        ".specifications",
+        ".product-specs",
+        ".spec-table",
+        "table.specs"
+      ],
+      "auto_discovered": true
+    },
+    "www.kcprofessional.com": {
+      "search_url_template": "https://www.kcprofessional.com/search?q={query}",
+      "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
+      "respect_robots": false,
+      "content_selectors": [
+        ".product-description",
+        ".product__description",
+        "[data-product-description]",
+        "#product-description",
+        ".product-details__description",
+        ".description"
+      ],
+      "spec_selectors": [
+        ".product-specifications",
+        ".specifications",
+        ".product-specs",
+        ".spec-table",
+        "table.specs"
+      ],
+      "auto_discovered": true
+    },
+    "www.pentel.com.au": {
+      "search_url_template": "https://www.pentel.com.au/search?q={query}",
+      "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
+      "respect_robots": false,
+      "content_selectors": [
+        ".product-description",
+        ".product__description",
+        "[data-product-description]",
+        "#product-description",
+        ".product-details__description",
+        ".description"
+      ],
+      "spec_selectors": [
+        ".product-specifications",
+        ".specifications",
+        ".product-specs",
+        ".spec-table",
+        "table.specs"
+      ],
+      "auto_discovered": true
+    },
+    "www.phe.com.au": {
+      "search_url_template": "https://www.phe.com.au/?s={query}&post_type=product",
+      "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
+      "respect_robots": false,
+      "content_selectors": [
+        ".product-description",
+        ".product__description",
+        "[data-product-description]",
+        "#product-description",
+        ".product-details__description",
+        ".description"
+      ],
+      "spec_selectors": [
+        ".product-specifications",
+        ".specifications",
+        ".product-specs",
+        ".spec-table",
+        "table.specs"
+      ],
+      "auto_discovered": true
+    },
+    "www.post-it.com": {
+      "search_url_template": "https://www.post-it.com/search?q={query}",
+      "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
+      "respect_robots": false,
+      "content_selectors": [
+        ".product-description",
+        ".product__description",
+        "[data-product-description]",
+        "#product-description",
+        ".product-details__description",
+        ".description"
+      ],
+      "spec_selectors": [
+        ".product-specifications",
+        ".specifications",
+        ".product-specs",
+        ".spec-table",
+        "table.specs"
+      ],
+      "auto_discovered": true
+    },
+    "www.teaching.com.au": {
+      "search_url_template": "https://www.teaching.com.au/?s={query}&post_type=product",
+      "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
+      "respect_robots": false,
+      "content_selectors": [
+        ".product-description",
+        ".product__description",
+        "[data-product-description]",
+        "#product-description",
+        ".product-details__description",
+        ".description"
+      ],
+      "spec_selectors": [
+        ".product-specifications",
+        ".specifications",
+        ".product-specs",
+        ".spec-table",
+        "table.specs"
+      ],
+      "auto_discovered": true
+    }
+  },
+  "failed": [
+    "accobrands.com.au",
+    "aerohealthcare.com",
+    "balatrading.com.au",
+    "corporate.bic.com",
+    "diy.bostik.com",
+    "pilotpen.com.au",
+    "staedtler.com.au",
+    "twinings.com.au",
+    "uniball.com.au",
+    "www.abldistribution.com.au",
+    "www.bouncerubberbands.com",
+    "www.campbells.com.au",
+    "www.durasales.com.au",
+    "www.dymo.com.au",
+    "www.italplast.com.au",
+    "www.stylustapes.com.au",
+    "www.torkglobal.com"
+  ],
+  "timestamp": "2026-06-12 11:57:09"
+}

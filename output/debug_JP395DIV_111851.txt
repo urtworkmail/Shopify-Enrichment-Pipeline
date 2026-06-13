@@ -1,0 +1,49 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T3
+TOKENS IN: 1659
+TOKENS OUT: 617
+
+RAW:
+```json
+{
+  "title": "Deflecto Divider for Wall Mount Brochure Holder to Suit 39510 39610",
+  "body_html": "<p>This clear divider fits Deflecto wall mount brochure holder models 39510 and 39610, helping you separate brochures, flyers, or forms within a single display unit. It creates distinct sections so visitors can locate the right material quickly, and maintains a clean, organised appearance in reception areas, showrooms, or shared office spaces.</p>\n<p>The clear finish keeps attention on your printed content while the divider provides structure. Use it to separate product ranges, service categories, or event information within compatible holders.</p>",
+  "seo_title": "Deflecto Divider 39510 39610 | Mega Office Supplies",
+  "seo_description": "Clear divider for Deflecto wall mount brochure holders 39510 and 39610. Organise brochures, flyers, and forms in reception areas and showrooms. Australian stock.",
+  "key_features": [
+    "Fits Deflecto wall mount brochure holder models 39510 and 39610",
+    "Clear finish maintains focus on printed materials",
+    "Separates brochures, flyers, or forms within a single holder"
+  ],
+  "applications": [
+    "Organising multiple brochure types in reception areas, showrooms, and waiting rooms",
+    "Separating product ranges, service menus, forms, or event flyers in shared office spaces"
+  ],
+  "specifications": [
+    "Brand: Deflecto",
+    "Item Number: JP395DIV",
+    "Colour: Clear",
+    "Compatibility: Suits 39510 and 39610 wall mount brochure holders",
+    "Carton Note: 1 unit ships as 1 carton"
+  ],
+  "faqs": [],
+  "tags": [
+    "Deflecto",
+    "JP395DIV",
+    "brochure divider",
+    "wall mount brochure holder",
+    "office supplies",
+    "clear divider",
+    "39510",
+    "39610"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": null,
+  "image_alt_texts": {
+    "hero": "Deflecto clear divider for wall mount brochure holder models 39510 and 39610",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
+```

@@ -1,0 +1,44 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2707
+TOKENS OUT: 1593
+
+RAW:
+```json
+{
+  "title": "Derwent Coloursoft Pencil Green C420 Box of 6",
+  "body_html": "<h2>Rich, velvety colour that brings bold creative visions to life</h2>\n<p><strong>Derwent Coloursoft pencils deliver the softest, most vibrant colour application in the range, with a generous colour strip that lets you build intensity fast.</strong></p>\n<p>Designed for artists who work in bold contemporary styles, these pencils offer a velvety texture that glides across paper, releasing rich pigment with minimal pressure. The Green C420 shade provides a versatile mid-tone green, ideal for landscapes, botanical studies, and modern still-life compositions. With a 4mm colour strip, you can cover large areas quickly while maintaining precision for finer details.</p>\n<p>The soft formulation blends seamlessly with other Coloursoft shades, allowing you to layer and mix tones to create depth and dimension. Lightfast tested and acid-free, your work retains its vibrancy over time. Each pencil is crafted to Derwent's professional quality standards, ensuring consistent performance from first stroke to last.</p>\n<p>Perfect for studio artists, hobbyists, and students exploring expressive colour techniques. Trusted by creatives across Australia for professional-quality results, these pencils support your artistic vision with reliable, rich colour every time.</p>",
+  "seo_title": "Derwent Coloursoft Green C420 Box of 6 | Mega Office Supplies",
+  "seo_description": "Derwent Coloursoft pencils in Green C420. Soft, velvety texture, vibrant colour, perfect blending. Lightfast tested, acid-free. Box of 6. Professional quality.",
+  "key_features": [
+    "{\"type\":\"root\",\"children\":[{\"type\":\"listItem\",\"children\":[{\"type\":\"text\",\"value\":\"Softest pencil in the Derwent range with velvety texture for effortless colour application\"}]},{\"type\":\"listItem\",\"children\":[{\"type\":\"text\",\"value\":\"Vibrant Green C420 shade selected for richness and versatility in contemporary art styles\"}]},{\"type\":\"listItem\",\"children\":[{\"type\":\"text\",\"value\":\"Wide 4mm colour strip enables quick coverage and bold colour build-up\"}]},{\"type\":\"listItem\",\"children\":[{\"type\":\"text\",\"value\":\"Exceptional blending and layering capability creates infinite spectrum of mixed tones\"}]},{\"type\":\"listItem\",\"children\":[{\"type\":\"text\",\"value\":\"Lightfast tested and acid-free formulation ensures long-lasting artwork vibrancy\"}]},{\"type\":\"listItem\",\"children\":[{\"type\":\"text\",\"value\":\"Professional quality construction delivers consistent performance throughout the pencil\"}]}]}"
+  ],
+  "applications": [
+    "{\"type\":\"root\",\"children\":[{\"type\":\"listItem\",\"children\":[{\"type\":\"text\",\"value\":\"Bold still-life drawings with rich, saturated colour\"}]},{\"type\":\"listItem\",\"children\":[{\"type\":\"text\",\"value\":\"Contemporary landscape illustration and outdoor scenes\"}]},{\"type\":\"listItem\",\"children\":[{\"type\":\"text\",\"value\":\"Botanical studies requiring vibrant green tones and smooth blending\"}]},{\"type\":\"listItem\",\"children\":[{\"type\":\"text\",\"value\":\"Mixed media projects combining layered pencil techniques\"}]},{\"type\":\"listItem\",\"children\":[{\"type\":\"text\",\"value\":\"Art studio work and professional illustration commissions\"}]}]}"
+  ],
+  "specifications": [
+    "{\"type\":\"root\",\"children\":[{\"type\":\"listItem\",\"children\":[{\"type\":\"text\",\"value\":\"Brand: Derwent Academy\"}]},{\"type\":\"listItem\",\"children\":[{\"type\":\"text\",\"value\":\"Product: Coloursoft Pencils\"}]},{\"type\":\"listItem\",\"children\":[{\"type\":\"text\",\"value\":\"Colour: Green C420\"}]},{\"type\":\"listItem\",\"children\":[{\"type\":\"text\",\"value\":\"Quantity: Box of 6 pencils\"}]},{\"type\":\"listItem\",\"children\":[{\"type\":\"text\",\"value\":\"Vendor SKU: AA700994\"}]},{\"type\":\"listItem\",\"children\":[{\"type\":\"text\",\"value\":\"Colour strip width: 4mm\"}]},{\"type\":\"listItem\",\"children\":[{\"type\":\"text\",\"value\":\"Texture: Soft, velvety\"}]},{\"type\":\"listItem\",\"children\":[{\"type\":\"text\",\"value\":\"Lightfastness: Tested\"}]},{\"type\":\"listItem\",\"children\":[{\"type\":\"text\",\"value\":\"Formulation: Acid-free\"}]},{\"type\":\"listItem\",\"children\":[{\"type\":\"text\",\"value\":\"Quality level: Professional\"}]},{\"type\":\"listItem\",\"children\":[{\"type\":\"text\",\"value\":\"Suitable for: Artists, hobbyists, students\"}]}]}"
+  ],
+  "faqs": [],
+  "tags": [
+    "Derwent Coloursoft",
+    "Derwent Green C420",
+    "Coloursoft Pencils",
+    "Green Artist Pencils",
+    "Soft Coloured Pencils",
+    "Professional Art Pencils",
+    "Derwent Academy",
+    "Lightfast Pencils",
+    "Blendable Coloured Pencils",
+    "Artist Drawing Supplies"
+  ],
+  "pack_size": "Box of 6",
+  "unit": "Box",
+  "google_product_category_id": "505383",
+  "image_alt_texts": {
+    "hero": "Derwent Coloursoft Green C420 pencils box of 6 with vibrant green colour strip",
+    "lifestyle_1": "Derwent Coloursoft Green C420 pencils creating bold contemporary landscape artwork",
+    "lifestyle_2": null
+  }
+}
+```

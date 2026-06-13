@@ -64,9 +64,7 @@ def classify_tier(
 
 
 def _max_tokens(tier: str) -> int:
-    return {"T1": config.TIER1_MAX_TOKENS,
-            "T2": config.TIER2_MAX_TOKENS,
-            "T3": config.TIER3_MAX_TOKENS}.get(tier, 600)
+    return {"T1": 3000, "T2": 2200, "T3": 1200}.get(tier, 1200)
 
 
 def _build_user_message(product_data: dict, supplier_content: dict, tier: str) -> str:
@@ -132,10 +130,15 @@ async def _enrich_one(
     tier: str,
 ) -> dict:
     """Enrich a single product with retry logic. Returns result dict."""
+    print("### ENRICH_ONE CALLED ###", flush=True)  
     sku = product_data.get("sku", "unknown")
     system_prompt = _load_prompt("system.txt")
 
     async with semaphore:
+        print(f"[TRACE] {sku}: inside async with semaphore", flush=True)
+        last_input_tokens = 0
+        last_output_tokens = 0
+        last_raw = None
         for attempt in range(1, config.CLAUDE_MAX_RETRIES + 1):
             try:
                 user_message = _build_user_message(product_data, supplier_content, tier)
@@ -151,6 +154,16 @@ async def _enrich_one(
                 raw = response.content[0].text
                 input_tokens = response.usage.input_tokens
                 output_tokens = response.usage.output_tokens
+                print(f"[DEBUG] {sku} raw response (first 500 chars): {raw[:500]}", flush=True)
+                last_input_tokens = input_tokens      # ← add
+                last_output_tokens = output_tokens    # ← add
+                last_raw = raw                        # ← add
+
+                # FORCE WRITE RAW RESPONSE TO FILE
+                import datetime as _dt
+                with open(f"output/debug_{sku}_{_dt.datetime.utcnow().strftime('%H%M%S')}.txt", "w", encoding="utf-8") as _f:
+                    _f.write(f"MODEL: {config.CLAUDE_MODEL}\nTIER: {tier}\nTOKENS IN: {input_tokens}\nTOKENS OUT: {output_tokens}\n\nRAW:\n{raw}")
+                print(f"[DEBUG] {sku}: wrote raw response to output/debug_{sku}_*.txt", flush=True)
 
                 is_valid, parsed, error = validate_claude_response(raw, tier)
                 if is_valid:
@@ -183,10 +196,10 @@ async def _enrich_one(
                     "sku": sku,
                     "tier": tier,
                     "status": "failed",
-                    "enriched_data": None,
-                    "input_tokens": 0,
-                    "output_tokens": 0,
-                    "cost_usd": 0.0,
+                    "enriched_data": {"raw_claude_output": last_raw} if last_raw else None,
+                    "input_tokens": last_input_tokens,
+                    "output_tokens": last_output_tokens,
+                    "cost_usd": _cost_usd(last_input_tokens, last_output_tokens),
                     "retry_count": attempt - 1,
                     "error": str(e),
                 }
@@ -196,10 +209,10 @@ async def _enrich_one(
         "sku": sku,
         "tier": tier,
         "status": "failed",
-        "enriched_data": None,
-        "input_tokens": 0,
-        "output_tokens": 0,
-        "cost_usd": 0.0,
+        "enriched_data": {"raw_claude_output": last_raw} if last_raw else None,
+        "input_tokens": last_input_tokens,
+        "output_tokens": last_output_tokens,
+        "cost_usd": _cost_usd(last_input_tokens, last_output_tokens),
         "retry_count": config.CLAUDE_MAX_RETRIES,
         "error": "Max retries exceeded",
     }

@@ -1,0 +1,62 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 3103
+TOKENS OUT: 1039
+
+RAW:
+```json
+{
+  "title": "Protext Mesh Pouch A3 with Note Card Holder Assorted Zipper",
+  "body_html": "<h2>Large Format Organisation with Strength You Can Rely On</h2>\n<p><strong>A heavy-duty mesh pouch designed for oversized documents and shared resources</strong></p>\n<p>Keep large documents and materials organised, visible and secure with the Protext A3 Mesh Pouch with Note Card Holder Assorted Zipper. Ideal for classrooms, offices and creative spaces, this generously sized pouch provides breathable mesh storage so contents can be identified instantly. The A3 format (490 x 350 mm) comfortably holds posters, artwork, folders and bulky stationery, making it perfect for high-use environments. Built with a reinforced nylon strip and a heavy-duty overstitched zipper, it delivers long-lasting durability and smooth performance for everyday handling.</p>\n<p>The integrated note card holder allows quick labelling and identification, streamlining inventory management and shared resource organisation. Clear mesh construction means you can see what's inside without opening the pouch, saving time and reducing handling. Assorted zipper colours add visual coding options for department or subject sorting.</p>\n<p>Built for busy school, office and studio environments where durability matters. The Protext A3 mesh pouch combines generous capacity with dependable strength, giving you a practical solution for keeping large materials secure, visible and easy to manage.</p>",
+  "seo_title": "Protext A3 Mesh Pouch Zipper | Mega Office Supplies",
+  "seo_description": "Heavy-duty A3 mesh pouch (490 x 350 mm) with note card holder and reinforced zipper. Perfect for classrooms and offices. Clear visibility, secure storage.",
+  "key_features": [
+    "A3 format (490 x 350 mm) accommodates large documents, posters, artwork and bulky supplies",
+    "Heavy-duty overstitched zipper delivers secure closure and reliable daily performance",
+    "Reinforced nylon strip with integrated note card holder supports durability and quick identification",
+    "Clear mesh construction allows instant content visibility without opening",
+    "Assorted zipper colours enable visual coding and department organisation",
+    "Breathable mesh material protects contents while preventing moisture buildup"
+  ],
+  "applications": [
+    "Storing and transporting A3 posters, artwork and large format documents in schools and creative studios",
+    "Organising classroom resources, teaching materials and shared supplies with visual identification",
+    "Managing office documentation, project files and oversized stationery in busy work environments",
+    "Protecting and categorising student work, portfolios and assessment materials",
+    "Sorting department supplies and inventory with colour-coded zipper system"
+  ],
+  "specifications": [
+    "Product Type: Mesh pouch",
+    "Size: A3",
+    "Dimensions: 490 x 350 mm",
+    "Closure Type: Heavy-duty overstitched zipper",
+    "Material: Mesh with reinforced nylon strip",
+    "Colour: Assorted zipper colours",
+    "Feature: Integrated note card holder",
+    "Construction: Breathable mesh design",
+    "Brand: Protext",
+    "Vendor SKU: TNNP9885"
+  ],
+  "faqs": [],
+  "tags": [
+    "Protext Mesh Pouch",
+    "A3 Mesh Pouch",
+    "Mesh Pouch with Zipper",
+    "Document Storage Pouch",
+    "Heavy Duty Mesh Pouch",
+    "Protext Filing Products",
+    "Classroom Storage Solutions",
+    "Office Document Organiser",
+    "Large Format Storage",
+    "Note Card Holder Pouch"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "922",
+  "image_alt_texts": {
+    "hero": "Protext A3 mesh pouch with assorted zipper and note card holder showing clear mesh construction and reinforced nylon strip",
+    "lifestyle_1": "A3 mesh pouch holding large documents and posters in office or classroom setting demonstrating visibility and capacity",
+    "lifestyle_2": null
+  }
+}
+```

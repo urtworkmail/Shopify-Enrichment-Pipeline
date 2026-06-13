@@ -1,0 +1,52 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T3
+TOKENS IN: 1630
+TOKENS OUT: 548
+
+RAW:
+```json
+{
+  "title": "Waterman Ballpoint Refill Medium Black in Blister Pack",
+  "body_html": "<p>The Waterman ballpoint refill delivers a consistent medium line in black ink. Designed to fit Waterman ballpoint pens, this refill never dries out and writes smoothly on most surfaces. Each refill is supplied in a protective blister pack.</p>\n<p>Waterman refills are crafted in France and undergo individual quality testing. The medium point suits everyday writing, note-taking and signature work across professional and personal settings.</p>",
+  "seo_title": "Waterman Medium Black Refill | Mega Office Supplies",
+  "seo_description": "Waterman ballpoint refill in medium black. Fits Waterman pens, never dries out, writes smoothly. Made in France. Supplied in blister pack.",
+  "key_features": [
+    "Medium point black ink refill for Waterman ballpoint pens",
+    "Never dries out and writes smoothly on most surfaces",
+    "Crafted in France with individual quality testing",
+    "Supplied in protective blister pack"
+  ],
+  "applications": [
+    "Replacing worn ballpoint pen refills",
+    "Everyday writing and note-taking",
+    "Professional correspondence and signatures"
+  ],
+  "specifications": [
+    "Brand: Waterman",
+    "Model: S0944480",
+    "Ink Colour: Black",
+    "Point Size: Medium",
+    "Packaging: Blister Pack",
+    "Country of Origin: France"
+  ],
+  "faqs": [],
+  "tags": [
+    "Waterman",
+    "S0944480",
+    "ballpoint refill",
+    "pen refill",
+    "black ink",
+    "medium point",
+    "office supplies",
+    "writing accessories"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "932",
+  "image_alt_texts": {
+    "hero": "Waterman S0944480 medium black ballpoint refill in clear blister packaging",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
+```

@@ -1,0 +1,67 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2425
+TOKENS OUT: 1171
+
+RAW:
+```json
+{
+  "title": "Tork Black Cocktail Napkin Pack of 200 Carton of 12",
+  "body_html": "<h2>Elevate Every Guest Interaction with Professional Cocktail Napkins</h2>\n<p><strong>Tork Black Cocktail Napkins deliver upmarket presentation and practical convenience for cafés, bars, and corporate hospitality environments.</strong></p>\n<p>When serving drinks and snacks, first impressions matter. These 2-ply embossed napkins measure 23.8 cm × 23.8 cm unfolded and fold neatly to 11.9 cm × 11.9 cm for easy dispensing. The sophisticated black colour adds a modern, elegant touch to any table setting or bar service, while the embossing provides texture and absorbency. Each pack contains 200 napkins, giving you reliable stock for busy service periods.</p>\n<p>The compact folded size makes these napkins perfect for cocktail service, appetiser plates, and beverage accompaniment. Engage customers through custom printing options to reinforce your brand identity. Research shows 75% of napkin users read messages printed on napkins, making them a subtle but effective marketing touchpoint.</p>\n<p>Ideal for hospitality venues, corporate events, and office kitchens where quality presentation matters. This carton of 12 packs ensures you maintain consistent supply without frequent reordering. Trust Tork's reputation for reliable, professional-grade service products that meet Australian hospitality standards.</p>",
+  "seo_title": "Tork Black Cocktail Napkin 200pk | Mega Office Supplies",
+  "seo_description": "Tork Black Cocktail Napkins, 2-ply embossed, 23.8cm unfolded. Professional presentation for bars, cafés & events. Carton of 12 packs (200/pack). Order today.",
+  "key_features": [
+    "Professional black colour adds sophisticated, modern aesthetic to any hospitality setting",
+    "2-ply construction with embossing delivers superior absorbency and texture",
+    "Generous 23.8 cm × 23.8 cm unfolded size handles drinks and snacks effectively",
+    "Compact 11.9 cm folded format fits standard cocktail napkin dispensers",
+    "Custom print capability engages 75% of napkin users with brand messaging",
+    "Carton of 12 packs (200 per pack) provides 2,400 napkins for extended supply",
+    "Suitable for bars, cafés, restaurants, corporate events and office hospitality"
+  ],
+  "applications": [
+    "Cocktail and beverage service in bars and upscale hospitality venues",
+    "Snack and appetiser accompaniment in cafés and restaurants",
+    "Corporate events, conferences and business hospitality settings",
+    "Office kitchens and staff break rooms requiring quality presentation",
+    "Catered functions, parties and special events",
+    "Hotel bars, function centres and entertainment venues"
+  ],
+  "specifications": [
+    "Brand: Tork",
+    "Product Code: JH0477829",
+    "Manufacturer Code: 477829",
+    "Colour: Black",
+    "Ply: 2",
+    "Unfolded Dimensions: 23.8 cm × 23.8 cm",
+    "Folded Dimensions: 11.9 cm × 11.9 cm",
+    "Embossing: Yes",
+    "Print: No (custom print available)",
+    "Quantity per Pack: 200 napkins",
+    "Carton Quantity: 12 packs",
+    "Total Napkins per Carton: 2,400",
+    "Suitable For: Bars, cafés, restaurants, corporate hospitality"
+  ],
+  "faqs": [],
+  "tags": [
+    "Tork Cocktail Napkins",
+    "Tork Black Napkins",
+    "Black Cocktail Napkins",
+    "2 Ply Napkins",
+    "Hospitality Napkins",
+    "Bar Napkins",
+    "Cafe Napkins",
+    "Embossed Napkins",
+    "Professional Napkins",
+    "Tork Hospitality Products"
+  ],
+  "pack_size": "Carton of 12 packs (200 napkins per pack)",
+  "unit": "Carton",
+  "google_product_category_id": "630",
+  "image_alt_texts": {
+    "hero": "Tork black cocktail napkins 2-ply embossed 23.8cm unfolded in pack of 200",
+    "lifestyle_1": "Tork black cocktail napkins displayed on bar counter with drinks and snacks",
+    "lifestyle_2": null
+  }
+}
+```

@@ -1,0 +1,82 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 1751
+TOKENS OUT: 1539
+
+RAW:
+```json
+{
+  "title": "Rexel Activate A4 Laminating Pouches 2 x 75 Micron Gloss - Pack of 100",
+  "body_html": "<h2>Professional lamination that protects your most important documents for years</h2>\n<p><strong>Rexel Activate A4 laminating pouches deliver crystal-clear, professional results that keep documents, signs, menus and reference materials safe from wear, spills and fading.</strong></p>\n<p>Quality lamination transforms everyday prints into durable, professional assets. These 2 x 75 micron gloss pouches create a firm, clear seal around A4 documents, protecting against moisture, fingerprints and daily handling. Offices, schools, cafes and reception areas rely on laminated materials to maintain a polished appearance while withstanding constant use. The 100-pouch pack ensures you have supply on hand for ongoing projects without frequent reordering.</p>\n<p>The gloss finish enhances colour vibrancy and text clarity, making charts, instructional guides and signage more readable and visually appealing. Compatible with most thermal laminating machines, these pouches feed smoothly and seal evenly, reducing the risk of bubbles or edge lifting that can compromise the finished result.</p>\n<p>Ideal for busy office environments, educational settings and customer-facing spaces where documents need to look professional and last. Rexel's trusted quality gives you confidence in every laminated sheet.</p>",
+  "seo_title": "Rexel Activate A4 Laminating Pouches 75 Micron Gloss 100pk",
+  "seo_description": "Rexel Activate A4 laminating pouches, 2 x 75 micron gloss finish. Pack of 100. Professional protection for documents, menus, signs. Compatible with thermal laminators.",
+  "key_features": [
+    "2 x 75 micron thickness provides firm protection without excessive rigidity",
+    "Gloss finish enhances colour vibrancy and text sharpness",
+    "100-pouch pack reduces reorder frequency for high-volume users",
+    "Feeds smoothly through thermal laminators with minimal jamming",
+    "A4 size suits most business documents, menus and signage",
+    "Trusted Rexel quality for consistent, bubble-free results",
+    "Seals edges securely to prevent moisture penetration and peeling"
+  ],
+  "applications": [
+    "Laminating office documents, charts and reference guides for durability",
+    "Creating waterproof menus, price lists and promotional signage for cafes and retail",
+    "Protecting instructional materials and classroom resources in schools",
+    "Preserving certificates, awards and important records",
+    "Producing durable name tags, ID cards and visitor passes for reception areas",
+    "Sealing maps, safety notices and compliance posters in warehouses and workshops"
+  ],
+  "specifications": [
+    "Brand: Rexel",
+    "Product Type: Laminating Pouches",
+    "Sheet Size: A4",
+    "Dimensions: 216 x 303 mm",
+    "Thickness: 2 x 75 Micron (150 Micron Total)",
+    "Finish: Gloss",
+    "Pack Quantity: 100 Pouches",
+    "Compatibility: Thermal Laminating Machines",
+    "Material: Polyester Film",
+    "Seal Type: Heat-Activated Adhesive",
+    "Country of Origin: China"
+  ],
+  "faqs": [
+    {
+      "question": "What thickness is right for my documents?",
+      "answer": "2 x 75 micron (150 micron total) provides a firm, durable finish suitable for frequently handled documents like menus, signs and reference sheets. It offers good rigidity without being overly stiff, making it ideal for general office and commercial use. For lighter applications like simple name tags, 2 x 80 micron may suffice, while heavier-duty items may benefit from 2 x 125 micron."
+    },
+    {
+      "question": "Will these pouches work with my laminator?",
+      "answer": "Rexel Activate pouches are compatible with most thermal (hot) laminating machines that accept A4 size. Check your laminator's specifications to confirm it supports 150 micron total thickness. Cold laminators require self-adhesive pouches and are not compatible with these heat-seal pouches."
+    },
+    {
+      "question": "How do I prevent bubbles and wrinkles?",
+      "answer": "Ensure your document is flat and centred within the pouch before feeding it into the laminator. Run the pouch through slowly and allow the machine to reach its optimal temperature before starting. Avoid touching the document or pouch edges during the process. If bubbles appear, they may indicate the laminator is too hot or the feed speed is too fast."
+    },
+    {
+      "question": "Can I trim the laminated edges after sealing?",
+      "answer": "Yes, you can trim laminated edges with scissors or a guillotine to remove excess film or create custom shapes. Leave at least 3-5 mm of sealed border around the document to maintain the protective seal and prevent delamination over time."
+    }
+  ],
+  "tags": [
+    "Rexel Activate",
+    "Rexel Laminating Pouches",
+    "A4 Laminating Pouches",
+    "75 Micron Laminating Pouches",
+    "Gloss Laminating Pouches",
+    "Thermal Laminating Pouches",
+    "Office Laminating Supplies",
+    "Document Protection",
+    "Rexel Office Supplies",
+    "Laminating Pouches 100 Pack"
+  ],
+  "pack_size": "Pack of 100",
+  "unit": "Pack",
+  "google_product_category_id": "922",
+  "image_alt_texts": {
+    "hero": "Rexel Activate A4 laminating pouches 2 x 75 micron gloss finish, pack of 100 shown with packaging",
+    "lifestyle_1": "Laminated A4 document with gloss finish showing clear text and vibrant colour protection",
+    "lifestyle_2": "Rexel laminating pouch being fed through thermal laminator in office setting"
+  }
+}
+```

@@ -1,0 +1,84 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T1
+TOKENS IN: 2930
+TOKENS OUT: 1559
+
+RAW:
+```json
+{
+  "title": "Zions Business Income and Expenditure Cashbook ZN212",
+  "body_html": "<h2>Keep Your Tax Records Compliant and Your GST Calculations Simple</h2>\n<p><strong>The Zions ZN212 Business Income and Expenditure Cashbook gives small business owners and sole traders a proven manual recording system that satisfies ATO requirements while making GST reporting straightforward.</strong></p>\n<p>Built specifically for Australian tax compliance, this headed cashbook offers dedicated receipts and payments sections with integrated GST columns. The 27-page wire-stitched format provides 31 lines per page, giving you ample space to track cash flow across the financial year. The receipts section captures date, particulars, discount, account payments, cash or other receipts, and bank details. The payments side records date, particulars, cheque number, bank column, plus 12 analysis columns and a sundries column for complete categorisation. At 290mm x 285mm with a durable laminated cover, it sits flat on your desk and withstands daily handling.</p>\n<p>This cashbook suits shop keepers, café operators, tradespeople, and service businesses that prefer manual records or need a backup system. The structured layout reduces errors during BAS preparation and provides auditors with clear documentation. Zions has been Australia's trusted manual recording specialist for decades, designing compliance tools that work for real businesses.</p>\n<p>Whether you run a retail outlet, hospitality venue, or contracting business, the ZN212 delivers reliable income and expenditure tracking. Add it to your accounting toolkit and maintain control over your financial records with confidence.</p>",
+  "seo_title": "Zions ZN212 Income Cashbook | Mega Office Supplies",
+  "seo_description": "Zions ZN212 Business Income & Expenditure Cashbook with GST columns. 27 pages, 31 lines per page, 290x285mm. Compliant tax record keeping for Australian SMEs.",
+  "key_features": [
+    "Integrated GST columns in both receipts and payments sections for simplified BAS preparation",
+    "12 analysis columns plus sundries column for detailed expense categorisation",
+    "Wire-stitched 27-page format with 31 lines per page for comprehensive year-round recording",
+    "Laminated cover protects pages from spills and wear in busy work environments",
+    "290mm x 285mm size sits flat on desks for easy daily data entry",
+    "Designed to meet Australian Taxation Office record-keeping requirements",
+    "Pre-formatted fields reduce recording errors and save time during financial reviews"
+  ],
+  "applications": [
+    "Small retail shops and boutiques tracking daily cash and card sales",
+    "Cafés and restaurants recording income and supplier payments with GST separation",
+    "Tradespeople and contractors managing job income and business expenses",
+    "Sole traders maintaining compliant tax records for annual lodgement",
+    "Service businesses requiring manual backup to digital accounting systems",
+    "Market stall operators and pop-up vendors documenting seasonal revenue"
+  ],
+  "specifications": [
+    "Brand: Zions Systems Products",
+    "Model: ZN212",
+    "Format: Headed cashbook with receipts and payments sections",
+    "Pages: 27 pages",
+    "Lines per page: 31",
+    "Binding: Wire stitched",
+    "Cover: Laminated for durability",
+    "Dimensions: 290mm x 285mm",
+    "Receipts columns: Date, particulars, discount, account payments, cash/other receipts, bank, GST",
+    "Payments columns: Date, particulars, cheque number, bank, 12 analysis columns, sundries, GST",
+    "Compliance: Designed for Australian taxation record-keeping",
+    "Country of origin: Australia",
+    "Manufacturer: Zions Pty Ltd"
+  ],
+  "faqs": [
+    {
+      "question": "Does this cashbook include GST columns for BAS reporting?",
+      "answer": "Yes, the Zions ZN212 features dedicated GST columns in both the receipts and payments sections. This layout simplifies the calculation of GST liabilities and makes preparing your Business Activity Statement more efficient. The structured format ensures you capture all GST-relevant transactions as they occur."
+    },
+    {
+      "question": "How many transactions can I record in this cashbook?",
+      "answer": "With 27 pages and 31 lines per page, you can record over 800 individual transactions. For most small businesses, this provides sufficient capacity for a full financial year or longer, depending on transaction volume. The generous line count reduces the need for frequent book replacements."
+    },
+    {
+      "question": "Is this cashbook compliant with ATO record-keeping requirements?",
+      "answer": "Yes, the Zions ZN212 is designed specifically to meet Australian Taxation Office requirements for manual business records. It provides the structure and detail needed for tax compliance, including separate income and expenditure tracking with full particulars. Many accountants and bookkeepers recommend Zions taxation books for their clients."
+    },
+    {
+      "question": "What types of businesses use this income and expenditure cashbook?",
+      "answer": "This cashbook is popular with sole traders, shop keepers, café and restaurant owners, tradespeople, and service providers. It suits any small business that prefers manual record-keeping or needs a reliable backup system. The 12 analysis columns make it particularly useful for businesses with diverse expense categories."
+    }
+  ],
+  "tags": [
+    "Zions ZN212",
+    "Zions Business Cashbook",
+    "Income and Expenditure Book",
+    "GST Cashbook",
+    "Tax Record Book",
+    "Business Accounting Book",
+    "Zions Taxation Records",
+    "Manual Bookkeeping",
+    "Small Business Records",
+    "Australian Tax Compliance"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "922",
+  "image_alt_texts": {
+    "hero": "Zions ZN212 Business Income and Expenditure Cashbook with laminated cover showing receipts and payments sections with GST columns",
+    "lifestyle_1": "Open Zions ZN212 cashbook displaying 31-line pages with analysis columns for detailed business transaction recording",
+    "lifestyle_2": "Zions ZN212 cashbook on office desk with calculator and receipts for small business tax record keeping"
+  }
+}
+```

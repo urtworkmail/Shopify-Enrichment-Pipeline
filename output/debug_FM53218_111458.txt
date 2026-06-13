@@ -1,0 +1,64 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2725
+TOKENS OUT: 976
+
+RAW:
+```json
+{
+  "title": "Fellowes Binding Combs Wire 34 Loop 6mm Black",
+  "body_html": "<h2>Secure Your Documents with Lasting Professional Presentation</h2>\n<p><strong>Bind reports, proposals and presentations with confidence using Fellowes Wire Binding Combs 34 Loop 6mm Black, the durable steel solution that delivers a polished finish every time.</strong></p>\n<p>Every bound document represents your business or organisation, and quality matters. These 34-loop steel wire combs lock pages securely while allowing smooth page turning, making them ideal for frequently referenced manuals, client proposals and training materials. The 6mm spine accommodates documents up to approximately 25 pages, providing the perfect balance of capacity and compact presentation for everyday office binding needs.</p>\n<p>The robust steel construction resists bending and wear far better than plastic alternatives, ensuring your documents maintain their professional appearance through repeated handling. Black finish suits all document types and corporate branding, while compatibility with standard 34-loop wire binding machines means integration into your existing workflow is seamless.</p>\n<p>Trusted by Australian offices, schools and print centres, Fellowes binding combs deliver consistent results across high-volume binding environments. Each pack contains 100 combs, providing excellent value for regular users while maintaining the permanent, refined finish your documents deserve.</p>",
+  "seo_title": "Fellowes Wire Binding Combs 6mm Black | Mega Office Supplies",
+  "seo_description": "Fellowes Wire Binding Combs 34 Loop 6mm Black. Durable steel construction for professional document binding. Pack of 100. Perfect for offices and schools.",
+  "key_features": [
+    "Durable steel construction resists bending and maintains professional appearance through repeated handling",
+    "34-loop design compatible with standard wire binding machines for seamless workflow integration",
+    "6mm spine capacity binds documents up to approximately 25 pages",
+    "Permanent binding keeps pages secure while allowing smooth, easy page turning",
+    "Black finish suits all document types and corporate branding requirements",
+    "Pack of 100 combs provides excellent value for regular office binding needs",
+    "Ideal for frequently referenced manuals, proposals and training materials"
+  ],
+  "applications": [
+    "Business reports, client proposals and professional presentations",
+    "Training manuals and standard operating procedures for staff reference",
+    "School assignments, project submissions and educational materials",
+    "Print centres and copy shops offering binding services",
+    "Corporate documentation requiring permanent, tamper-resistant binding",
+    "Conference materials and event documentation"
+  ],
+  "specifications": [
+    "Brand: Fellowes",
+    "Product Type: Wire Binding Combs",
+    "Loop Configuration: 34 Loop",
+    "Comb Size: 6mm",
+    "Material: Steel",
+    "Colour: Black",
+    "Document Size: A4",
+    "Binding Capacity: Approximately 25 pages",
+    "Pack Quantity: 100 combs",
+    "Manufacturer Part Number: 53218"
+  ],
+  "faqs": [],
+  "tags": [
+    "Fellowes 53218",
+    "Fellowes Wire Binding Combs",
+    "34 Loop Binding Combs",
+    "6mm Binding Combs",
+    "Wire Binding Supplies",
+    "Black Binding Combs",
+    "Steel Binding Combs",
+    "A4 Document Binding",
+    "Office Binding Supplies",
+    "Professional Document Finishing"
+  ],
+  "pack_size": "Pack of 100",
+  "unit": "Pack",
+  "google_product_category_id": "922",
+  "image_alt_texts": {
+    "hero": "Fellowes Wire Binding Combs 34 Loop 6mm Black, pack of 100 steel binding combs for professional document finishing",
+    "lifestyle_1": "Fellowes 6mm black wire binding combs securing A4 business report with smooth page turning capability",
+    "lifestyle_2": null
+  }
+}
+```

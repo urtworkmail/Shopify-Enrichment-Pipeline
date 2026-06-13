@@ -1,0 +1,65 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2913
+TOKENS OUT: 1116
+
+RAW:
+```json
+{
+  "title": "Velcro Brand Removable Strips 44 x 19mm White Pack of 4",
+  "body_html": "<h2>Transform your space without leaving a mark</h2>\n<p><strong>VELCRO Brand Removable Strips deliver damage-free mounting for posters, photos, and lightweight decorations across offices, classrooms, and homes.</strong></p>\n<p>Clean walls matter in rental properties, schools, and professional environments. These low-profile white mounting strips adhere securely to painted walls, glass, metal, plastic, and finished wood, holding up to 200 grams per strip without nails or screws. Each 44 x 19mm strip applies in seconds with a peel-and-stick backing, creating reliable hold for everyday displays and seasonal decorations. The removable adhesive releases cleanly when you need to reposition or remove items, protecting surfaces from marks and residue.</p>\n<p>Simple application makes decorating effortless: clean the surface, peel the backing, press firmly, and hang your item. The white finish blends discreetly into most interiors for a professional appearance. Ideal for lightweight signage, framed photos, classroom projects, and office notices, the strips provide trusted VELCRO Brand fastening performance in an accessible, reusable format.</p>\n<p>Renters, teachers, office managers, and home decorators rely on these strips to personalise spaces while maintaining surface integrity. The pack of 4 strips offers flexible mounting for multiple items or repositionable hold for changing displays. Mount with confidence knowing your walls stay clean and your displays stay secure.</p>",
+  "seo_title": "Velcro Removable Strips 44x19mm White 4pk | Mega Office Supplies",
+  "seo_description": "VELCRO Brand Removable Strips 44x19mm white, pack of 4. Damage-free mounting for posters, photos, decorations. Holds 200g per strip. Trusted Australian office supply.",
+  "key_features": [
+    "Removable adhesive releases cleanly without damaging walls or leaving residue",
+    "Holds up to 200 grams per strip for lightweight photos, posters, and decorations",
+    "Low-profile white design blends discreetly into most interior surfaces",
+    "Adheres to painted walls, glass, metal, plastic, and finished wood",
+    "Simple peel-and-stick application requires no tools or hardware",
+    "Pack of 4 strips provides mounting for multiple items or repositionable displays",
+    "Trusted VELCRO Brand quality for reliable everyday fastening"
+  ],
+  "applications": [
+    "Hanging lightweight posters, framed photos, and artwork in rental properties",
+    "Mounting classroom displays, student work, and educational materials",
+    "Displaying office notices, schedules, and lightweight signage",
+    "Attaching seasonal decorations and temporary event displays",
+    "Organising home office spaces with removable mounting solutions",
+    "Creating flexible gallery walls and rotating photo displays"
+  ],
+  "specifications": [
+    "Product Type: Removable Mounting Strips",
+    "Brand: VELCRO Brand",
+    "Strip Size: 44mm x 19mm",
+    "Colour: White",
+    "Quantity: Pack of 4 strips",
+    "Weight Capacity: Up to 200 grams per strip",
+    "Adhesive Type: Removable",
+    "Application Method: Peel and stick",
+    "Suitable Surfaces: Painted walls, glass, metal, plastic, finished wood",
+    "Indoor/Outdoor Use: Indoor use",
+    "Vendor SKU: V95189"
+  ],
+  "faqs": [],
+  "tags": [
+    "VELCRO Brand",
+    "VELCRO Brand Removable Strips",
+    "Removable Mounting Strips",
+    "Damage Free Mounting",
+    "Wall Safe Adhesive Strips",
+    "White Mounting Strips",
+    "Office Mounting Solutions",
+    "Classroom Display Strips",
+    "Rental Property Mounting",
+    "Reusable Adhesive Strips"
+  ],
+  "pack_size": "Pack of 4",
+  "unit": "Pack",
+  "google_product_category_id": "632",
+  "image_alt_texts": {
+    "hero": "VELCRO Brand Removable Strips 44 x 19mm white pack of 4 on white background",
+    "lifestyle_1": "VELCRO Brand Removable Strips holding framed photo on painted wall without damage",
+    "lifestyle_2": null
+  }
+}
+```

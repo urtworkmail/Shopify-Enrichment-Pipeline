@@ -1,0 +1,66 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2682
+TOKENS OUT: 1055
+
+RAW:
+```json
+{
+  "title": "Pilot BPS-GP Ballpoint Stick Grip Pen Medium Blue Box of 12",
+  "body_html": "<h2>Write with Comfort and Control That Lasts All Day</h2>\n<p><strong>A medium tip ballpoint pen with a triangular grip that keeps your hand relaxed and your writing clear.</strong></p>\n<p>Long writing sessions demand a pen that supports natural hand positioning and reduces fatigue. The Pilot BPS-GP Ballpoint Stick Grip Pen delivers smooth, oil-based blue ink through a medium 1.0mm tip, producing clean, legible lines for notes, forms and everyday documentation. The triangular rubber grip encourages proper finger placement, helping you maintain control without tension during extended use.</p>\n<p>The consistent ink flow reduces skipping and smudging, ensuring professional results on every page. Refillable with Pilot RFN-GG stick refills, this pen supports long-term use while reducing waste and replacement costs. The lightweight, balanced design moves naturally across paper without requiring extra pressure.</p>\n<p>Perfect for offices, schools and home workspaces where clarity and comfort matter. Each box contains 12 pens, keeping your team or desk stocked for reliable, everyday writing.</p>",
+  "seo_title": "Pilot BPS-GP Grip Pen Blue 12pk | Mega Office Supplies",
+  "seo_description": "Pilot BPS-GP medium ballpoint pen with triangular rubber grip for all-day comfort. Smooth blue ink, 1.0mm tip, refillable design. Box of 12 pens.",
+  "key_features": [
+    "Triangular rubber grip encourages natural finger positioning for reduced hand fatigue",
+    "Smooth oil-based ink flows consistently without skipping or smudging",
+    "Medium 1.0mm tip produces clear, legible blue lines on all standard paper",
+    "Refillable with Pilot RFN-GG stick refills to reduce waste and ongoing costs",
+    "Lightweight balanced design requires minimal pressure for effortless writing",
+    "Box of 12 pens keeps offices and classrooms fully stocked",
+    "Professional blue ink colour suitable for forms, notes and documentation"
+  ],
+  "applications": [
+    "Office environments for note-taking, meeting minutes and daily correspondence",
+    "Schools and educational institutions for student writing tasks and administrative forms",
+    "Home workspaces for planning, journaling and personal documentation",
+    "Reception desks and customer service areas where reliable pens are essential",
+    "Healthcare and professional settings requiring clear, permanent documentation",
+    "Bulk supply for teams and departments with high daily writing volume"
+  ],
+  "specifications": [
+    "Product Type: Ballpoint stick grip pen",
+    "Brand: Pilot",
+    "Model: BPS-GP",
+    "Vendor SKU: PP623222",
+    "Ink Colour: Blue",
+    "Tip Size: Medium 1.0mm",
+    "Ink Type: Oil-based",
+    "Grip Type: Triangular rubber grip",
+    "Refillable: Yes",
+    "Compatible Refill: Pilot RFN-GG Ballpoint Stick Refills",
+    "Pack Size: Box of 12 pens",
+    "Suitable For: Everyday office and school writing"
+  ],
+  "faqs": [],
+  "tags": [
+    "Pilot BPS-GP",
+    "Pilot Ballpoint Pen",
+    "Blue Ballpoint Pen",
+    "Grip Pen Medium Tip",
+    "Office Ballpoint Pens",
+    "Refillable Ballpoint Pen",
+    "Pilot Pen Box of 12",
+    "Triangular Grip Pen",
+    "School Writing Pens",
+    "Everyday Office Pens"
+  ],
+  "pack_size": "Box of 12",
+  "unit": "Box",
+  "google_product_category_id": "932",
+  "image_alt_texts": {
+    "hero": "Pilot BPS-GP ballpoint stick grip pen in blue with triangular rubber grip, medium 1.0mm tip, box of 12",
+    "lifestyle_1": "Close-up of Pilot BPS-GP pen triangular rubber grip being held in natural writing position showing ergonomic comfort design",
+    "lifestyle_2": null
+  }
+}
+```

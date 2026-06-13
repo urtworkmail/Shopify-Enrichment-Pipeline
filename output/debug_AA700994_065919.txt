@@ -1,0 +1,85 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 1907
+TOKENS OUT: 1446
+
+RAW:
+```json
+{
+  "title": "Brother LC536XLY Yellow High Yield Ink Cartridge",
+  "body_html": "<h2>Genuine Yellow Ink for Brilliant Colour Documents and Marketing Materials</h2>\n<p><strong>Brother's LC536XLY high-yield yellow ink cartridge delivers vibrant, professional colour output for businesses that demand reliability and quality.</strong></p>\n<p>Genuine Brother consumables are engineered specifically for your printer, ensuring consistent colour accuracy and preventing the nozzle clogs or compatibility issues common with third-party alternatives. With a page yield of approximately 1,200 pages, this cartridge reduces the frequency of replacements and lowers your cost per print. Ideal for organisations printing marketing collateral, presentations, charts, and customer-facing documents where colour precision matters.</p>\n<p>The LC536XLY integrates seamlessly with compatible Brother inkjet printers, maintaining print quality from first page to last. Its high-yield capacity makes it particularly cost-effective for moderate to high-volume colour printing environments. Installation is straightforward, with clear indicators in your printer software to track ink levels and plan replacements.</p>\n<p>Designed for Australian businesses and home offices that value genuine components, this cartridge provides the confidence of Brother's quality standards. Keep your colour printing productive and professional with a consumable built to work exactly as your printer expects.</p>",
+  "seo_title": "Brother LC536XLY Yellow Ink | Mega Office Supplies",
+  "seo_description": "Brother LC536XLY genuine yellow high-yield ink cartridge. 1,200-page yield for vibrant, reliable colour printing. Compatible with select Brother inkjet printers.",
+  "key_features": [
+    "High-yield capacity of approximately 1,200 pages reduces cartridge replacements",
+    "Genuine Brother consumable engineered for optimal printer compatibility",
+    "Vibrant yellow output for professional marketing materials and presentations",
+    "Prevents nozzle clogs and print quality issues common with non-genuine alternatives",
+    "Clear ink level monitoring through printer software",
+    "Cost-effective solution for moderate to high-volume colour printing",
+    "Seamless integration with compatible Brother inkjet printer models"
+  ],
+  "applications": [
+    "Marketing brochures and promotional materials requiring accurate colour reproduction",
+    "Business presentations and charts with vibrant yellow highlights",
+    "Customer-facing documents and branded communications",
+    "Office environments with regular colour printing requirements",
+    "Schools and educational institutions printing teaching materials",
+    "Small to medium businesses managing internal and external communications"
+  ],
+  "specifications": [
+    "Brand: Brother",
+    "Model Number: LC536XLY",
+    "Colour: Yellow",
+    "Cartridge Type: High Yield Inkjet",
+    "Page Yield: Approximately 1,200 pages",
+    "Compatibility: Select Brother inkjet printer models",
+    "Consumable Type: Genuine OEM",
+    "Package Contents: 1 yellow ink cartridge",
+    "Country of Origin: Manufactured to Brother specifications",
+    "Warranty: Covered under Brother's consumable warranty terms"
+  ],
+  "faqs": [
+    {
+      "question": "Which Brother printers is the LC536XLY compatible with?",
+      "answer": "The LC536XLY yellow ink cartridge is designed for specific Brother inkjet printer models. Check your printer's documentation or the Brother website to confirm compatibility with your exact model number. Using genuine Brother consumables ensures optimal performance and protects your printer warranty."
+    },
+    {
+      "question": "How many pages can I print with this high-yield cartridge?",
+      "answer": "The LC536XLY delivers approximately 1,200 pages of yellow ink coverage. Actual yield varies depending on print content, coverage density, and printer settings. This high-yield capacity makes it significantly more economical than standard-yield alternatives for businesses with regular colour printing needs."
+    },
+    {
+      "question": "What are the advantages of using genuine Brother ink over compatible alternatives?",
+      "answer": "Genuine Brother cartridges are engineered to work seamlessly with your printer's technology, ensuring consistent colour accuracy and preventing common issues like nozzle clogs or ink flow problems. They maintain your printer warranty, deliver predictable page yields, and provide the reliability Australian businesses expect. Third-party cartridges may appear cheaper initially but often result in higher failure rates and inconsistent output quality."
+    },
+    {
+      "question": "How do I know when the cartridge needs replacing?",
+      "answer": "Your Brother printer software provides clear ink level monitoring, alerting you when the yellow cartridge is running low. You'll receive on-screen notifications with sufficient time to order a replacement, preventing unexpected interruptions to your printing workflow."
+    },
+    {
+      "question": "Is this cartridge suitable for high-volume office printing?",
+      "answer": "Yes, the LC536XLY high-yield cartridge is specifically designed for moderate to high-volume printing environments. With its 1,200-page capacity, it reduces the frequency of cartridge changes and lowers your overall cost per page compared to standard-yield options, making it ideal for busy offices."
+    }
+  ],
+  "tags": [
+    "Brother LC536XLY",
+    "Brother LC536XLY Yellow",
+    "Brother Printer Ink",
+    "High Yield Ink Cartridge",
+    "Yellow Printer Ink",
+    "Genuine Brother Ink",
+    "Brother Printer Consumables",
+    "Office Printing Supplies",
+    "Inkjet Cartridge",
+    "Brother Inkjet Printers"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "4204",
+  "image_alt_texts": {
+    "hero": "Brother LC536XLY genuine yellow high-yield ink cartridge package on white background",
+    "lifestyle_1": "Brother LC536XLY yellow ink cartridge being installed in Brother inkjet printer",
+    "lifestyle_2": "Vibrant colour business documents and marketing materials printed with Brother LC536XLY yellow ink"
+  }
+}
+```

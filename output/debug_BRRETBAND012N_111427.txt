@@ -1,0 +1,52 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T3
+TOKENS IN: 1656
+TOKENS OUT: 630
+
+RAW:
+```json
+{
+  "title": "Bounce Rubber Bands Size 12 38 x 1.5mm 500g Bag Natural Tan",
+  "body_html": "<p>Bounce Rubber Bands Size 12 are made from renewable latex sourced from commercial plantations in Thailand. Each 500g bag contains natural tan rubber bands measuring 38mm x 1.5mm, ideal for bundling and organising documents, office supplies, and general items across multiple industries.</p>\n<p>Widely used in florist, corporate, education, packaging, and agricultural sectors, these rubber bands offer reliable elasticity and strength for everyday bundling tasks. The 500g bulk bag format suits offices, warehouses, and workplaces requiring regular stock of quality rubber bands.</p>",
+  "seo_title": "Bounce Size 12 Rubber Bands 500g | Mega Office Supplies",
+  "seo_description": "Bounce Size 12 rubber bands, 38 x 1.5mm, 500g bag. Natural tan latex bands for bundling and organising in offices, schools, and warehouses across Australia.",
+  "key_features": [
+    "Size 12 rubber bands: 38mm x 1.5mm dimensions",
+    "500g bulk bag for high-volume use",
+    "Made from renewable latex sourced from Thailand",
+    "Natural tan colour suitable for general office and industrial use"
+  ],
+  "applications": [
+    "Bundling documents, files, and office supplies",
+    "Organising cables, tools, and packaging materials",
+    "General use in education, corporate, florist, and agricultural sectors"
+  ],
+  "specifications": [
+    "Size: 12",
+    "Dimensions: 38mm x 1.5mm",
+    "Weight: 500g",
+    "Colour: Natural Tan",
+    "Material: Renewable latex",
+    "Origin: Thailand"
+  ],
+  "faqs": [],
+  "tags": [
+    "Bounce Rubber Bands",
+    "rubber bands",
+    "size 12 rubber bands",
+    "natural tan rubber bands",
+    "office supplies",
+    "bundling supplies",
+    "500g rubber bands",
+    "bulk rubber bands"
+  ],
+  "pack_size": "500g",
+  "unit": "Pack",
+  "google_product_category_id": "956",
+  "image_alt_texts": {
+    "hero": "Bounce Rubber Bands Size 12 natural tan 500g bag with rubber bands in foreground",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
+```

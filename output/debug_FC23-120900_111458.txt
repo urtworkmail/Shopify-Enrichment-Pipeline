@@ -1,0 +1,65 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 3115
+TOKENS OUT: 990
+
+RAW:
+```json
+{
+  "title": "Faber Castell Super Polymer Fineline Lead 1.0mm HB Box of 12",
+  "body_html": "<h2>Precision Writing That Stands Up to Heavy Use</h2>\n<p><strong>Faber Castell Super Polymer fineline leads deliver exceptional break resistance and consistent dark lines for technical drawing, drafting, and everyday writing.</strong></p>\n<p>When your work demands accuracy, standard leads can let you down at the worst moment. These 1.0mm HB leads use advanced super polymer technology to resist breakage even under heavy pressure, making them ideal for architects, engineers, students, and office professionals who need reliable performance. The deep black pigment ensures every line is crisp and legible, while the consistent diameter maintains precision across technical drawings and detailed notes.</p>\n<p>Refilling is clean and straightforward, with each lead sliding smoothly into compatible mechanical pencils. The box of 12 provides long-lasting supply for busy workplaces and classrooms, reducing the frequency of reordering. The polymer formulation produces minimal dust and smudging, keeping your work and workspace cleaner throughout the day.</p>\n<p>Backed by Faber Castell's reputation for quality writing instruments, these leads suit technical environments, schools, design studios, and general office use. Stock your desk drawer or supply cabinet with leads that perform when it matters.</p>",
+  "seo_title": "Faber Castell 1.0mm HB Leads Box 12 | Mega Office Supplies",
+  "seo_description": "Faber Castell Super Polymer fineline leads in 1.0mm HB. Extra break-resistant formula for technical drawing and writing. Box of 12. Australian supplier.",
+  "key_features": [
+    "Super polymer formula for superior break resistance under pressure",
+    "Deep black HB pigment for crisp, legible lines",
+    "1.0mm diameter suits technical drawing and everyday writing",
+    "Clean refilling process with minimal mess or dust",
+    "Box of 12 leads provides extended supply for busy workplaces",
+    "Compatible with standard 1.0mm mechanical pencils",
+    "Minimal smudging keeps work and hands cleaner"
+  ],
+  "applications": [
+    "Technical drawing and architectural drafting",
+    "Engineering sketches and precision work",
+    "Student note-taking and exam writing",
+    "Office documentation and form completion",
+    "Design studios and graphic work",
+    "General workplace writing tasks"
+  ],
+  "specifications": [
+    "Brand: Faber Castell",
+    "Product Type: Fineline mechanical pencil leads",
+    "Lead Diameter: 1.0mm (0.9mm)",
+    "Hardness Grade: HB",
+    "Material: Super Polymer",
+    "Colour: Black",
+    "Quantity: Box of 12 leads",
+    "Break Resistance: Extra break-resistant formula",
+    "Compatibility: Standard 1.0mm mechanical pencils",
+    "Manufacturer SKU: FC23-120900",
+    "Country of Origin: Germany"
+  ],
+  "faqs": [],
+  "tags": [
+    "Faber Castell FC23-120900",
+    "Faber Castell 1.0mm Leads",
+    "Mechanical Pencil Leads",
+    "1.0mm HB Leads",
+    "Super Polymer Leads",
+    "Fineline Refill Leads",
+    "Faber Castell Writing Supplies",
+    "Technical Drawing Leads",
+    "Office Stationery Supplies",
+    "Break Resistant Pencil Leads"
+  ],
+  "pack_size": "Box of 12",
+  "unit": "Box",
+  "google_product_category_id": "932",
+  "image_alt_texts": {
+    "hero": "Faber Castell Super Polymer fineline leads 1.0mm HB box of 12 on white background",
+    "lifestyle_1": "Faber Castell 1.0mm leads being used in mechanical pencil for technical drawing",
+    "lifestyle_2": null
+  }
+}
+```

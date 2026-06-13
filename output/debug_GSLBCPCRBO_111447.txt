@@ -1,0 +1,83 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T1
+TOKENS IN: 3521
+TOKENS OUT: 1483
+
+RAW:
+```json
+{
+  "title": "Spencil Robo Shark Big Cooler Lunch Bag with Chill Pack",
+  "body_html": "<h2>Fresh food, organised storage, and cool confidence for every school lunch</h2>\n<p><strong>The Spencil Robo Shark Big Cooler Lunch Bag with Chill Pack delivers all-day freshness and spacious organisation for growing appetites.</strong></p>\n<p>Quality insulation matters when you need food to stay fresh and safe from morning drop-off to afternoon pick-up. This lunch bag features aluminium food-safe lining that works with the included chill pack to maintain consistent cooling throughout the day. The bold robo shark design appeals to kids while the generous capacity handles large bento boxes, multiple snacks, and a drink bottle without crowding. PVC-coated polyester construction protects contents from bumps and spills, while the dual-zip main compartment opens wide for easy packing and access.</p>\n<p>Multiple internal pockets keep small items organised and prevent lunch components from shifting during transit. A dedicated back pocket secures the chill pack in position for optimal cooling performance, while mesh pockets provide quick access to frequently needed items. The name card pocket adds identification security for school and excursion environments. Padded handles ensure comfortable carrying even when fully loaded.</p>\n<p>Built for active school days, sports training, and weekend outings, this cooler bag fits seamlessly into daily routines. Australian families trust Spencil for reliable lunch solutions that combine practical performance with designs children genuinely enjoy using. Give your child the fresh, organised lunches they deserve every single day.</p>",
+  "seo_title": "Spencil Robo Shark Lunch Bag | Mega Office Supplies",
+  "seo_description": "Insulated lunch bag with chill pack keeps food fresh all day. Spacious design, aluminium lining, multiple pockets. Perfect for school and excursions.",
+  "key_features": [
+    "Insulated aluminium food-safe lining maintains optimal temperature with included chill pack",
+    "Spacious main compartment fits large bento boxes with room for snacks and drinks",
+    "Dedicated back pocket positions chill pack for maximum cooling efficiency",
+    "Multiple internal and mesh pockets organise small items and prevent shifting",
+    "Durable PVC-coated polyester protects contents from daily wear and spills",
+    "Name card pocket provides identification security for school environments",
+    "Padded handles ensure comfortable carrying when fully loaded"
+  ],
+  "applications": [
+    "Daily school lunches with multiple food containers and snacks",
+    "Full-day excursions requiring fresh food from morning to afternoon",
+    "Sports training and after-school activities with extended cooling needs",
+    "Weekend outings and family day trips with children",
+    "Organised lunch storage for primary school students with growing appetites",
+    "Fresh food transport in warm Australian climates"
+  ],
+  "specifications": [
+    "Product Type: Insulated cooler lunch bag with chill pack",
+    "Brand: Spencil",
+    "Design: Robo Shark",
+    "Size Category: Big lunch bag",
+    "Material: PVC-coated polyester",
+    "Lining: Aluminium food-safe insulated lining",
+    "Closure: Dual-zip main compartment",
+    "Storage: Multiple internal pockets, mesh pockets, back pocket for chill pack",
+    "Handle: Padded carry handle",
+    "Additional Features: Name card pocket",
+    "Includes: Chill pack",
+    "Vendor SKU: GSLBCPCRBO"
+  ],
+  "faqs": [
+    {
+      "question": "Does this lunch bag fit standard bento boxes?",
+      "answer": "Yes, the spacious main compartment is designed to fit Spencil bento boxes and most standard lunch containers. The generous capacity accommodates large lunch boxes along with additional snacks, fruit, and a drink bottle. The dual-zip opening provides wide access for easy packing."
+    },
+    {
+      "question": "How long does the chill pack keep food cold?",
+      "answer": "When frozen overnight and placed in the dedicated back pocket, the included chill pack maintains cooling throughout a standard school day. The aluminium food-safe lining works with the chill pack to provide consistent temperature control. For optimal performance, freeze the chill pack completely before each use."
+    },
+    {
+      "question": "Is the lunch bag easy for children to carry and open?",
+      "answer": "The padded handle provides comfortable carrying even when fully loaded, and the dual-zip closure is designed for easy opening by primary school-aged children. Multiple pockets keep items organised so children can quickly find what they need at lunchtime."
+    },
+    {
+      "question": "Can this lunch bag be cleaned easily?",
+      "answer": "The PVC-coated polyester exterior wipes clean with a damp cloth. The aluminium food-safe lining can be wiped down after use to maintain hygiene. We recommend spot cleaning rather than machine washing to preserve the insulation and structural integrity."
+    }
+  ],
+  "tags": [
+    "Spencil Lunch Bag",
+    "Spencil Robo Shark",
+    "Insulated Lunch Bag",
+    "Kids Cooler Bag",
+    "School Lunch Bag",
+    "Lunch Bag with Chill Pack",
+    "Big Lunch Bag",
+    "Spencil Lunch Accessories",
+    "Primary School Supplies",
+    "Fresh Food Storage"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "6551",
+  "image_alt_texts": {
+    "hero": "Spencil Robo Shark Big Cooler Lunch Bag with blue and grey robot shark design and dual zip closure",
+    "lifestyle_1": "Child carrying Spencil Robo Shark lunch bag showing padded handle and spacious design for school use",
+    "lifestyle_2": "Open Spencil Robo Shark lunch bag displaying aluminium lining, internal pockets, and chill pack storage"
+  }
+}
+```

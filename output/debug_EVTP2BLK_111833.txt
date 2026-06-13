@@ -1,0 +1,67 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2466
+TOKENS OUT: 1004
+
+RAW:
+```json
+{
+  "title": "Educational Colours Tempera Plus Classroom Paint 2L Black",
+  "body_html": "<h2>Classroom creativity starts with paint that works as hard as your students</h2>\n<p><strong>Educational Colours Tempera Plus Classroom Paint delivers safe, reliable performance for pre-school and primary classrooms across Australia.</strong></p>\n<p>Australian-made and ammonia-free, this 2-litre black tempera paint is formulated specifically for young learners. The re-wetting formula means dried paint can be reactivated with water, extending project life and reducing waste. Housed in eco-friendly PET bottles, each 2-litre container pairs perfectly with Educational Colours paint pumps for mess-free dispensing during busy art sessions.</p>\n<p>The thinner, less pigmented consistency compared to acrylics makes this tempera ideal for wash techniques, layering, and younger hands still developing fine motor control. Black is essential for outlines, shadows, and monochrome work across curriculum art projects.</p>\n<p>Built for Australian classrooms, this paint supports confident, creative learning environments. Order in carton quantities of 20 for cost-effective whole-school supply.</p>",
+  "seo_title": "Tempera Plus Paint 2L Black | Mega Office Supplies",
+  "seo_description": "Australian-made tempera paint for classrooms. Ammonia-free, re-wetting formula in eco-friendly 2L bottles. Perfect for pre-school and primary art projects.",
+  "key_features": [
+    "Australian-made tempera paint specifically formulated for pre-school and primary students",
+    "Ammonia-free formula ensures safe use in classroom environments",
+    "Re-wetting ability allows dried paint to be reactivated with water",
+    "Eco-friendly PET bottles support sustainable classroom practices",
+    "Compatible with Educational Colours paint pumps for efficient, mess-free dispensing",
+    "Thinner consistency than acrylics ideal for wash techniques and young learners",
+    "2-litre capacity reduces refill frequency during busy art sessions"
+  ],
+  "applications": [
+    "Pre-school and kindergarten art activities and creative play",
+    "Primary school classroom art projects and curriculum work",
+    "Group painting sessions requiring consistent, reliable colour",
+    "Wash techniques, layering, and mixed media classroom projects",
+    "Monochrome studies, outlines, and shadow work in art education",
+    "High-volume school art programmes requiring bulk supply"
+  ],
+  "specifications": [
+    "Brand: Educational Colours",
+    "Product Code: EVTP2BLK",
+    "Colour: Black",
+    "Volume: 2 Litres",
+    "Product Type: Tempera Plus Classroom Paint",
+    "Formula: Ammonia-free",
+    "Consistency: Thinner and less pigmented than acrylics",
+    "Special Feature: Re-wetting ability",
+    "Packaging: Environmentally friendly PET bottles",
+    "Origin: Made in Australia",
+    "Target Users: Pre-school and primary students",
+    "Compatibility: Educational Colours paint pump compatible",
+    "Carton Quantity: 20 units"
+  ],
+  "faqs": [],
+  "tags": [
+    "Educational Colours EVTP2BLK",
+    "Educational Colours Tempera Black",
+    "Tempera Plus Classroom Paint",
+    "2L Black Tempera Paint",
+    "Australian Made Classroom Paint",
+    "Ammonia Free Paint",
+    "Educational Colours Paint",
+    "Primary School Art Supplies",
+    "Eco Friendly Art Paint",
+    "Classroom Painting Supplies"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "505382",
+  "image_alt_texts": {
+    "hero": "Educational Colours Tempera Plus Classroom Paint 2 litre bottle in black, eco-friendly PET packaging",
+    "lifestyle_1": "Educational Colours black tempera paint being used in primary school classroom art project with paint pump dispenser",
+    "lifestyle_2": null
+  }
+}
+```

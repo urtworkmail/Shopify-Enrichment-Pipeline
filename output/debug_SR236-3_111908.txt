@@ -1,0 +1,67 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2539
+TOKENS OUT: 1082
+
+RAW:
+```json
+{
+  "title": "Staedtler Lumocolor Permanent Omnigraph Crayon Blue Pack of 12",
+  "body_html": "<h2>Mark Any Surface with Confidence</h2>\n<p><strong>Staedtler Lumocolor Permanent Omnigraph crayons deliver opaque, waterproof marking on virtually every material, from transparent glass to dark metal.</strong></p>\n<p>When standard markers fail on challenging surfaces, these universal dry crayons perform. The 12mm diameter hexagonal crayon writes cleanly on paper, card, stone, glass, plastic, china, leather, fabric, metal and wood. The permanent, UV-resistant formula stays put on wet wood and delivers consistent coverage on dark or transparent surfaces where other markers disappear. At 113mm long, the paper-wrapped crayon offers substantial coverage per stick.</p>\n<p>The waterproof ink resists bleeding through paper and maintains clarity across temperature extremes. Whether labelling equipment in warehouses, marking timber on construction sites, or creating displays on glass, the crayon adapts to environments where permanent identification matters. The hexagonal shape prevents rolling on angled work surfaces.</p>\n<p>This pack of 12 blue crayons suits trade professionals, facility managers, event coordinators and educational settings where durable surface marking is essential. Staedtler's German engineering ensures reliable performance across diverse Australian work environments.</p>",
+  "seo_title": "Staedtler Omnigraph Blue Crayon 12pk | Mega Office Supplies",
+  "seo_description": "Permanent marking crayon writes on glass, metal, wood, plastic, stone. Waterproof, UV-resistant, 12mm diameter. Pack of 12 blue. Staedtler quality.",
+  "key_features": [
+    "Writes on almost all surfaces including glass, metal, wood, plastic, leather, stone and fabrics",
+    "Waterproof and UV-resistant formula for permanent, fade-proof marking",
+    "Marks wet wood and delivers opaque coverage on dark or transparent surfaces",
+    "12mm diameter hexagonal crayon prevents rolling on work surfaces",
+    "113mm length provides extended use per crayon",
+    "No bleed-through on paper maintains clean presentation",
+    "Paper-wrapped design keeps hands clean during use"
+  ],
+  "applications": [
+    "Permanent labelling and identification on warehouse equipment and industrial materials",
+    "Construction site marking on timber, metal and masonry surfaces",
+    "Retail and event display creation on glass, mirrors and acrylic",
+    "Facility management asset tagging across diverse surface types",
+    "Educational settings for art projects and outdoor learning activities",
+    "Workshop and trade environments requiring durable surface marking"
+  ],
+  "specifications": [
+    "Brand: Staedtler",
+    "Product: Lumocolor Permanent Omnigraph Crayon",
+    "Colour: Blue",
+    "Pack Quantity: 12 crayons",
+    "Crayon Diameter: 12mm",
+    "Crayon Length: 113mm",
+    "Shape: Hexagonal",
+    "Finish: Paper-wrapped",
+    "Ink Properties: Waterproof and UV-resistant",
+    "Surface Compatibility: Paper, card, stone, glass, plastic, china, leather, fabric, metal, wood",
+    "Special Feature: Writes on wet wood",
+    "Bleed-Through: No bleed on paper",
+    "Vendor SKU: SR236-3"
+  ],
+  "faqs": [],
+  "tags": [
+    "Staedtler Lumocolor",
+    "Staedtler Omnigraph Crayon",
+    "Permanent Marking Crayon",
+    "Universal Surface Marker",
+    "Blue Marking Crayon",
+    "Waterproof Crayon",
+    "Industrial Marking Tools",
+    "Staedtler Marking Products",
+    "Multi Surface Marker",
+    "Permanent Labelling Supplies"
+  ],
+  "pack_size": "Pack of 12",
+  "unit": "Pack",
+  "google_product_category_id": "963",
+  "image_alt_texts": {
+    "hero": "Staedtler Lumocolor Permanent Omnigraph blue crayon pack of 12 showing hexagonal paper-wrapped design",
+    "lifestyle_1": "Staedtler blue omnigraph crayon marking on multiple surfaces including glass, metal and wood",
+    "lifestyle_2": null
+  }
+}
+```

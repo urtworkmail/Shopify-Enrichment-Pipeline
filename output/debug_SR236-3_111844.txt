@@ -1,0 +1,68 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2539
+TOKENS OUT: 1087
+
+RAW:
+```json
+{
+  "title": "Staedtler Lumocolor Permanent Omnigraph Crayon Blue Pack of 12",
+  "body_html": "<h2>Mark Almost Any Surface with Confidence</h2>\n<p><strong>The Staedtler Lumocolor Permanent Omnigraph Crayon in blue delivers waterproof, UV-resistant marking on virtually every material you encounter.</strong></p>\n<p>From metal and glass to fabric, leather, and even wet wood, this universal dry marker handles surfaces that defeat ordinary writing tools. The 12mm diameter hexagonal crayon offers excellent grip and control, while the paper wrapping keeps hands clean during precise technical marking, outdoor labelling, or creative work on non-porous materials. At 113mm long, the crayon balances portability with substantial coverage for extended projects.</p>\n<p>The waterproof, fade-resistant formula ensures your marks stay visible and legible through handling, weather exposure, and UV light. No bleed-through on paper means clean, professional results on documents and packaging. The opaque pigment shows clearly on dark and transparent surfaces where standard markers fail.</p>\n<p>Ideal for workshops, warehouses, construction sites, and creative studios where permanent marking on diverse materials is essential. This pack of 12 keeps your team equipped for consistent identification, labelling, and marking tasks across any project.</p>",
+  "seo_title": "Staedtler Omnigraph Blue Crayon 12pk | Mega Office Supplies",
+  "seo_description": "Waterproof permanent marking on metal, glass, wood, plastic, fabric and more. Staedtler Lumocolor Omnigraph blue crayon delivers UV-resistant marks on any surface.",
+  "key_features": [
+    "Writes on almost all surfaces including metal, glass, plastic, wood, leather, stone, fabric and paper",
+    "Waterproof and UV-resistant formula for permanent, fade-proof marks",
+    "Works on wet wood and dark or transparent surfaces with opaque coverage",
+    "Hexagonal 12mm diameter crayon with paper wrapping for clean handling",
+    "No bleed-through on paper for professional document marking",
+    "113mm length provides extended use and comfortable grip control",
+    "Pack of 12 crayons ensures consistent supply for ongoing projects"
+  ],
+  "applications": [
+    "Warehouse inventory marking and identification on metal shelving and plastic containers",
+    "Construction site labelling on timber, concrete, and building materials",
+    "Technical drawing and marking on glass, ceramics, and stone surfaces",
+    "Workshop and factory floor permanent labelling on machinery and equipment",
+    "Packaging and logistics marking on cardboard, plastic wrapping, and shipping materials",
+    "Creative applications on fabric, leather, and mixed media art projects"
+  ],
+  "specifications": [
+    "Brand: Staedtler",
+    "Product Range: Lumocolor Permanent Omnigraph",
+    "Colour: Blue",
+    "Pack Quantity: 12 crayons",
+    "Crayon Diameter: 12mm",
+    "Crayon Length: 113mm",
+    "Shape: Hexagonal",
+    "Wrapping: Paper-wrapped",
+    "Ink Type: Permanent, waterproof",
+    "UV Resistance: Yes",
+    "Bleed-Through: None on paper",
+    "Suitable Surfaces: Paper, card, stone, glass, plastic, china, leather, fabric, metal, wood",
+    "Wet Surface Capability: Works on wet wood",
+    "Vendor SKU: SR236-3"
+  ],
+  "faqs": [],
+  "tags": [
+    "Staedtler Omnigraph",
+    "Staedtler SR236-3",
+    "Permanent Marking Crayon",
+    "Blue Marking Crayon",
+    "Waterproof Marker",
+    "Universal Surface Marker",
+    "Industrial Marking Crayon",
+    "Lumocolor Permanent",
+    "Multi Surface Marking",
+    "Construction Marking Tools"
+  ],
+  "pack_size": "Pack of 12",
+  "unit": "Pack",
+  "google_product_category_id": "2591",
+  "image_alt_texts": {
+    "hero": "Staedtler Lumocolor Permanent Omnigraph blue marking crayon with hexagonal paper wrapping",
+    "lifestyle_1": "Blue permanent marking crayon being used on multiple surfaces including metal, glass and wood",
+    "lifestyle_2": null
+  }
+}
+```

@@ -1,0 +1,65 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2699
+TOKENS OUT: 1035
+
+RAW:
+```json
+{
+  "title": "Fellowes Standard Footrest Graphite",
+  "body_html": "<h2>Support Your Posture and Comfort Through Every Work Session</h2>\n<p><strong>The Fellowes Standard Footrest delivers ergonomic leg and foot support that reduces fatigue and promotes better circulation during extended desk work.</strong></p>\n<p>Sitting for long periods places strain on your lower back, legs and feet. This footrest encourages correct seated posture by elevating your feet to a comfortable angle, reducing pressure on the lumbar spine and improving blood flow. The free-floating platform adjusts naturally as you shift position, with dual height settings (9.53 cm platform height, 44.77 cm width) to suit your workspace and seating arrangement. Built from 100% recycled HIPS plastic, it combines environmental responsibility with robust daily performance.</p>\n<p>The textured surface gently massages the soles of your feet, helping to keep muscles relaxed and reduce cramping. The non-slip base keeps the footrest stable on carpet or hard floors, while the lightweight 1.42 kg construction makes it easy to reposition. Graphite finish integrates discreetly into any professional or home office environment.</p>\n<p>Ideal for office desks, study spaces and home workstations where extended sitting is routine. The Fellowes Standard Footrest is a straightforward, reliable addition to your ergonomic setup.</p>",
+  "seo_title": "Fellowes Standard Footrest | Mega Office Supplies",
+  "seo_description": "Ergonomic footrest with dual-height adjustment and free-floating platform. Reduces fatigue, improves circulation. 100% recycled plastic. Trusted Fellowes.",
+  "key_features": [
+    "Free-floating platform encourages natural leg movement and circulation",
+    "Dual-position height adjustment for personalised ergonomic support",
+    "Textured surface provides gentle foot massage to reduce muscle tension",
+    "Made from 100% recycled HIPS plastic for sustainable office comfort",
+    "Non-slip base ensures stability on carpet and hard floors",
+    "Lightweight 1.42 kg design for easy repositioning and storage",
+    "Graphite finish suits professional and home office environments"
+  ],
+  "applications": [
+    "Office desks and workstations for full-time staff requiring ergonomic support",
+    "Home office setups to improve posture during remote work sessions",
+    "Study spaces and student desks for extended reading or computer use",
+    "Reception areas and call centres where seated work is continuous",
+    "Complements adjustable chairs and monitor stands in complete ergonomic workstation setups"
+  ],
+  "specifications": [
+    "Brand: Fellowes",
+    "Model: Standard Footrest",
+    "Item Number: 48121",
+    "Colour: Graphite",
+    "Dimensions (H x W x D): 9.53 x 44.77 x 33.34 cm",
+    "Weight: 1.42 kg",
+    "Material: 100% Recycled HIPS Plastic",
+    "Platform Type: Free-Floating",
+    "Height Adjustment: Dual-Position",
+    "Surface Texture: Textured Massage Surface",
+    "Base: Non-Slip",
+    "Recommended Use: Office, Home, Study Environments"
+  ],
+  "faqs": [],
+  "tags": [
+    "Fellowes Footrest",
+    "Fellowes Standard Footrest",
+    "Ergonomic Footrest",
+    "Office Footrest",
+    "Adjustable Footrest",
+    "Desk Footrest",
+    "Fellowes Ergonomic Accessories",
+    "Recycled Plastic Footrest",
+    "Posture Support Footrest",
+    "Workspace Comfort Accessories"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "6343",
+  "image_alt_texts": {
+    "hero": "Fellowes Standard Footrest in graphite with textured surface and free-floating platform",
+    "lifestyle_1": "Fellowes Standard Footrest positioned under office desk supporting user's feet during work",
+    "lifestyle_2": null
+  }
+}
+```

@@ -1,0 +1,64 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2594
+TOKENS OUT: 995
+
+RAW:
+```json
+{
+  "title": "Blank Mini Cricket Bat 38cm",
+  "body_html": "<h2>Turn a Classic Sports Icon Into Your Personal Canvas</h2>\n<p><strong>A blank mini cricket bat designed for creativity, personalisation and lasting memories.</strong></p>\n<p>The Blank Mini Cricket Bat 38cm offers a smooth unlabelled surface that invites imagination and expression. Whether you are collecting autographs at a sporting event, testing Posca markers on a new medium, or creating a personalised gift for a cricket enthusiast, this compact bat provides the perfect foundation. At 38cm in length, it strikes the ideal balance between display presence and portability, making it easy to handle, transport and showcase.</p>\n<p>The solid construction and clean finish ensure compatibility with paint pens, markers and other creative mediums, allowing artwork and signatures to stand out with clarity. This miniature bat transforms a familiar sporting symbol into a unique keepsake, display piece or art project that reflects your personal touch.</p>\n<p>Ideal for school art projects, fan memorabilia, creative workshops and personalised gifting. The Blank Mini Cricket Bat 38cm gives you complete creative control to make something truly meaningful.</p>",
+  "seo_title": "Blank Mini Cricket Bat 38cm | Mega Office Supplies",
+  "seo_description": "Blank mini cricket bat 38cm with smooth unlabelled surface. Perfect for autographs, art projects, personalised gifts. Compact, portable, ready to customise.",
+  "key_features": [
+    "Unlabelled blank surface provides full creative freedom for artwork, signatures or custom designs.",
+    "38cm compact length offers ideal balance between display presence and easy portability.",
+    "Smooth finish ensures compatibility with Posca markers, paint pens and other creative mediums.",
+    "Solid construction delivers durability for long-term display and handling.",
+    "Miniature design makes it easy to gift, transport to events or store after completion.",
+    "Versatile canvas suitable for school projects, fan memorabilia and personalised keepsakes.",
+    "Clean unlabelled aesthetic allows designs and signatures to stand out with maximum clarity."
+  ],
+  "applications": [
+    "School art projects and creative workshops exploring new mediums and surfaces.",
+    "Autograph collection at sporting events, fan meet-and-greets and cricket matches.",
+    "Personalised gift creation for cricket fans, coaches and players of all ages.",
+    "Display pieces for home offices, sports rooms and memorabilia collections.",
+    "Testing surface for artists experimenting with Posca markers, paint pens and other materials.",
+    "Fundraising and charity auctions featuring custom-designed or signed miniature bats."
+  ],
+  "specifications": [
+    "Product Type: Miniature cricket bat",
+    "Length: 38cm",
+    "Surface Finish: Blank unlabelled",
+    "Construction: Solid wood",
+    "Colour: Natural wood tone",
+    "Suitable For: Creative projects, autograph collection, display",
+    "Recommended Use: Art projects, personalisation, memorabilia",
+    "Compatibility: Posca markers, paint pens, permanent markers",
+    "Display: Freestanding or wall-mounted (with appropriate hardware)",
+    "Portability: Compact design for easy transport"
+  ],
+  "faqs": [],
+  "tags": [
+    "Blank Mini Cricket Bat",
+    "38cm Cricket Bat",
+    "Miniature Cricket Bat",
+    "Cricket Bat Canvas",
+    "Autograph Cricket Bat",
+    "Personalised Cricket Bat",
+    "Cricket Memorabilia",
+    "Art Project Bat",
+    "Posca Marker Surface",
+    "Cricket Fan Gift"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "1239",
+  "image_alt_texts": {
+    "hero": "Blank mini cricket bat 38cm with smooth unlabelled natural wood surface ready for customisation",
+    "lifestyle_1": "Blank mini cricket bat being used for autograph collection at sporting event",
+    "lifestyle_2": null
+  }
+}
+```

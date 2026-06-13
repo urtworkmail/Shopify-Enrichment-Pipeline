@@ -1,0 +1,68 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2675
+TOKENS OUT: 1141
+
+RAW:
+```json
+{
+  "title": "Mega Planning Day Kit for Groups 4 Teams of 4 to 6 People",
+  "body_html": "<h2>Turn Scattered Ideas into Shared Direction with Confidence</h2>\n<p><strong>An all-in-one planning kit that unlocks team focus and collaboration for up to 24 participants working in four groups.</strong></p>\n<p>Genuine collaboration tools make the difference between a productive planning session and a frustrating one. This kit brings together large 3M Post-it Wall Pads (508mm x 584mm), refillable Pilot BeGreen markers and repositionable 76mm x 76mm notes to help four teams work simultaneously without competing for resources. Each component supports visible thinking and open discussion, turning abstract strategy into tangible action plans. Ideal for goal setting workshops, strategic planning days and vision alignment sessions across offices, schools and community organisations.</p>\n<p>The combination of bright white wall pads and vibrant markers ensures every contribution is easy to see and share. Recyclable notes and refillable markers support sustainable planning without compromising performance. Teams can move ideas around, group themes and build consensus without leaving sticky residue or damaging walls.</p>\n<p>Designed for facilitators who need reliable materials and teams who deserve structure without rigidity. This kit removes the guesswork from planning preparation and keeps the focus where it belongs: on creating clear, shared direction that drives momentum forward.</p>",
+  "seo_title": "Planning Day Kit 4 Teams | Mega Office Supplies",
+  "seo_description": "Complete planning kit for 4 teams of 4-6 people. Includes 3M wall pads, Pilot markers and Post-it notes. Turn collaboration into clear action.",
+  "key_features": [
+    "Supports four teams working simultaneously with dedicated materials for up to 24 participants.",
+    "3M Post-it Wall Pads in 508mm x 584mm format make ideas visible across the room without surface damage.",
+    "Pilot BeGreen V Board Master refillable markers reduce waste while delivering vibrant colour.",
+    "Post-it Notes in 76mm x 76mm Rio de Janeiro Collection provide repositionable planning flexibility.",
+    "Eco-conscious design with recyclable notes and refillable markers supports sustainable workshops.",
+    "All-in-one solution eliminates preparation guesswork and ensures every team has the tools they need.",
+    "Designed for Australian facilitators running strategic planning and goal-setting sessions."
+  ],
+  "applications": [
+    "Strategic planning workshops for business teams developing quarterly or annual goals.",
+    "Brainstorming sessions where multiple groups need to work independently then share outcomes.",
+    "Vision and mission development for community organisations and non-profits.",
+    "School staff planning days and curriculum design workshops with teacher teams.",
+    "Leadership retreats and executive alignment sessions requiring structured collaboration.",
+    "Project kickoff meetings where cross-functional teams define scope and deliverables together."
+  ],
+  "specifications": [
+    "Capacity: 4 teams of 4 to 6 people (up to 24 participants)",
+    "Wall Pads: 3M Post-it Self-Stick Wall Pads",
+    "Wall Pad Size: 508mm x 584mm",
+    "Wall Pad Sheets: 20 sheets per pad",
+    "Markers: Pilot BeGreen V Board Master",
+    "Marker Tip: 0.9mm bullet tip",
+    "Marker Colours: Assorted colours",
+    "Marker Type: Refillable",
+    "Notes: Post-it Notes 76mm x 76mm",
+    "Notes Collection: Rio de Janeiro Collection",
+    "Notes Material: Recyclable",
+    "Brand: Mega Office Supplies",
+    "SKU: #PLANGROUP",
+    "Country of Use: Australia"
+  ],
+  "faqs": [],
+  "tags": [
+    "Mega Planning Day Kit",
+    "Group Planning Kit",
+    "3M Post-it Wall Pads",
+    "Pilot BeGreen Markers",
+    "Post-it Notes Rio de Janeiro",
+    "Strategic Planning Tools",
+    "Workshop Planning Kit",
+    "Team Collaboration Supplies",
+    "Facilitation Materials",
+    "Office Planning Supplies"
+  ],
+  "pack_size": "1 Kit",
+  "unit": "Pack",
+  "google_product_category_id": "922",
+  "image_alt_texts": {
+    "hero": "Mega Planning Day Kit for Groups showing 3M Post-it Wall Pads, Pilot BeGreen markers and Post-it Notes arranged for four teams",
+    "lifestyle_1": "Four teams using Mega Planning Day Kit in collaborative workshop session with wall pads and sticky notes",
+    "lifestyle_2": null
+  }
+}
+```

@@ -1,0 +1,61 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2643
+TOKENS OUT: 982
+
+RAW:
+```json
+{
+  "title": "Italplast GreenR Magazine Stand Recycled Black",
+  "body_html": "<h2>Organise Responsibly with GECA Certified Sustainability</h2>\n<p><strong>Recycled black magazine stand that delivers practical desk organisation while supporting your environmental goals.</strong></p>\n<p>The Italplast GreenR Magazine Stand brings GECA certified environmental credentials to everyday filing. Constructed from recycled materials and fully recyclable at end of life, this stand supports circular resource use without compromising on strength or functionality. Measuring 258 mm L × 92 mm W × 298 mm H, it holds manuals, reports and project files upright and accessible, helping you maintain a tidy workspace while reducing environmental impact across Australian offices, schools and home work areas.</p>\n<p>Front and rear label spaces allow quick identification of contents, making document retrieval intuitive and efficient. The recycled black finish provides a modern, professional appearance that complements any desk environment, from corporate offices to education settings. Durable construction ensures reliable daily use, season after season.</p>\n<p>Ideal for workplaces committed to improving their environmental footprint. The Italplast GreenR Magazine Stand combines smart organisation with responsible purchasing, helping you meet sustainability targets without sacrificing quality or usability.</p>",
+  "seo_title": "Italplast GreenR Magazine Stand Black | Mega Office",
+  "seo_description": "GECA certified recycled magazine stand. 100% recyclable, front/rear labels, 258×92×298mm. Sustainable desk organisation for Australian offices.",
+  "key_features": [
+    "GECA certified for meeting recognised environmental standards, offering confidence in sustainable product choice.",
+    "Constructed from recycled materials and 100 percent recyclable, supporting circular resource use and reduced waste.",
+    "Front and rear label spaces allow quick identification, making everyday filing efficient and intuitive.",
+    "Recycled black finish provides a modern, professional appearance that complements any workspace.",
+    "Durable construction ensures reliable daily use across office, education and home environments.",
+    "Holds manuals, reports and project files upright for easy access and retrieval."
+  ],
+  "applications": [
+    "Organising manuals, reports and project files in corporate offices and SME workspaces.",
+    "Managing educational materials, curriculum documents and administrative paperwork in schools and training centres.",
+    "Supporting home office organisation for remote workers and business owners.",
+    "Implementing sustainable desk management in green offices and environmentally conscious workplaces.",
+    "Maintaining tidy reception areas, shared workstations and collaborative spaces."
+  ],
+  "specifications": [
+    "Dimensions: 258 mm L × 92 mm W × 298 mm H",
+    "Colour: Recycled Black",
+    "Material: Recycled content, 100% recyclable",
+    "Certification: GECA certified",
+    "Type: Magazine and document stand",
+    "Label areas: Front and rear label spaces",
+    "Brand: Italplast Products",
+    "Model: ITI 160GR",
+    "Country of sale: Australia"
+  ],
+  "faqs": [],
+  "tags": [
+    "Italplast GreenR Magazine Stand",
+    "Italplast ITI 160GR",
+    "Recycled Magazine Stand",
+    "GECA Certified Desk Organiser",
+    "Black Magazine Holder",
+    "Sustainable Office Storage",
+    "Italplast GreenR Range",
+    "Eco Friendly Desk Accessories",
+    "Recyclable Document Stand",
+    "Office Organisation Supplies"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "922",
+  "image_alt_texts": {
+    "hero": "Italplast GreenR Magazine Stand in Recycled Black with front and rear label spaces for document organisation",
+    "lifestyle_1": "Italplast GreenR Recycled Black Magazine Stand holding manuals and reports on an office desk",
+    "lifestyle_2": null
+  }
+}
+```

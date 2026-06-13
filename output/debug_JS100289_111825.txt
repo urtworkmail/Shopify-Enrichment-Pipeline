@@ -1,0 +1,56 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T3
+TOKENS IN: 1783
+TOKENS OUT: 749
+
+RAW:
+```json
+{
+  "title": "Tork Xpress Extra Soft Multifold Hand Towel Premium Carton of 21",
+  "body_html": "<p>Tork Xpress Soft Multifold Hand Towels are the most premium refills for the H2 system. TAD technology delivers super absorbent, soft and thick paper for an impressive high-quality finish. Ideal for the Tork Xpress Countertop Dispenser.</p><p>Reliable single sheet dispensing ensures consistent performance with intuitive loading. Tork Easy Handling Carry Packs are durable and reduce waste. EU Ecolabel accredited. QuickDry technology offers the strongest, most absorbent paper for efficient drying with less waste. Two-ply white towels with embossing and print. Unfolded dimensions: 25.5 cm x 21.2 cm. Folded dimensions: 8.5 cm x 21.2 cm.</p>",
+  "seo_title": "Tork Xpress Soft Multifold Towel | Mega Office Supplies",
+  "seo_description": "Premium Tork Xpress multifold hand towels with TAD technology. Super absorbent, 2-ply, EU Ecolabel certified. Compatible with H2 dispensers. Carton of 21.",
+  "key_features": [
+    "TAD technology for superior absorbency and softness",
+    "Single sheet dispensing for consistent performance",
+    "EU Ecolabel accredited refills",
+    "QuickDry technology for efficient drying with less waste"
+  ],
+  "applications": [
+    "Washrooms in offices, schools and commercial facilities",
+    "High-traffic amenities requiring premium hand drying"
+  ],
+  "specifications": [
+    "System: Hand Towel Interfold H2",
+    "Unfolded Length: 25.5 cm",
+    "Unfolded Width: 21.2 cm",
+    "Folded Length: 8.5 cm",
+    "Folded Width: 21.2 cm",
+    "Ply: 2",
+    "Print: Yes",
+    "Embossing: Yes",
+    "Colour: White",
+    "Vendor SKU: JS100289"
+  ],
+  "faqs": [],
+  "tags": [
+    "Tork",
+    "Xpress",
+    "Hand Towel",
+    "Multifold",
+    "H2 System",
+    "Premium",
+    "Office Supplies",
+    "Washroom",
+    "Carton"
+  ],
+  "pack_size": "21",
+  "unit": "Carton",
+  "google_product_category_id": null,
+  "image_alt_texts": {
+    "hero": "Tork Xpress Extra Soft Multifold Hand Towel Premium carton packaging showing white two-ply paper towels",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
+```

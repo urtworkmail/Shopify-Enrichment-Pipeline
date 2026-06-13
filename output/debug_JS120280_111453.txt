@@ -1,0 +1,60 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T3
+TOKENS IN: 1817
+TOKENS OUT: 732
+
+RAW:
+```json
+{
+  "title": "Tork Recycled Mini Jumbo Toilet Roll 2 Ply Advanced T2 White Carton of 12 Rolls",
+  "body_html": "<p>The only 100% recycled mini jumbo toilet roll in the Tork range, featuring a subtle leaf emboss and 2-ply construction. Each 170-metre roll delivers 850 sheets, reducing servicing frequency in high-traffic facilities.</p>\n<p>Compatible with Tork T2 mini jumbo dispensers. The twin dispenser system eliminates waste by ensuring the first roll is completely consumed before the second becomes accessible. Supplied in a carton of 12 rolls.</p>",
+  "seo_title": "Tork Mini Jumbo Toilet Roll T2 | Mega Office Supplies",
+  "seo_description": "100% recycled 2-ply mini jumbo toilet roll. 170m per roll, 850 sheets. Compatible with Tork T2 dispensers. Carton of 12 rolls. Sustainable choice for offices.",
+  "key_features": [
+    "100% recycled mini jumbo toilet roll with 2-ply construction",
+    "170 metres per roll with 850 sheets (20cm sheet length)",
+    "Compatible with Tork T2 mini jumbo and twin dispenser systems",
+    "Carton of 12 rolls for reduced servicing frequency"
+  ],
+  "applications": [
+    "High-traffic washrooms in offices and commercial buildings",
+    "Schools, universities and educational facilities",
+    "Retail centres and hospitality venues"
+  ],
+  "specifications": [
+    "System: T2 - Mini jumbo toilet system",
+    "Roll Length: 170 m",
+    "Roll Width: 9.7 cm",
+    "Roll Diameter: 18.8 cm",
+    "Number of Sheets: 850",
+    "Sheet Length: 20 cm",
+    "Core Inner Diameter: 5.9 cm",
+    "Ply: 2",
+    "Print: Yes",
+    "Embossing: Yes",
+    "Colour: White",
+    "Vendor SKU: JS120280"
+  ],
+  "faqs": [],
+  "tags": [
+    "Tork",
+    "T2",
+    "Mini Jumbo",
+    "Toilet Roll",
+    "Recycled",
+    "2 Ply",
+    "JS120280",
+    "Office Supplies",
+    "Washroom",
+    "Sustainable"
+  ],
+  "pack_size": "12",
+  "unit": "Carton",
+  "google_product_category_id": "604",
+  "image_alt_texts": {
+    "hero": "Tork Recycled Mini Jumbo Toilet Roll 2 Ply T2 White carton of 12 rolls with leaf emboss",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
+```

@@ -1,0 +1,53 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T3
+TOKENS IN: 1681
+TOKENS OUT: 625
+
+RAW:
+```json
+{
+  "title": "Connoisseur Acrylic Storage Canister Jumbo with Handle 4.5L",
+  "body_html": "<p>This jumbo acrylic storage canister holds 4.5 litres and features a chrome clip for airtight sealing. Made from strong, clear acrylic that is BPA free, it measures 200mm in diameter and 210mm in height with a convenient carrying handle.</p>\n<p>Suitable for storing food, office supplies, and household items. The clear construction allows you to see contents at a glance, while the airtight seal keeps items fresh and protected from moisture and dust.</p>",
+  "seo_title": "Connoisseur 4.5L Acrylic Canister | Mega Office Supplies",
+  "seo_description": "Clear acrylic storage canister with airtight chrome clip seal. 4.5L capacity, BPA free, 200mm diameter. Perfect for food, office supplies and household storage.",
+  "key_features": [
+    "4.5 litre capacity with airtight chrome clip seal",
+    "Clear acrylic construction - BPA free",
+    "Dimensions: 200mm diameter x 210mm height",
+    "Convenient carrying handle for easy transport"
+  ],
+  "applications": [
+    "Food storage in kitchens and pantries",
+    "Office supplies and stationery organisation",
+    "Household items and craft material storage"
+  ],
+  "specifications": [
+    "Capacity: 4.5 litres",
+    "Material: Acrylic (BPA free)",
+    "Diameter: 200mm",
+    "Height: 210mm",
+    "Closure: Chrome clip airtight seal",
+    "Features: Carrying handle",
+    "Vendor SKU: WE42620"
+  ],
+  "faqs": [],
+  "tags": [
+    "Connoisseur",
+    "Weatherdon",
+    "acrylic canister",
+    "storage container",
+    "4.5L capacity",
+    "airtight canister",
+    "food storage",
+    "office storage"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "630",
+  "image_alt_texts": {
+    "hero": "Connoisseur clear acrylic storage canister with chrome clip lid and carry handle, 4.5 litre capacity",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
+```

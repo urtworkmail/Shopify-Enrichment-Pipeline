@@ -1,0 +1,51 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T3
+TOKENS IN: 1669
+TOKENS OUT: 505
+
+RAW:
+```json
+{
+  "title": "Durable Business Card Box Aluminium 20 Capacity",
+  "body_html": "<p>The Durable Business Card Box is a slimline aluminium case designed to hold up to 20 standard business cards. Its compact silver finish provides a professional appearance for desk storage or networking events.</p><p>Made from durable aluminium, this card box protects your business cards from wear and keeps them accessible. The slim profile fits easily into briefcases, desk drawers, or desktop organisers.</p>",
+  "seo_title": "Durable Aluminium Card Box 20 | Mega Office Supplies",
+  "seo_description": "Slimline aluminium business card box holds 20 cards. Compact, professional silver finish. Ideal for desk storage or networking. Durable construction.",
+  "key_features": [
+    "Holds up to 20 standard business cards",
+    "Slimline aluminium construction",
+    "Professional silver finish"
+  ],
+  "applications": [
+    "Desk storage for business cards",
+    "Networking events and conferences",
+    "Professional office organisation"
+  ],
+  "specifications": [
+    "Brand: Durable",
+    "Type: Business Card Box",
+    "Capacity: 20 cards",
+    "Material: Aluminium",
+    "Colour: Silver",
+    "Model: 241523"
+  ],
+  "faqs": [],
+  "tags": [
+    "Durable",
+    "Business Card Box",
+    "Aluminium",
+    "Card Holder",
+    "Office Supplies",
+    "Desk Accessories",
+    "241523",
+    "CU241523"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "922",
+  "image_alt_texts": {
+    "hero": "Durable silver aluminium business card box with 20 card capacity, closed view",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
+```

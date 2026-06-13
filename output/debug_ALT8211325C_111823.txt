@@ -1,0 +1,54 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T3
+TOKENS IN: 1301
+TOKENS OUT: 609
+
+RAW:
+```json
+{
+  "title": "Cash Register Roll Thermal 82 x 113 x 25mm Standard CSI Carton 12",
+  "body_html": "<p>Alliance Paper thermal cash register rolls deliver reliable performance for point-of-sale systems. Each roll measures 82mm wide by 113mm diameter with a 25mm core, compatible with standard CSI thermal printers.</p>\n<p>Thermal paper eliminates the need for ink ribbons, producing clear, fade-resistant receipts. This carton contains 12 rolls, providing dependable stock for retail environments, hospitality venues, and service counters across Australia.</p>",
+  "seo_title": "Thermal Cash Register Roll 82x113mm | Mega Office Supplies",
+  "seo_description": "Alliance Paper thermal cash register rolls. 82x113x25mm, standard CSI compatible. Carton of 12 rolls. Clear receipts without ink ribbons.",
+  "key_features": [
+    "82mm width x 113mm diameter x 25mm core",
+    "Thermal paper for clear, fade-resistant receipts",
+    "Compatible with standard CSI thermal printers",
+    "Carton contains 12 rolls"
+  ],
+  "applications": [
+    "Point-of-sale systems in retail stores",
+    "Hospitality and restaurant receipt printing",
+    "Service counters and customer transaction records"
+  ],
+  "specifications": [
+    "Roll Width: 82mm",
+    "Roll Diameter: 113mm",
+    "Core Diameter: 25mm",
+    "Paper Type: Thermal",
+    "Compatibility: Standard CSI",
+    "Pack Quantity: 12 rolls per carton",
+    "Brand: Alliance Paper",
+    "Vendor SKU: ALT8211325C"
+  ],
+  "faqs": [],
+  "tags": [
+    "Alliance Paper",
+    "Thermal Register Roll",
+    "Cash Register Roll",
+    "82mm Thermal Paper",
+    "CSI Compatible",
+    "Point of Sale Supplies",
+    "Receipt Roll",
+    "Thermal Paper Roll"
+  ],
+  "pack_size": "12",
+  "unit": "Carton",
+  "google_product_category_id": "961",
+  "image_alt_texts": {
+    "hero": "Alliance Paper thermal cash register roll 82mm x 113mm with 25mm core, white thermal paper on cardboard core",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
+```

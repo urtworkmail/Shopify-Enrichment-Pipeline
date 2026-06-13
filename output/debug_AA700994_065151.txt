@@ -1,0 +1,82 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 1751
+TOKENS OUT: 1287
+
+RAW:
+```json
+{
+  "title": "Collins Kingswood A4 Week to View 2025 Diary Burgundy",
+  "body_html": "<h2>Plan every week with clarity and confidence</h2>\n<p><strong>The Collins Kingswood A4 2025 Diary gives you a full week at a glance, with generous writing space and a professional burgundy finish that suits any office or home workspace.</strong></p>\n<p>A well-structured diary transforms how you manage appointments, deadlines and priorities. This A4 week-to-view format delivers ample room for detailed notes across seven days, with clear date references and a durable hardcover that protects pages through daily use. The burgundy cover adds a touch of formality without sacrificing practicality, while the wire-bound spine ensures the diary lies completely flat on your desk.</p>\n<p>Collins has designed this diary for Australian users, with local public holidays pre-printed and a layout that supports both scheduled meetings and project tracking. The wire binding allows smooth page turning, and the sturdy cover resists wear even when carried in bags or moved between locations.</p>\n<p>Ideal for managers, educators and consultants who need a reliable planning tool that handles a full year of commitments. A trusted Australian brand, built to keep you organised from January through December 2025.</p>",
+  "seo_title": "Collins Kingswood A4 Week to View 2025 Diary Burgundy",
+  "seo_description": "Collins Kingswood A4 2025 diary with week-to-view layout, burgundy hardcover and wire binding. Generous writing space and Australian public holidays pre-printed.",
+  "key_features": [
+    "A4 size provides ample writing space for detailed weekly planning",
+    "Wire-bound spine allows diary to lie completely flat on desk",
+    "Durable hardcover in burgundy protects pages through daily handling",
+    "Australian public holidays pre-printed for accurate scheduling",
+    "Week-to-view layout displays seven days on a single opening",
+    "Covers full 2025 calendar year from January to December",
+    "Generous page size supports both appointments and project notes"
+  ],
+  "applications": [
+    "Weekly planning for office managers and team leaders",
+    "Appointment scheduling for consultants and service professionals",
+    "Academic year planning for educators and school administrators",
+    "Project milestone tracking across multiple commitments",
+    "Client meeting coordination and follow-up notes",
+    "Personal organisation for home office and remote workers"
+  ],
+  "specifications": [
+    "Brand: Collins",
+    "Model: Kingswood",
+    "Format: Week to View",
+    "Year: 2025",
+    "Size: A4",
+    "Cover Colour: Burgundy",
+    "Cover Material: Hardcover",
+    "Binding: Wire-bound",
+    "Public Holidays: Australian holidays pre-printed",
+    "Page Layout: Seven-day spread per opening",
+    "Coverage: January 2025 to December 2025"
+  ],
+  "faqs": [
+    {
+      "question": "Does this diary include Australian public holidays?",
+      "answer": "Yes, the Collins Kingswood A4 2025 diary has all Australian public holidays pre-printed. This ensures accurate scheduling and helps you plan around national observances without needing to cross-reference external calendars."
+    },
+    {
+      "question": "Will the diary lie flat when open?",
+      "answer": "Yes, the wire-bound spine allows the diary to lie completely flat on your desk. This makes writing easier and prevents pages from flipping closed during use, particularly helpful when taking notes during phone calls or meetings."
+    },
+    {
+      "question": "How much writing space does each day provide?",
+      "answer": "The A4 week-to-view format dedicates approximately one-seventh of the page width to each day. This generous allocation supports multiple appointments, task lists and detailed notes for each day of the week, making it suitable for busy schedules."
+    },
+    {
+      "question": "Is the hardcover durable enough for daily use?",
+      "answer": "The burgundy hardcover is designed to withstand a full year of handling, protecting internal pages from creasing and damage. The rigid construction also provides a stable writing surface when you need to use the diary away from a desk."
+    }
+  ],
+  "tags": [
+    "Collins Kingswood",
+    "Collins Kingswood Burgundy",
+    "A4 Week to View Diary",
+    "2025 Diary",
+    "Week to View Planner",
+    "Burgundy Hardcover Diary",
+    "Wire Bound Diary",
+    "Collins Diaries",
+    "Office Planning Diary",
+    "Australian Public Holidays Diary"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "922",
+  "image_alt_texts": {
+    "hero": "Collins Kingswood A4 burgundy hardcover diary with wire binding showing week-to-view layout for 2025",
+    "lifestyle_1": "Collins Kingswood A4 diary open on office desk displaying week-to-view page layout with writing space",
+    "lifestyle_2": "Close-up of Collins Kingswood wire-bound diary lying flat showing burgundy hardcover and A4 weekly spread"
+  }
+}
+```

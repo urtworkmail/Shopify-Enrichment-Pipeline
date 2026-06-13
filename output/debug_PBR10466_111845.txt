@@ -1,0 +1,59 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2606
+TOKENS OUT: 943
+
+RAW:
+```json
+{
+  "title": "Wax Resin Ribbon Transfer 110mm x 70m Black",
+  "body_html": "<h2>Sharp, Long Lasting Prints for Demanding Labelling Environments</h2>\n<p><strong>A durable wax resin ribbon engineered for clarity, strength and consistency across high-volume thermal transfer printing.</strong></p>\n<p>When labels must remain legible through handling, storage and transport, print quality cannot be compromised. This 110mm x 70m wax resin ribbon combines the smooth transfer of wax with the durability of resin, delivering sharper detail and superior resistance to scratching compared to standard wax ribbons. Built for logistics, warehousing and product identification, it ensures barcodes and text stay clear throughout the supply chain. The 70-metre length supports extended print runs, reducing downtime from frequent ribbon changes.</p>\n<p>Black ink provides strong contrast on light substrates, making text and barcodes easy to scan and read. The wax resin formulation adheres reliably to coated paper and synthetic labels, offering the versatility needed for varied labelling tasks without sacrificing performance. From inventory tracking to shipping labels, this ribbon adapts to the demands of busy operations.</p>\n<p>Ideal for teams managing high-volume labelling in warehouses, manufacturing facilities and retail environments. A dependable choice that keeps operations moving smoothly with professional results every time.</p>",
+  "seo_title": "110mm Wax Resin Ribbon 70m Black | Mega Office Supplies",
+  "seo_description": "110mm x 70m black wax resin thermal transfer ribbon. Durable, scratch-resistant prints for warehouse, logistics and product labelling. Long-lasting clarity.",
+  "key_features": [
+    "Wax resin formulation delivers improved durability and resistance to scratching and handling",
+    "Black ribbon provides strong contrast for clear, easy to read text and barcodes",
+    "Long 70 metre length supports extended print runs with fewer ribbon changes",
+    "Reliable adhesion to coated paper and synthetic label substrates",
+    "Superior print clarity compared to standard wax ribbons for professional results",
+    "Designed for high-volume thermal transfer printing environments"
+  ],
+  "applications": [
+    "Warehouse inventory and stock control labelling requiring durable, scannable barcodes",
+    "Logistics and shipping labels that must withstand handling and transport conditions",
+    "Product identification and tracking in manufacturing environments",
+    "Retail shelf labelling and price marking with long-lasting clarity",
+    "High-volume thermal transfer printing operations across distribution centres"
+  ],
+  "specifications": [
+    "Ribbon Width: 110 mm",
+    "Ribbon Length: 70 metres",
+    "Colour: Black",
+    "Ribbon Type: Wax resin transfer",
+    "Print Technology: Thermal transfer",
+    "Substrate Compatibility: Coated paper and synthetic labels",
+    "Durability: Enhanced scratch and smudge resistance"
+  ],
+  "faqs": [],
+  "tags": [
+    "Wax Resin Ribbon",
+    "110mm Thermal Transfer Ribbon",
+    "Black Printer Ribbon",
+    "Thermal Transfer Printing",
+    "Warehouse Labelling Supplies",
+    "Barcode Ribbon 110mm",
+    "Durable Label Ribbon",
+    "Logistics Printing Supplies",
+    "70m Ribbon Roll",
+    "Office Labelling Consumables"
+  ],
+  "pack_size": "1",
+  "unit": "Roll",
+  "google_product_category_id": "922",
+  "image_alt_texts": {
+    "hero": "Wax resin thermal transfer ribbon 110mm x 70m black roll for professional labelling",
+    "lifestyle_1": "Black wax resin ribbon producing clear barcode labels in warehouse thermal printer",
+    "lifestyle_2": null
+  }
+}
+```

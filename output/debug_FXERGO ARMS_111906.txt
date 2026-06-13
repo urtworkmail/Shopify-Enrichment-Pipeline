@@ -1,0 +1,61 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 3171
+TOKENS OUT: 1005
+
+RAW:
+```json
+{
+  "title": "Rapidline Adjustable Arms Set for Ergo Task Chair Black",
+  "body_html": "<h2>Upgrade Your Workspace Comfort with Precision Arm Support</h2>\n<p><strong>The Rapidline Adjustable Arms Set transforms your Ergo task chair into a fully ergonomic seating solution, reducing shoulder strain and supporting healthier posture throughout your workday.</strong></p>\n<p>Long hours at a desk demand proper arm support. These height-adjustable armrests integrate seamlessly with the Rapidline Ergo mesh task chair range, allowing you to position your arms at the optimal height for your body and workstation. The adjustment eliminates the shoulder tension that builds when arms hang unsupported or rest at awkward angles, helping you maintain focus and comfort during extended periods of concentrated work.</p>\n<p>Built with durability in mind, the black armrest set withstands daily use in high-activity office environments. The straightforward installation process means you can enhance your existing chair without investing in a complete replacement, making it a cost-effective upgrade for businesses and home offices alike.</p>\n<p>Backed by a 10-year warranty, this arm set delivers long-term value for Australian workplaces committed to employee wellbeing. Compatible exclusively with Rapidline Ergo mesh task chairs, it provides the precision fit and reliable performance your team deserves.</p>",
+  "seo_title": "Rapidline Adjustable Arms Black | Mega Office Supplies",
+  "seo_description": "Height-adjustable armrests for Rapidline Ergo task chairs. Reduce shoulder strain, improve posture. Black finish, 10-year warranty. Australian stock.",
+  "key_features": [
+    "Height-adjustable design lets you customise arm position to your exact body measurements and desk setup",
+    "Engineered specifically for seamless integration with Rapidline Ergo mesh task chair models",
+    "Black finish coordinates with professional office aesthetics across modern workspaces",
+    "Backed by comprehensive 10-year manufacturer warranty for long-term reliability",
+    "Reduces upper body fatigue by supporting natural arm positioning during extended computer work",
+    "Durable construction stands up to daily adjustment and continuous use in busy offices"
+  ],
+  "applications": [
+    "Office managers upgrading existing Rapidline Ergo task chairs to full ergonomic specification",
+    "Home office workers seeking to improve comfort and reduce strain during remote work sessions",
+    "Corporate procurement teams outfitting workstations with adjustable seating accessories",
+    "Educational institutions enhancing staff room and administrative seating ergonomics",
+    "Businesses extending the functional life of existing Ergo chair investments without full replacement"
+  ],
+  "specifications": [
+    "Product Type: Adjustable arm set accessory for Ergo task chair",
+    "Brand: Rapidline",
+    "Model: FXERGO ARMS",
+    "Colour: Black",
+    "Adjustability: Height adjustable",
+    "Compatibility: Rapidline Ergo mesh task chair range only",
+    "Warranty: 10 years",
+    "Installation: Retrofits to existing Ergo task chair frames",
+    "Intended Use: Commercial and home office environments"
+  ],
+  "faqs": [],
+  "tags": [
+    "Rapidline FXERGO ARMS",
+    "Rapidline Adjustable Arms Black",
+    "Ergo Task Chair Accessories",
+    "Rapidline Ergo Chair Arms",
+    "Task Chair Armrests",
+    "Office Chair Arm Upgrade",
+    "Rapidline Seating Accessories",
+    "Ergonomic Chair Arms",
+    "Office Furniture Accessories",
+    "Adjustable Office Chair Parts"
+  ],
+  "pack_size": "1 Set",
+  "unit": "Each",
+  "google_product_category_id": "436",
+  "image_alt_texts": {
+    "hero": "Rapidline adjustable armrests in black finish for Ergo mesh task chair, showing height adjustment mechanism",
+    "lifestyle_1": "Black Rapidline adjustable arms installed on Ergo task chair in modern Australian office workspace",
+    "lifestyle_2": null
+  }
+}
+```

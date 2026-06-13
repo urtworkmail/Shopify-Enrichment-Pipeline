@@ -1,0 +1,65 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2689
+TOKENS OUT: 1064
+
+RAW:
+```json
+{
+  "title": "Post-it Durable Tabs Pink White Aqua Violet 50 x 38mm 686-PWAV",
+  "body_html": "<h2>Organise Files with Confidence and Colour</h2>\n<p><strong>Durable, repositionable tabs that bring clarity and control to busy folders and binders.</strong></p>\n<p>Post-it Durable Tabs transform the way you manage paperwork. Measuring 50 x 38mm, these tabs deliver a soft yet distinct colour palette of pink, white, aqua and violet, allowing you to divide folders into clear sections that make information easy to find. The writeable surface accepts pen or pencil markings that stay legible through constant handling, while the repositionable adhesive holds firmly yet lifts cleanly without leaving residue or damaging pages.</p>\n<p>Each pack contains 24 tabs (6 per colour), giving you the flexibility to create a filing system that adapts as your needs change. Whether you are sorting projects by priority, separating subjects in study notes, or organising reference material across multiple binders, these tabs stand up to daily use while maintaining a professional, tidy appearance.</p>\n<p>Ideal for office environments, educational settings and home filing systems, Post-it Durable Tabs offer reliable performance from a trusted brand. Keep your most important documents accessible and your workspace under control with tabs built to last.</p>",
+  "seo_title": "Post-it Tabs 50x38mm Pink Aqua | Mega Office Supplies",
+  "seo_description": "Post-it Durable Tabs in pink, white, aqua and violet. 50x38mm writeable surface, repositionable adhesive. 24 tabs per pack. Organise files with confidence.",
+  "key_features": [
+    "50 x 38mm tabs in four colours: pink, white, aqua and violet for visual organisation",
+    "Writeable surface accepts pen or pencil for clear, lasting labels",
+    "Repositionable adhesive sticks securely and removes without residue",
+    "Durable construction withstands frequent handling and repositioning",
+    "24 tabs per pack (6 per colour) for flexible filing systems",
+    "Compatible with folders, binders, planners and notebooks",
+    "Maintains professional appearance through daily use"
+  ],
+  "applications": [
+    "Dividing project folders by stage, priority or team member",
+    "Organising student notes and textbooks by subject or chapter",
+    "Marking reference sections in binders and manuals for quick access",
+    "Creating colour-coded filing systems in shared office environments",
+    "Sorting invoices, receipts and financial documents by month or category",
+    "Labelling recipe binders, research files and personal planners"
+  ],
+  "specifications": [
+    "Brand: Post-it",
+    "Product Type: Durable filing tabs",
+    "Model: 686-PWAV",
+    "Manufacturer Code: 3M70005121101",
+    "Size: 50mm x 38mm",
+    "Colours: Pink, White, Aqua, Violet",
+    "Quantity: 24 tabs per pack",
+    "Configuration: 6 tabs per colour, 4 colours per pack",
+    "Surface: Writeable",
+    "Adhesive: Repositionable, residue-free",
+    "Dispenser Included: No"
+  ],
+  "faqs": [],
+  "tags": [
+    "Post-it Durable Tabs",
+    "Post-it 686-PWAV",
+    "Durable Filing Tabs",
+    "Repositionable Tabs",
+    "Colour Coded Tabs",
+    "50mm x 38mm Tabs",
+    "Office Organisation Supplies",
+    "Writeable Index Tabs",
+    "Post-it Filing Solutions",
+    "Folder Dividers"
+  ],
+  "pack_size": "Pack of 24",
+  "unit": "Pack",
+  "google_product_category_id": "922",
+  "image_alt_texts": {
+    "hero": "Post-it Durable Tabs 50 x 38mm in pink, white, aqua and violet colours, 24 tabs per pack",
+    "lifestyle_1": "Post-it Durable Tabs attached to file folder dividers in office filing system",
+    "lifestyle_2": null
+  }
+}
+```

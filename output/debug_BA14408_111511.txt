@@ -1,0 +1,52 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T3
+TOKENS IN: 1665
+TOKENS OUT: 585
+
+RAW:
+```json
+{
+  "title": "BIC Atlantis Original Retractable Ballpoint Pen Medium Blue Box of 12",
+  "body_html": "<p>The BIC Atlantis Original combines reliable ballpoint technology with everyday comfort. The 1.0mm nickel silver point delivers a consistent 0.4mm line width, while the soft cushion grip and clear barrel offer visibility and control throughout the workday.</p><p>Retractable design with metal clip. Blue ink matches the grip and clip colour. Easy glide ink system ensures smooth writing from first stroke to last.</p>",
+  "seo_title": "BIC Atlantis Blue Ballpoint Pen 12pk | Mega Office Supplies",
+  "seo_description": "BIC Atlantis Original retractable ballpoint pen with 1.0mm tip, soft cushion grip, and blue ink. Easy glide system for smooth writing. Box of 12.",
+  "key_features": [
+    "1.0mm nickel silver point with 0.4mm line width",
+    "Soft cushion grip for extended writing comfort",
+    "Retractable design with metal clip and clear barrel",
+    "Easy glide ink system for smooth, consistent application"
+  ],
+  "applications": [
+    "General office writing and documentation",
+    "Note-taking in meetings and workshops",
+    "Administrative tasks and form completion"
+  ],
+  "specifications": [
+    "Tip Size: 1.0mm",
+    "Line Width: 0.4mm",
+    "Ink Colour: Blue",
+    "Point Material: Nickel silver",
+    "Barrel: Clear with visible ink supply",
+    "Mechanism: Retractable"
+  ],
+  "faqs": [],
+  "tags": [
+    "BIC",
+    "Atlantis Original",
+    "Ballpoint Pen",
+    "Retractable Pen",
+    "Blue Ink",
+    "Medium Point",
+    "Office Supplies",
+    "Writing Instruments"
+  ],
+  "pack_size": "12",
+  "unit": "Box",
+  "google_product_category_id": "932",
+  "image_alt_texts": {
+    "hero": "BIC Atlantis Original retractable ballpoint pen in blue with soft cushion grip and clear barrel, box of 12",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
+```

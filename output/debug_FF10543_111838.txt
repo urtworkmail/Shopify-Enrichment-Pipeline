@@ -1,0 +1,67 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2752
+TOKENS OUT: 1202
+
+RAW:
+```json
+{
+  "title": "Robert Timms Espresso Granulated Instant Coffee Extra Dark Roast Jar 100g Carton of 6",
+  "body_html": "<h2>Start your day with bold espresso intensity that delivers café strength in an instant</h2>\n<p><strong>Robert Timms Espresso Granulated Instant Coffee Extra Dark Roast brings rich Arabica flavour and full bodied depth to every cup, ready in moments.</strong></p>\n<p>For teams and coffee lovers who refuse to compromise on taste, this extra dark roast instant coffee delivers strong espresso character with smooth, satisfying depth. Made from quality Arabica beans and granulated for fast dissolving convenience, each 100g jar provides a rich continental aroma and creamy texture that works beautifully black or with milk. The extra dark roast profile creates an intense, energising flavour that feels indulgent from the first sip, making every break feel like a café moment without the wait or waste.</p>\n<p>This carton of 6 jars is perfect for high traffic office kitchens, staff rooms, and hospitality environments where consistent quality matters. The granulated format dissolves quickly and cleanly, delivering full bodied flavour whether you prefer a strong black coffee or a smooth, creamy espresso style drink with milk. Arabica beans bring natural complexity and a balanced finish that elevates the instant coffee experience.</p>\n<p>Ideal for busy mornings, long meetings, and afternoon resets, Robert Timms Espresso Extra Dark Roast brings dependable strength and café inspired enjoyment to every workspace. Stock your pantry with bold flavour that your team will reach for again and again.</p>",
+  "seo_title": "Robert Timms Espresso Coffee 100g | Mega Office Supplies",
+  "seo_description": "Robert Timms Espresso Extra Dark Roast instant coffee delivers bold Arabica flavour and full bodied depth. Carton of 6 x 100g jars for office kitchens.",
+  "key_features": [
+    "Extra dark roast espresso delivers strong, intense flavour with smooth Arabica complexity and rich continental aroma",
+    "Granulated format dissolves quickly and completely for clean, convenient brewing in seconds",
+    "Made from quality Arabica beans for full bodied depth and balanced finish",
+    "Works perfectly black for bold intensity or with milk for creamy, café style drinks",
+    "100g jar size provides excellent value and freshness for medium to high use environments",
+    "Carton of 6 jars ensures consistent supply for busy office kitchens and staff rooms",
+    "Strong espresso character energises and satisfies without bitterness or harsh aftertaste"
+  ],
+  "applications": [
+    "Office kitchens and staff rooms needing premium instant coffee with bold, satisfying flavour for daily breaks",
+    "Home office pantries where quick, high quality espresso style coffee supports productive mornings",
+    "Hospitality environments including hotels, B&Bs, and meeting venues offering guests café strength instant coffee",
+    "School staff rooms and administrative offices requiring convenient, full flavoured coffee for busy educators",
+    "Workplace catering and vending supply for teams who appreciate strong, rich coffee without the wait",
+    "Shared workspaces and co-working hubs where fast, dependable espresso quality keeps members energised"
+  ],
+  "specifications": [
+    "Product type: Granulated instant coffee",
+    "Roast level: Extra dark roast",
+    "Coffee style: Espresso",
+    "Bean type: Arabica beans",
+    "Strength: Strong",
+    "Jar size: 100g",
+    "Pack configuration: Carton of 6 jars",
+    "Total net weight: 600g per carton",
+    "Format: Instant dissolving granules",
+    "Flavour profile: Rich, intense, full bodied with creamy texture",
+    "Serving style: Black or with milk",
+    "Brand: Robert Timms",
+    "Vendor SKU: FF10543"
+  ],
+  "faqs": [],
+  "tags": [
+    "Robert Timms Coffee",
+    "Espresso Instant Coffee",
+    "Extra Dark Roast Coffee",
+    "Arabica Instant Coffee",
+    "Granulated Coffee",
+    "Office Coffee Supplies",
+    "Strong Instant Coffee",
+    "100g Coffee Jar",
+    "Bulk Coffee Carton",
+    "Premium Instant Coffee"
+  ],
+  "pack_size": "Carton of 6",
+  "unit": "Carton",
+  "google_product_category_id": "423",
+  "image_alt_texts": {
+    "hero": "Robert Timms Espresso Granulated Instant Coffee Extra Dark Roast 100g jar with Arabica bean quality label",
+    "lifestyle_1": "Robert Timms Espresso Extra Dark Roast instant coffee served in white cup on office desk with morning light",
+    "lifestyle_2": null
+  }
+}
+```

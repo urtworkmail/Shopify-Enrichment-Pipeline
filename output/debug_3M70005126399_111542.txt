@@ -1,0 +1,65 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2697
+TOKENS OUT: 1146
+
+RAW:
+```json
+{
+  "title": "Post-it Durable Tabs 25 x 50mm Stripe + Bonus 30 Tabs 686-VAD1",
+  "body_html": "<h2>Organisation That Keeps Pace with Your Workflow</h2>\n<p><strong>Durable striped tabs with bonus value for clear, confident document management</strong></p>\n<p>Dividing documents, tracking projects and colour-coding information becomes effortless when you choose Post-it Durable Tabs 25 x 50mm Stripe plus Bonus 30 Tabs 686-VAD1. Built with extra thickness to withstand constant handling and page turning, these tabs deliver the reliability professionals need for long-term organisation. The assorted striped colours provide instant visual cues, helping you locate critical information at a glance across binders, planners and notebooks. With 114 tabs total including bonus tabs, you gain exceptional value for busy home offices, schools and workplaces.</p>\n<p>Repositionable adhesive sticks securely to pages yet removes cleanly without tearing or leaving residue, protecting your documents while giving you flexibility to adjust your system as priorities shift. The writeable surface accepts pen and pencil, enabling clear labelling that stays legible through frequent use. Compact dispensers keep tabs neat and accessible on your desk or in your bag.</p>\n<p>From managing client files to organising study materials, these durable tabs adapt to the way you work. Post-it quality means you can trust your system to stay intact, session after session, project after project.</p>",
+  "seo_title": "Post-it Durable Tabs 25x50mm Stripe | Mega Office Supplies",
+  "seo_description": "Post-it Durable Tabs with bonus 30 tabs. Extra-thick, repositionable, writeable tabs in striped colours. 114 tabs total for reliable document organisation.",
+  "key_features": [
+    "Extra-thick construction prevents wear and tear through constant handling and page turning",
+    "Repositionable adhesive sticks securely and removes cleanly without damaging pages or leaving residue",
+    "Striped assorted colours provide instant visual cues for fast information retrieval",
+    "Writeable surface accepts pen and pencil for clear, legible labelling",
+    "114 tabs total including bonus tabs deliver exceptional value for ongoing projects",
+    "Compact dispensers keep tabs organised and accessible on desk or in transit",
+    "Two sizes included (25.4mm and 50.8mm) for flexible document organisation"
+  ],
+  "applications": [
+    "Dividing sections in binders, planners and project notebooks for quick navigation",
+    "Colour-coding client files, course materials or multi-phase projects across multiple documents",
+    "Marking important pages in reference manuals, textbooks and training materials",
+    "Organising financial records, contracts and compliance documents for audit readiness",
+    "Tracking tasks and milestones in meeting notes and strategic planning documents",
+    "Labelling inventory lists, procedure guides and operational manuals in shared workspaces"
+  ],
+  "specifications": [
+    "Product Type: Durable organising tabs",
+    "Sizes Included: 25.4mm and 50.8mm",
+    "Colour: Assorted striped colours",
+    "Package Contents: 114 tabs total including bonus tabs",
+    "Tab Strength: Durable extra-thick construction",
+    "Surface: Writeable with pen and pencil",
+    "Adhesive Type: Repositionable",
+    "Dispenser: Included",
+    "Brand: Post-it",
+    "Model Number: 686-VAD1",
+    "MPN: 3M70005126399"
+  ],
+  "faqs": [],
+  "tags": [
+    "Post-it 686-VAD1",
+    "Post-it Durable Tabs",
+    "Post-it Striped Tabs",
+    "Durable Document Tabs",
+    "Repositionable Page Tabs",
+    "Colour Coded Tabs",
+    "Writeable Index Tabs",
+    "Office Organisation Supplies",
+    "Document Dividers",
+    "Post-it Stationery"
+  ],
+  "pack_size": "114 tabs (including 30 bonus tabs)",
+  "unit": "Pack",
+  "google_product_category_id": "922",
+  "image_alt_texts": {
+    "hero": "Post-it Durable Tabs 686-VAD1 showing striped assorted colours in compact dispensers with 25mm and 50mm size tabs",
+    "lifestyle_1": "Post-it Durable Tabs attached to binder pages showing colour-coded section dividers in office setting",
+    "lifestyle_2": null
+  }
+}
+```

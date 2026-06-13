@@ -1,0 +1,83 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T1
+TOKENS IN: 2963
+TOKENS OUT: 1299
+
+RAW:
+```json
+{
+  "title": "Collins 10200 Account Book Series A24 Feint Red Cover",
+  "body_html": "<h2>Keep your financial records organised with professional clarity</h2>\n<p><strong>The Collins 10200 Account Book Series A24 delivers reliable record-keeping for businesses, schools and home offices that need clear, structured financial tracking.</strong></p>\n<p>Accurate financial management starts with the right tools. This A4 account book provides 48 feint-ruled pages printed on quality white paper, giving you plenty of space to track income, expenses and balances with professional clarity. The A24 series format suits standard bookkeeping needs, from petty cash reconciliation to project budgets.</p>\n<p>The durable board cover and staple-bound construction protect your records through daily handling. The feint ruling guides neat entries without dominating the page, while the generous A4 format accommodates detailed transaction descriptions and multiple columns.</p>\n<p>Ideal for small businesses, school offices, sporting clubs and volunteer organisations that need straightforward paper-based accounting. Collins has been trusted for quality stationery since 1819, and this account book continues that tradition of dependable performance.</p>",
+  "seo_title": "Collins A24 Account Book 48 Page | Mega Office Supplies",
+  "seo_description": "Collins 10200 A24 Account Book with 48 feint-ruled pages, durable red board cover and A4 format. Trusted quality for business bookkeeping since 1819.",
+  "key_features": [
+    "48 feint-ruled pages provide ample space for detailed financial record-keeping",
+    "A4 format accommodates multi-column entries and transaction descriptions",
+    "Durable board cover with classic red finish protects records during frequent use",
+    "Quality white paper accepts pen and pencil without bleed-through",
+    "Staple-bound construction ensures pages stay secure and flat when open",
+    "A24 series format suits standard bookkeeping and account reconciliation",
+    "Collins quality manufacturing trusted since 1819"
+  ],
+  "applications": [
+    "Small business bookkeeping and daily transaction recording",
+    "Petty cash tracking and reconciliation in office environments",
+    "School and sports club financial management",
+    "Project budget monitoring and expense tracking",
+    "Volunteer organisation income and expenditure records",
+    "Home office accounts and personal finance management"
+  ],
+  "specifications": [
+    "Brand: Collins Debden",
+    "Model: 10200",
+    "Series: A24 Account Book",
+    "Page Count: 48 pages",
+    "Size: A4",
+    "Paper Colour: White",
+    "Ruling: Feint",
+    "Cover Material: Board",
+    "Cover Colour: Red",
+    "Binding: Staple bound",
+    "Vendor SKU: CD10200",
+    "Category: Office Supplies - Account & Analysis"
+  ],
+  "faqs": [
+    {
+      "question": "What type of accounting tasks is the Collins A24 account book suitable for?",
+      "answer": "The A24 series is ideal for general bookkeeping tasks including petty cash tracking, income and expense recording, project budgets, and account reconciliation. The 48-page capacity and feint ruling suit small to medium-volume transaction recording for businesses, schools, clubs and home offices."
+    },
+    {
+      "question": "How many columns can I create in this account book?",
+      "answer": "The A4 feint-ruled format provides flexible space for creating multiple columns to suit your needs. The feint ruling guides neat entries without pre-defining column structure, allowing you to customise the layout for different accounting formats such as cash books, ledgers or analysis sheets."
+    },
+    {
+      "question": "Will pen ink bleed through the pages?",
+      "answer": "The account book uses quality white paper that handles standard ballpoint and gel pens without bleed-through. For best results with fountain pens or markers, test on a single page first, though the paper weight is designed for typical office writing instruments."
+    },
+    {
+      "question": "Is this account book suitable for long-term record retention?",
+      "answer": "Yes, the durable board cover and staple-bound construction protect your records during regular handling and filing. The quality paper maintains legibility over time when stored properly. For permanent archival records, keep the book in a dry environment away from direct sunlight."
+    }
+  ],
+  "tags": [
+    "Collins 10200",
+    "Collins A24 Account Book",
+    "A4 Account Book",
+    "Financial Record Book",
+    "Bookkeeping Ledger",
+    "Office Accounting Supplies",
+    "Collins Debden Stationery",
+    "Business Record Keeping",
+    "Feint Ruled Account Book",
+    "48 Page Account Book"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "922",
+  "image_alt_texts": {
+    "hero": "Collins 10200 A24 Account Book with red board cover and feint-ruled pages for financial record-keeping",
+    "lifestyle_1": "Collins A24 Account Book open showing feint-ruled white pages for organised bookkeeping entries",
+    "lifestyle_2": "Collins 10200 Account Book on office desk with pen demonstrating professional financial tracking"
+  }
+}
+```

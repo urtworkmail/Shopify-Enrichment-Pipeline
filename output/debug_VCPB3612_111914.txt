@@ -1,0 +1,54 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T3
+TOKENS IN: 1809
+TOKENS OUT: 662
+
+RAW:
+```json
+{
+  "title": "Visionchart PB3612 Porcelain Whiteboard 3600 x 1200mm",
+  "body_html": "<p>The Visionchart PB3612 porcelain whiteboard delivers heavy-duty performance for schools, universities, conference centres and medical facilities. Its vitreous enamel surface resists ghosting and staining, backed by a 25-year guarantee for long-term reliability.</p><p>The magnetic receptive surface accepts magnets and dry-wipe markers with ease. Concealed wall fittings and a full-length aluminium pen tray keep your space clean and professional. Galvanised steel backing ensures stability for daily use.</p>",
+  "seo_title": "Visionchart PB3612 Porcelain Whiteboard | Mega Office",
+  "seo_description": "Heavy-duty porcelain whiteboard, 3600 x 1200mm. Magnetic surface, aluminium frame, 25-year guarantee. Ideal for schools, medical facilities and conference rooms.",
+  "key_features": [
+    "Porcelain vitreous enamel surface with 25-year guarantee",
+    "Magnetic receptive surface accepts magnets",
+    "Full-length aluminium pen tray with concealed wall fittings",
+    "Galvanised steel backing for stability"
+  ],
+  "applications": [
+    "Schools and higher education facilities",
+    "Conference centres and meeting rooms",
+    "Medical facilities and hospitals"
+  ],
+  "specifications": [
+    "Dimensions: 3600 x 1200mm",
+    "Surface: Porcelain (vitreous enamel)",
+    "Frame: Aluminium",
+    "Backing: Galvanised steel sheet",
+    "Magnetic: Yes",
+    "Warranty: 25 years",
+    "Model: PB3612",
+    "SKU: VCPB3612"
+  ],
+  "faqs": [],
+  "tags": [
+    "Visionchart",
+    "Whiteboard",
+    "Porcelain Whiteboard",
+    "Magnetic Whiteboard",
+    "PB3612",
+    "Office Supplies",
+    "3600x1200mm",
+    "Educational Supplies"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "922",
+  "image_alt_texts": {
+    "hero": "Visionchart PB3612 porcelain whiteboard with aluminium frame and pen tray, 3600 x 1200mm",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
+```

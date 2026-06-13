@@ -1,0 +1,89 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T1
+TOKENS IN: 2715
+TOKENS OUT: 1723
+
+RAW:
+```json
+{
+  "title": "Kleenex Compact Hand Towel White 90 Sheets Pack of 24",
+  "body_html": "<h2>Premium Hand Drying for Compact Washrooms</h2>\n<p><strong>Soft, strong and space-efficient towels that deliver superior absorbency and hygiene in every sheet.</strong></p>\n<p>Kleenex Compact Hand Towels in white maximise performance in limited washroom spaces without compromising comfort or quality. Manufactured with Airflex technology, each 1 ply sheet absorbs quickly and maintains outstanding strength, ensuring hands are dried thoroughly with fewer towels. The 90-sheet packs work seamlessly with compact dispensers, providing high capacity hand drying that fits narrow or tight areas. One-at-a-time dispensing reduces cross-contamination and minimises waste, supporting efficient, low-maintenance operation in busy Australian workplaces.</p>\n<p>FSC certified sustainable fibre construction ensures every towel meets environmental standards while delivering the premium softness and durability users expect. The crisp white finish suits professional environments from offices to clinics, and compatibility with multiple Kleenex dispensers (70240, 70007, 4969, 4970) makes integration straightforward. This 24-pack case offers exceptional value and convenience, reducing restock frequency and keeping washrooms well-supplied during peak periods.</p>\n<p>Kleenex Compact Hand Towels provide the ideal solution for restricted washrooms in offices, hospitality venues, education facilities and public buildings. Combine space-saving design with reliable performance and sustainable quality for a hand drying experience your staff and visitors will appreciate every day.</p>",
+  "seo_title": "Kleenex Compact Hand Towel 90 Sheets | Mega Office Supplies",
+  "seo_description": "Kleenex Compact Hand Towels with Airflex technology. 90 sheets per pack, 24 packs per case. Soft, strong, FSC certified. Perfect for small washrooms.",
+  "key_features": [
+    "Airflex technology delivers rapid absorbency and superior strength for effective hand drying with fewer towels",
+    "Single towel dispensing promotes hygiene, reduces cross-contamination and minimises unnecessary waste",
+    "Compact format maximises washroom space while maintaining high capacity performance",
+    "FSC certified sustainable fibre ensures environmental responsibility without sacrificing quality",
+    "Premium softness and durability provide a comfortable, professional experience for all users",
+    "Compatible with multiple Kleenex dispensers for seamless integration into existing washroom setups",
+    "24-pack case reduces restocking frequency and ensures continuous supply in high-traffic areas"
+  ],
+  "applications": [
+    "Small washrooms in corporate offices, law firms and professional service environments",
+    "Hospitality venues including cafes, restaurants and hotels with limited washroom space",
+    "Education facilities such as schools, universities and training centres",
+    "Healthcare settings including medical clinics, dental surgeries and aged care facilities",
+    "Public buildings, government offices and community centres requiring efficient hand drying",
+    "Retail spaces, gyms and service stations with compact washroom configurations"
+  ],
+  "specifications": [
+    "Brand: Kleenex",
+    "Product Code: KC4440",
+    "Colour: White",
+    "Sheet Count: 90 towels per pack",
+    "Pack Size: 24 packs per case",
+    "Total Sheets per Case: 2,160 towels",
+    "Ply: 1 ply",
+    "Material: FSC certified sustainable fibre",
+    "Technology: Airflex absorbency technology",
+    "Dispensing: Single towel, one-at-a-time",
+    "Compatible Dispensers: 70240, 70007, 4969, 4970",
+    "Format: Compact hand towel",
+    "Application: Hand drying in compact washrooms",
+    "Country of Brand: Australia"
+  ],
+  "faqs": [
+    {
+      "question": "Which Kleenex dispensers are compatible with these compact hand towels?",
+      "answer": "These Kleenex Compact Hand Towels are compatible with Kleenex dispensers 70240, 70007, 4969 and 4970. The compact format is specifically designed to fit space-saving dispensers, making them ideal for narrow or restricted washroom areas. Check your current dispenser model number to confirm compatibility before ordering."
+    },
+    {
+      "question": "How many towels do I get in total with this 24-pack case?",
+      "answer": "Each pack contains 90 individual hand towels, and the case includes 24 packs, giving you a total of 2,160 towels per case. This high capacity reduces the frequency of restocking, making it perfect for busy Australian workplaces with moderate to high washroom traffic."
+    },
+    {
+      "question": "Are these hand towels environmentally responsible?",
+      "answer": "Yes, Kleenex Compact Hand Towels are manufactured from FSC certified sustainable fibre, ensuring responsible forest management. The one-at-a-time dispensing format also reduces waste by preventing users from taking more towels than needed, supporting both environmental and cost efficiency."
+    },
+    {
+      "question": "What makes Airflex technology different from standard hand towels?",
+      "answer": "Airflex technology enhances the absorbency and strength of each towel, allowing hands to be dried quickly and thoroughly with fewer sheets. This means users experience faster, more effective hand drying while reducing overall towel consumption, delivering both superior performance and value for your business."
+    },
+    {
+      "question": "Are these suitable for high-traffic professional environments?",
+      "answer": "Absolutely. The combination of high sheet count per pack, superior absorbency and one-at-a-time dispensing makes these towels ideal for busy offices, clinics, hospitality venues and education facilities. The 24-pack case ensures you maintain continuous supply even during peak usage periods, while the professional white finish suits corporate and public environments."
+    }
+  ],
+  "tags": [
+    "Kleenex KC4440",
+    "Kleenex Compact Hand Towel White",
+    "Kleenex Dispenser 70240",
+    "Kleenex Dispenser 4969",
+    "Compact Hand Towels",
+    "White Hand Towels",
+    "Kleenex Airflex Towels",
+    "Kleenex Washroom Supplies",
+    "Office Washroom Supplies",
+    "FSC Certified Hand Towels"
+  ],
+  "pack_size": "Pack of 24",
+  "unit": "Pack",
+  "google_product_category_id": "630",
+  "image_alt_texts": {
+    "hero": "Kleenex Compact Hand Towel white 90 sheets pack of 24 with KC4440 product code",
+    "lifestyle_1": "Kleenex Compact Hand Towels dispensed one at a time in professional office washroom",
+    "lifestyle_2": "Kleenex Airflex hand towels in compact dispenser showing space saving design for small washrooms"
+  }
+}
+```

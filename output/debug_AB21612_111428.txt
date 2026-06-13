@@ -1,0 +1,48 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T3
+TOKENS IN: 1693
+TOKENS OUT: 554
+
+RAW:
+```json
+{
+  "title": "Better Pack 21612 Automatic Measuring Device for BP-555 Gummed Tape Machine",
+  "body_html": "<p>The Better Pack 21612 automatic measuring device interfaces with the BP-555 gummed tape machine to measure cartons and dispense the exact amount of tape required. This precision eliminates guesswork and reduces tape wastage by up to 20%, making it ideal for operations handling random-size cartons.</p>\n<p>The device increases productivity by automating the measuring and dispensing process, delivering consistent tape application for every carton. Compatible exclusively with the Better Pack BP-555 model.</p>",
+  "seo_title": "BP 21612 Auto Measuring Device | Mega Office Supplies",
+  "seo_description": "Better Pack 21612 automatic measuring device for BP-555 gummed tape machines. Increases productivity up to 20% and reduces tape wastage on random-size cartons.",
+  "key_features": [
+    "Increases productivity up to 20% and reduces tape wastage",
+    "Automatically measures cartons and dispenses the perfect amount of tape",
+    "Compatible with Better Pack BP-555 gummed tape machine",
+    "Ideal for operations handling random-size cartons"
+  ],
+  "applications": [
+    "Packaging operations with variable carton sizes",
+    "Warehouse and distribution centres requiring consistent tape application"
+  ],
+  "specifications": [
+    "Model: 21612",
+    "Compatibility: Better Pack BP-555 gummed tape machine",
+    "MPN: AB21612"
+  ],
+  "faqs": [],
+  "tags": [
+    "Better Pack",
+    "21612",
+    "automatic measuring device",
+    "BP-555",
+    "gummed tape machine",
+    "tape dispenser accessory",
+    "packaging equipment",
+    "carton sealing"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "499953",
+  "image_alt_texts": {
+    "hero": "Better Pack 21612 automatic measuring device for BP-555 gummed tape machine",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
+```

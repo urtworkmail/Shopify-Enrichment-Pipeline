@@ -1,0 +1,52 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T3
+TOKENS IN: 1673
+TOKENS OUT: 637
+
+RAW:
+```json
+{
+  "title": "Connoisseur Flip-Tite Canister Square 1.0L",
+  "body_html": "<p>The Connoisseur Flip-Tite Canister offers airtight dry storage with a simple flip-ring seal. Made from BPA-free clear plastic with a white lid, this 1.0 litre square canister is stackable, dishwasher safe and ideal for storing dry goods in the office kitchen, staff room or home pantry.</p>\n<p>The square design maximises cupboard space while the clear body allows you to identify contents at a glance. Flip the ring up to open, flip down to seal.</p>",
+  "seo_title": "Connoisseur 1.0L Square Canister | Mega Office Supplies",
+  "seo_description": "Airtight 1.0L square canister with flip-ring seal. BPA-free clear plastic, stackable, dishwasher safe. Ideal for dry goods storage in offices and kitchens.",
+  "key_features": [
+    "Airtight flip-ring seal for dry goods storage",
+    "BPA-free clear plastic with white lid",
+    "Stackable design and dishwasher safe",
+    "130mm x 130mm x 130mm dimensions"
+  ],
+  "applications": [
+    "Dry goods storage in office kitchens and staff rooms",
+    "Pantry organisation in home offices",
+    "Food storage for hospitality environments"
+  ],
+  "specifications": [
+    "Capacity: 1.0 litre",
+    "Dimensions: 130mm (L) x 130mm (W) x 130mm (H)",
+    "Material: BPA-free clear plastic",
+    "Lid Colour: White",
+    "Shape: Square",
+    "Features: Dishwasher safe, stackable"
+  ],
+  "faqs": [],
+  "tags": [
+    "Connoisseur",
+    "Weatherdon",
+    "Food Storage",
+    "Canister",
+    "Kitchen Supplies",
+    "Airtight Container",
+    "Office Kitchen",
+    "BPA Free"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "668",
+  "image_alt_texts": {
+    "hero": "Connoisseur Flip-Tite 1.0 litre square clear canister with white flip-ring lid",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
+```

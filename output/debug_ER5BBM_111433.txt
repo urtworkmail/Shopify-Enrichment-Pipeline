@@ -1,0 +1,59 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2716
+TOKENS OUT: 818
+
+RAW:
+```json
+{
+  "title": "Elizabeth Richards Book Box Pack of 5 Magenta",
+  "body_html": "<h2>Keep Your Classroom Organised with Vibrant, Durable Storage</h2>\n<p><strong>The Elizabeth Richards Book Box in Magenta delivers sturdy, purpose-built storage for books, papers, and learning materials in classrooms, home offices, and study spaces.</strong></p>\n<p>Quality storage matters when you're managing busy learning environments. These book boxes are sized perfectly for textbooks, exercise books, and stationery, with rigid construction that stands up to daily classroom use. Sold in packs of five in a single bright magenta colour, they help you colour-code subjects, groups, or reading levels with confidence. The vibrant finish makes identification instant and adds energy to any learning space.</p>\n<p>Each box protects contents from dust and damage while keeping materials accessible. Stack them on shelves, tuck them under desks, or arrange them in reading corners. The consistent sizing means they nest neatly and fit standard classroom shelving without wasted space.</p>\n<p>Ideal for teachers, tutors, and home educators who value order and visual appeal. This pack gives you five matching units ready to organise your space from day one.</p>",
+  "seo_title": "Book Box Pack of 5 Magenta | Mega Office Supplies",
+  "seo_description": "Elizabeth Richards Magenta Book Box pack of 5. Sturdy storage for books and papers in classrooms and offices. Bright colour coding, stackable design.",
+  "key_features": [
+    "Pack of 5 sturdy book boxes in vibrant magenta",
+    "Rigid construction for daily classroom and office use",
+    "Ideal size for textbooks, exercise books, and stationery",
+    "Stackable design fits standard shelving",
+    "Perfect for colour-coded organisation by subject or group"
+  ],
+  "applications": [
+    "Classroom book storage and subject organisation",
+    "Home office and study space filing",
+    "Library and reading corner management",
+    "Tutoring centre resource storage",
+    "School administrative document organisation"
+  ],
+  "specifications": [
+    "Brand: Elizabeth Richards",
+    "Product Code: ER5BBM",
+    "Colour: Magenta",
+    "Pack Quantity: 5 boxes",
+    "Product Type: Book storage box",
+    "Construction: Rigid cardboard",
+    "Application: Book and paper storage",
+    "Suitable For: Classrooms, offices, home study"
+  ],
+  "faqs": [],
+  "tags": [
+    "Elizabeth Richards ER5BBM",
+    "Elizabeth Richards Magenta Book Box",
+    "Classroom Storage Boxes",
+    "Book Storage Boxes",
+    "Magenta Storage",
+    "Classroom Organisation",
+    "Teacher Storage Supplies",
+    "School Book Boxes",
+    "Colour Coded Storage",
+    "Elizabeth Richards Classroom Products"
+  ],
+  "pack_size": "Pack of 5",
+  "unit": "Pack",
+  "google_product_category_id": "956",
+  "image_alt_texts": {
+    "hero": "Elizabeth Richards magenta book box pack of 5 for classroom and office storage",
+    "lifestyle_1": "Magenta book boxes stacked on classroom shelf with books and learning materials inside",
+    "lifestyle_2": null
+  }
+}
+```

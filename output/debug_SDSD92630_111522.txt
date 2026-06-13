@@ -1,0 +1,55 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T3
+TOKENS IN: 1497
+TOKENS OUT: 707
+
+RAW:
+```json
+{
+  "title": "Dymo LetraTag Label Tape 12mm x 4m Black on White Paper Twin Pack",
+  "body_html": "<p>Genuine Dymo LetraTag paper label tape in black on white, 12mm x 4m twin pack. Compatible with Dymo LetraTag LT-100H, LT-100T and LetraTag 200B label makers. White paper tape delivers crisp black text for everyday home and office organisation, filing, storage bins and personal labelling.</p><p>Twin pack keeps your label maker loaded with a backup roll ready when you need it. Paper construction suits dry indoor environments. For wet or humid conditions, use plastic LetraTag tape instead.</p>",
+  "seo_title": "Dymo LetraTag 12mm Tape Twin Pack | Mega Office Supplies",
+  "seo_description": "Genuine Dymo LetraTag 12mm x 4m paper tape, black on white, twin pack. Fits LT-100H, LT-100T, LetraTag 200B. For home and office labelling.",
+  "key_features": [
+    "Genuine Dymo LetraTag paper tape, 12mm x 4m per roll",
+    "Black on white for clear, crisp labelling",
+    "Compatible with LetraTag LT-100H, LT-100T and LetraTag 200B label makers",
+    "Twin pack provides a spare roll for continuous use"
+  ],
+  "applications": [
+    "Home organisation: labelling storage boxes, pantry containers, shelves and drawers",
+    "Office filing: folder tabs, binder spines and document organisation"
+  ],
+  "specifications": [
+    "Tape Width: 12mm",
+    "Tape Length: 4m per roll",
+    "Colour: Black on White",
+    "Material: Paper",
+    "Pack Quantity: 2 rolls",
+    "Compatible Models: Dymo LetraTag LT-100H, LT-100T, LetraTag 200B"
+  ],
+  "faqs": [],
+  "tags": [
+    "Dymo",
+    "LetraTag",
+    "Label Tape",
+    "12mm",
+    "Paper Tape",
+    "Black on White",
+    "Twin Pack",
+    "Office Supplies",
+    "Labelling",
+    "LT-100H",
+    "LT-100T",
+    "LetraTag 200B"
+  ],
+  "pack_size": "Twin Pack (2 x 4m Rolls)",
+  "unit": "Pack",
+  "google_product_category_id": "922",
+  "image_alt_texts": {
+    "hero": "Dymo LetraTag 12mm black on white paper label tape twin pack, two rolls shown with Dymo branding",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
+```

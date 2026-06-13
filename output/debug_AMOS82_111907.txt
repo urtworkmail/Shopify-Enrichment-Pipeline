@@ -1,0 +1,63 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2655
+TOKENS OUT: 974
+
+RAW:
+```json
+{
+  "title": "Osmer Retractable Ballpoint Pen Medium Blue Box of 12",
+  "body_html": "<h2>Reliable Click Action Writing for Busy Workspaces</h2>\n<p><strong>Retractable ballpoint pens with smooth blue ink and comfortable grip, designed for shared office environments.</strong></p>\n<p>The Osmer Retractable Ballpoint Pen Medium Blue Box of 12 brings convenience and comfort to everyday writing tasks. With a simple click mechanism, these pens eliminate the need for caps, reducing clutter and speeding up note-taking in fast-paced offices. The medium 1.0mm ball tip delivers consistent, legible blue ink that flows smoothly across the page, while the soft rubber grip provides comfort during extended writing sessions.</p>\n<p>Each pen features a barcoded barrel with colour-coding that matches the ink, making identification quick and easy in shared spaces. The retractable design keeps the nib protected when not in use, extending pen life and preventing accidental marks on documents or pockets.</p>\n<p>Ideal for reception desks, training rooms, classrooms and busy office environments where multiple users share resources. This box of 12 ensures you maintain a steady supply of reliable pens ready for any task.</p>",
+  "seo_title": "Osmer Retractable Pen Medium Blue 12pk | Mega Office Supplies",
+  "seo_description": "Osmer retractable ballpoint pens with 1.0mm medium tip, smooth blue ink and rubber grip. Box of 12 for offices, classrooms and shared workspaces.",
+  "key_features": [
+    "Retractable click mechanism eliminates caps for quick, convenient use",
+    "Medium 1.0mm ball tip delivers smooth, consistent blue ink flow",
+    "Soft rubber grip reduces hand fatigue during extended writing",
+    "Colour-coded barrel matches ink colour for instant identification",
+    "Barcoded design suitable for inventory management in busy environments",
+    "Box of 12 pens maintains steady supply for shared workspaces"
+  ],
+  "applications": [
+    "Reception desks and customer service areas requiring quick note-taking",
+    "Shared office environments and hot-desking spaces",
+    "Classrooms, training rooms and educational facilities",
+    "Meeting rooms and conference areas for sign-in sheets and notes",
+    "Inventory and warehouse environments with barcoded pen tracking",
+    "Home offices and small businesses needing reliable everyday pens"
+  ],
+  "specifications": [
+    "Ink Colour: Blue",
+    "Tip Size: Medium 1.0mm ballpoint",
+    "Ink Type: Ballpoint ink",
+    "Mechanism: Retractable click action",
+    "Grip: Soft rubber grip",
+    "Barrel: Colour-coded to match ink colour",
+    "Barrel Features: Barcoded",
+    "Pack Quantity: Box of 12 pens",
+    "Brand: Osmer",
+    "SKU: AMOS82"
+  ],
+  "faqs": [],
+  "tags": [
+    "Osmer AMOS82",
+    "Osmer Retractable Pen Blue",
+    "Retractable Ballpoint Pens",
+    "Blue Ballpoint Pens",
+    "Medium Tip Pens",
+    "Office Writing Supplies",
+    "Rubber Grip Pens",
+    "Box of 12 Pens",
+    "Shared Workspace Pens",
+    "Osmer Office Supplies"
+  ],
+  "pack_size": "Box of 12",
+  "unit": "Box",
+  "google_product_category_id": "932",
+  "image_alt_texts": {
+    "hero": "Osmer retractable ballpoint pen medium blue with rubber grip and click mechanism, box of 12",
+    "lifestyle_1": "Osmer blue retractable pens in office setting with notebook and documents on desk",
+    "lifestyle_2": null
+  }
+}
+```

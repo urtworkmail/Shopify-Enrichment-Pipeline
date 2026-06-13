@@ -1,0 +1,64 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2312
+TOKENS OUT: 886
+
+RAW:
+```json
+{
+  "title": "Creative School Supply Papier Mâché Full Face Mask",
+  "body_html": "<h2>Transform Blank Canvas into Creative Expression</h2>\n<p><strong>This full-face papier mâché mask provides students and artists with a durable foundation for drama, cultural studies, and craft projects.</strong></p>\n<p>Made from sturdy papier mâché, this mask measures approximately 16 x 20cm and arrives ready to decorate. The robust material accepts paint, markers, and collage elements without warping or tearing, making it ideal for classroom environments where durability matters. An elastic band is included for comfortable wear during performances and presentations.</p>\n<p>The neutral white surface invites endless creative possibilities. Students can explore cultural mask traditions, develop theatrical characters, or express personal creativity through mixed media techniques. The full-face coverage provides maximum decorating area for detailed artistic work.</p>\n<p>Perfect for schools, community centres, and home craft spaces, this mask supports curriculum-based projects and creative exploration. The Creative School Supply Company delivers reliable materials that help educators and students bring artistic visions to life.</p>",
+  "seo_title": "Papier Mâché Full Face Mask | Mega Office Supplies",
+  "seo_description": "Sturdy 16x20cm papier mâché mask with elastic band. Perfect for drama, cultural studies & craft projects. Ready to paint, decorate & wear.",
+  "key_features": [
+    "Sturdy papier mâché construction withstands classroom use and detailed decoration",
+    "Full-face coverage (16 x 20cm) provides maximum creative surface area",
+    "Accepts paint, markers, collage, and mixed media without warping",
+    "Elastic band included for comfortable wear during performances",
+    "Blank white surface ready for immediate artistic expression",
+    "Ideal for drama curriculum, cultural studies, and themed events",
+    "Durable material supports layered decoration techniques"
+  ],
+  "applications": [
+    "Drama and theatre studies character development",
+    "Cultural traditions and heritage projects",
+    "Language arts creative writing and storytelling",
+    "Themed classroom parties and celebration events",
+    "Art class mixed media and sculpture projects",
+    "Community theatre and performance groups"
+  ],
+  "specifications": [
+    "Brand: The Creative School Supply Company",
+    "Product Code: CSFA135",
+    "Material: Papier Mâché",
+    "Type: Full Face Mask",
+    "Approximate Dimensions: 16 x 20cm",
+    "Colour: White (undecorated)",
+    "Attachment: Elastic band included",
+    "Decorating Methods: Paint, markers, collage, mixed media",
+    "Surface: Smooth, ready to decorate",
+    "Suitable For: Educational and craft applications"
+  ],
+  "faqs": [],
+  "tags": [
+    "Creative School Supply Mask",
+    "Papier Mâché Face Mask",
+    "Full Face Craft Mask",
+    "White Decorating Mask",
+    "Drama Class Supplies",
+    "School Art Projects",
+    "Cultural Studies Masks",
+    "Theatre Performance Mask",
+    "Classroom Craft Materials",
+    "Educational Art Supplies"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "505826",
+  "image_alt_texts": {
+    "hero": "White papier mâché full face mask with elastic band on white background",
+    "lifestyle_1": "Student decorating papier mâché mask with paint and markers in classroom setting",
+    "lifestyle_2": null
+  }
+}
+```

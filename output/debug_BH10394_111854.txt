@@ -1,0 +1,64 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2714
+TOKENS OUT: 1027
+
+RAW:
+```json
+{
+  "title": "Quill Hardcover Notebook Ruled 70gsm A4 160 Pages Beige Pack of 5",
+  "body_html": "<h2>Professional Note Taking with Durable Protection</h2>\n<p><strong>A4 hardcover ruled notebooks with 7mm feint ruling and twin loop binding deliver reliable performance for meetings, study and planning.</strong></p>\n<p>The beige hardcover provides robust protection for your notes during transport and daily use. Smooth 70gsm paper with 7mm feint ruling keeps your writing neat and consistent across all 160 pages. The black twin loop spiral binding allows each notebook to lay completely flat, making it comfortable to write on any surface. Professionals, students and organisers value the balance of durability and understated style this notebook brings to office desks, lecture halls and home workspaces.</p>\n<p>The pack of 5 notebooks ensures you have ample supply for long-term projects, team distribution or personal stockpiling. The A4 size accommodates detailed notes, diagrams and planning across a full page. Clean feint ruling supports legible handwriting without overwhelming the page, while the hardcover protects your work from spills, bumps and wear.</p>\n<p>This Quill notebook suits professional environments, educational settings and personal organisation systems. Dependable construction and practical design support focused work every day. Keep your ideas organised and protected with quality Australian office supplies.</p>",
+  "seo_title": "Quill A4 Hardcover Notebook 160 Page Beige 5 Pack",
+  "seo_description": "Quill A4 hardcover ruled notebooks with 70gsm paper, 7mm ruling and twin loop binding. Pack of 5 notebooks with 160 pages each. Durable beige cover.",
+  "key_features": [
+    "Hardcover front and back protect notes from daily wear, transport and handling.",
+    "7mm feint ruled 70gsm paper supports neat, legible writing across every page.",
+    "Black twin loop spiral binding allows notebook to lay flat for comfortable use.",
+    "A4 size provides generous space for detailed notes, diagrams and planning.",
+    "Beige cover offers professional, understated appearance for any environment.",
+    "160 pages per notebook deliver long-lasting use for meetings, study and projects.",
+    "Pack of 5 notebooks ensures ample supply for teams or extended personal use."
+  ],
+  "applications": [
+    "Meeting notes and professional documentation in office environments.",
+    "Classroom lectures, study sessions and academic project planning.",
+    "Daily journalling, personal goal tracking and habit monitoring.",
+    "Team distribution in shared workspaces or educational institutions.",
+    "Project planning, task lists and structured brainstorming sessions.",
+    "Long-term personal use with consistent notebook style and quality."
+  ],
+  "specifications": [
+    "Size: A4",
+    "Paper Weight: 70gsm",
+    "Ruling: 7mm feint ruled",
+    "Pages: 160 per notebook",
+    "Cover Colour: Beige",
+    "Cover Type: Hardcover (front and back)",
+    "Binding: Black twin loop spiral",
+    "Pack Size: Pack of 5 notebooks",
+    "Brand: Quill",
+    "Vendor SKU: BH10394"
+  ],
+  "faqs": [],
+  "tags": [
+    "Quill Hardcover Notebook",
+    "A4 Ruled Notebook",
+    "70gsm Paper Notebook",
+    "Hardcover Spiral Notebook",
+    "Beige Notebook 5 Pack",
+    "Office Notebooks",
+    "Student Notebooks",
+    "Meeting Notebooks",
+    "160 Page Notebook",
+    "Professional Stationery"
+  ],
+  "pack_size": "Pack of 5",
+  "unit": "Pack",
+  "google_product_category_id": "922",
+  "image_alt_texts": {
+    "hero": "Quill hardcover ruled notebook A4 with beige cover and black twin loop spiral binding shown closed",
+    "lifestyle_1": "Pack of 5 Quill A4 hardcover notebooks stacked showing beige covers and ruled pages for office and study use",
+    "lifestyle_2": null
+  }
+}
+```

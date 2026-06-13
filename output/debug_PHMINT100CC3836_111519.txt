@@ -1,0 +1,66 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 3154
+TOKENS OUT: 1128
+
+RAW:
+```json
+{
+  "title": "PHE Intimus Pro 100 3.8 x 36mm Cross Cut Paper Shredder",
+  "body_html": "<h2>Quiet, high security shredding for large office environments</h2>\n<p><strong>German engineered cross cut protection you can depend on</strong></p>\n<p>When sensitive information moves through your office every day, confidence in your document disposal is essential. The PHE Intimus Pro 100 3.8 x 36mm Cross Cut Paper Shredder is built for large offices that demand strong security without disruptive noise. Precision engineered in Germany, this professional shredder delivers smooth, whisper quiet performance while reducing documents into fine 3.8 x 36mm cross cut particles. Designed for continuous, high volume use, it provides long term reliability, intuitive operation and generous waste capacity, helping your team stay productive while protecting confidential information at every stage.</p>\n<p>Handle up to 18 sheets per pass with fast 500 sheet per minute output that supports busy workflows. The robust motor operates at just 56db, ensuring minimal disruption in shared spaces while maintaining the strength needed for cards, media and stapled documents. A 100 litre slide out waste bag simplifies maintenance and reduces downtime between collections.</p>\n<p>Ideal for corporate departments, professional environments and large offices where data protection, dependable performance and quiet operation matter. German construction delivers the reliability your workplace deserves, shift after shift.</p>",
+  "seo_title": "PHE Intimus Pro 100 Cross Cut Shredder | Mega Office",
+  "seo_description": "German engineered cross cut shredder for large offices. Shreds up to 18 sheets into 3.8 x 36mm particles. Whisper quiet 56db operation, 100L capacity.",
+  "key_features": [
+    "High security cross cut shredding reduces documents into 3.8 x 36mm particles to protect against data recovery",
+    "Handles up to 18 sheets per pass with fast output, supporting busy large office workflows",
+    "Quiet operation with robust German construction ensures dependable performance in shared environments",
+    "100 litre slide out waste bag capacity reduces interruptions and simplifies maintenance",
+    "Shreds cards, media and stapled documents with consistent power and precision",
+    "Shredding speed up to 500 sheets per minute for high volume continuous use",
+    "Whisper quiet 56db operation maintains professionalism in open plan offices"
+  ],
+  "applications": [
+    "Large corporate offices requiring continuous high volume shredding of confidential documents",
+    "Professional departments handling sensitive client information, contracts and financial records",
+    "Shared office environments where quiet operation is essential to maintain productivity",
+    "Data protection compliance teams needing secure disposal of personal and proprietary information",
+    "Busy administrative centres processing cards, media and multi page stapled documents",
+    "Organisations with high document throughput requiring reliable German engineered performance"
+  ],
+  "specifications": [
+    "Cut Type: Cross cut",
+    "Cut Size: 3.8 x 36mm",
+    "Sheet Capacity: Up to 18 sheets at 80gsm",
+    "Shredding Speed: Up to 500 sheets per minute",
+    "Noise Level: 56db",
+    "Bin Capacity: 100 litres with slide out waste bag",
+    "Construction: German engineered precision components",
+    "Suitable For: Cards, media, stapled documents",
+    "Environment: Large office, continuous high volume use",
+    "Brand: PHE Intimus",
+    "Model: Pro 100",
+    "MPN: PHMINT100CC3836"
+  ],
+  "faqs": [],
+  "tags": [
+    "PHE Intimus Pro 100",
+    "Cross Cut Paper Shredder",
+    "High Security Shredder",
+    "German Engineered Shredder",
+    "Large Office Shredder",
+    "Quiet Operation Shredder",
+    "100 Litre Capacity Shredder",
+    "Professional Document Shredder",
+    "Office Security Equipment",
+    "PHE Shredder Supplies"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "922",
+  "image_alt_texts": {
+    "hero": "PHE Intimus Pro 100 cross cut paper shredder with 100 litre waste bin for large offices",
+    "lifestyle_1": "PHE Intimus Pro 100 shredder in modern office environment showing quiet operation and professional design",
+    "lifestyle_2": null
+  }
+}
+```

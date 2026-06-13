@@ -1,0 +1,53 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T3
+TOKENS IN: 1637
+TOKENS OUT: 652
+
+RAW:
+```json
+{
+  "title": "Double A Smoother A5 Copy Paper 80gsm White 500 Sheets",
+  "body_html": "<p>Double A Smoother A5 Copy Paper delivers smooth, reliable printing for offices, schools and workspaces that require smaller format documents. Engineered with a refined fibre structure for consistent feed and minimal jams, this 80gsm premium white paper supports crisp text, sharp graphics and confident double sided printing with minimal show through.</p>\n<p>Supplied as a single ream of 500 sheets, this A5 format suits notebooks, booklets, handouts, flyers and internal documents where presentation and efficiency both matter. Acid free construction ensures archival suitability, while ISO 9001 and ISO 14001 certifications confirm quality and environmental management standards.</p>",
+  "seo_title": "Double A A5 Copy Paper 80gsm 500 | Mega Office Supplies",
+  "seo_description": "Double A Smoother A5 copy paper 80gsm white 500 sheets. Premium quality for crisp printing, minimal jams, double sided use. ISO certified, acid free.",
+  "key_features": [
+    "Smooth surface supports sharp black and white and colour printing",
+    "Reliable performance helps minimise paper jams and interruptions",
+    "Quality fibre structure supports double sided printing with minimal show through",
+    "Acid free paper suitable for archival use"
+  ],
+  "applications": [
+    "Office printing for notebooks, handouts and internal documents",
+    "School and educational materials in A5 format",
+    "Booklets, flyers and compact professional documents"
+  ],
+  "specifications": [
+    "Paper size: A5",
+    "Grammage: 80gsm",
+    "Colour: White",
+    "Sheets per ream: 500",
+    "Certified: ISO 9001 and ISO 14001",
+    "Paper sourced from farmed trees"
+  ],
+  "faqs": [],
+  "tags": [
+    "Double A",
+    "A5 copy paper",
+    "80gsm paper",
+    "white copy paper",
+    "office paper",
+    "500 sheets",
+    "printer paper",
+    "smooth paper",
+    "acid free paper"
+  ],
+  "pack_size": "500 sheets",
+  "unit": "Ream",
+  "google_product_category_id": "956",
+  "image_alt_texts": {
+    "hero": "Double A Smoother A5 copy paper ream 80gsm white 500 sheets packaging",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
+```

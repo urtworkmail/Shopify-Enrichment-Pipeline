@@ -1,0 +1,66 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2830
+TOKENS OUT: 1132
+
+RAW:
+```json
+{
+  "title": "Artline 200 Bright Fineliner Pen 0.4mm Light Blue Box of 12",
+  "body_html": "<h2>Precision writing that stays sharp, clear and professional on every page</h2>\n<p><strong>The Artline 200 Bright Fineliner delivers instant-drying, blur-proof precision with a fine 0.4mm line width, making every word and diagram crisp and legible across all your documents.</strong></p>\n<p>Quality fineliners transform everyday writing tasks into professional communication. Whether you're annotating reports, sketching diagrams, or colour-coding schedules, water-based ink technology ensures your work remains clean and smudge-free even on thin paper. The fibre nib glides smoothly across surfaces, offering up to 2,000 metres of clear write-out distance without skipping or fading. RoHS compliant and xylene-free, this pen meets modern safety standards for busy Australian workplaces and schools.</p>\n<p>Light blue ink adds visual clarity to your filing systems, notes and creative projects without overwhelming the page. The plastic barrel sits comfortably in your hand during extended writing sessions, while the consistent 0.4mm line maintains readability across photocopies and scans. Water-based formulation means no bleed-through, protecting the integrity of two-sided documents and bound notebooks.</p>\n<p>Ideal for office environments, classrooms and home workspaces where clarity and reliability matter. With 12 pens per box, your team stays consistently equipped for annotation, marking and detailed documentation. Add this trusted Australian fineliner to your stationery supply today.</p>",
+  "seo_title": "Artline 200 0.4mm Light Blue Pen Box 12 | Mega Office Supplies",
+  "seo_description": "Artline 200 fineliner pen in light blue with 0.4mm line width. Blur-proof, fast-drying water-based ink. Box of 12 for office, school and home use.",
+  "key_features": [
+    "Instant-drying, blur-proof ink prevents smudging on all paper types",
+    "Fine 0.4mm fibre nib delivers consistent, precise lines",
+    "Up to 2,000m write-out distance per pen",
+    "Water-based formula eliminates bleed-through on thin paper",
+    "Xylene-free and RoHS compliant for workplace safety",
+    "Light blue ink ideal for colour-coding and annotation",
+    "Box of 12 ensures consistent supply for teams"
+  ],
+  "applications": [
+    "Annotating reports, contracts and technical documents",
+    "Colour-coding filing systems and project schedules",
+    "Sketching diagrams, flowcharts and planning notes",
+    "School and university note-taking and study marking",
+    "Detailed office administration and record-keeping",
+    "Creative journaling and planner organisation"
+  ],
+  "specifications": [
+    "Brand: Artline",
+    "Model: 200 Bright Fineliner",
+    "Vendor SKU: PQ120073",
+    "Ink Colour: Light Blue",
+    "Line Width: 0.4mm",
+    "Nib Type: Fibre",
+    "Ink Type: Water-based",
+    "Write-Out Distance: Up to 2,000m per pen",
+    "Barrel Material: Plastic",
+    "Compliance: RoHS compliant, xylene-free",
+    "Pack Quantity: 12 pens",
+    "Product Family: Artline 200 Fineliner Range"
+  ],
+  "faqs": [],
+  "tags": [
+    "Artline 200 Fineliner",
+    "Artline 200 Light Blue",
+    "0.4mm Fineliner Pen",
+    "Light Blue Fine Pen",
+    "Water Based Fineliner",
+    "Blur Proof Writing Pen",
+    "Office Writing Supplies",
+    "School Fineliner Pens",
+    "Artline Fineliners",
+    "Precision Writing Pen"
+  ],
+  "pack_size": "Box of 12",
+  "unit": "Box",
+  "google_product_category_id": "932",
+  "image_alt_texts": {
+    "hero": "Artline 200 Bright Fineliner Pen 0.4mm Light Blue box of 12 pens with fibre nib",
+    "lifestyle_1": "Artline 200 Light Blue fineliner pen writing precise 0.4mm lines on office documents",
+    "lifestyle_2": null
+  }
+}
+```

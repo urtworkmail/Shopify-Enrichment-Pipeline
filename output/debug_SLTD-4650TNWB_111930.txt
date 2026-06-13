@@ -1,0 +1,87 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T1
+TOKENS IN: 3082
+TOKENS OUT: 1837
+
+RAW:
+```json
+{
+  "title": "Brother TD-4650TNWB 4.3 Inch Thermal Transfer Desktop Printer with Wi-Fi and Bluetooth",
+  "body_html": "<h2>Professional Barcode and Label Printing for High-Volume Workflows</h2>\n<p><strong>The Brother TD-4650TNWB thermal transfer desktop printer delivers precision barcode, label and receipt printing with flexible wireless connectivity for businesses that demand reliability and speed.</strong></p>\n<p>Produce high-quality labels up to 108.4mm wide at speeds reaching 203.2mm per second, ideal for inventory management, shipping operations, shelf labelling and compliance applications. With 203dpi resolution, every barcode scans accurately and every label communicates clearly. Wireless LAN and Bluetooth connectivity integrate seamlessly into existing workflows, while ZPLII emulation and Brother's b-PAC SDK support ensure compatibility with your current systems. The printer handles diverse labelling tasks without compromise, backed by Brother's engineering precision and Australian support network.</p>\n<p>Multiple connectivity options including USB, Serial, Ethernet, Wi-Fi and Bluetooth give you deployment flexibility across warehouses, retail environments and healthcare settings. Effortless integration reduces setup time and training overhead, while the intuitive design keeps production moving during busy periods. Cerner certification makes this printer suitable for medical and pharmaceutical labelling where accuracy and traceability are non-negotiable.</p>\n<p>Built for Australian businesses that value uptime and performance, this thermal transfer printer combines robust construction with a comprehensive 2-year return-to-base warranty on hardware and 6-month warranty on print heads. Optional rapid exchange service minimises downtime. Whether you're streamlining warehouse operations, improving retail workflows or meeting healthcare compliance requirements, the TD-4650TNWB delivers the quality and reliability your organisation depends on.</p>",
+  "seo_title": "Brother TD-4650TNWB Thermal Printer | Mega Office Supplies",
+  "seo_description": "Brother TD-4650TNWB thermal transfer desktop printer with Wi-Fi and Bluetooth. Print barcodes and labels up to 108.4mm wide at 203.2mm/sec. 2-year warranty.",
+  "key_features": [
+    "Large 108.4mm print width accommodates wide-format labels and shipping documents",
+    "Blazing 203.2mm per second print speed for high-volume production environments",
+    "Comprehensive connectivity: USB, Serial, Ethernet, Wi-Fi and Bluetooth wireless",
+    "ZPLII emulation and b-PAC SDK integration for seamless workflow adoption",
+    "Cerner certified for healthcare and pharmaceutical labelling applications",
+    "203dpi resolution ensures crisp barcodes and readable text on every label",
+    "2-year hardware warranty with optional rapid exchange service for minimal downtime"
+  ],
+  "applications": [
+    "Warehouse inventory management and asset tracking systems",
+    "Retail shelf labelling and pricing operations",
+    "Shipping and logistics label production for dispatch centres",
+    "Healthcare patient identification and pharmaceutical labelling",
+    "Manufacturing compliance and product identification",
+    "E-commerce order fulfilment and address labelling"
+  ],
+  "specifications": [
+    "Print Technology: Thermal Transfer",
+    "Print Width: Up to 108.4mm",
+    "Print Resolution: 203dpi",
+    "Maximum Print Speed: 203.2mm per second",
+    "Connectivity: USB, Serial, 10/100Base-TX Wired LAN, WLAN, Bluetooth",
+    "Emulation Support: ZPLII and Brother b-PAC SDK",
+    "Screen Size: 4.3 inch display",
+    "Certification: Cerner Certified for healthcare applications",
+    "Warranty: 2 years return-to-base on hardware, 6 months on print heads",
+    "Model Number: TD-4650TNWB",
+    "Brand: Brother",
+    "Country of Origin: Designed and engineered by Brother"
+  ],
+  "faqs": [
+    {
+      "question": "What label sizes and formats can the TD-4650TNWB handle?",
+      "answer": "The TD-4650TNWB supports labels up to 108.4mm wide, accommodating a diverse range of formats including shipping labels, barcode labels, shelf tags, patient wristbands and receipt rolls. The thermal transfer technology works with various label materials and adhesive types. Consult the Brother specification sheet for exact media thickness and core diameter requirements to ensure optimal performance."
+    },
+    {
+      "question": "Is this printer compatible with my existing warehouse management or inventory system?",
+      "answer": "Yes, the TD-4650TNWB offers exceptional integration flexibility through ZPLII emulation and Brother's b-PAC SDK, ensuring compatibility with most warehouse management systems, inventory platforms and point-of-sale software. Multiple connectivity options including Ethernet, Wi-Fi and Bluetooth allow deployment across networked and standalone environments. Brother's technical support team can assist with specific integration requirements for Australian business systems."
+    },
+    {
+      "question": "What makes this printer suitable for healthcare and pharmaceutical applications?",
+      "answer": "The TD-4650TNWB is Cerner certified, meeting the stringent requirements for healthcare labelling including patient identification wristbands, specimen labels and medication tracking. The 203dpi resolution ensures barcodes are scannable and text is legible even on small labels. Thermal transfer printing provides durability and resistance to moisture, chemicals and handling, critical for medical environments where label integrity affects patient safety."
+    },
+    {
+      "question": "What ongoing costs should I expect with thermal transfer printing?",
+      "answer": "Thermal transfer printers require both label media and ribbon consumables. While this represents an ongoing cost, thermal transfer labels offer superior durability, fade resistance and longevity compared to direct thermal alternatives, making them cost-effective for applications requiring archival quality or exposure to heat, light and chemicals. Brother genuine ribbons ensure optimal print quality and protect your warranty. Consult Brother's consumables guide for yield estimates based on your label specifications."
+    },
+    {
+      "question": "How does the 2-year warranty and rapid exchange option work?",
+      "answer": "Brother provides a 2-year return-to-base warranty on the TD-4650TNWB hardware and 6 months on print heads, covering manufacturing defects and component failures under normal use. The optional rapid exchange service minimises downtime by shipping a replacement unit while your printer is serviced, critical for high-volume operations where printing interruptions affect productivity. Contact Mega Office Supplies or Brother Australia to discuss warranty coverage and rapid exchange eligibility for your business."
+    }
+  ],
+  "tags": [
+    "Brother TD-4650TNWB",
+    "Brother Thermal Transfer Printer",
+    "Desktop Barcode Printer",
+    "Wireless Label Printer",
+    "Cerner Certified Printer",
+    "Industrial Label Printer",
+    "Shipping Label Printer",
+    "Warehouse Barcode Printer",
+    "Healthcare Label Printer",
+    "ZPLII Compatible Printer"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "2167",
+  "image_alt_texts": {
+    "hero": "Brother TD-4650TNWB thermal transfer desktop printer with 4.3 inch display showing wireless connectivity icons",
+    "lifestyle_1": "Brother TD-4650TNWB printer in warehouse environment printing shipping labels at high speed",
+    "lifestyle_2": "Close-up of Brother TD-4650TNWB printing crisp barcode labels with 203dpi resolution for retail shelf labelling"
+  }
+}
+```

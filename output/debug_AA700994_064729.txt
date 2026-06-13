@@ -1,0 +1,77 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 1751
+TOKENS OUT: 1200
+
+RAW:
+```json
+{
+  "title": "Collins Kingswood A4 Week to View 2025 Diary Blue",
+  "body_html": "<h2>Plan your year with clarity and confidence</h2>\n<p><strong>The Collins Kingswood A4 2025 Diary delivers a full week-to-view layout across 112 pages, giving you the space to manage appointments, deadlines and priorities with ease.</strong></p>\n<p>Effective diary planning requires genuine quality materials and a layout that supports clear thinking. This A4 casebound diary provides a full week across each double-page spread, giving you room to capture detail without cramping your handwriting. The blue cover presents a professional appearance for office desks, meeting rooms and client-facing environments. With a date range from January 2025 to December 2025, you have a complete annual planner in one reliable volume.</p>\n<p>The casebound construction ensures durability through daily handling, while the A4 format offers generous writing space for busy schedules. Each week is clearly laid out to support task prioritisation, appointment tracking and deadline management across professional and administrative roles.</p>\n<p>This diary suits office managers, administrators, small business owners and anyone managing a detailed schedule throughout the year. Collins Kingswood brings trusted Australian office supply quality to your daily planning.</p>",
+  "seo_title": "Collins Kingswood A4 Week to View 2025 Diary Blue | Mega Office Supplies",
+  "seo_description": "Collins Kingswood A4 2025 Diary with week-to-view layout across 112 pages. Casebound blue cover, full year January-December. Trusted quality for Australian offices.",
+  "key_features": [
+    "Full week-to-view layout across each double-page spread",
+    "A4 size provides generous writing space for detailed schedules",
+    "Casebound construction withstands daily office use",
+    "Complete 2025 calendar coverage from January to December",
+    "112 pages for a full year of planning and appointments",
+    "Professional blue cover suitable for client-facing environments",
+    "Collins Kingswood quality trusted across Australian workplaces"
+  ],
+  "applications": [
+    "Office appointment and meeting scheduling",
+    "Small business task and deadline tracking",
+    "Administrative coordination and planning",
+    "Professional service appointment management",
+    "School and education staff planning",
+    "Home office and remote work scheduling"
+  ],
+  "specifications": [
+    "Brand: Collins",
+    "Product Line: Kingswood",
+    "Format: Week to View",
+    "Year: 2025",
+    "Page Count: 112 pages",
+    "Size: A4",
+    "Cover Type: Casebound",
+    "Colour: Blue",
+    "Date Range: January 2025 to December 2025",
+    "Binding: Hardcover",
+    "Country of Origin: Australia"
+  ],
+  "faqs": [
+    {
+      "question": "What date range does this diary cover?",
+      "answer": "This Collins Kingswood diary covers the full 2025 calendar year from January through to December. The week-to-view layout spans all 52 weeks, giving you complete annual planning coverage in one volume."
+    },
+    {
+      "question": "How much writing space does the week-to-view layout provide?",
+      "answer": "The A4 format and week-to-view layout provide generous writing space across each double-page spread. Each day of the week has dedicated space for appointments, tasks and notes without cramping your handwriting. This layout is ideal for managing detailed schedules and multiple daily commitments."
+    },
+    {
+      "question": "Is the casebound cover durable enough for daily use?",
+      "answer": "Yes, the casebound construction is designed for regular handling throughout the year. The hardcover binding protects the pages and maintains structural integrity even with daily opening and closing. This makes it suitable for busy office environments where the diary will be used multiple times each day."
+    },
+    {
+      "question": "Can this diary be used for business planning and scheduling?",
+      "answer": "Absolutely. The professional blue cover and A4 week-to-view format make this diary well-suited for business environments. The generous space per day supports appointment tracking, deadline management, task prioritisation and meeting coordination across professional and administrative roles."
+    }
+  ],
+  "tags": [
+    "Collins Kingswood",
+    "Collins Kingswood Blue",
+    "Collins 2025 Diary",
+    "A4 Week to View Diary",
+    "Week to View Planner",
+    "2025 Office Diary",
+    "Blue Casebound Diary",
+    "Collins Office Products",
+    "Office Planning Supplies",
+    "A4 Annual Planner"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "922",
+  "image_alt_texts": {
+    "hero": "Collins Kingswood A

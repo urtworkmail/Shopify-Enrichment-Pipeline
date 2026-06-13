@@ -1,0 +1,66 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2675
+TOKENS OUT: 1137
+
+RAW:
+```json
+{
+  "title": "Nyda Exercise Spot Markers Set of 12 RH Sports",
+  "body_html": "<h2>Build engaging, structured workouts with illustrated exercise markers that bring clarity and energy to every session</h2>\n<p><strong>The Nyda Exercise Spot Markers Set of 12 by RH Sports delivers instant workout structure with durable, non-slip rubber discs featuring clear exercise illustrations.</strong></p>\n<p>Setting up effective fitness circuits and movement stations becomes effortless when every participant knows exactly what to do. Each 24.5cm diameter marker displays a different illustrated exercise, guiding users through push-ups, star jumps, tuck jumps, lunges, bicycle crunches, plank holds, arm circles, sit-ups, squats, calf raises, oblique holds, and dips. The heavy-duty rubber construction with non-slip surface ensures markers stay firmly in place during active movement across gym floors, outdoor spaces, and multi-purpose halls. At just 2mm thick, they store flat and transport easily while maintaining the durability needed for high-frequency use in schools, fitness centres, and training environments.</p>\n<p>This versatile set supports full-body conditioning across all fitness levels, from warm-up routines to intensive circuit training. The visual exercise guides reduce instruction time and encourage independent participation, making group classes flow smoothly while keeping everyone engaged. Ideal for physical education classes, personal training sessions, team sports conditioning, and community fitness programmes, the markers adapt to any space and training objective.</p>\n<p>Perfect for educators, trainers, and fitness enthusiasts who need reliable equipment that organises activity and maintains participant focus. The complete 12-marker set provides everything required to create varied, effective workouts that deliver results session after session.</p>",
+  "seo_title": "Nyda Exercise Spot Markers 12 Pack | Mega Office Supplies",
+  "seo_description": "Set of 12 illustrated 24.5cm non-slip rubber exercise markers. Perfect for circuit training, PE classes, and group fitness. Heavy-duty construction.",
+  "key_features": [
+    "Heavy-duty non-slip rubber construction keeps markers securely in place during active movement",
+    "Illustrated exercise guides support easy instruction and encourage independent participation",
+    "24.5cm diameter provides clear visibility and ample space for all exercise types",
+    "2mm thickness allows compact storage and easy transport between locations",
+    "Complete 12-marker set covers full-body workout including cardio, strength, and core exercises",
+    "Durable design withstands high-frequency use in schools, gyms, and outdoor training environments",
+    "Visual exercise diagrams reduce instruction time and support self-directed fitness activity"
+  ],
+  "applications": [
+    "Circuit training stations in gyms, fitness centres, and personal training studios",
+    "Physical education classes and school sports programmes requiring structured activity zones",
+    "Group fitness classes including bootcamps, HIIT sessions, and community exercise programmes",
+    "Team sports conditioning and warm-up routines for athletes of all levels",
+    "Home workouts and personal fitness routines requiring clear exercise guidance",
+    "Corporate wellness programmes and workplace fitness initiatives"
+  ],
+  "specifications": [
+    "Product Type: Exercise spot markers",
+    "Brand: RH Sports",
+    "Model: RHWS30MSE",
+    "Quantity: Set of 12",
+    "Material: Heavy-duty rubber",
+    "Diameter: 24.5cm",
+    "Thickness: 2mm",
+    "Surface: Non-slip",
+    "Design: Illustrated exercise diagrams",
+    "Exercises Included: Push-ups, star jumps, tuck jumps, lunges, bicycle crunches, plank holds, arm circles, sit-ups, squats, calf raises, oblique holds, dips",
+    "Suitable For: Indoor and outdoor use",
+    "Storage: Flat stacking design"
+  ],
+  "faqs": [],
+  "tags": [
+    "RH Sports Exercise Markers",
+    "Nyda Spot Markers",
+    "Exercise Spot Markers",
+    "Gym Floor Markers",
+    "Circuit Training Equipment",
+    "PE Equipment",
+    "Fitness Training Markers",
+    "Non Slip Exercise Discs",
+    "School Sports Equipment",
+    "Group Fitness Accessories"
+  ],
+  "pack_size": "Set of 12",
+  "unit": "Pack",
+  "google_product_category_id": "499713",
+  "image_alt_texts": {
+    "hero": "Nyda Exercise Spot Markers set of 12 with illustrated exercise diagrams on non-slip rubber discs",
+    "lifestyle_1": "RH Sports exercise spot markers arranged in circuit training layout on gym floor",
+    "lifestyle_2": null
+  }
+}
+```

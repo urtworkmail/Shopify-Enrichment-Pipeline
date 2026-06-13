@@ -1,0 +1,59 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 1751
+TOKENS OUT: 1200
+
+RAW:
+```json
+{
+  "title": "Dymo 11352 LabelWriter Return Address Labels 25mm x 54mm White",
+  "body_html": "<h2>Professional Return Address Labels That Save Time and Streamline Your Mailing</h2>\n<p><strong>Dymo 11352 LabelWriter Return Address Labels deliver crisp, professional addressing for every envelope, package and mailout with reliable thermal printing and no ink or toner required.</strong></p>\n<p>Return address labels are essential for business correspondence, bulk mailings and customer orders. These genuine Dymo labels measure 25mm x 54mm, perfectly sized for standard envelopes and small parcels. Each roll contains 500 self-adhesive labels that feed smoothly through your LabelWriter printer, ensuring consistent quality and eliminating handwriting errors. The thermal direct printing technology produces sharp black text on premium white label stock, creating a polished impression with every piece of mail.</p>\n<p>The self-adhesive backing provides secure adhesion to envelopes, boxes and mailers without curling or peeling during transit. These labels are compatible with all Dymo LabelWriter 450 series, 4XL and 550 series printers, integrating seamlessly with your existing workflow. Print on demand to eliminate waste and adapt quickly to address changes or seasonal volume spikes.</p>\n<p>Ideal for mail rooms, e-commerce fulfilment centres, small businesses and home offices handling regular outbound mail. Genuine Dymo consumables ensure optimal printer performance and label quality you can rely on for every shipment.</p>",
+  "seo_title": "Dymo 11352 Return Address Labels 25x54mm White | Mega Office",
+  "seo_description": "Genuine Dymo 11352 LabelWriter labels, 25mm x 54mm white return address labels. 500 per roll. Compatible with LabelWriter 450, 4XL, 550 series. Fast dispatch Australia-wide.",
+  "key_features": [
+    "500 labels per roll for extended use between replacements",
+    "Genuine Dymo product engineered for LabelWriter printers",
+    "Thermal direct printing eliminates ink and toner costs",
+    "Premium white self-adhesive stock for secure envelope adhesion",
+    "Compatible with LabelWriter 450, 4XL and 550 series printers",
+    "25mm x 54mm size ideal for standard envelopes and small parcels",
+    "Print on demand to reduce waste and improve addressing accuracy"
+  ],
+  "applications": [
+    "Return addresses for business and personal correspondence",
+    "E-commerce order fulfilment and package addressing",
+    "Bulk mailing campaigns and direct mail operations",
+    "Mail room addressing for corporate and government offices",
+    "Small business invoicing and customer communication",
+    "Home office addressing for online sellers and small enterprises"
+  ],
+  "specifications": [
+    "Brand: Dymo",
+    "Model Number: 11352",
+    "Label Dimensions: 25mm x 54mm",
+    "Labels Per Roll: 500",
+    "Label Colour: White",
+    "Printing Technology: Thermal Direct",
+    "Adhesive Type: Self-adhesive",
+    "Printer Compatibility: Dymo LabelWriter 450 Series, LabelWriter 4XL, LabelWriter 550 Series",
+    "Application: Return Address Labels",
+    "Material: Premium thermal label stock",
+    "Country of Origin: Manufactured to Dymo specifications",
+    "Barcode (EAN): 71701000064"
+  ],
+  "faqs": [
+    {
+      "question": "Which Dymo printers are compatible with the 11352 labels?",
+      "answer": "Dymo 11352 labels are compatible with all Dymo LabelWriter 450 series printers, the LabelWriter 4XL wide-format model, and the newer LabelWriter 550 series. These genuine Dymo labels are engineered specifically for thermal direct LabelWriter printers and will not work with laser or inkjet printers. Check your printer model number to confirm compatibility before ordering."
+    },
+    {
+      "question": "How many labels are included in each roll?",
+      "answer": "Each Dymo 11352 roll contains 500 individual return address labels. At typical business use rates, this provides several weeks to months of addressing capacity depending on your mailing volume. The labels feed automatically through your LabelWriter printer, making replacement quick and interruption-free."
+    },
+    {
+      "question": "Do these labels require ink or toner cartridges?",
+      "answer": "No. Dymo 11352 labels use thermal direct printing technology, which applies heat directly to the label surface to create text and graphics. This eliminates the ongoing cost and maintenance of ink cartridges, toner or ribbons. Simply load the roll into your LabelWriter printer and start printing immediately."
+    },
+    {
+      "question": "Are these genuine Dymo labels or compatible alternatives?",
+      "answer": "These are genuine Dymo 11352 labels manufactured

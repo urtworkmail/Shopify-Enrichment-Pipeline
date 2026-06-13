@@ -1,0 +1,52 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T3
+TOKENS IN: 1619
+TOKENS OUT: 634
+
+RAW:
+```json
+{
+  "title": "Avery Shipping Tag Size 1 70 x 35mm Buff Box 1000",
+  "body_html": "<p>Avery Buff Shipping Tags keep mailing information secure and legible. Each 70 x 35mm tag features reinforced eyelets for durability and a smooth dual-sided writing surface with a neutral background that makes text easy to read. Supplied unstrung, these tags allow you to choose your preferred attachment method - string, wire, or plastic.</p>\n<p>Use these tags for shipping boxes and parcels, labelling warehouse items, inventory management, gift tags, craft projects, event place names, and product promotions. Each box contains 1000 tags for high-volume applications.</p>",
+  "seo_title": "Avery Shipping Tag 70x35mm Buff 1000 | Mega Office Supplies",
+  "seo_description": "Avery Buff Shipping Tags 70 x 35mm with reinforced eyelets. Dual-sided writing surface, unstrung design. Box of 1000. Ideal for shipping and labelling.",
+  "key_features": [
+    "70 x 35mm size with reinforced eyelets for extra strength",
+    "Smooth dual-sided writing surface with neutral buff background",
+    "Unstrung design allows choice of attachment method",
+    "Box of 1000 tags for frequent use"
+  ],
+  "applications": [
+    "Shipping and mailing boxes and parcels",
+    "Warehouse and industrial item labelling",
+    "Gift tags and craft projects"
+  ],
+  "specifications": [
+    "Size: 70 x 35mm",
+    "Colour: Buff",
+    "Quantity: 1000 per box",
+    "Product Code: AD11000",
+    "String: Unstrung"
+  ],
+  "faqs": [],
+  "tags": [
+    "Avery",
+    "Shipping Tags",
+    "Buff Tags",
+    "Size 1",
+    "70x35mm",
+    "Office Supplies",
+    "Warehouse Labels",
+    "Parcel Tags",
+    "AD11000"
+  ],
+  "pack_size": "1000",
+  "unit": "Box",
+  "google_product_category_id": null,
+  "image_alt_texts": {
+    "hero": "Avery buff coloured shipping tags size 1 measuring 70 x 35mm with reinforced eyelet holes displayed in a stack",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
+```

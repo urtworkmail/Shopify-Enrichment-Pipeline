@@ -1,0 +1,48 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T3
+TOKENS IN: 1659
+TOKENS OUT: 561
+
+RAW:
+```json
+{
+  "title": "Deflecto Divider for Wall Mount Brochure Holder to Suit 39510 39610",
+  "body_html": "<p>This clear divider separates sections inside Deflecto wall mount brochure holder models 39510 and 39610. It helps organise multiple brochure types, flyers, or forms so visitors can locate the right material quickly in reception areas, showrooms, or waiting rooms.</p><p>The clear finish maintains a professional appearance while keeping printed information visible and easy to navigate. Ideal for displaying product ranges, service menus, forms, or event flyers in a structured layout.</p>",
+  "seo_title": "Deflecto Divider 39510 39610 | Mega Office Supplies",
+  "seo_description": "Clear divider for Deflecto 39510 and 39610 wall mount brochure holders. Separates sections for organised display in reception areas and showrooms.",
+  "key_features": [
+    "Suits Deflecto wall mount brochure holder models 39510 and 39610",
+    "Clear finish maintains professional appearance",
+    "Separates multiple brochure types for easier navigation"
+  ],
+  "applications": [
+    "Organising brochures in reception areas and showrooms",
+    "Separating forms, flyers, and product information in waiting rooms"
+  ],
+  "specifications": [
+    "Brand: Deflecto",
+    "Item Number: 395DIV",
+    "Colour: Clear",
+    "Compatibility: Suits 39510 and 39610 wall mount brochure holders"
+  ],
+  "faqs": [],
+  "tags": [
+    "Deflecto",
+    "395DIV",
+    "JP395DIV",
+    "brochure holder divider",
+    "wall mount divider",
+    "office supplies",
+    "clear divider",
+    "display accessories"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "922",
+  "image_alt_texts": {
+    "hero": "Deflecto clear divider for wall mount brochure holder model 39510 39610",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
+```

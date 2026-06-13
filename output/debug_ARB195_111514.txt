@@ -1,0 +1,67 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2597
+TOKENS OUT: 1069
+
+RAW:
+```json
+{
+  "title": "Arnos B195 Flippa A4 Brochure Display Panel Single",
+  "body_html": "<h2>Present Your Marketing Materials with Professional Clarity</h2>\n<p><strong>The Arnos B195 Flippa single A4 brochure display panel transforms how you organise and present printed materials in reception areas, retail environments, and busy workspaces.</strong></p>\n<p>Built by Arnos Australia, a Melbourne-based family company with over 80 years of innovation in display systems, this versatile panel holds up to 50 A4 sheets or bulky booklets in its 5mm deep pocket. The double-sided design features standard pockets on both sides plus the deep pocket on one side, giving you flexibility to display multiple document types simultaneously. Each panel includes adjustable index tabs with paper inserts, allowing visitors and staff to navigate your materials quickly.</p>\n<p>The system mounts to any wall with the included white metal bracket and screws, or converts to a freestanding unit when paired with the Arnos B189 Desk Base (sold separately). Whether you're rotating product catalogues, displaying compliance documents, or managing reception area brochures, the panel structure keeps materials neat and accessible without cluttering desk space.</p>\n<p>Australian businesses and institutions trust Arnos display systems for their durability and practical design. The B195 panel integrates seamlessly with other Flippa components, allowing you to expand your display system as your needs grow.</p>",
+  "seo_title": "Arnos B195 Flippa A4 Display Panel | Mega Office Supplies",
+  "seo_description": "Wall or desk mount A4 brochure display panel with 5mm deep pocket. Holds 50 sheets or bulky booklets. Double-sided design. Australian-made by Arnos.",
+  "key_features": [
+    "5mm deep pocket holds up to 50 A4 sheets or bulky booklets per panel",
+    "Double-sided design with standard pockets both sides plus deep pocket on one side",
+    "Includes adjustable index tabs with paper inserts for easy navigation",
+    "Wall mount bracket and hardware included for secure installation",
+    "Compatible with Arnos B189 Desk Base for freestanding use",
+    "Manufactured by Arnos Australia, trusted since 1943",
+    "Expands easily by adding additional Flippa system panels"
+  ],
+  "applications": [
+    "Reception area brochure and catalogue display",
+    "Retail point-of-sale material presentation",
+    "Office document and form distribution",
+    "School and university information centres",
+    "Healthcare facility patient information displays",
+    "Trade show and exhibition material organisation"
+  ],
+  "specifications": [
+    "Brand: Arnos",
+    "Model: B195",
+    "Product Type: Single A4 Brochure Display Panel",
+    "Panel Size: A4",
+    "Pocket Depth: 5mm (deep pocket)",
+    "Capacity: 50 x A4 single sheets per panel",
+    "Configuration: Double-sided (standard pockets both sides, 5mm deep pocket one side)",
+    "Mounting: Wall mount bracket included",
+    "Includes: Adjustable index tabs with paper inserts",
+    "Hardware: Two wood screws included",
+    "Optional Accessory: B189 Desk Base (for freestanding use, sold separately)",
+    "Manufacturer: Arnos Australia Pty. Ltd.",
+    "Country of Origin: Australia"
+  ],
+  "faqs": [],
+  "tags": [
+    "Arnos B195",
+    "Arnos Flippa Display Panel",
+    "A4 Brochure Holder",
+    "Wall Mount Display Panel",
+    "Brochure Display System",
+    "Office Display Solutions",
+    "Arnos Display Systems",
+    "Reception Area Display",
+    "Australian Made Display",
+    "Document Organiser Panel"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "922",
+  "image_alt_texts": {
+    "hero": "Arnos B195 Flippa A4 brochure display panel with adjustable index tabs and deep pocket",
+    "lifestyle_1": "Arnos B195 Flippa panel mounted on wall displaying A4 brochures in office reception area",
+    "lifestyle_2": null
+  }
+}
+```

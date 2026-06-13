@@ -1,0 +1,55 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T3
+TOKENS IN: 1925
+TOKENS OUT: 713
+
+RAW:
+```json
+{
+  "title": "Aerowipe 70% Isopropyl Alcohol Swabs 3 x 3cm Box of 100",
+  "body_html": "<p>AeroWipe skin prep wipes contain 70% isopropyl alcohol, an effective antibacterial formula for cleansing the skin prior to injection. Each individually wrapped swab measures 30 x 30mm and is designed for single use in clinical, first aid, or workplace health settings.</p><p>Registered as a Class 1 medical device (ARTG ID 277597), these swabs deliver reliable preparation for procedures requiring sterile skin surface. The compact box format stores easily in first aid kits, medical cabinets, or workplace health stations.</p>",
+  "seo_title": "Aerowipe Alcohol Swabs 70% 100pk | Mega Office Supplies",
+  "seo_description": "Aerowipe 70% isopropyl alcohol swabs for skin prep. 30 x 30mm individually wrapped wipes. Box of 100. Class 1 medical device. GST-free.",
+  "key_features": [
+    "70% isopropyl alcohol antibacterial formula",
+    "30 x 30mm individually wrapped swabs",
+    "Class 1 medical device (ARTG ID 277597)",
+    "Box of 100 single-use wipes"
+  ],
+  "applications": [
+    "Skin preparation before injections or minor procedures",
+    "First aid kit and workplace health station supply",
+    "Clinical and healthcare facility use"
+  ],
+  "specifications": [
+    "Alcohol Concentration: 70% Isopropyl Alcohol",
+    "Swab Size: 30 x 30mm",
+    "Pack Quantity: 100 swabs per box",
+    "Medical Device Class: Class 1",
+    "ARTG ID: 277597",
+    "GMDN Code: 61694",
+    "Tax Status: GST-free (non-taxable)",
+    "Box Dimensions: 5.4 x 10.2 x 5.4cm",
+    "Box Weight: 0.1kg"
+  ],
+  "faqs": [],
+  "tags": [
+    "Aero Healthcare",
+    "Aerowipe",
+    "Isopropyl Alcohol",
+    "Alcohol Swabs",
+    "Skin Prep",
+    "Medical Supplies",
+    "First Aid",
+    "AHAW7100"
+  ],
+  "pack_size": "100",
+  "unit": "Box",
+  "google_product_category_id": "491",
+  "image_alt_texts": {
+    "hero": "Aerowipe 70% isopropyl alcohol swabs box of 100 with individually wrapped 3 x 3cm wipes",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
+```

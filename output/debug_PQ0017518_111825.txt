@@ -1,0 +1,51 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T3
+TOKENS IN: 1841
+TOKENS OUT: 547
+
+RAW:
+```json
+{
+  "title": "Esselte 0017518 Ringlock File Fasteners 75mm Silver Box 50",
+  "body_html": "<p>Esselte Ringlock file fasteners offer a simple binding system for loose sheets and documents without the need for covers or folders. Slip your punched documents onto the prongs, place the compressor bar over the top, and fold to secure.</p><p>These 75mm silver fasteners suit documents up to 40mm thick, making them ideal for binding reports, manuals, and project documentation. Each box contains 50 fasteners.</p>",
+  "seo_title": "Esselte Ringlock Fasteners 75mm | Mega Office Supplies",
+  "seo_description": "Esselte Ringlock file fasteners in 75mm silver. Binds documents up to 40mm thick without covers or folders. Simple prong and compressor bar system. Box of 50.",
+  "key_features": [
+    "75mm silver Ringlock file fasteners",
+    "Binds documents up to 40mm thick",
+    "No covers or folders required",
+    "Simple prong and compressor bar system"
+  ],
+  "applications": [
+    "Binding reports and project documentation",
+    "Securing loose sheets and manuals",
+    "Office document management"
+  ],
+  "specifications": [
+    "Product Code: 0017518",
+    "Length: 75mm",
+    "Colour: Silver",
+    "Maximum Document Thickness: 40mm",
+    "Quantity: 50 per box"
+  ],
+  "faqs": [],
+  "tags": [
+    "Esselte",
+    "Ringlock",
+    "File Fasteners",
+    "0017518",
+    "Office Supplies",
+    "Document Binding",
+    "Silver",
+    "75mm"
+  ],
+  "pack_size": "50",
+  "unit": "Box",
+  "google_product_category_id": "922",
+  "image_alt_texts": {
+    "hero": "Esselte 75mm silver Ringlock file fasteners showing metal prongs and compressor bar mechanism",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
+```

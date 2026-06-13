@@ -1,0 +1,65 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2731
+TOKENS OUT: 1030
+
+RAW:
+```json
+{
+  "title": "Quill Metallique Board 285gsm A4 Silver Shadow Pack of 25",
+  "body_html": "<h2>Elevate Every Project with Sophisticated Silver Shimmer</h2>\n<p><strong>Quill Metallique Board 285gsm A4 Silver Shadow delivers premium weight and refined shimmer for invitations, certificates and creative projects that demand attention.</strong></p>\n<p>Professional presentation starts with materials that reflect quality. This 285gsm metallique board combines substantial rigidity with a smooth, shimmery silver finish, giving every design a polished edge. The acid-free construction protects your work from discolouration over time, while the A4 format suits standard templates and printing equipment. Perfect for calligraphy, card making and event stationery, it handles pens, markers and pencils with confidence.</p>\n<p>Compatible with copiers and laser printers (check manufacturer guidelines), this board integrates seamlessly into coordinated stationery themes when paired with matching metallique papers and envelopes. The Silver Shadow tone offers versatility across corporate and creative applications, from business certificates to wedding invitations.</p>\n<p>Supplied in a convenient pack of 25 sheets, Quill Metallique Board suits offices, schools and home studios where presentation quality matters. Choose materials that reflect your standards and deliver results you can rely on.</p>",
+  "seo_title": "Quill Metallique 285gsm A4 Silver | Mega Office Supplies",
+  "seo_description": "Quill Metallique Board 285gsm A4 in Silver Shadow. Premium shimmer finish, acid-free construction, 25 sheets per pack. Perfect for invitations and certificates.",
+  "key_features": [
+    "285gsm weight provides exceptional rigidity and professional feel for premium projects",
+    "Acid-free composition ensures long-term colour stability and preservation",
+    "Smooth metallique shimmer finish adds sophisticated visual impact",
+    "Compatible with copiers and laser printers for versatile production",
+    "A4 format suits standard templates and printing equipment",
+    "Silver Shadow tone coordinates seamlessly with matching metallique stationery",
+    "Handles pens, markers and pencils for calligraphy and hand-finishing"
+  ],
+  "applications": [
+    "Premium wedding and event invitations requiring elegant presentation",
+    "Corporate certificates, awards and formal documentation",
+    "High-end greeting cards and seasonal stationery",
+    "Creative art projects, scrapbooking and craft applications",
+    "Event signage, table numbers and coordinated stationery suites",
+    "Business proposals and presentation covers where first impressions matter"
+  ],
+  "specifications": [
+    "Size: A4 (210 × 297mm)",
+    "Paper Weight: 285gsm",
+    "Colour: Silver Shadow",
+    "Finish: Smooth metallique shimmer",
+    "Sheets per Pack: 25",
+    "Acid Free: Yes",
+    "Printer Compatibility: Copiers and laser printers (check manufacturer guidelines)",
+    "Brand: Quill",
+    "Vendor SKU: BH06101",
+    "Suitable For: Invitations, certificates, card making, calligraphy",
+    "Surface: Smooth, accepts pens, markers and pencils"
+  ],
+  "faqs": [],
+  "tags": [
+    "Quill Metallique Board",
+    "Quill BH06101",
+    "285gsm Metallique Board",
+    "Silver Shadow Metallique",
+    "A4 Shimmer Board",
+    "Premium Card Stock",
+    "Acid Free Board",
+    "Invitation Card Stock",
+    "Quill Stationery Supplies",
+    "Metallique Printing Paper"
+  ],
+  "pack_size": "Pack of 25",
+  "unit": "Pack",
+  "google_product_category_id": "958",
+  "image_alt_texts": {
+    "hero": "Quill Metallique Board 285gsm A4 Silver Shadow pack of 25 sheets with smooth shimmer finish",
+    "lifestyle_1": "Close-up of Quill Metallique Board Silver Shadow showing smooth shimmery surface texture and premium quality",
+    "lifestyle_2": null
+  }
+}
+```

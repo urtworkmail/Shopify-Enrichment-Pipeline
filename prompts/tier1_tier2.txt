@@ -13,7 +13,7 @@ INPUT DATA:
 - GTIN / EAN: {gtin}
 - Tier: {tier}
 
-EXISTING STORE CONTENT (current Shopify values — may be partial, inconsistent, or off-standard):
+EXISTING STORE CONTENT (current Shopify values — may be partial, inconsistent, or off‑standard):
 - Existing body: {existing_body_html}
 - Existing key features: {existing_key_features}
 - Existing applications: {existing_applications}
@@ -27,38 +27,44 @@ USING EXISTING CONTENT:
 1. Treat existing content as a FACTUAL REFERENCE, not a style template. Preserve every accurate, concrete fact — especially numeric specs (dimensions, capacities, yields, temperatures, model/reference numbers). Do not drop them.
 2. Reconcile with supplier/brand data when available. For any conflict, source precedence is: live supplier/brand data > existing store content > your own inference. Never replace a concrete existing fact with an invented or less specific one.
 3. Do NOT invent specifications. If a spec is not present in the existing content or supplier data, leave it out — do not guess.
-4. Rewrite everything to the content standard: apply the tone rules and banned-phrase list (e.g. remove "Shop Now", "Whether you are"), and the canonical per-field structure (specifications as a "Label: Value" list, applications as a list, etc.).
+4. Rewrite everything to the content standard: apply the tone rules and banned‑phrase list (e.g. remove "Shop Now", "Whether you are"), and the canonical per‑field structure (specifications as a "Label: Value" list, applications as a list, etc.).
 5. Improve and fill gaps: tighten wording, add obvious supportable facts, and normalise weak fields — e.g. convert pack_size sentences like "Price is per each diary" into a clean value such as "1".
 
+CRITICAL RULES — these override anything else:
+- SEO TITLE: MUST be 60 characters or fewer. MUST end with exactly " | Mega Office Supplies". If the full title would make the seo_title exceed 60 characters, shorten the brand or model description but NEVER drop the suffix. Count characters carefully before returning.
+- SEO DESCRIPTION: MUST be 160 characters or fewer. Aim for 150-158 characters to leave a safety margin. If it goes over 160, the response will be rejected.
+- FAQs: T1 products MUST have 3‑5 FAQ pairs (question + answer). T2 products MUST have an EMPTY array []. Do NOT generate any FAQs for T2. This rule is absolute and cannot be overridden by any other instruction.
+- TAGS: exactly 10 for T1/T2. Not 9, not 11.
+
 SCHEMA:
-{
-  "title": "string — clean product title, 30-100 chars, Title Case, no dashes as separators",
+{{
+  "title": "string — clean product title, 30‑100 chars, Title Case, no dashes as separators",
   "body_html": "string — full HTML description, see structure rules below",
-  "seo_title": "string — max 60 chars, format: [Brand] [Model] [Type] [Key attribute] | Mega Office Supplies",
-  "seo_description": "string — max 160 chars, benefit-led, includes key spec and brand trust signal",
-  "key_features": ["array of 5-7 strings — standout differentiators, NOT a repeat of description bullets"],
-  "applications": ["array of 4-6 strings — real-world use cases and environments"],
-  "specifications": ["array of 8-15 strings — technical fact sheet in 'Label: Value' format"],
-  "faqs": [{"question": "string", "answer": "string"}],
+  "seo_title": "string — max 60 chars. MUST end with exactly ' | Mega Office Supplies'.",
+  "seo_description": "string — max 160 chars, benefit‑led, includes key spec and brand trust signal",
+  "key_features": ["array of 5‑7 strings — standout differentiators, NOT a repeat of description bullets"],
+  "applications": ["array of 4‑6 strings — real‑world use cases and environments"],
+  "specifications": ["array of 8‑15 strings — technical fact sheet in 'Label: Value' format"],
+  "faqs": [{{"question": "string", "answer": "string"}}],
   "tags": ["array of exactly 10 strings — see tag rules below"],
   "pack_size": "string — clean value only e.g. '1', 'Pack of 4', '20 Sheets'. Never a sentence.",
   "unit": "string — one of: Each, Pack, Box, Roll, Ream, Carton",
   "google_product_category_id": "string — numeric Google taxonomy ID",
-  "image_alt_texts": {
+  "image_alt_texts": {{
     "hero": "string — descriptive alt text for main product shot",
     "lifestyle_1": "string — descriptive alt text for first lifestyle image",
     "lifestyle_2": "string — descriptive alt text for second lifestyle image (T1 only, null for T2)"
-  }
-}
+  }}
+}}
 
 BODY_HTML STRUCTURE (follow exactly):
-<h2>[Benefit-led emotional headline — outcome for customer, not a feature list]</h2>
+<h2>[Benefit‑led emotional headline — outcome for customer, not a feature list]</h2>
 <p><strong>[Bold lead sentence: what the product is and the primary benefit it delivers]</strong></p>
-<p>[Paragraph 1: Context — why genuine/quality matters for this category, primary use case, weave in one key spec naturally. 50-80 words.]</p>
-<p>[Paragraph 2: Secondary benefits — output quality, protection/compatibility, versatility of use. 40-60 words.]</p>
-<p>[Paragraph 3: Closing — environment/user fit, confidence signal, soft call to action. 30-50 words. No exclamation marks.]</p>
+<p>[Paragraph 1: Context — why genuine/quality matters for this category, primary use case, weave in one key spec naturally. 50‑80 words.]</p>
+<p>[Paragraph 2: Secondary benefits — output quality, protection/compatibility, versatility of use. 40‑60 words.]</p>
+<p>[Paragraph 3: Closing — environment/user fit, confidence signal, soft call to action. 30‑50 words. No exclamation marks.]</p>
 
-RICH-TEXT HYGIENE: All list fields (key_features, applications, specifications) must use clean Shopify rich-text JSON — no empty trailing nodes, no stray \n inside list items.
+RICH‑TEXT HYGIENE: All list fields (key_features, applications, specifications) must use clean Shopify rich‑text JSON — no empty trailing nodes, no stray \\n inside list items.
 
 TAG RULES — exactly 10 tags per product, mixing these categories:
 1. Brand + model number (e.g. "Brother LC536XLY")
@@ -71,8 +77,10 @@ TAG RULES — exactly 10 tags per product, mixing these categories:
 8. Brand category (e.g. "Brother Printer Consumables")
 9. Use case / audience (e.g. "office printing supplies")
 10. Additional compatibility or feature
-Use Title Case for multi-word tags. No hashtags. No punctuation.
+Use Title Case for multi‑word tags. No hashtags. No punctuation.
 
-FAQs (T1 only — return empty array [] for T2):
-Generate 3-5 FAQ pairs. Questions: compatibility, yield, authenticity, value, installation.
-Answers: 2-4 sentences, confident, factual, no fluff.
+FAQs — TIER‑SPECIFIC (read carefully):
+- T1: Generate 3‑5 FAQ pairs. Questions: compatibility, yield, authenticity, value, installation. Answers: 2‑4 sentences, confident, factual, no fluff.
+- T2: "faqs" MUST be an empty array: []. Do NOT generate any FAQs. If you add FAQ objects for a T2 product, the response will be rejected.
+
+Return ONLY the JSON object. No markdown, no preamble, no explanation.

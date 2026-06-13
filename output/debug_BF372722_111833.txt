@@ -1,0 +1,52 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T3
+TOKENS IN: 1628
+TOKENS OUT: 745
+
+RAW:
+```json
+{
+  "title": "Bostik Blu Tack 75g Pack Colours Box of 10",
+  "body_html": "<p>Bostik Blu Tack Colour is a permanently plastic, pliable adhesive that moulds easily and reuses again and again. It works as a removable adhesive and as a modelling material, so you can stick items in place, adjust them, and use it again when the job changes. It will not shrink, dry out, or harden, helping it stay reliable for repeat use over time.</p><p>Use it to put up posters, children's artwork, certificates, maps, and party decorations, or to keep small items steady on desks like telephones, calculators, and mouse mats. It is also handy for hobbies and craft work, holding parts in position for painting or gluing, and for quick household tasks like safely storing small screws or blocking minor draughts. Non-toxic and suitable for family use when used as directed.</p>",
+  "seo_title": "Bostik Blu Tack 75g Colours Box 10 | Mega Office Supplies",
+  "seo_description": "Permanently plastic, reusable adhesive putty that moulds easily and stays pliable. Non-toxic, ideal for fixing posters, artwork, and craft work. Box of 10.",
+  "key_features": [
+    "Permanently plastic and pliable for easy moulding, shaping, and repositioning",
+    "Reusable multipurpose adhesive that can be removed and re-applied to reduce waste",
+    "Will not shrink, dry out, or harden, helping it stay ready for repeated use",
+    "Non-toxic and suitable for family use when used as directed"
+  ],
+  "applications": [
+    "Fixing posters, artwork, certificates, maps, and party decorations to walls",
+    "Securing small items on desks like telephones, calculators, and mouse mats",
+    "Holding parts in position for painting, gluing, or craft projects"
+  ],
+  "specifications": [
+    "Weight: 75g per pack",
+    "Quantity: Box of 10 packs",
+    "Vendor SKU: BF372722",
+    "Form: Strips"
+  ],
+  "faqs": [],
+  "tags": [
+    "Bostik",
+    "Blu Tack",
+    "Blutack",
+    "adhesive putty",
+    "reusable adhesive",
+    "office supplies",
+    "coloured blu tack",
+    "non-toxic adhesive",
+    "removable adhesive",
+    "modelling putty"
+  ],
+  "pack_size": "Box of 10",
+  "unit": "Box",
+  "google_product_category_id": "956",
+  "image_alt_texts": {
+    "hero": "Bostik Blu Tack 75g coloured adhesive putty box of 10 packs showing individual strips",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
+```

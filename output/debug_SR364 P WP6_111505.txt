@@ -1,0 +1,68 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2785
+TOKENS OUT: 1303
+
+RAW:
+```json
+{
+  "title": "Staedtler Textsurfer Classic Rainbow Highlighters Assorted Wallet of 6",
+  "body_html": "<h2>Highlight What Matters Without the Smudge</h2>\n<p><strong>The Staedtler Textsurfer Classic delivers smudge-free highlighting on inkjet printouts, handwritten notes, and photocopies — so your important information stays crisp and readable.</strong></p>\n<p>Ordinary highlighters blur inkjet text and turn documents into unreadable messes. Staedtler's INK·JET SAFE formula solves this frustration with fast-drying, lightfast pigment ink that works across every surface — from laser and inkjet prints to fax and carbon copies. The large ink reservoir and refillable design mean you'll highlight thousands of lines before needing a replacement, making this wallet of six rainbow colours a dependable workhorse for students, office professionals, and anyone who needs to organise information quickly.</p>\n<p>The ultra-soft chisel tip delivers clean 1-5 mm lines for underlining fine print or marking broad paragraphs, while the twist cap opens easily and closes securely to prevent dry-out. Copy-proof violet and turquoise shades stay visible on photocopied documents, and the aeroplane-safe pressure equalisation stops leaks during travel. Ink washes out of most textiles, and the durable polypropylene barrel withstands daily use in busy environments.</p>\n<p>Perfect for office administrators managing reports, students revising for exams, or teachers marking assignments. Staedtler's German engineering and quality control ensure consistent performance across every highlighter in the wallet. Upgrade your desk drawer with a tool that respects your time and your documents.</p>",
+  "seo_title": "Staedtler Textsurfer Highlighters 6 Pack | Mega Office Supplies",
+  "seo_description": "INK·JET SAFE highlighters that don't smudge. 6 neon colours, refillable, fast-drying. Staedtler Textsurfer Classic for crisp, readable highlighting on any print.",
+  "key_features": [
+    "INK·JET SAFE formula prevents smudging on inkjet printouts and handwritten text",
+    "Large ink reservoir and refillable design for extended highlighting performance",
+    "Ultra-soft chisel tip creates 1-5 mm line widths for precision or broad marking",
+    "Copy-proof violet and turquoise colours remain visible on photocopied documents",
+    "Fast-drying lightfast pigment ink resists fading and washes out of most textiles",
+    "Aeroplane-safe pressure equalisation prevents leaking during air travel",
+    "Durable polypropylene barrel and twist cap for reliable everyday use"
+  ],
+  "applications": [
+    "Highlighting reports, contracts, and printed documents in office environments",
+    "Studying and exam preparation for students across secondary and tertiary education",
+    "Marking and annotating student work by teachers and educators",
+    "Organising research materials, articles, and reference documents",
+    "Colour-coding project files, schedules, and workflow documentation",
+    "Travel-safe highlighting for professionals working across multiple locations"
+  ],
+  "specifications": [
+    "Brand: Staedtler",
+    "Model: 364 P WP6 Textsurfer Classic",
+    "Pack Contents: 6 highlighters in assorted neon colours (yellow, pink, orange, green, blue, purple)",
+    "Ink Type: Lightfast pigment ink, INK·JET SAFE formula",
+    "Tip Style: Ultra-soft chisel tip",
+    "Line Width: Approximately 1-5 mm",
+    "Suitable Surfaces: Paper, inkjet printouts, fax, carbon copies, photocopies",
+    "Refillable: Yes",
+    "Cap Type: Twist cap for easy opening",
+    "Barrel Material: Polypropylene (PP)",
+    "Aeroplane Safe: Yes, automatic pressure equalisation",
+    "Textile Washability: Washes out of most textiles",
+    "Copy-Proof Colours: Violet and turquoise",
+    "Packaging: Wallet"
+  ],
+  "faqs": [],
+  "tags": [
+    "Staedtler 364 P WP6",
+    "Staedtler Textsurfer Classic",
+    "Inkjet Safe Highlighters",
+    "Rainbow Highlighter Set",
+    "Assorted Neon Highlighters",
+    "Refillable Highlighters",
+    "Staedtler Office Supplies",
+    "Chisel Tip Highlighters",
+    "Student Highlighter Pack",
+    "Smudge Free Highlighters"
+  ],
+  "pack_size": "Wallet of 6",
+  "unit": "Pack",
+  "google_product_category_id": "922",
+  "image_alt_texts": {
+    "hero": "Staedtler Textsurfer Classic 364 P WP6 wallet containing six rainbow coloured highlighters in yellow pink orange green blue and purple with chisel tips",
+    "lifestyle_1": "Staedtler Textsurfer highlighters being used to mark printed documents showing smudge-free highlighting on inkjet printouts",
+    "lifestyle_2": null
+  }
+}
+```

@@ -1,0 +1,67 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2669
+TOKENS OUT: 1193
+
+RAW:
+```json
+{
+  "title": "Post-it Dry Erase Surface 1200 x 900mm DEF4X3",
+  "body_html": "<h2>Turn Any Wall into a High-Performance Thinking Space</h2>\n<p><strong>The Post-it Dry Erase Surface 1200 x 900mm transforms smooth vertical surfaces into professional, stain-proof writing zones for teams that need clarity and flexibility.</strong></p>\n<p>Collaboration requires space to think. This self-adhesive dry erase surface adheres securely to painted drywall, steel, glass, finished wood and even existing whiteboards or chalkboards, giving you a generous 1200 x 900mm writing area wherever you need it. The stain-proof material erases cleanly every time, eliminating ghosting and ensuring your ideas stay sharp and your workspace stays fresh.</p>\n<p>Cut the surface to fit custom areas or apply the full sheet for maximum impact. The clean-wipe finish maintains clarity through hundreds of uses, while the reliable adhesive backing holds firm without damaging underlying surfaces. Perfect for offices that evolve, classrooms that inspire, and collaborative zones that demand performance.</p>\n<p>Designed for Australian workplaces that value adaptable, high-quality tools, this dry erase surface integrates seamlessly into your environment. Apply to any clean, smooth, structurally sound surface and start building ideas that stick.</p>",
+  "seo_title": "Post-it Dry Erase 1200x900mm | Mega Office Supplies",
+  "seo_description": "Post-it Dry Erase Surface 1200 x 900mm. Self-adhesive, stain-proof writing surface for walls, glass, wood. Clean erase, no ghosting. Australian stock.",
+  "key_features": [
+    "Generous 1200 x 900mm format provides ample writing space for brainstorming, project mapping and workshop facilitation.",
+    "Stain-proof surface erases cleanly every time, preventing ghosting and maintaining professional clarity through repeated use.",
+    "Self-adhesive backing bonds securely to painted drywall, steel, glass, finished wood, whiteboards and chalkboards.",
+    "Cuttable design allows custom sizing to fit any smooth surface, maximising flexibility in office and classroom layouts.",
+    "Durable material withstands frequent writing and erasing, delivering long-lasting performance in high-use collaborative environments.",
+    "Simple installation requires no drilling or mounting hardware, transforming walls into functional writing zones in minutes.",
+    "Compatible with standard dry erase markers, integrating seamlessly into existing office supply workflows."
+  ],
+  "applications": [
+    "Offices and meeting rooms that need additional brainstorming space without permanent whiteboard installation.",
+    "Classrooms and training facilities requiring flexible writing surfaces for lessons, group work and visual planning.",
+    "Collaborative zones, breakout areas and innovation labs where teams map strategies and share ideas.",
+    "Home offices and study spaces that benefit from adaptable vertical writing areas for planning and organisation.",
+    "Retail and hospitality environments using temporary signage, scheduling or customer communication boards.",
+    "Project rooms and agile workspaces where walls serve as dynamic canvases for sprint planning and workflow mapping."
+  ],
+  "specifications": [
+    "Product Type: Dry Erase Surface",
+    "Model: DEF4X3",
+    "Size: 1200mm x 900mm",
+    "Colour: White",
+    "Mounting Type: Self-adhesive",
+    "Surface Finish: Stain-proof dry erase material",
+    "Compatible Surfaces: Painted drywall, steel, glass, finished wood, whiteboards, chalkboards",
+    "Marker Compatibility: Standard dry erase markers",
+    "Installation: No drilling or hardware required",
+    "Cuttable: Yes, can be trimmed to custom sizes",
+    "Brand: Post-it",
+    "Vendor SKU: GN25745",
+    "Country of Sale: Australia"
+  ],
+  "faqs": [],
+  "tags": [
+    "Post-it DEF4X3",
+    "Post-it Dry Erase Surface",
+    "Dry Erase Surface 1200x900mm",
+    "Self Adhesive Whiteboard",
+    "Removable Whiteboard Surface",
+    "Office Whiteboard Alternative",
+    "Classroom Writing Surface",
+    "Collaborative Planning Tools",
+    "Office Supplies Australia",
+    "Post-it Office Products"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "2986",
+  "image_alt_texts": {
+    "hero": "Post-it Dry Erase Surface 1200 x 900mm white self-adhesive writing board on white background",
+    "lifestyle_1": "Post-it Dry Erase Surface applied to office wall with team members using dry erase markers for brainstorming session",
+    "lifestyle_2": null
+  }
+}
+```

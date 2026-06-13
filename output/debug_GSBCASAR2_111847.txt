@@ -1,0 +1,64 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 3505
+TOKENS OUT: 1134
+
+RAW:
+```json
+{
+  "title": "Spencil Street Art A4 Book Cover Pack of 6",
+  "body_html": "<h2>Protect school books instantly with reusable slip-on covers that bring vibrant street art style to every subject</h2>\n<p><strong>Cover A4 exercise books in seconds with a reusable book cover that eliminates sticky contact and delivers standout design.</strong></p>\n<p>The Spencil Street Art A4 Book Cover Pack of 6 delivers fast, mess-free book protection for busy families preparing for the school year. Featuring bold street art-inspired graphics, each cover slips on in seconds with inside flaps that hold books securely without adhesive or fuss. Sized at 30.4cm x 43cm, these covers fit standard A4 exercise books perfectly and include a name and subject label to keep books organised and easy to identify throughout the term.</p>\n<p>Made from non-toxic certified PVC, these covers are built to withstand daily classroom use and can be reused year after year. The durable material resists tears and scuffs while protecting book surfaces from spills, wear and bent corners. Each cover wipes clean quickly, maintaining its vibrant appearance even after months of handling.</p>\n<p>Ideal for students who value expressive style alongside practical organisation, this pack makes back-to-school preparation faster and more creative. Families save time, reduce waste, and give books the protection they need to stay fresh all year long.</p>",
+  "seo_title": "Spencil Street Art A4 Book Cover 6pk | Mega Office Supplies",
+  "seo_description": "Protect A4 school books in seconds with Spencil's reusable street art book covers. Slip-on design, non-toxic PVC, name labels. Pack of 6. Shop now.",
+  "key_features": [
+    "Slip-on design with inside flaps allows A4 books to be covered in seconds without sticky contact or mess.",
+    "Reusable non-toxic certified PVC material provides durable protection and reduces waste year after year.",
+    "Vibrant street art graphics add personality and help students identify subjects quickly in bags and lockers.",
+    "Name and subject label area ensures clear identification and organisation throughout the school term.",
+    "30.4cm x 43cm size fits standard A4 exercise books securely with a snug, protective finish.",
+    "Wipes clean easily to maintain fresh appearance even after daily classroom handling and use."
+  ],
+  "applications": [
+    "Covering A4 exercise books quickly and neatly during back-to-school preparation at home or in the classroom.",
+    "Protecting school textbooks and workbooks from spills, tears, bent corners and daily wear throughout the term.",
+    "Organising multiple subjects with reusable covers that can be swapped between books as needed.",
+    "Providing students with a creative, expressive alternative to traditional sticky contact book covering.",
+    "Supporting eco-conscious families who want durable, reusable stationery solutions that reduce waste."
+  ],
+  "specifications": [
+    "Product Type: A4 book cover",
+    "Design: Street Art",
+    "Material: Non-toxic certified PVC",
+    "Dimensions: 30.4cm x 43cm x 0.01cm",
+    "Fit: Suitable for standard A4 exercise books",
+    "Application: Slip-on design with inside flaps",
+    "Features: Name and subject label area",
+    "Pack Quantity: 6 covers",
+    "Reusability: Reusable and wipeable",
+    "Certification: Non-toxic certified material",
+    "Brand: Spencil",
+    "Vendor SKU: GSBCASAR2"
+  ],
+  "faqs": [],
+  "tags": [
+    "Spencil Book Covers",
+    "A4 Book Covers",
+    "Street Art Book Covers",
+    "Reusable Book Covers",
+    "School Book Covers",
+    "Slip On Book Covers",
+    "PVC Book Covers",
+    "Exercise Book Protection",
+    "Back To School Supplies",
+    "Spencil Stationery"
+  ],
+  "pack_size": "Pack of 6",
+  "unit": "Pack",
+  "google_product_category_id": "2862",
+  "image_alt_texts": {
+    "hero": "Spencil Street Art A4 Book Cover Pack of 6 showing vibrant street art design with slip-on flaps and label area",
+    "lifestyle_1": "Spencil Street Art A4 book covers protecting colourful exercise books on school desk with stationery",
+    "lifestyle_2": null
+  }
+}
+```

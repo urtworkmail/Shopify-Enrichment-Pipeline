@@ -1,0 +1,82 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T1
+TOKENS IN: 2779
+TOKENS OUT: 1380
+
+RAW:
+```json
+{
+  "title": "Pentel N50 Permanent Marker Bullet Point 1.5mm Black Box of 12",
+  "body_html": "<h2>Industrial Strength Marking You Can Trust Anywhere</h2>\n<p><strong>Permanent black clarity built for tough surfaces and demanding environments.</strong></p>\n<p>When permanent marking matters, trust the Pentel N50 Permanent Marker Bullet Point. Engineered for industrial and professional use, this marker delivers bold, waterproof marks across almost any surface including cardboard, plastic, metal, wood and glass. The robust aluminium barrel provides durability you can feel, while the bonded fibre tip maintains its 1.5mm line width for consistent results over time. Vivid black ink resists smudging, water and ethanol alcohol, making it ideal for surfaces exposed to moisture or cleaning chemicals.</p>\n<p>The bullet point design offers precision and control for detailed labelling and identification tasks. Each marker writes reliably in challenging conditions, from warehouses and workshops to maintenance facilities and trade environments. The bonded fibre tip retains its shape through repeated use, ensuring every mark is clear and legible.</p>\n<p>Supplied in a convenient box of 12 markers, this pack ensures you have dependable marking tools on hand when you need them. Built for professionals who demand consistent performance in tough environments, the Pentel N50 is ready to deliver permanent results wherever your work takes you.</p>",
+  "seo_title": "Pentel N50 Permanent Marker Black 12pk | Mega Office Supplies",
+  "seo_description": "Pentel N50 permanent marker with 1.5mm bullet tip writes on metal, plastic, glass and more. Waterproof, alcohol resistant ink. Aluminium barrel. Box of 12.",
+  "key_features": [
+    "Vivid waterproof black ink resists smudging, water and ethanol alcohol for permanent results.",
+    "Bullet point bonded fibre tip retains its shape for consistent 1.5mm line width.",
+    "Robust aluminium barrel construction delivers industrial strength durability.",
+    "Writes reliably on cardboard, plastic, metal, wood and glass surfaces.",
+    "Suitable for surfaces exposed to water and alcohol based cleaning chemicals.",
+    "Box of 12 markers provides convenient stock for busy workplaces."
+  ],
+  "applications": [
+    "Industrial marking and labelling on machinery, equipment and components.",
+    "Warehouse inventory management, carton marking and stock identification.",
+    "Trade and maintenance environments requiring permanent surface marking.",
+    "Workshop labelling on metal, plastic and wood materials.",
+    "Outdoor marking applications where water resistance is essential."
+  ],
+  "specifications": [
+    "Brand: Pentel",
+    "Model: N50",
+    "SKU: PEN50-A",
+    "Colour: Black",
+    "Tip Type: Bullet point",
+    "Writing Width: 1.5mm",
+    "Barrel Material: Aluminium",
+    "Tip Construction: Bonded fibre",
+    "Ink Type: Permanent waterproof ink",
+    "Surface Compatibility: Cardboard, plastic, metal, wood, glass",
+    "Chemical Resistance: Water and ethanol alcohol resistant",
+    "Pack Size: Box of 12 markers",
+    "Application: Industrial and professional use"
+  ],
+  "faqs": [
+    {
+      "question": "What surfaces can the Pentel N50 marker write on?",
+      "answer": "The Pentel N50 writes reliably on almost any surface including cardboard, plastic, metal, wood and glass. The permanent ink is designed for industrial applications and will adhere to both porous and non-porous materials, making it versatile for warehouse, trade and maintenance marking tasks."
+    },
+    {
+      "question": "Is the ink waterproof and chemical resistant?",
+      "answer": "Yes, the Pentel N50 features vivid waterproof ink that resists smudging when exposed to water and ethanol alcohol. This makes it suitable for marking surfaces that will be handled, cleaned or exposed to moisture in industrial and outdoor environments where permanence is essential."
+    },
+    {
+      "question": "How long does the bullet tip last?",
+      "answer": "The bonded fibre tip is designed to retain its shape through repeated use, maintaining the consistent 1.5mm line width over the life of the marker. The robust construction and quality materials ensure reliable performance in demanding professional applications where durability matters."
+    },
+    {
+      "question": "How many markers are included in this pack?",
+      "answer": "This product includes a box of 12 Pentel N50 permanent markers in black. The multi-pack format provides convenient stock for busy workplaces, warehouses and trade environments where permanent marking tools are used regularly."
+    }
+  ],
+  "tags": [
+    "Pentel N50",
+    "Pentel N50 Black",
+    "Permanent Marker",
+    "Industrial Marker",
+    "Waterproof Marker",
+    "Bullet Point Marker",
+    "Pentel Markers",
+    "Aluminium Barrel Marker",
+    "Warehouse Marking Supplies",
+    "Professional Marking Tools"
+  ],
+  "pack_size": "Box of 12",
+  "unit": "Box",
+  "google_product_category_id": "932",
+  "image_alt_texts": {
+    "hero": "Pentel N50 permanent marker with bullet point tip and aluminium barrel in black, box of 12",
+    "lifestyle_1": "Pentel N50 marker writing permanent black marks on industrial metal surface",
+    "lifestyle_2": "Box of 12 Pentel N50 permanent markers with waterproof ink for warehouse and trade use"
+  }
+}
+```

@@ -1,0 +1,52 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T3
+TOKENS IN: 1830
+TOKENS OUT: 582
+
+RAW:
+```json
+{
+  "title": "Durable Pictogram Sign Open Closed Reversible with Chain 130mm",
+  "body_html": "<p>This reversible open/closed sign is made from brushed stainless steel with a scratchproof, hardwearing imprint. The 130mm diameter disc displays 'OPEN' on one side and 'CLOSED' on the other, with a chain included for easy hanging in shopfronts, cafes, offices or commercial environments.</p>\n<p>The durable construction ensures long-lasting clarity for customers and visitors, providing clear visual communication at entry points without the need for multiple signs.</p>",
+  "seo_title": "Durable Open Closed Sign 130mm | Mega Office Supplies",
+  "seo_description": "Reversible open/closed sign in brushed stainless steel. 130mm diameter, scratchproof imprint, includes hanging chain. Perfect for shopfronts and offices.",
+  "key_features": [
+    "Reversible sign made of brushed stainless steel",
+    "Scratchproof and hardwearing imprint",
+    "Includes chain for hanging",
+    "130mm diameter"
+  ],
+  "applications": [
+    "Retail shopfronts and commercial premises",
+    "Cafes, offices and reception areas",
+    "Any business requiring clear open/closed signage"
+  ],
+  "specifications": [
+    "Brand: Durable",
+    "Type: Pictogram",
+    "Colour: Silver",
+    "Diameter: 130mm",
+    "Material: Brushed stainless steel",
+    "Motif: OPEN/CLOSED (reversible)"
+  ],
+  "faqs": [],
+  "tags": [
+    "Durable",
+    "Pictogram Sign",
+    "Open Closed Sign",
+    "Reversible Sign",
+    "Stainless Steel Sign",
+    "130mm Sign",
+    "Office Supplies",
+    "Commercial Signage"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "505826",
+  "image_alt_texts": {
+    "hero": "Durable 130mm diameter brushed stainless steel reversible open closed sign with hanging chain",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
+```

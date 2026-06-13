@@ -1,0 +1,57 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T3
+TOKENS IN: 1632
+TOKENS OUT: 690
+
+RAW:
+```json
+{
+  "title": "Avery Shipping Tag Size 3 96 x 48mm Buff Box 1000",
+  "body_html": "<p>Avery Shipping Tags Size 3 keep mailing information secure and easy to read. These buff-coloured tags measure 96 x 48mm and feature reinforced eyelets for strength and durability. The smooth dual-sided writing surface provides a neutral background that makes handwritten or printed text stand out clearly.</p>\n<p>Each tag comes unstrung so you can attach using string, wire, plastic ties or your preferred method. Suitable for labelling parcels, warehouse inventory, promotional items, gift tags, craft projects and event place cards. Supplied in a box of 1000 for high-volume use.</p>",
+  "seo_title": "Avery Buff Shipping Tags 96x48mm | Mega Office Supplies",
+  "seo_description": "Avery Size 3 shipping tags in buff, 96 x 48mm. Reinforced eyelets, dual-sided writing surface, unstrung. Box of 1000. Ideal for mailing and labelling.",
+  "key_features": [
+    "96 x 48mm buff shipping tags with reinforced eyelets",
+    "Smooth dual-sided writing surface for clear text",
+    "Unstrung design for flexible attachment methods",
+    "Box of 1000 tags for frequent use"
+  ],
+  "applications": [
+    "Labelling parcels and mailed items",
+    "Warehouse and inventory tagging",
+    "Gift tags and craft projects"
+  ],
+  "specifications": [
+    "Brand: Avery",
+    "Model: AD13000",
+    "Size: 3",
+    "Dimensions: 96 x 48mm",
+    "Colour: Buff",
+    "Quantity: 1000 per box",
+    "Surface: Dual-sided writing surface",
+    "Eyelet: Reinforced",
+    "String: Unstrung"
+  ],
+  "faqs": [],
+  "tags": [
+    "Avery",
+    "AD13000",
+    "shipping tags",
+    "buff tags",
+    "size 3 tags",
+    "96x48mm tags",
+    "reinforced eyelets",
+    "unstrung tags",
+    "mailing tags",
+    "warehouse labels"
+  ],
+  "pack_size": "1000",
+  "unit": "Box",
+  "google_product_category_id": "956",
+  "image_alt_texts": {
+    "hero": "Avery buff shipping tags size 3 measuring 96 x 48mm with reinforced eyelets, displayed in stack showing dual-sided writing surface",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
+```

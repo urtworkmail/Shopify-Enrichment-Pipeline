@@ -1,0 +1,62 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2498
+TOKENS OUT: 1004
+
+RAW:
+```json
+{
+  "title": "Visionchart Creative Kids Dry Erase Folding Lap Desk",
+  "body_html": "<h2>Turn Any Space into a Creative Workspace</h2>\n<p><strong>The Visionchart Creative Kids Dry Erase Folding Lap Desk transforms floors, beds, and sofas into productive learning zones for children who need flexibility and freedom to create.</strong></p>\n<p>When children need a stable surface for homework, art projects, or imaginative play, this portable lap desk delivers. The 600mm x 400mm dry erase whiteboard surface invites drawing, note-taking, and problem-solving, while the foldable legs lift the workspace to a comfortable 290mm height. Built from durable MDF with a laminate top, the desk wipes clean in seconds and stands up to daily use across classrooms, bedrooms, and living rooms.</p>\n<p>Legs fold completely flat for compact storage under beds, in cupboards, or behind doors. The lightweight design allows children to carry their workspace independently, encouraging ownership of their learning environment. The smooth whiteboard surface accepts standard dry erase markers and erases cleanly without ghosting or staining.</p>\n<p>Ideal for Australian homes with limited space, homeschooling families, and early learning centres that value flexible learning environments. This lap desk supports focused work and creative exploration wherever children feel most comfortable.</p>",
+  "seo_title": "Kids Dry Erase Lap Desk | Mega Office Supplies",
+  "seo_description": "Visionchart folding lap desk with 600x400mm dry erase surface. Adjustable legs, portable design, perfect for homework and creative play. Durable MDF.",
+  "key_features": [
+    "600mm x 400mm dry erase whiteboard surface for drawing, writing, and creative projects",
+    "Foldable legs collapse flat for compact storage and easy portability",
+    "Durable MDF construction with laminate top wipes clean without ghosting",
+    "290mm working height provides comfortable ergonomic position for children",
+    "Lightweight design allows children to carry and set up independently",
+    "Suitable for home learning, classrooms, and creative play environments"
+  ],
+  "applications": [
+    "Homework and reading in bedrooms, living rooms, or outdoor spaces",
+    "Art projects, drawing, and creative expression without permanent surfaces",
+    "Portable workspace for homeschooling and remote learning",
+    "Classroom learning centres and flexible seating environments",
+    "Travel-friendly desk for car trips, holidays, and family outings"
+  ],
+  "specifications": [
+    "Brand: Visionchart",
+    "Product Code: VCEFLP",
+    "Desk Surface: Dry erase whiteboard",
+    "Desk Dimensions: 600mm (L) x 400mm (W)",
+    "Working Height: 290mm from ground when legs extended",
+    "Construction: MDF with laminate top",
+    "Legs: Foldable design for flat storage",
+    "Surface Type: Easy-clean laminate whiteboard",
+    "Suitable For: Children",
+    "Use: Homework, art, creative play, portable learning"
+  ],
+  "faqs": [],
+  "tags": [
+    "Visionchart VCEFLP",
+    "Visionchart Lap Desk",
+    "Kids Dry Erase Desk",
+    "Folding Lap Desk",
+    "Portable Whiteboard Desk",
+    "Children Learning Desk",
+    "Homework Lap Desk",
+    "Creative Kids Workspace",
+    "Classroom Flexible Seating",
+    "Homeschool Desk"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "436",
+  "image_alt_texts": {
+    "hero": "Visionchart Creative Kids Dry Erase Folding Lap Desk with white surface and foldable legs",
+    "lifestyle_1": "Child using Visionchart folding lap desk for drawing and homework on floor",
+    "lifestyle_2": null
+  }
+}
+```

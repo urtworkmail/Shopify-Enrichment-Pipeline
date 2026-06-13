@@ -1,0 +1,53 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T3
+TOKENS IN: 1790
+TOKENS OUT: 669
+
+RAW:
+```json
+{
+  "title": "Duracell DL2016B Lithium Coin 2016 Batteries 3V Pack of 2",
+  "body_html": "<p>Duracell Specialty 2016 Lithium Coin Batteries deliver reliable, long-lasting power for glucometers, security devices, fitness trackers, watches and other compact electronics. Each CR2016 battery provides 3.0 volts and 90 mAh capacity in a compact 20 x 1.6mm size.</p>\n\n<p>Duralock technology preserves power in storage, guaranteeing fresh batteries when you need them. Clear size markings on the pack help you find the right battery quickly. Child safety features include warning stickers and engraved warnings on each battery.</p>",
+  "seo_title": "Duracell DL2016B 3V Coin Batteries | Mega Office Supplies",
+  "seo_description": "Duracell DL2016B lithium coin batteries (CR2016) deliver 3V power for glucometers, watches, fitness devices and security equipment. 90 mAh capacity, pack of 2.",
+  "key_features": [
+    "IEC designation CR2016, 3.0 volt, 90 mAh capacity",
+    "Compact 20 x 1.6mm lithium coin cell design",
+    "Duralock technology preserves power in storage",
+    "Child safety warnings included on batteries and packaging"
+  ],
+  "applications": [
+    "Glucometers and medical devices",
+    "Security devices and fitness trackers",
+    "Watches and compact electronics"
+  ],
+  "specifications": [
+    "IEC designation: CR2016",
+    "Voltage: 3.0V",
+    "Capacity: 90 mAh",
+    "Dimensions: 20 x 1.6mm",
+    "Chemistry: Lithium",
+    "Pack quantity: 2 batteries"
+  ],
+  "faqs": [],
+  "tags": [
+    "Duracell",
+    "DL2016B",
+    "CR2016",
+    "Lithium Coin Battery",
+    "3V Battery",
+    "Coin Cell",
+    "Button Battery",
+    "Specialty Battery",
+    "Office Supplies"
+  ],
+  "pack_size": "2",
+  "unit": "Pack",
+  "google_product_category_id": "279",
+  "image_alt_texts": {
+    "hero": "Duracell DL2016B lithium coin battery pack of 2 showing CR2016 3V batteries and packaging",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
+```

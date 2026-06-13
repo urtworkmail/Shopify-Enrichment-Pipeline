@@ -1,0 +1,54 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T3
+TOKENS IN: 1811
+TOKENS OUT: 847
+
+RAW:
+```json
+{
+  "title": "Dymo LabelWriter 5XL Expert Starter Bundle with Printer and 6 Rolls",
+  "body_html": "<p>The Dymo LabelWriter 5XL Expert Starter Bundle includes the LabelWriter 5XL printer and six rolls of labels (220 labels per roll). Print 104 x 159mm (4\" x 6\") shipping labels directly from eBay, Amazon, Etsy, Poshmark and other major platforms using direct thermal technology with no ink or toner required. Automatic label recognition displays size, type and remaining label count at a glance, while LAN connectivity lets you share the printer across your network.</p><p>Direct thermal printing eliminates consumable costs. Compatible with major shipping carriers and third-party software. Uses DYMO Authentic LabelWriter Labels made from FSC-certified, BPA-free paper. Ideal for ecommerce sellers, warehouse dispatch teams and businesses upgrading from older LabelWriter models.</p>",
+  "seo_title": "Dymo 5XL Printer Starter Bundle | Mega Office Supplies",
+  "seo_description": "Dymo LabelWriter 5XL bundle with printer and 6 rolls. Print 104x159mm shipping labels for eBay, Amazon, Etsy. Direct thermal, no ink required. LAN enabled.",
+  "key_features": [
+    "Prints 104 x 159mm (4\" x 6\") shipping labels directly from eBay, Amazon, Etsy, Poshmark and more",
+    "Automatic label recognition shows size, type and number of remaining labels at a glance",
+    "Direct thermal printing technology requires no ink or toner",
+    "LAN connectivity allows network printing from all devices via cable connection"
+  ],
+  "applications": [
+    "Ecommerce sellers printing 104 x 159mm shipping labels for eBay, Amazon, Etsy and Poshmark at volume",
+    "Warehouses and dispatch teams stepping up to wide-format label printing with an all-in-one bundle",
+    "Businesses upgrading from discontinued LabelWriter models to automatic label recognition technology"
+  ],
+  "specifications": [
+    "Label Size: 104 x 159mm (4\" x 6\")",
+    "Printing Technology: Direct thermal",
+    "Connectivity: LAN (wired network)",
+    "Label Recognition: Automatic size, type and count detection",
+    "Compatible Labels: DYMO Authentic LabelWriter Labels (FSC-certified, BPA-free)",
+    "Bundle Contents: 1 x LabelWriter 5XL printer, 6 x rolls of 220 labels"
+  ],
+  "faqs": [],
+  "tags": [
+    "Dymo",
+    "LabelWriter 5XL",
+    "Label Printer",
+    "Thermal Printer",
+    "Shipping Labels",
+    "Ecommerce",
+    "Starter Bundle",
+    "Direct Thermal",
+    "LAN Printer",
+    "104x159mm"
+  ],
+  "pack_size": "Bundle: Printer + 6 Rolls of 220 Labels",
+  "unit": "Each",
+  "google_product_category_id": "505826",
+  "image_alt_texts": {
+    "hero": "Dymo LabelWriter 5XL thermal label printer with six rolls of 104 x 159mm shipping labels",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
+```

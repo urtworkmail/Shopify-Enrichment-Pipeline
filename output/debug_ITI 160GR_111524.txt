@@ -1,0 +1,61 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2643
+TOKENS OUT: 999
+
+RAW:
+```json
+{
+  "title": "Italplast GreenR Magazine Stand Recycled Black",
+  "body_html": "<h2>Organise Sustainably Without Sacrificing Style or Strength</h2>\n<p><strong>The Italplast GreenR Magazine Stand in Recycled Black combines GECA-certified environmental responsibility with practical, everyday document organisation for modern Australian workplaces.</strong></p>\n<p>Built from recycled materials and fully recyclable at end of life, this magazine stand supports circular resource use while delivering dependable desk and shelf organisation. At 258 mm L x 92 mm W x 298 mm H, it accommodates manuals, reports, project files and periodicals with ease. The sleek recycled black finish integrates seamlessly into professional environments, offering a modern aesthetic that aligns with your sustainability goals.</p>\n<p>Front and rear label spaces enable quick identification and retrieval, keeping high-use documents visible and accessible. The robust recycled construction ensures long-term durability, reducing the need for frequent replacements and lowering overall environmental impact across your procurement cycle.</p>\n<p>Ideal for green offices, schools, government agencies and home workspaces committed to reducing their footprint. Choose the Italplast GreenR Magazine Stand to align your organisation systems with responsible purchasing practices, available now at Mega Office Supplies.</p>",
+  "seo_title": "Italplast GreenR Magazine Stand Black | Mega Office",
+  "seo_description": "GECA-certified recycled magazine stand. 258×92×298mm, 100% recyclable, front/rear labels. Sustainable document organisation for offices and schools.",
+  "key_features": [
+    "GECA certified for meeting recognised environmental standards, offering confidence in sustainable product choice",
+    "Constructed from recycled materials and 100 percent recyclable, supporting circular resource use and reduced waste",
+    "Front and rear label spaces allow quick identification, making everyday filing efficient and intuitive",
+    "Sleek recycled black finish provides a modern, professional look that complements any workspace aesthetic",
+    "Robust construction ensures long-term durability, reducing replacement frequency and ongoing environmental impact",
+    "Compact 258 mm L x 92 mm W x 298 mm H footprint fits standard desk and shelf configurations efficiently"
+  ],
+  "applications": [
+    "Organising manuals, reports, project files and office paperwork in corporate and government offices",
+    "Storing periodicals, newsletters and reference materials in reception areas and waiting rooms",
+    "Managing classroom documents, teaching resources and student handouts in education settings",
+    "Supporting green procurement initiatives in organisations committed to reducing environmental footprint",
+    "Maintaining tidy, accessible document storage in home offices and remote work environments"
+  ],
+  "specifications": [
+    "Dimensions: 258 mm L x 92 mm W x 298 mm H",
+    "Colour: Recycled Black",
+    "Material: Recycled content, 100 percent recyclable",
+    "Certification: GECA certified",
+    "Type: Magazine and document stand",
+    "Label Positions: Front and rear",
+    "Brand: Italplast Products",
+    "Vendor SKU: ITI 160GR",
+    "Product Line: GreenR"
+  ],
+  "faqs": [],
+  "tags": [
+    "Italplast GreenR",
+    "Italplast Magazine Stand",
+    "Recycled Magazine Stand",
+    "GECA Certified Stand",
+    "Black Document Organiser",
+    "Sustainable Office Storage",
+    "Eco Friendly Filing",
+    "Italplast Products",
+    "Green Office Supplies",
+    "Recycled Desk Accessories"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "922",
+  "image_alt_texts": {
+    "hero": "Italplast GreenR Magazine Stand in Recycled Black showing front label space and vertical document storage design",
+    "lifestyle_1": "Italplast GreenR Recycled Black Magazine Stand organising office documents on desk beside computer monitor",
+    "lifestyle_2": null
+  }
+}
+```

@@ -1,0 +1,81 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T1
+TOKENS IN: 3243
+TOKENS OUT: 1459
+
+RAW:
+```json
+{
+  "title": "Who Gives A Crap Forest Friendly 3 Ply Tissues 65 Sheets per Box Carton of 12",
+  "body_html": "<h2>Gentle Care That Respects the Planet</h2>\n<p><strong>Stock your workspace with soft, strong tissues made from 100% bamboo, a renewable resource that reduces pressure on natural forests.</strong></p>\n<p>Who Gives A Crap 3 ply tissues deliver the comfort your team expects during cold season, allergy flare-ups, and daily wear. Made entirely from bamboo, these tissues provide a forest-friendly alternative that feels gentle on sensitive skin while maintaining the strength needed for everyday use. Each carton includes 12 boxes with 65 sheets per box, giving you reliable coverage across reception desks, meeting rooms, and shared office spaces without constant reordering.</p>\n<p>The 3 ply construction balances softness with durability, reducing tearing and wastage during use. Bamboo grows rapidly and regenerates without replanting, making it a responsible choice for organisations committed to reducing their environmental footprint. These tissues integrate seamlessly into any workspace aesthetic while supporting your sustainability goals.</p>\n<p>Perfect for offices, schools, healthcare waiting areas, and home environments where comfort and environmental responsibility both matter. Keep supplies stocked in high-traffic areas and store extras in a clean, dry location for easy access when boxes run low.</p>",
+  "seo_title": "Who Gives A Crap 3 Ply Tissues 12 | Mega Office Supplies",
+  "seo_description": "100% bamboo 3 ply tissues, 65 sheets per box, carton of 12. Forest-friendly, soft, and strong for offices, schools, and homes. Shop Who Gives A Crap today.",
+  "key_features": [
+    "100% bamboo construction supports forest conservation and sustainable sourcing practices",
+    "3 ply design provides softness and durability for sensitive skin and heavy use",
+    "65 sheets per box with 12 boxes per carton for long-lasting supply across multiple areas",
+    "Renewable bamboo fibre reduces environmental impact compared to tree-based alternatives",
+    "Suitable for reception desks, offices, classrooms, waiting rooms, and home spaces",
+    "Clean, minimalist packaging fits professional environments and modern décor",
+    "Gentle texture reduces irritation during prolonged use or seasonal illness"
+  ],
+  "applications": [
+    "Office desks and workstations for everyday employee use",
+    "Reception counters and waiting areas for guest comfort",
+    "Meeting rooms and conference spaces for professional environments",
+    "School classrooms and staff rooms for students and educators",
+    "Healthcare clinics and waiting areas where hygiene and gentleness matter",
+    "Home offices and living spaces for families seeking sustainable products"
+  ],
+  "specifications": [
+    "Brand: Who Gives A Crap",
+    "Product Type: Facial tissues",
+    "Ply: 3 ply",
+    "Material: 100% bamboo",
+    "Sheets per Box: 65",
+    "Pack Size: Carton of 12 boxes",
+    "SKU: GGWGACTISSUE12",
+    "Environmental Feature: Forest friendly renewable fibre",
+    "Texture: Soft and gentle",
+    "Suitable For: Offices, schools, healthcare facilities, homes"
+  ],
+  "faqs": [
+    {
+      "question": "Are these tissues suitable for sensitive skin?",
+      "answer": "Yes. Who Gives A Crap 3 ply tissues are made from 100% bamboo, which provides a naturally soft texture that is gentle on sensitive skin. The 3 ply construction adds strength without sacrificing comfort, making them ideal for prolonged use during cold and allergy season."
+    },
+    {
+      "question": "How many tissues do I get in a full carton?",
+      "answer": "Each carton contains 12 boxes. Each box holds 65 sheets, giving you a total of 780 tissues per carton. This quantity is designed to cover multiple office areas or home spaces for extended periods without frequent reordering."
+    },
+    {
+      "question": "Why choose bamboo tissues over traditional tree-based options?",
+      "answer": "Bamboo is a fast-growing renewable resource that regenerates naturally without replanting, reducing pressure on natural forests. Who Gives A Crap tissues deliver the same softness and strength you expect while supporting more sustainable sourcing practices. They are an excellent choice for organisations and homes committed to reducing their environmental footprint."
+    },
+    {
+      "question": "Where should I store the carton once it arrives?",
+      "answer": "Store the carton in a clean, dry location away from moisture to maintain tissue quality. Distribute boxes across high-traffic areas such as desks, meeting rooms, and reception counters, and keep remaining boxes in a cupboard or storage room for easy restocking when needed."
+    }
+  ],
+  "tags": [
+    "Who Gives A Crap Tissues",
+    "Who Gives A Crap 3 Ply",
+    "Bamboo Facial Tissues",
+    "Forest Friendly Tissues",
+    "3 Ply Tissues",
+    "Office Tissues",
+    "Sustainable Tissues",
+    "Carton of 12 Tissues",
+    "Eco Friendly Office Supplies",
+    "Renewable Bamboo Tissues"
+  ],
+  "pack_size": "Carton of 12 boxes",
+  "unit": "Carton",
+  "google_product_category_id": "469",
+  "image_alt_texts": {
+    "hero": "Who Gives A Crap 3 ply bamboo facial tissues carton of 12 boxes with 65 sheets per box",
+    "lifestyle_1": "Who Gives A Crap bamboo tissue box on office desk next to laptop and coffee cup in modern workspace",
+    "lifestyle_2": "Hand pulling soft 3 ply bamboo tissue from Who Gives A Crap box in reception area"
+  }
+}
+```

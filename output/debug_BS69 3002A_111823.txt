@@ -1,0 +1,52 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T3
+TOKENS IN: 1640
+TOKENS OUT: 605
+
+RAW:
+```json
+{
+  "title": "Crayola 69 3002A Safety Tip Scissors Assorted Colours",
+  "body_html": "<p>These safety scissors give preschool and primary aged children a safe introduction to paper cutting. Stainless steel blades cut through paper and card stock cleanly, while rounded tips eliminate sharp points. Contoured handles suit both left and right handed users.</p>\n<p>Built for classrooms, playrooms and home craft tables where young children aged 3 and up are learning to cut. The metal blades deliver consistent performance across hundreds of cuts, and the ergonomic design reduces hand fatigue during extended use.</p>",
+  "seo_title": "Crayola Safety Tip Scissors | Mega Office Supplies",
+  "seo_description": "Safety scissors for ages 3+. Stainless steel blades with rounded tips cut paper and card. Contoured handles for left or right handed use.",
+  "key_features": [
+    "Stainless steel blades with safe rounded tips",
+    "Contoured handles for left or right handed use",
+    "Suitable for ages 3 and up",
+    "Cuts paper and card stock cleanly"
+  ],
+  "applications": [
+    "Preschool and primary classroom cutting activities",
+    "Home craft and art projects for young children",
+    "Safe paper cutting practice for early learners"
+  ],
+  "specifications": [
+    "Model: 69 3002A",
+    "Blade Material: Stainless steel",
+    "Tip Design: Rounded safety tips",
+    "Handle Type: Contoured ambidextrous",
+    "Age Suitability: 3+ years",
+    "Colour: Assorted"
+  ],
+  "faqs": [],
+  "tags": [
+    "Crayola",
+    "Safety Scissors",
+    "Kids Scissors",
+    "Preschool Scissors",
+    "Ambidextrous Scissors",
+    "Rounded Tip Scissors",
+    "Classroom Supplies",
+    "Art Supplies"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "505379",
+  "image_alt_texts": {
+    "hero": "Crayola 69 3002A safety tip scissors with stainless steel blades and rounded tips in assorted colours",
+    "lifestyle_1": null,
+    "lifestyle_2": null
+  }
+}
+```

@@ -1,0 +1,62 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2633
+TOKENS OUT: 1014
+
+RAW:
+```json
+{
+  "title": "Kip Roll Matte 120gsm 610mm x 3m x 50mm Core",
+  "body_html": "<h2>Crisp, Clear Wide Format Printing for Plans and Professional Drawings</h2>\n<p><strong>A dependable matte paper roll engineered for sharp line definition and consistent results across technical and presentation printing.</strong></p>\n<p>When precision matters, your media choice shapes the outcome. The Kip Roll Matte 120gsm delivers controlled ink absorption and a non-reflective surface that ensures architectural plans, engineering drawings and schematics remain legible under any lighting. At 610mm wide and 3 metres long, this roll fits most large format plotters and provides sufficient coverage for daily production without constant roll changes.</p>\n<p>The 120gsm weight strikes a practical balance between durability and handling ease. Prints resist tearing during handling and storage, while the matte finish eliminates glare and enhances readability in client presentations and site reviews. Compatible with a wide range of inkjet plotters, this roll integrates seamlessly into existing workflows.</p>\n<p>Designed for offices, design studios and technical environments where output quality directly reflects professional standards, this matte roll supports confident, repeatable results. The 50mm core fits standard plotter spindles for quick loading and minimal downtime.</p>",
+  "seo_title": "Kip Roll Matte 120gsm 610mm x 3m | Mega Office Supplies",
+  "seo_description": "Kip Roll Matte 120gsm 610mm wide x 3m long for crisp architectural plans and technical drawings. Non-reflective finish, 50mm core. Quality wide format media.",
+  "key_features": [
+    "Matte surface eliminates glare and improves readability for technical documents and detailed drawings.",
+    "120gsm paper weight provides durability and professional feel without compromising handling ease.",
+    "610mm width suits most large format plotters and wide format printing applications.",
+    "3 metre length delivers sufficient coverage for daily production runs and frequent use.",
+    "50mm core diameter fits standard plotter spindles for quick installation and reliable operation.",
+    "Controlled ink absorption ensures sharp line definition and accurate colour representation.",
+    "Compatible with a wide range of inkjet large format printers for versatile deployment."
+  ],
+  "applications": [
+    "Architectural plans and technical drawings requiring precise line clarity and dimensional accuracy.",
+    "Engineering schematics and CAD plots for manufacturing, construction and project documentation.",
+    "Presentation posters and large format graphics where a non-reflective finish enhances visibility.",
+    "Design proofs and layout mockups in studios and creative environments.",
+    "Site plans and survey maps for field use and client review meetings.",
+    "Educational diagrams and instructional charts for training and teaching environments."
+  ],
+  "specifications": [
+    "Paper Type: Matte",
+    "Paper Weight: 120gsm",
+    "Roll Width: 610mm",
+    "Roll Length: 3 metres",
+    "Core Diameter: 50mm",
+    "Finish: Non-reflective matte",
+    "Compatibility: Wide range of large format inkjet printers",
+    "Application: Technical drawings, architectural plans, presentations"
+  ],
+  "faqs": [],
+  "tags": [
+    "Kip Roll Matte 120gsm",
+    "Kip Matte Paper 610mm",
+    "Large Format Paper Roll",
+    "Matte Plotter Paper",
+    "Architectural Drawing Paper",
+    "Technical Drawing Media",
+    "120gsm Wide Format Paper",
+    "610mm Printer Roll",
+    "CAD Printing Paper",
+    "Office Plotter Supplies"
+  ],
+  "pack_size": "1",
+  "unit": "Roll",
+  "google_product_category_id": "505826",
+  "image_alt_texts": {
+    "hero": "Kip Roll Matte 120gsm 610mm x 3m wide format paper roll with 50mm core for large format printing",
+    "lifestyle_1": "Kip matte paper roll installed on large format plotter printing architectural plan with clear line definition",
+    "lifestyle_2": null
+  }
+}
+```

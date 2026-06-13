@@ -1,0 +1,66 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 2921
+TOKENS OUT: 1063
+
+RAW:
+```json
+{
+  "title": "Zions Respirator P2 No Valve Box of 20",
+  "body_html": "<h2>Breathe Easier with P2-Rated Respiratory Protection for Australian Workplaces</h2>\n<p><strong>The Zions P2 Respirator delivers reliable protection against mechanically and thermally generated particles, engineered for comfort and compliance in demanding Australian work environments.</strong></p>\n<p>Respiratory safety is non-negotiable in construction, manufacturing, warehousing and trade environments where dust and particulates pose genuine health risks. This P2-rated respirator meets Australian standards for filtration efficiency, using colour-coded nose-pieces for fast identification and dual latex-free straps that distribute weight evenly across the head for extended wear without pressure points or discomfort.</p>\n<p>The aluminium nose clip moulds to facial contours for a secure seal while eliminating spark ignition risk in sensitive environments. Each mask arrives in a resealable polybag to maintain hygiene between uses, and the no-valve design ensures balanced exhalation protection in shared workspaces where bidirectional filtration matters.</p>\n<p>Ideal for trade professionals, warehouse teams and maintenance crews who need dependable respiratory protection that holds up through full shifts. Supplied in a box of 20, ready for team distribution or individual long-term use.</p>",
+  "seo_title": "Zions P2 Respirator No Valve 20pk | Mega Office Supplies",
+  "seo_description": "P2-rated respiratory protection for Australian workplaces. Latex-free dual straps, aluminium nose clip, resealable hygiene bags. Box of 20 masks from Zions.",
+  "key_features": [
+    "P2 rating meets Australian standards for mechanically and thermally generated particle protection",
+    "Latex-free dual strap system provides comfortable, secure fit during extended wear",
+    "Aluminium nose clip eliminates spark risk while delivering custom facial seal",
+    "Colour-coded nose-piece enables instant identification and size management",
+    "Resealable polybag packaging maintains hygiene between uses",
+    "No-valve design ensures balanced filtration in shared work environments",
+    "Box of 20 masks suitable for team distribution or individual stockpiling"
+  ],
+  "applications": [
+    "Construction sites and demolition work with high dust exposure",
+    "Manufacturing facilities handling dry powders and particulates",
+    "Warehouse environments with airborne particles from packing materials",
+    "Trade workshops for sanding, grinding and mechanical finishing tasks",
+    "Maintenance and facilities management in dusty or contaminated spaces",
+    "Agricultural operations requiring respiratory protection from organic dust"
+  ],
+  "specifications": [
+    "Product: P2 Respirator Mask",
+    "Brand: Zions Systems Products",
+    "Model: ZNPC305",
+    "Protection Rating: P2 (mechanically and thermally generated particles)",
+    "Valve Type: No valve",
+    "Strap Material: Latex-free dual straps",
+    "Nose Clip Material: Aluminium",
+    "Packaging: Resealable polybag per mask",
+    "Pack Quantity: 20 masks per box",
+    "Colour Coding: Colour-coded nose-piece for identification",
+    "Country of Origin: Australia (Australian-owned brand)",
+    "Compliance: Designed for Australian workplace safety standards"
+  ],
+  "faqs": [],
+  "tags": [
+    "Zions ZNPC305",
+    "Zions P2 Respirator",
+    "P2 Dust Mask",
+    "No Valve Respirator",
+    "Latex Free Face Mask",
+    "Construction Safety Mask",
+    "Workplace Respiratory Protection",
+    "Zions Safety Products",
+    "Australian P2 Mask",
+    "Box of 20 Respirators"
+  ],
+  "pack_size": "Box of 20",
+  "unit": "Box",
+  "google_product_category_id": "2047",
+  "image_alt_texts": {
+    "hero": "Zions P2 respirator mask with colour-coded nose-piece and dual latex-free straps in resealable polybag",
+    "lifestyle_1": "Zions P2 respirator box of 20 masks displayed with individual polybag packaging for workplace distribution",
+    "lifestyle_2": null
+  }
+}
+```

@@ -1,0 +1,82 @@
+MODEL: claude-sonnet-4-5-20250929
+TIER: T2
+TOKENS IN: 1969
+TOKENS OUT: 1449
+
+RAW:
+```json
+{
+  "title": "Brother LC536XLY Yellow Ink Cartridge High Yield",
+  "body_html": "<h2>Brilliant Yellow Prints That Last</h2>\n<p><strong>The Brother LC536XLY high yield yellow ink cartridge delivers vibrant, professional-quality colour printing with extended page capacity for busy workplaces.</strong></p>\n<p>Genuine Brother ink technology ensures consistent colour accuracy and fade resistance across presentations, marketing materials and everyday documents. With an impressive yield of up to 1,200 pages, this cartridge reduces the frequency of replacements and keeps your Brother MFC printer running efficiently through high-volume print runs. The precision-engineered formula prevents clogging and maintains print head health over thousands of pages.</p>\n<p>Installation is simple and mess-free, while Brother's reliable ink chemistry works seamlessly with your printer's settings to optimise colour balance and saturation. The cartridge integrates with Brother's ink monitoring system, giving you accurate level tracking and advance notice before depletion.</p>\n<p>Ideal for offices, design studios and schools that demand consistent yellow reproduction without compromise. Trust genuine Brother consumables to protect your printer investment and deliver the quality your work deserves.</p>",
+  "seo_title": "Brother LC536XLY Yellow Ink | Mega Office Supplies",
+  "seo_description": "Brother LC536XLY high yield yellow ink cartridge delivers up to 1,200 vibrant pages. Genuine Brother quality for MFC printers. Fast Australian dispatch.",
+  "key_features": [
+    "High yield capacity of up to 1,200 pages reduces replacement frequency",
+    "Genuine Brother ink technology ensures fade-resistant, vibrant yellow output",
+    "Compatible with Brother MFC-J100, MFC-J105, DCP-J100, DCP-J105 printers",
+    "Integrated ink level monitoring prevents unexpected depletion",
+    "Precision-engineered formula protects print head longevity",
+    "Simple, clean installation with no mess or complicated setup",
+    "Consistent colour accuracy across all paper types and weights"
+  ],
+  "applications": [
+    "High-volume office printing for reports, presentations and marketing collateral",
+    "Graphic design studios requiring accurate yellow reproduction",
+    "Educational institutions printing worksheets, posters and teaching materials",
+    "Small business invoice and document printing with colour logos",
+    "Home office users producing professional client-facing documents"
+  ],
+  "specifications": [
+    "Brand: Brother",
+    "Model: LC536XLY",
+    "Colour: Yellow",
+    "Yield: Up to 1,200 pages (ISO/IEC 24711 standard)",
+    "Cartridge Type: High Yield Inkjet",
+    "Authenticity: Genuine Brother OEM product",
+    "Compatible Printers: Brother MFC-J100, MFC-J105, DCP-J100, DCP-J105",
+    "Ink Technology: Brother Innobella dye-based ink",
+    "Installation: Drop-in replacement cartridge",
+    "Pack Size: Single cartridge",
+    "Country of Origin: Manufactured to Brother specifications",
+    "Warranty: Covered under Brother's genuine consumables warranty"
+  ],
+  "faqs": [
+    {
+      "question": "Is this cartridge compatible with my Brother MFC-J100 printer?",
+      "answer": "Yes, the Brother LC536XLY is fully compatible with the MFC-J100, MFC-J105, DCP-J100 and DCP-J105 printer models. This genuine Brother cartridge is designed specifically for these machines and includes all necessary chip technology for seamless recognition and ink level monitoring."
+    },
+    {
+      "question": "How many pages will I get from this high yield cartridge?",
+      "answer": "The LC536XLY delivers up to 1,200 pages based on ISO/IEC 24711 testing standards, which use 5% page coverage. Actual yield varies depending on your print density, document types and printer settings. Most office users find this cartridge lasts 3-4 times longer than standard yield alternatives."
+    },
+    {
+      "question": "What's the difference between genuine Brother ink and compatible alternatives?",
+      "answer": "Genuine Brother LC536XLY cartridges use proprietary Innobella ink formulations engineered specifically for your printer's mechanics and chemistry. This ensures optimal colour accuracy, prevents print head damage, maintains warranty coverage, and delivers consistent results across thousands of pages. Compatible cartridges may void your printer warranty and risk clogging or colour inconsistency."
+    },
+    {
+      "question": "Will this cartridge work with my printer's ink monitoring system?",
+      "answer": "Absolutely. The LC536XLY includes Brother's integrated chip technology that communicates directly with your printer's monitoring system. You'll receive accurate ink level readings on your printer display and computer interface, plus advance warnings when levels run low so you can replace cartridges before depletion interrupts your workflow."
+    }
+  ],
+  "tags": [
+    "Brother LC536XLY",
+    "Brother LC536XLY Yellow",
+    "Brother MFC-J100 Ink",
+    "Brother DCP-J100 Ink",
+    "High Yield Ink Cartridge",
+    "Yellow Printer Ink",
+    "Genuine Brother Ink",
+    "Brother Printer Consumables",
+    "Office Printing Supplies",
+    "Brother Innobella Ink"
+  ],
+  "pack_size": "1",
+  "unit": "Each",
+  "google_product_category_id": "4094",
+  "image_alt_texts": {
+    "hero": "Brother LC536XLY genuine high yield yellow ink cartridge for MFC and DCP series printers",
+    "lifestyle_1": "Brother LC536XLY yellow ink cartridge installed in Brother MFC-J100 printer producing vibrant colour documents",
+    "lifestyle_2": "Comparison of Brother LC536XLY high yield yellow ink output showing consistent colour and fade resistance across multiple printed pages"
+  }
+}
+```
