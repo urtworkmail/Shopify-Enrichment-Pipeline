@@ -51,4 +51,13 @@ SCHEMA:
   }}
 }}
 
+
+SELF-CHECK BEFORE OUTPUT:
+1. Is the seo_title 60 characters or fewer? Count them: _________
+2. Does the seo_title end with exactly " | Mega Office Supplies"? ☐ Yes  ☐ No
+3. Is the seo_description 160 characters or fewer? Count them: _________
+4. Is "faqs" set to []? ☐ Yes  ☐ No
+5. Are there at least 6 tags? Count them: _________
+
+If any check fails, fix the JSON before returning it.
 Return ONLY the JSON object. No markdown, no preamble, no explanation.

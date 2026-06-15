@@ -87,6 +87,37 @@ BANNED_PHRASES = [
 BANNED_CHARS = ["\u2014", "\u2013", "\u201c", "\u201d", "\u2018", "\u2019", "\u2026"]
 
 
+def _repair_seo_fields(data: dict) -> dict:
+    """
+    Auto-repair SEO fields so that one-off character miscounts
+    don't waste tokens on retries.
+    """
+    seo_title = data.get("seo_title", "")
+    suffix = " | Mega Office Supplies"
+    max_title = 60
+    max_desc = 160
+
+    # --- seo_title ---
+    if not seo_title.endswith(suffix):
+        # Missing suffix -- append it, then truncate if needed
+        seo_title = seo_title[: max_title - len(suffix)].rstrip() + suffix
+    elif len(seo_title) > max_title:
+        # Suffix present but title too long -- truncate the part before the suffix
+        prefix = seo_title[: -len(suffix)]
+        seo_title = prefix[: max_title - len(suffix)].rstrip() + suffix
+
+    seo_title = seo_title[:max_title]  # safety net
+    data["seo_title"] = seo_title
+
+    # --- seo_description ---
+    seo_desc = data.get("seo_description", "")
+    if len(seo_desc) > max_desc:
+        # Truncate at the last full word within 160 characters
+        truncated = seo_desc[:max_desc].rsplit(" ", 1)[0]
+        data["seo_description"] = truncated
+
+    return data
+
 def validate_claude_response(raw: str, tier: str) -> tuple[bool, Optional[dict], str]:
     """
     Parse and validate Claude's JSON response.
@@ -98,6 +129,7 @@ def validate_claude_response(raw: str, tier: str) -> tuple[bool, Optional[dict],
 
     try:
         data = json.loads(clean)
+        data = _repair_seo_fields(data)
     except json.JSONDecodeError as e:
         return False, None, f"JSON parse error: {e}"
 
@@ -109,7 +141,9 @@ def validate_claude_response(raw: str, tier: str) -> tuple[bool, Optional[dict],
     # SEO title length
     seo_title = data.get("seo_title", "")
     if len(seo_title) > 60:
-        return False, None, f"seo_title too long: {len(seo_title)} chars (max 60)"
+        # Should never happen after auto-repair, but keep as safety net
+        seo_title = seo_title[:57].rstrip() + " | Mega Office Supplies"
+        data["seo_title"] = seo_title[:60]
 
     # SEO title must end with | Mega Office Supplies
     if seo_title and "Mega Office Supplies" not in seo_title:

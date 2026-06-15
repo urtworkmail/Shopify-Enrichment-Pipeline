@@ -13,8 +13,6 @@ provides URL patterns. The existing Shopify content fallback is always available
 
 import hashlib
 import json
-import os
-import re
 import time
 from pathlib import Path
 from typing import Optional
@@ -91,7 +89,7 @@ SUPPLIER_SEARCH_CONFIG: dict[str, dict] = {
     "www.averyproducts.com.au": {
         "search_url_template": "https://www.averyproducts.com.au/search?q={query}",
         "product_link_selector": ".product-item-link, .product-name a",
-        "respect_robots": False, # This site blocks all bots in robots.txt, but we want to scrape it anyway
+        "respect_robots": False,
         "content_selectors": [
             ".product.attribute.description .value",
             ".product-info-main .description",
@@ -202,299 +200,216 @@ SUPPLIER_SEARCH_CONFIG: dict[str, dict] = {
         ],
     },
 
+    # ── Auto-discovered suppliers ────────────────────────────────────────────
     "arnos.com.au": {
-      "search_url_template": "https://arnos.com.au/?s={query}&post_type=product",
-      "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
-      "respect_robots": False,
-      "content_selectors": [
-        ".product-description",
-        ".product__description",
-        "[data-product-description]",
-        "#product-description",
-        ".product-details__description",
-        ".description"
-      ],
-      "spec_selectors": [
-        ".product-specifications",
-        ".specifications",
-        ".product-specs",
-        ".spec-table",
-        "table.specs"
-      ],
-      "auto_discovered": True
+        "search_url_template": "https://arnos.com.au/?s={query}&post_type=product",
+        "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
+        "respect_robots": False,
+        "content_selectors": [
+            ".product-description", ".product__description",
+            "[data-product-description]", "#product-description",
+            ".product-details__description", ".description"
+        ],
+        "spec_selectors": [
+            ".product-specifications", ".specifications",
+            ".product-specs", ".spec-table", "table.specs"
+        ],
+        "auto_discovered": True
     },
     "au.whogivesacrap.org": {
-      "search_url_template": "https://au.whogivesacrap.org/search?q={query}",
-      "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
-      "respect_robots": False,
-      "content_selectors": [
-        ".product-description",
-        ".product__description",
-        "[data-product-description]",
-        "#product-description",
-        ".product-details__description",
-        ".description"
-      ],
-      "spec_selectors": [
-        ".product-specifications",
-        ".specifications",
-        ".product-specs",
-        ".spec-table",
-        "table.specs"
-      ],
-      "auto_discovered": True
+        "search_url_template": "https://au.whogivesacrap.org/search?q={query}",
+        "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
+        "respect_robots": False,
+        "content_selectors": [
+            ".product-description", ".product__description",
+            "[data-product-description]", "#product-description",
+            ".product-details__description", ".description"
+        ],
+        "spec_selectors": [
+            ".product-specifications", ".specifications",
+            ".product-specs", ".spec-table", "table.specs"
+        ],
+        "auto_discovered": True
     },
     "dolphy.com.au": {
-      "search_url_template": "https://dolphy.com.au/?s={query}&post_type=product",
-      "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
-      "respect_robots": False,
-      "content_selectors": [
-        ".product-description",
-        ".product__description",
-        "[data-product-description]",
-        "#product-description",
-        ".product-details__description",
-        ".description"
-      ],
-      "spec_selectors": [
-        ".product-specifications",
-        ".specifications",
-        ".product-specs",
-        ".spec-table",
-        "table.specs"
-      ],
-      "auto_discovered": True
+        "search_url_template": "https://dolphy.com.au/?s={query}&post_type=product",
+        "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
+        "respect_robots": False,
+        "content_selectors": [
+            ".product-description", ".product__description",
+            "[data-product-description]", "#product-description",
+            ".product-details__description", ".description"
+        ],
+        "spec_selectors": [
+            ".product-specifications", ".specifications",
+            ".product-specs", ".spec-table", "table.specs"
+        ],
+        "auto_discovered": True
     },
     "rapidline.com.au": {
-      "search_url_template": "https://rapidline.com.au/?s={query}&post_type=product",
-      "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
-      "respect_robots": False,
-      "content_selectors": [
-        ".product-description",
-        ".product__description",
-        "[data-product-description]",
-        "#product-description",
-        ".product-details__description",
-        ".description"
-      ],
-      "spec_selectors": [
-        ".product-specifications",
-        ".specifications",
-        ".product-specs",
-        ".spec-table",
-        "table.specs"
-      ],
-      "auto_discovered": True
+        "search_url_template": "https://rapidline.com.au/?s={query}&post_type=product",
+        "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
+        "respect_robots": False,
+        "content_selectors": [
+            ".product-description", ".product__description",
+            "[data-product-description]", "#product-description",
+            ".product-details__description", ".description"
+        ],
+        "spec_selectors": [
+            ".product-specifications", ".specifications",
+            ".product-specs", ".spec-table", "table.specs"
+        ],
+        "auto_discovered": True
     },
     "spencil.com.au": {
-      "search_url_template": "https://spencil.com.au/?s={query}&post_type=product",
-      "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
-      "respect_robots": False,
-      "content_selectors": [
-        ".product-description",
-        ".product__description",
-        "[data-product-description]",
-        "#product-description",
-        ".product-details__description",
-        ".description"
-      ],
-      "spec_selectors": [
-        ".product-specifications",
-        ".specifications",
-        ".product-specs",
-        ".spec-table",
-        "table.specs"
-      ],
-      "auto_discovered": True
+        "search_url_template": "https://spencil.com.au/?s={query}&post_type=product",
+        "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
+        "respect_robots": False,
+        "content_selectors": [
+            ".product-description", ".product__description",
+            "[data-product-description]", "#product-description",
+            ".product-details__description", ".description"
+        ],
+        "spec_selectors": [
+            ".product-specifications", ".specifications",
+            ".product-specs", ".spec-table", "table.specs"
+        ],
+        "auto_discovered": True
     },
     "www.3m.com.au": {
-      "search_url_template": "https://www.3m.com.au/search?q={query}",
-      "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
-      "respect_robots": False,
-      "content_selectors": [
-        ".product-description",
-        ".product__description",
-        "[data-product-description]",
-        "#product-description",
-        ".product-details__description",
-        ".description"
-      ],
-      "spec_selectors": [
-        ".product-specifications",
-        ".specifications",
-        ".product-specs",
-        ".spec-table",
-        "table.specs"
-      ],
-      "auto_discovered": True
+        "search_url_template": "https://www.3m.com.au/search?q={query}",
+        "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
+        "respect_robots": False,
+        "content_selectors": [
+            ".product-description", ".product__description",
+            "[data-product-description]", "#product-description",
+            ".product-details__description", ".description"
+        ],
+        "spec_selectors": [
+            ".product-specifications", ".specifications",
+            ".product-specs", ".spec-table", "table.specs"
+        ],
+        "auto_discovered": True
     },
     "www.faber-castell.com.au": {
-      "search_url_template": "https://www.faber-castell.com.au/products/search?q={query}",
-      "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
-      "respect_robots": False,
-      "content_selectors": [
-        ".product-description",
-        ".product__description",
-        "[data-product-description]",
-        "#product-description",
-        ".product-details__description",
-        ".description"
-      ],
-      "spec_selectors": [
-        ".product-specifications",
-        ".specifications",
-        ".product-specs",
-        ".spec-table",
-        "table.specs"
-      ],
-      "auto_discovered": True
+        "search_url_template": "https://www.faber-castell.com.au/products/search?q={query}",
+        "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
+        "respect_robots": False,
+        "content_selectors": [
+            ".product-description", ".product__description",
+            "[data-product-description]", "#product-description",
+            ".product-details__description", ".description"
+        ],
+        "spec_selectors": [
+            ".product-specifications", ".specifications",
+            ".product-specs", ".spec-table", "table.specs"
+        ],
+        "auto_discovered": True
     },
     "www.jasco.com.au": {
-      "search_url_template": "https://www.jasco.com.au/search?q={query}",
-      "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
-      "respect_robots": False,
-      "content_selectors": [
-        ".product-description",
-        ".product__description",
-        "[data-product-description]",
-        "#product-description",
-        ".product-details__description",
-        ".description"
-      ],
-      "spec_selectors": [
-        ".product-specifications",
-        ".specifications",
-        ".product-specs",
-        ".spec-table",
-        "table.specs"
-      ],
-      "auto_discovered": True
+        "search_url_template": "https://www.jasco.com.au/search?q={query}",
+        "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
+        "respect_robots": False,
+        "content_selectors": [
+            ".product-description", ".product__description",
+            "[data-product-description]", "#product-description",
+            ".product-details__description", ".description"
+        ],
+        "spec_selectors": [
+            ".product-specifications", ".specifications",
+            ".product-specs", ".spec-table", "table.specs"
+        ],
+        "auto_discovered": True
     },
     "www.jshayes.com.au": {
-      "search_url_template": "https://www.jshayes.com.au/?s={query}&post_type=product",
-      "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
-      "respect_robots": False,
-      "content_selectors": [
-        ".product-description",
-        ".product__description",
-        "[data-product-description]",
-        "#product-description",
-        ".product-details__description",
-        ".description"
-      ],
-      "spec_selectors": [
-        ".product-specifications",
-        ".specifications",
-        ".product-specs",
-        ".spec-table",
-        "table.specs"
-      ],
-      "auto_discovered": True
+        "search_url_template": "https://www.jshayes.com.au/?s={query}&post_type=product",
+        "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
+        "respect_robots": False,
+        "content_selectors": [
+            ".product-description", ".product__description",
+            "[data-product-description]", "#product-description",
+            ".product-details__description", ".description"
+        ],
+        "spec_selectors": [
+            ".product-specifications", ".specifications",
+            ".product-specs", ".spec-table", "table.specs"
+        ],
+        "auto_discovered": True
     },
     "www.kcprofessional.com": {
-      "search_url_template": "https://www.kcprofessional.com/search?q={query}",
-      "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
-      "respect_robots": False,
-      "content_selectors": [
-        ".product-description",
-        ".product__description",
-        "[data-product-description]",
-        "#product-description",
-        ".product-details__description",
-        ".description"
-      ],
-      "spec_selectors": [
-        ".product-specifications",
-        ".specifications",
-        ".product-specs",
-        ".spec-table",
-        "table.specs"
-      ],
-      "auto_discovered": True
+        "search_url_template": "https://www.kcprofessional.com/search?q={query}",
+        "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
+        "respect_robots": False,
+        "content_selectors": [
+            ".product-description", ".product__description",
+            "[data-product-description]", "#product-description",
+            ".product-details__description", ".description"
+        ],
+        "spec_selectors": [
+            ".product-specifications", ".specifications",
+            ".product-specs", ".spec-table", "table.specs"
+        ],
+        "auto_discovered": True
     },
     "www.pentel.com.au": {
-      "search_url_template": "https://www.pentel.com.au/search?q={query}",
-      "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
-      "respect_robots": False,
-      "content_selectors": [
-        ".product-description",
-        ".product__description",
-        "[data-product-description]",
-        "#product-description",
-        ".product-details__description",
-        ".description"
-      ],
-      "spec_selectors": [
-        ".product-specifications",
-        ".specifications",
-        ".product-specs",
-        ".spec-table",
-        "table.specs"
-      ],
-      "auto_discovered": True
+        "search_url_template": "https://www.pentel.com.au/search?q={query}",
+        "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
+        "respect_robots": False,
+        "content_selectors": [
+            ".product-description", ".product__description",
+            "[data-product-description]", "#product-description",
+            ".product-details__description", ".description"
+        ],
+        "spec_selectors": [
+            ".product-specifications", ".specifications",
+            ".product-specs", ".spec-table", "table.specs"
+        ],
+        "auto_discovered": True
     },
     "www.phe.com.au": {
-      "search_url_template": "https://www.phe.com.au/?s={query}&post_type=product",
-      "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
-      "respect_robots": False,
-      "content_selectors": [
-        ".product-description",
-        ".product__description",
-        "[data-product-description]",
-        "#product-description",
-        ".product-details__description",
-        ".description"
-      ],
-      "spec_selectors": [
-        ".product-specifications",
-        ".specifications",
-        ".product-specs",
-        ".spec-table",
-        "table.specs"
-      ],
-      "auto_discovered": True
+        "search_url_template": "https://www.phe.com.au/?s={query}&post_type=product",
+        "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
+        "respect_robots": False,
+        "content_selectors": [
+            ".product-description", ".product__description",
+            "[data-product-description]", "#product-description",
+            ".product-details__description", ".description"
+        ],
+        "spec_selectors": [
+            ".product-specifications", ".specifications",
+            ".product-specs", ".spec-table", "table.specs"
+        ],
+        "auto_discovered": True
     },
     "www.post-it.com": {
-      "search_url_template": "https://www.post-it.com/search?q={query}",
-      "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
-      "respect_robots": False,
-      "content_selectors": [
-        ".product-description",
-        ".product__description",
-        "[data-product-description]",
-        "#product-description",
-        ".product-details__description",
-        ".description"
-      ],
-      "spec_selectors": [
-        ".product-specifications",
-        ".specifications",
-        ".product-specs",
-        ".spec-table",
-        "table.specs"
-      ],
-      "auto_discovered": True
+        "search_url_template": "https://www.post-it.com/search?q={query}",
+        "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
+        "respect_robots": False,
+        "content_selectors": [
+            ".product-description", ".product__description",
+            "[data-product-description]", "#product-description",
+            ".product-details__description", ".description"
+        ],
+        "spec_selectors": [
+            ".product-specifications", ".specifications",
+            ".product-specs", ".spec-table", "table.specs"
+        ],
+        "auto_discovered": True
     },
     "www.teaching.com.au": {
-      "search_url_template": "https://www.teaching.com.au/?s={query}&post_type=product",
-      "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
-      "respect_robots": False,
-      "content_selectors": [
-        ".product-description",
-        ".product__description",
-        "[data-product-description]",
-        "#product-description",
-        ".product-details__description",
-        ".description"
-      ],
-      "spec_selectors": [
-        ".product-specifications",
-        ".specifications",
-        ".product-specs",
-        ".spec-table",
-        "table.specs"
-      ],
-      "auto_discovered": True
+        "search_url_template": "https://www.teaching.com.au/?s={query}&post_type=product",
+        "product_link_selector": "a[href*='/product/'], a[href*='/products/'], a[href*='/item/']",
+        "respect_robots": False,
+        "content_selectors": [
+            ".product-description", ".product__description",
+            "[data-product-description]", "#product-description",
+            ".product-details__description", ".description"
+        ],
+        "spec_selectors": [
+            ".product-specifications", ".specifications",
+            ".product-specs", ".spec-table", "table.specs"
+        ],
+        "auto_discovered": True
     },
 }
 
@@ -654,13 +569,15 @@ def _is_likely_product_page(soup: BeautifulSoup, title: str) -> bool:
     return has_signals and title_match
 
 
-def _google_fallback(domain: str, mpn: str, sku: str, title: str) -> dict:
+# ── Google fallback ───────────────────────────────────────────────────────────
+
+def _google_fallback(domain: str, sku: str, title: str, mpn: str = "") -> dict:
     """
     Fallback: search Google for site:domain.com {query}.
     Returns a content dict with status.
     """
-    query = mpn.strip() if mpn and mpn.strip() else f"{sku} {title[:30]}".strip()
-    google_url = f"https://www.google.com/search?q=site:{domain}+{quote_plus(query)}"
+    search_key = mpn.strip() if mpn and mpn.strip() else f"{sku} {title[:30]}".strip()
+    google_url = f"https://www.google.com/search?q=site:{domain}+{quote_plus(search_key)}"
 
     print(f"[scrape] Google fallback: {google_url}", flush=True)
 
@@ -681,7 +598,7 @@ def _google_fallback(domain: str, mpn: str, sku: str, title: str) -> dict:
         first_link = None
         for a in soup.select("a[href]"):
             href = a.get("href", "")
-            if href.startswith("https://") and domain in href and not "google.com" in href:
+            if href.startswith("https://") and domain in href and "google.com" not in href:
                 first_link = href
                 break
 
@@ -715,7 +632,6 @@ def _search_and_scrape(domain: str, sku: str, title: str, supplier_cfg: dict, mp
     5. Extract content.
     Returns a content dict with status.
     """
-    # Build search query: SKU is the most precise identifier
     search_key = mpn.strip() if mpn and mpn.strip() else sku
     query = quote_plus(f"{search_key} {title[:40]}".strip())
     search_url = supplier_cfg["search_url_template"].format(query=query)
@@ -727,7 +643,8 @@ def _search_and_scrape(domain: str, sku: str, title: str, supplier_cfg: dict, mp
         return {**cached, "status": "cached"}
 
     # Fetch search results
-    search_soup, fetch_status = _fetch(search_url, sku, skip_robots=not supplier_cfg.get("respect_robots", True))
+    skip_robots = not supplier_cfg.get("respect_robots", True)
+    search_soup, fetch_status = _fetch(search_url, sku, skip_robots=skip_robots)
     if not search_soup:
         return {"status": fetch_status, "description": "", "specifications": "", "features": ""}
 
@@ -741,13 +658,10 @@ def _search_and_scrape(domain: str, sku: str, title: str, supplier_cfg: dict, mp
     if not link_el or not link_el.get("href"):
         print(f"[scrape] {sku}: no_product_link_found in site search, trying Google fallback", flush=True)
         google_result = _google_fallback(domain, sku, title, mpn)
-        # Keep the routing_strategy from the supplier config if available
         google_result["routing_strategy"] = supplier_cfg.get("_routing_strategy", "google_fallback")
         if google_result["status"] in ("success", "cached", "scraped_empty"):
             return google_result
-        # Total failure – return the original status
         return {"status": "no_product_link", "description": "", "specifications": "", "features": ""}
-
 
     product_url = urljoin(f"https://{domain}", link_el["href"])
 
@@ -758,7 +672,7 @@ def _search_and_scrape(domain: str, sku: str, title: str, supplier_cfg: dict, mp
         return {**cached, "status": "cached"}
 
     # Fetch the product page
-    product_soup, fetch_status = _fetch(product_url, sku, skip_robots=not supplier_cfg.get("respect_robots", True))
+    product_soup, fetch_status = _fetch(product_url, sku, skip_robots=skip_robots)
     if not product_soup:
         return {"status": fetch_status, "description": "", "specifications": "", "features": ""}
 
@@ -766,7 +680,6 @@ def _search_and_scrape(domain: str, sku: str, title: str, supplier_cfg: dict, mp
     if not _is_likely_product_page(product_soup, title):
         print(f"[scrape] {sku}: product_page_quality_low -- using anyway", flush=True)
 
-    # Extract content
     content = _extract_from_soup(
         product_soup,
         product_url,
@@ -774,7 +687,6 @@ def _search_and_scrape(domain: str, sku: str, title: str, supplier_cfg: dict, mp
         supplier_cfg.get("spec_selectors", []),
     )
 
-    # Cache on the product URL
     _save_cache(product_url, content)
 
     has_content = bool(content["description"].strip() or content["specifications"].strip())
@@ -816,14 +728,11 @@ def scrape_product(sku: str, brand: str, title: str = "", mpn: str = "") -> dict
             "description": "", "specifications": "", "features": "",
         }
 
-    # Determine the domain to look up in SUPPLIER_SEARCH_CONFIG
     parsed = urlparse(base_url)
-    domain = parsed.netloc  # e.g. "www.canon.com.au"
+    domain = parsed.netloc
 
     supplier_cfg = SUPPLIER_SEARCH_CONFIG.get(domain)
     if not supplier_cfg:
-        # No search config for this supplier yet.
-        # Return no_config so the pipeline falls back to existing Shopify content.
         print(f"[scrape] {sku}: no_search_config for {domain}", flush=True)
         return {
             "status": "no_config",

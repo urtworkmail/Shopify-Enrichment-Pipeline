@@ -9,7 +9,7 @@ class Config:
     SHOPIFY_CLIENT_SECRET: str = os.getenv("SHOPIFY_CLIENT_SECRET", "")
     SHOPIFY_API_VERSION: str = os.getenv("SHOPIFY_API_VERSION", "2026-04")
     ANTHROPIC_API_KEY: str = os.getenv("ANTHROPIC_API_KEY", "")
-    CLAUDE_MODEL: str = "claude-sonnet-4-5-20250929"
+    CLAUDE_MODEL: str = "claude-sonnet-4-6"
     DATABASE_URL: str = os.getenv("DATABASE_URL", "postgresql://localhost/mega_enrichment")
     INPUT_CSV: str = os.getenv("INPUT_CSV", "products_export.csv")
     OUTPUT_DIR: str = os.getenv("OUTPUT_DIR", "output")

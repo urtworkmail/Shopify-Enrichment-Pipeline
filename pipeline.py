@@ -8,6 +8,7 @@ Usage:
     python pipeline.py --skip-fetch                       # reuse cached Shopify data
     python pipeline.py --writeback-only --resume <id>     # write-back a completed run
     python pipeline.py --resume <id>                      # resume interrupted run
+    python pipeline.py --skip-previously-enriched         # only process products never successfully enriched before
 """
 
 import argparse
@@ -15,7 +16,7 @@ from datetime import datetime
 from pathlib import Path
 
 from config import config
-from database import init_db, get_db, Product, Enrichment, Run, Log, get_run_stats
+from database import init_db, get_db, Product, Enrichment, Run, Log, get_run_stats, get_previously_enriched_skus
 from token_manager import (
     initialise as init_token,
     smoke_test,
@@ -35,7 +36,13 @@ def _log(db, run_id, level, module, message, sku=None):
 
 # ── Phase 1: Enrichment ───────────────────────────────────────────────────────
 
-def run_enrichment_phase(run_id: int, limit: int = None, batch_size: int = 50, filter_prefix: str = None):
+def run_enrichment_phase(
+    run_id: int,
+    limit: int = None,
+    batch_size: int = 50,
+    filter_prefix: str = None,
+    skip_previously_enriched: bool = False,
+):
     with get_db() as db:
         run = db.query(Run).filter_by(id=run_id).first()
 
@@ -44,10 +51,20 @@ def run_enrichment_phase(run_id: int, limit: int = None, batch_size: int = 50, f
         )
 
         query = db.query(Product).filter(Product.sku.notin_(already_done))
+
+        if filter_prefix:
+            query = query.filter(Product.sku.startswith(filter_prefix))
+
+        if skip_previously_enriched:
+            done_skus = get_previously_enriched_skus()
+            if done_skus:
+                query = query.filter(Product.sku.notin_(done_skus))
+                _log(db, run_id, "INFO", "pipeline",
+                     f"Skipping {len(done_skus)} previously enriched SKUs")
+
         if limit:
             query = query.limit(limit)
-            if filter_prefix:
-                query = query.filter(Product.sku.startswith(filter_prefix))
+
         products = query.all()
 
         run.total_products = len(products) + len(already_done)
@@ -70,9 +87,8 @@ def run_enrichment_phase(run_id: int, limit: int = None, batch_size: int = 50, f
                 "image_count": len(p.images or []),
                 "barcode": getattr(p, "barcode", ""),
                 "raw_csv_data": p.raw_csv_data or {},
-                # Fix 3: existing Shopify metafield content -- augment base for Claude
                 "existing_content": getattr(p, "existing_content", None) or {},
-                "mpn": getattr(p, "mpn", "") or "",  # ← ADD THIS LINE
+                "mpn": getattr(p, "mpn", "") or "",
             }
             for p in products
         ]
@@ -123,7 +139,7 @@ def run_enrichment_phase(run_id: int, limit: int = None, batch_size: int = 50, f
                     elif config.SCRAPER_ENABLED:
                         supplier_content = scrape_product(
                             sku, brand, snap.get("title", ""),
-                            mpn=snap.get("mpn", "")  # ← ADD THIS
+                            mpn=snap.get("mpn", "")
                         )
                     else:
                         supplier_content = {"status": "disabled"}
@@ -250,8 +266,10 @@ def print_summary(run_id: int):
 
 def main():
     parser = argparse.ArgumentParser(description="Mega Office Enrichment Pipeline v2.1")
-    parser.add_argument("--filter-prefix", type=str, default=None, help="Only process products with this SKU prefix")
-    parser.add_argument("--filter-prefix", type=str, default=None, help="Only process products whose SKU starts with this prefix (e.g. AA, DS, GN)")
+    parser.add_argument("--filter-prefix", type=str, default=None,
+                        help="Only process products whose SKU starts with this prefix (e.g. AA, DS, GN)")
+    parser.add_argument("--skip-previously-enriched", action="store_true",
+                        help="Skip any SKU that has already been successfully enriched in a previous run")
     parser.add_argument("--limit", type=int, default=None)
     parser.add_argument("--skip-fetch", action="store_true")
     parser.add_argument("--skip-writeback", action="store_true")
@@ -311,7 +329,12 @@ def main():
             fetch_and_merge(use_cache=True)
 
         print("\n[pipeline] Phase 1b: Claude enrichment ...")
-        run_enrichment_phase(run_id, limit=args.limit, filter_prefix=args.filter_prefix)
+        run_enrichment_phase(
+            run_id,
+            limit=args.limit,
+            filter_prefix=args.filter_prefix,
+            skip_previously_enriched=args.skip_previously_enriched,
+        )
 
         if not args.skip_writeback:
             print("\n[pipeline] Phase 2: Bulk write-back ...")

@@ -83,4 +83,14 @@ FAQs — TIER‑SPECIFIC (read carefully):
 - T1: Generate 3‑5 FAQ pairs. Questions: compatibility, yield, authenticity, value, installation. Answers: 2‑4 sentences, confident, factual, no fluff.
 - T2: "faqs" MUST be an empty array: []. Do NOT generate any FAQs. If you add FAQ objects for a T2 product, the response will be rejected.
 
+
+SELF-CHECK BEFORE OUTPUT:
+1. Is the seo_title 60 characters or fewer? Count them: _________
+2. Does the seo_title end with exactly " | Mega Office Supplies"? ☐ Yes  ☐ No
+3. Is the seo_description 160 characters or fewer? Count them: _________
+4. For T2: is "faqs" set to []? ☐ Yes  ☐ No
+5. Are there exactly 10 tags? Count them: _________
+6. Does body_html contain any em dashes, smart quotes, or banned phrases? ☐ No  ☐ Yes (fix if yes)
+
+If any check fails, fix the JSON before returning it. The JSON will be rejected and you will be called again, wasting tokens.
 Return ONLY the JSON object. No markdown, no preamble, no explanation.

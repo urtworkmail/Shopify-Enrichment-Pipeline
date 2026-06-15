@@ -25,14 +25,14 @@ engine = create_engine(
     pool_size=10,
     max_overflow=20,
     pool_pre_ping=True,
-    pool_timeout=10,          # <-- NEW: raise if no connection in 10s
+    pool_timeout=10,          # raise if no connection in 10s
     connect_args={
-        "connect_timeout": 10 # <-- NEW: TCP connect timeout
+        "connect_timeout": 10 # TCP connect timeout
     },
     echo=False,
 )
 
-# --- new event listener ---
+# --- statement timeout event listener ---
 from sqlalchemy import event
 
 @event.listens_for(engine, "connect")
@@ -42,7 +42,7 @@ def _set_statement_timeout(dbapi_conn, connection_record):
     cur.execute("SET idle_in_transaction_session_timeout = '15000'")
     cur.close()
 
-SessionLocal = sessionmaker(bind=engine, autoflush=False, autocommit=False)   # <-- MUST BE PRESENT
+SessionLocal = sessionmaker(bind=engine, autoflush=False, autocommit=False)
 
 
 # ── Models ────────────────────────────────────────────────────────────────────
@@ -230,3 +230,10 @@ def get_run_stats(db: Session, run_id: int) -> dict:
         "estimated_cost_usd": round(run.estimated_cost_usd, 4),
         "writeback_status": run.writeback_status,
     }
+
+
+def get_previously_enriched_skus() -> set[str]:
+    """Return a set of SKUs that have at least one successful enrichment in any run."""
+    with get_db() as db:
+        rows = db.query(Enrichment.sku).filter(Enrichment.status == "success").distinct().all()
+        return {row[0] for row in rows}
