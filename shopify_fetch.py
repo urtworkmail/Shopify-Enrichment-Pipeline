@@ -1,6 +1,7 @@
 """
 shopify_fetch.py -- Fetches all product data from Shopify via Bulk Operations API.
 Merges results into existing DB products (updates shopify_product_id and images).
+Products not yet in the DB are automatically created.
 """
 
 import json
@@ -38,6 +39,19 @@ mutation {
                   id
                   url
                   altText
+                }
+              }
+            }
+            media(first: 10) {
+              edges {
+                node {
+                  id
+                  alt
+                  ... on MediaImage {
+                    image {
+                      url
+                    }
+                  }
                 }
               }
             }
@@ -141,6 +155,7 @@ def merge_into_db(jsonl_path: str) -> int:
     """
     Parse the bulk query JSONL and merge Shopify IDs + images into DB products.
     Matches on SKU from variants.
+    If a product does not exist in the DB, it is created automatically.
     """
     products_by_id: dict[str, dict] = {}
     sku_to_shopify: dict[str, dict] = {}
@@ -153,6 +168,7 @@ def merge_into_db(jsonl_path: str) -> int:
             rec = json.loads(line)
             if "__parentId" not in rec:
                 rec.setdefault("_images", [])
+                rec.setdefault("_media", [])
                 rec.setdefault("_variants", [])
                 rec.setdefault("_metafields", [])
                 products_by_id[rec["id"]] = rec
@@ -173,45 +189,92 @@ def merge_into_db(jsonl_path: str) -> int:
                     sku_to_shopify[rec["sku"]] = parent
             elif "url" in rec:
                 parent["_images"].append(rec)
+            elif "image" in rec and "alt" in rec:
+                # MediaImage line
+                parent["_media"].append(rec)
             elif "namespace" in rec:
                 parent["_metafields"].append(rec)
 
     updated = 0
+    created = 0
     with get_db() as db:
         for sku, shopify_product in sku_to_shopify.items():
             product = db.query(Product).filter_by(sku=sku).first()
-            if product:
-                product.shopify_product_id = shopify_product["id"]
-                product.raw_shopify_data = shopify_product
-                product.images = [
-                    {"id": img.get("id"), "url": img["url"], "altText": img.get("altText", "")}
-                    for img in shopify_product.get("_images", [])
-                ]
-                raw_metafields = shopify_product.get("_metafields", [])
-                product.metafields = raw_metafields
+            is_new = product is None
+            if is_new:
+                product = Product(sku=sku)
+                db.add(product)
 
-                # Addendum 3.1 Section E: extract each existing field individually
-                # so Claude gets them as separate named variables, not a merged blob.
-                # Keys: custom.body_html, custom.key_features, custom.applications,
-                #       custom.specifications, custom.pack_size, custom.unit
-                # Also capture global.title_tag for SEO continuity.
-                existing = {}
-                for mf in raw_metafields:
-                    ns  = mf.get("namespace", "")
-                    key = mf.get("key", "")
-                    val = mf.get("value", "")
-                    if val:
-                        existing[f"{ns}.{key}"] = val
+            product.shopify_product_id = shopify_product["id"]
+            product.raw_shopify_data = shopify_product
 
-                # Body HTML lives on the product record, not in metafields -- store it too
-                if shopify_product.get("descriptionHtml"):
-                    existing["description_html"] = shopify_product["descriptionHtml"]
+            # Basic fields from Shopify
+            if shopify_product.get("title"):
+                product.title = shopify_product["title"]
+            if shopify_product.get("vendor"):
+                product.vendor = shopify_product["vendor"]
+            if shopify_product.get("handle"):
+                product.handle = shopify_product["handle"]
+            if shopify_product.get("descriptionHtml"):
+                product.description_html = shopify_product["descriptionHtml"]
+            if shopify_product.get("productType"):
+                product.product_type = shopify_product["productType"]
+            if shopify_product.get("tags"):
+                product.tags = shopify_product["tags"]
 
-                product.existing_content = existing
+            # Price from the first variant (ex GST)
+            variants = shopify_product.get("_variants", [])
+            if variants:
+                prices = [v.get("price") for v in variants if v.get("price")]
+                if prices:
+                    product.price = float(prices[0])
+
+            # Images – prefer MediaImage IDs for fileUpdate
+            shopify_images = []
+            for media in shopify_product.get("_media", []):
+                if media.get("id"):
+                    shopify_images.append({
+                        "id": media["id"],
+                        "url": media.get("image", {}).get("url", ""),
+                        "altText": media.get("alt", ""),
+                    })
+            existing_urls = {img["url"] for img in shopify_images}
+            for img in shopify_product.get("_images", []):
+                if img.get("url") and img["url"] not in existing_urls:
+                    shopify_images.append({
+                        "id": img.get("id"),
+                        "url": img["url"],
+                        "altText": img.get("altText", ""),
+                    })
+            product.images = shopify_images
+
+            # Metafields – store raw + extract MPN for supplier search
+            raw_metafields = shopify_product.get("_metafields", [])
+            product.metafields = raw_metafields
+            for mf in raw_metafields:
+                if mf.get("namespace") == "custom" and mf.get("key") == "mpn":
+                    product.mpn = mf.get("value", "")
+                    break
+
+            # Existing content for augment mode
+            existing = {}
+            for mf in raw_metafields:
+                ns  = mf.get("namespace", "")
+                key = mf.get("key", "")
+                val = mf.get("value", "")
+                if val:
+                    existing[f"{ns}.{key}"] = val
+            if shopify_product.get("descriptionHtml"):
+                existing["description_html"] = shopify_product["descriptionHtml"]
+            product.existing_content = existing
+
+            if is_new:
+                created += 1
+            else:
                 updated += 1
 
-    print(f"[fetch] Merged Shopify data for {updated} products.")
-    return updated
+    print(f"[fetch] Merged Shopify data: {updated} updated, {created} new products.")
+    return updated + created
 
 
 def fetch_and_merge(use_cache: bool = False, cache_path: str = "output/products_raw.jsonl") -> int:

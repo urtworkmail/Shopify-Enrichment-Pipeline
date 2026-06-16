@@ -177,7 +177,8 @@ def run_enrichment_phase(
                 image_count = snap.get("image_count", len(snap.get("images", [])))
                 tier = classify_tier(
                     has_feed_desc, has_brand_url, image_count,
-                    existing_content=snap.get("existing_content", {})
+                    existing_content=snap.get("existing_content", {}),
+                    sku=sku
                 )
 
                 try:

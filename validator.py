@@ -89,36 +89,73 @@ BANNED_CHARS = ["\u2014", "\u2013", "\u201c", "\u201d", "\u2018", "\u2019", "\u2
 
 def _repair_seo_fields(data: dict) -> dict:
     """
-    Auto-repair SEO fields so that one-off character miscounts
-    don't waste tokens on retries.
+    Auto-repair SEO fields.
+    - seo_title: ensure suffix, word-boundary truncation to 60 chars.
+    - seo_description: word-boundary truncation to 160 chars.
     """
-    seo_title = data.get("seo_title", "")
     suffix = " | Mega Office Supplies"
     max_title = 60
     max_desc = 160
 
+    seo_title = data.get("seo_title", "")
+
     # --- seo_title ---
     if not seo_title.endswith(suffix):
-        # Missing suffix -- append it, then truncate if needed
-        seo_title = seo_title[: max_title - len(suffix)].rstrip() + suffix
+        # Missing suffix – add it, then truncate if over length
+        available = max_title - len(suffix)
+        if len(seo_title) > available:
+            seo_title = seo_title[:available].rsplit(" ", 1)[0] + suffix
+        else:
+            seo_title = seo_title + suffix
     elif len(seo_title) > max_title:
-        # Suffix present but title too long -- truncate the part before the suffix
-        prefix = seo_title[: -len(suffix)]
-        seo_title = prefix[: max_title - len(suffix)].rstrip() + suffix
+        # Suffix present but too long – truncate the part before the suffix at a word boundary
+        prefix = seo_title[:-len(suffix)]
+        available = max_title - len(suffix)
+        truncated = prefix[:available].rsplit(" ", 1)[0]
+        seo_title = truncated + suffix
 
-    seo_title = seo_title[:max_title]  # safety net
-    data["seo_title"] = seo_title
+    data["seo_title"] = seo_title[:max_title]
 
     # --- seo_description ---
     seo_desc = data.get("seo_description", "")
     if len(seo_desc) > max_desc:
-        # Truncate at the last full word within 160 characters
-        truncated = seo_desc[:max_desc].rsplit(" ", 1)[0]
-        data["seo_description"] = truncated
+        data["seo_description"] = seo_desc[:max_desc].rsplit(" ", 1)[0]
 
     return data
 
-def validate_claude_response(raw: str, tier: str) -> tuple[bool, Optional[dict], str]:
+
+def _normalise_image_alt_texts(alt_data: Any, image_count: int, product_title: str) -> list[str]:
+    """
+    Convert image_alt_texts from Claude into a list of exactly `image_count` strings.
+    Accepts both the old dict format {'hero':..., 'lifestyle_1':..., 'lifestyle_2':...}
+    and the new array format [...].
+    Automatically pads missing entries or truncates extras.
+    """
+    if isinstance(alt_data, dict):
+        # Old format – convert to list preserving typical order
+        keys = ["hero", "lifestyle_1", "lifestyle_2"]
+        alt_list = [alt_data.get(k, "") for k in keys if k in alt_data]
+    elif isinstance(alt_data, list):
+        alt_list = [str(a) for a in alt_data if a]
+    else:
+        alt_list = []
+
+    # Ensure exact length
+    base_title = product_title.strip() or "Product"
+    while len(alt_list) < image_count:
+        alt_list.append(f"{base_title} - image {len(alt_list)+1}")
+    if len(alt_list) > image_count:
+        alt_list = alt_list[:image_count]
+
+    # Ensure all entries are non-empty strings
+    for i in range(len(alt_list)):
+        if not alt_list[i] or not alt_list[i].strip():
+            alt_list[i] = f"{base_title} - image {i+1}"
+
+    return alt_list
+
+
+def validate_claude_response(raw: str, tier: str, image_count: int = 0) -> tuple[bool, Optional[dict], str]:
     """
     Parse and validate Claude's JSON response.
     Returns (is_valid, parsed_dict, error_message).
@@ -141,11 +178,9 @@ def validate_claude_response(raw: str, tier: str) -> tuple[bool, Optional[dict],
     # SEO title length
     seo_title = data.get("seo_title", "")
     if len(seo_title) > 60:
-        # Should never happen after auto-repair, but keep as safety net
         seo_title = seo_title[:57].rstrip() + " | Mega Office Supplies"
         data["seo_title"] = seo_title[:60]
 
-    # SEO title must end with | Mega Office Supplies
     if seo_title and "Mega Office Supplies" not in seo_title:
         return False, None, "seo_title missing '| Mega Office Supplies' suffix"
 
@@ -187,20 +222,24 @@ def validate_claude_response(raw: str, tier: str) -> tuple[bool, Optional[dict],
     if tier in ("T2", "T3") and len(faqs) > 0:
         return False, None, f"{tier} must have empty faqs array, got {len(faqs)}"
 
-    # image_alt_texts structure
-    alt = data.get("image_alt_texts", {})
-    if not isinstance(alt, dict):
-        return False, None, "image_alt_texts must be a dict"
-    if not alt.get("hero"):
-        return False, None, "image_alt_texts.hero is required"
+    # image_alt_texts – normalise to list and validate length
+    if "image_alt_texts" in data:
+        title_for_alt = data.get("title", "")
+        alt_data = data["image_alt_texts"]
+        alt_list = _normalise_image_alt_texts(alt_data, image_count, title_for_alt)
+        data["image_alt_texts"] = alt_list  # store as list going forward
+    elif image_count > 0:
+        # Required but missing – we can auto-fill, but it's better to reject
+        return False, None, f"image_alt_texts missing (required for products with images)"
 
     return True, data, ""
 
 
-def prepare_metafields(enriched: dict) -> list[dict]:
+def prepare_metafields(enriched: dict, sku: str = "") -> list[dict]:
     """
     Convert Claude output into Shopify metafield objects ready for metafieldsSet.
     Handles type conversion: lists -> rich_text_field JSON, FAQs -> json string.
+    If `sku` is provided, also adds the supplier_code metafield.
     """
     metafields = []
 
@@ -224,15 +263,17 @@ def prepare_metafields(enriched: dict) -> list[dict]:
         if val:
             metafields.append(mf("custom", field, "single_line_text_field", str(val)))
 
-    # Fix 4: Google Shopping category -- write to mm-google-shopping namespace
-    # The explicit metafield overrides the channel auto-mapping when present.
-    # Both the native category (set separately via productUpdate category field)
-    # and this metafield are written to keep them consistent.
+    # Google Shopping category
     cat_id = enriched.get("google_product_category_id")
     if cat_id:
         metafields.append(mf(
             "mm-google-shopping", "google_product_category",
             "string", str(cat_id)
         ))
+
+    # supplier_code – derived from SKU (strip first 2 chars if possible)
+    if sku:
+        supplier_code = sku[2:] if len(sku) > 2 else sku
+        metafields.append(mf("custom", "supplier_code", "single_line_text_field", supplier_code))
 
     return metafields

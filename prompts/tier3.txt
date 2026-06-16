@@ -29,6 +29,7 @@ CRITICAL RULES:
 - SEO DESCRIPTION: MUST be 160 characters or fewer. Aim for 150‑158 characters to leave a safety margin.
 - FAQs: T3 products MUST have an empty FAQs array: []. Do NOT generate any FAQs. The JSON must contain "faqs": [].
 - TAGS: minimum 6 tags required. More is acceptable but not required.
+- IMAGE ALT TEXTS: generate exactly {image_count} alt texts, all distinct.
 
 SCHEMA:
 {{
@@ -44,11 +45,7 @@ SCHEMA:
   "pack_size": "string — clean value only, or null",
   "unit": "string — one of: Each, Pack, Box, Roll, Ream, Carton",
   "google_product_category_id": "string or null",
-  "image_alt_texts": {{
-    "hero": "string — describe what a standard product shot would show",
-    "lifestyle_1": null,
-    "lifestyle_2": null
-  }}
+    "image_alt_texts": ["array of strings — exactly {image_count} items. Each item is the alt text for the corresponding product image. Must be distinct and descriptive. Do NOT repeat the product title."]
 }}
 
 
@@ -58,6 +55,7 @@ SELF-CHECK BEFORE OUTPUT:
 3. Is the seo_description 160 characters or fewer? Count them: _________
 4. Is "faqs" set to []? ☐ Yes  ☐ No
 5. Are there at least 6 tags? Count them: _________
+7. Are there exactly {image_count} image alt texts, all distinct? ☐ Yes  ☐ No (fix if not)
 
 If any check fails, fix the JSON before returning it.
 Return ONLY the JSON object. No markdown, no preamble, no explanation.

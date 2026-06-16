@@ -121,7 +121,7 @@ def build_product_jsonl_line(product: Product, enriched: dict) -> str:
 
 def build_metafields_jsonl_line(product: Product, enriched: dict) -> str:
     """Pass B line: all custom.* and mm-google-shopping.* metafields."""
-    metafields = prepare_metafields(enriched)
+    metafields = prepare_metafields(enriched, sku=product.sku)
     # Attach owner ID to each metafield
     for mf in metafields:
         mf["ownerId"] = product.shopify_product_id

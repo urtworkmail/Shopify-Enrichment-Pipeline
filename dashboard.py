@@ -120,6 +120,59 @@ def get_overall_stats():
         }
 
 
+# ── New: Per-product detail endpoint ─────────────────────────────────────────
+
+@app.get("/api/products/{sku}/details")
+def get_product_details(sku: str):
+    """Return all data for a single product: Shopify data, scraped content, enriched output."""
+    with get_db() as db:
+        product = db.query(Product).filter_by(sku=sku).first()
+        if not product:
+            return JSONResponse({"error": "SKU not found"}, status_code=404)
+
+        enrichment = (
+            db.query(Enrichment)
+            .filter_by(sku=sku)
+            .order_by(Enrichment.created_at.desc())
+            .first()
+        )
+
+        # Shopify-fetched data
+        shopify_data = {
+            "title": product.title,
+            "vendor": product.vendor,
+            "description_html": product.description_html,
+            "tags": product.tags,
+            "images": product.images or [],
+            "existing_content": product.existing_content or {},
+            "metafields": product.metafields or [],
+        }
+
+        # Scraped content
+        scraped_content = enrichment.scraped_content if enrichment else None
+
+        # Enriched content
+        enriched_data = enrichment.enriched_data if enrichment else None
+
+        # Writeback info
+        writeback_info = {
+            "status": enrichment.writeback_status if enrichment else "pending",
+            "error": enrichment.writeback_error if enrichment else "",
+        }
+
+        return {
+            "sku": sku,
+            "shopify_product_id": product.shopify_product_id,
+            "tier": enrichment.tier if enrichment else None,
+            "enrichment_status": enrichment.status if enrichment else "not_started",
+            "cost_usd": round(enrichment.cost_usd or 0, 5) if enrichment else 0,
+            "shopify_data": shopify_data,
+            "scraped_content": scraped_content,
+            "enriched_data": enriched_data,
+            "writeback": writeback_info,
+        }
+
+
 # ── Per-product action endpoints ──────────────────────────────────────────────
 
 @app.post("/api/products/{sku}/scrape")
@@ -220,6 +273,7 @@ def reenrich_product(sku: str):
         tier = classify_tier(
             has_feed_desc, has_brand_url, image_count,
             existing_content=product.existing_content or {},
+            sku=sku,
         )
 
         # Build the product data dict for Claude
@@ -284,7 +338,7 @@ def reenrich_product(sku: str):
             }
 
         except Exception as e:
-            db.rollback()                                          # ← reset the failed session
+            db.rollback()
             enrichment.status = "failed"
             enrichment.error_message = str(e)[:200]
             enrichment.retry_count = 3
@@ -301,8 +355,9 @@ def writeback_product(sku: str):
     from token_manager import get_headers
     from shopify_bulk import (
         PRODUCT_UPDATE_MUTATION, METAFIELDS_SET_MUTATION,
+        FILE_UPDATE_MUTATION,
     )
-    from validator import prepare_metafields
+    from validator import prepare_metafields, slugify_filename
 
     def _safe_errors(resp):
         try:
@@ -371,7 +426,7 @@ def writeback_product(sku: str):
             errors.append(f"productUpdate exception: {str(e)[:120]}")
 
         # --- Pass B: metafieldsSet ---
-        metafields = prepare_metafields(enriched)
+        metafields = prepare_metafields(enriched, sku=sku)
         if metafields:
             for mf in metafields:
                 mf["ownerId"] = product.shopify_product_id
@@ -392,21 +447,69 @@ def writeback_product(sku: str):
             except Exception as e:
                 errors.append(f"metafieldsSet exception: {str(e)[:120]}")
 
-        # --- Pass C: fileUpdate – skipped (needs MediaImage IDs, not ProductImage IDs) ---
-        passes_ok.append("fileUpdate (skipped)")
+        # --- Pass C: fileUpdate (now with correct MediaImage IDs) ---
+        if product.images and len(product.images) > 0:
+            alt_texts = enriched.get("image_alt_texts", [])
+            if isinstance(alt_texts, dict):
+                # backward compatibility – convert old format if somehow still present
+                alt_texts = [alt_texts.get("hero", ""),
+                             alt_texts.get("lifestyle_1", ""),
+                             alt_texts.get("lifestyle_2", "")]
+            elif not isinstance(alt_texts, list):
+                alt_texts = []
+
+            file_updates = []
+            for i, image in enumerate(product.images):
+                img_id = image.get("id")
+                if not img_id:
+                    continue
+                alt = alt_texts[i] if i < len(alt_texts) else ""
+                filename = slugify_filename(enriched.get("title", product.title or ""), i + 1)
+                file_updates.append({
+                    "id": img_id,
+                    "alt": alt or "",
+                    "filename": filename,
+                })
+
+            if file_updates:
+                try:
+                    resp = _requests.post(
+                        config.shopify_graphql_url,
+                        headers=headers,
+                        json={"query": FILE_UPDATE_MUTATION, "variables": {"files": file_updates}},
+                        timeout=30,
+                    )
+                    errs = _safe_errors(resp)
+                    if any("returned null" in e for e in errs):
+                        errors.extend(errs)
+                    elif errs:
+                        errors.extend([f"fileUpdate: {e['message']}" for e in errs])
+                    else:
+                        passes_ok.append("fileUpdate")
+                except Exception as e:
+                    errors.append(f"fileUpdate exception: {str(e)[:120]}")
+        else:
+            passes_ok.append("fileUpdate (no images)")
+
+        # Try to persist the write-back status, but never fail the request
+        # if the DB connection is temporarily dropped — Shopify already
+        # accepted the mutations.
+        try:
+            if errors:
+                enrichment.writeback_status = "failed"
+                enrichment.writeback_error = "; ".join(errors)
+            else:
+                enrichment.writeback_status = "success"
+                enrichment.writeback_error = ""
+            db.commit()
+        except Exception as db_exc:
+            print(f"[dashboard] DB commit failed (Shopify write was ok): {db_exc}", flush=True)
 
         if errors:
-            enrichment.writeback_status = "failed"
-            enrichment.writeback_error = "; ".join(errors)
-            db.commit()
             return JSONResponse(
                 {"status": "failed", "sku": sku, "errors": errors},
                 status_code=500,
             )
-
-        enrichment.writeback_status = "success"
-        enrichment.writeback_error = ""
-        db.commit()
 
         return {
             "status": "success",
@@ -450,15 +553,16 @@ DASHBOARD_HTML = """<!DOCTYPE html>
                    transition: width 0.5s ease; }
   .section { background: #1a1d2e; border: 1px solid #2d3748; border-radius: 10px;
              padding: 20px; margin-bottom: 20px; }
-  .section h2 { font-size: 15px; font-weight: 600; color: #fff; margin-bottom: 16px;
-                display: flex; align-items: center; gap: 8px; }
+  .section h2 { font-size: 15px; font-weight: 600; color: #fff; margin-bottom: 16px; }
   table { width: 100%; border-collapse: collapse; font-size: 13px; }
   th { text-align: left; padding: 10px 8px; border-bottom: 1px solid #2d3748;
        color: #718096; font-weight: 500; text-transform: uppercase; font-size: 11px;
        letter-spacing: 0.05em; }
   td { padding: 8px; border-bottom: 1px solid #1e2330; color: #cbd5e0; }
+  tr { cursor: pointer; }
   tr:last-child td { border-bottom: none; }
   tr:hover td { background: #1e2330; }
+  tr.selected td { background: #2a2a3a; }
   .badge-success { background: #1a3a2a; color: #74c69d; padding: 2px 8px;
                    border-radius: 4px; font-size: 11px; font-weight: 500; }
   .badge-failed  { background: #3a1a1a; color: #fc8181; padding: 2px 8px;
@@ -501,6 +605,77 @@ DASHBOARD_HTML = """<!DOCTYPE html>
   .action-btn.scrape { color: #63b3ed; }
   .action-btn.enrich { color: #f6e05e; }
   .action-btn.writeback { color: #74c69d; }
+
+  /* ── Side panel ─────────────────────────────────────────────────── */
+  .overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+             background: rgba(0,0,0,0.5); z-index: 999; display: none;
+             backdrop-filter: blur(2px); }
+  .overlay.show { display: block; }
+
+  .side-panel { position: fixed; top: 0; right: -580px; width: 560px; height: 100vh;
+                background: #141720; border-left: 1px solid #2d3748; z-index: 1000;
+                transition: right 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+                display: flex; flex-direction: column; }
+  .side-panel.open { right: 0; }
+
+  .panel-header { padding: 18px 20px; border-bottom: 1px solid #2d3748;
+                  display: flex; align-items: center; justify-content: space-between;
+                  flex-shrink: 0; }
+  .panel-header h2 { font-size: 16px; font-weight: 600; color: #fff; }
+  .panel-header .close-btn { background: none; border: none; color: #718096;
+                             font-size: 22px; cursor: pointer; line-height: 1;
+                             transition: color 0.15s; }
+  .panel-header .close-btn:hover { color: #fff; }
+
+  .panel-status-bar { height: 4px; flex-shrink: 0;
+                      background: linear-gradient(90deg, #667eea, #764ba2); }
+  .panel-status-bar.success { background: linear-gradient(90deg, #38a169, #68d391); }
+  .panel-status-bar.failed  { background: linear-gradient(90deg, #e53e3e, #fc8181); }
+  .panel-status-bar.pending { background: linear-gradient(90deg, #d69e2e, #f6e05e); }
+
+  .panel-body { flex: 1; overflow-y: auto; padding: 16px 20px; }
+
+  /* Accordion */
+  .accordion { border: 1px solid #2d3748; border-radius: 8px; margin-bottom: 12px;
+               overflow: hidden; }
+  .accordion-header { background: #1a1d2e; padding: 12px 16px; cursor: pointer;
+                      display: flex; align-items: center; justify-content: space-between;
+                      font-size: 13px; font-weight: 600; color: #a0aec0;
+                      text-transform: uppercase; letter-spacing: 0.05em;
+                      transition: background 0.15s; border: none; width: 100%; text-align: left; }
+  .accordion-header:hover { background: #1e2330; }
+  .accordion-header .arrow { font-size: 14px; transition: transform 0.2s; }
+  .accordion.open .accordion-header .arrow { transform: rotate(180deg); }
+  .accordion-body { background: #0f1117; padding: 0 16px; max-height: 0;
+                    overflow: hidden; transition: max-height 0.3s ease, padding 0.3s ease; }
+  .accordion.open .accordion-body { max-height: 600px; padding: 12px 16px; overflow-y: auto; }
+
+  .field-row { display: flex; margin-bottom: 6px; font-size: 13px; }
+  .field-label { color: #718096; min-width: 120px; font-family: 'SF Mono', 'Cascadia Code', monospace; font-size: 12px; }
+  .field-value { color: #e2e8f0; word-break: break-word; }
+
+  pre { background: #0a0c12; padding: 12px; border-radius: 6px;
+        font-size: 12px; line-height: 1.5; overflow-x: auto;
+        white-space: pre-wrap; word-break: break-word;
+        color: #cbd5e0; border: 1px solid #1e2330; }
+  pre .key { color: #63b3ed; }
+  pre .str { color: #68d391; }
+  pre .num { color: #f6e05e; }
+  pre .bool { color: #fc8181; }
+
+  .alt-list { list-style: none; padding: 0; }
+  .alt-list li { padding: 6px 0; border-bottom: 1px solid #1e2330; font-size: 13px; }
+  .alt-list li:last-child { border-bottom: none; }
+  .alt-list .alt-num { color: #4a5568; margin-right: 8px; }
+
+  /* Skeleton */
+  .skeleton { background: linear-gradient(90deg, #1a1d2e 25%, #2d3748 50%, #1a1d2e 75%);
+              background-size: 200% 100%; animation: shimmer 1.5s infinite;
+              border-radius: 4px; }
+  @keyframes shimmer { 0%{background-position:200% 0} 100%{background-position:-200% 0} }
+  .skeleton-line { height: 14px; margin-bottom: 8px; }
+  .skeleton-line.short { width: 60%; }
+  .skeleton-block { height: 80px; margin-bottom: 12px; }
 </style>
 </head>
 <body>
@@ -512,6 +687,8 @@ DASHBOARD_HTML = """<!DOCTYPE html>
     <button class="refresh-btn" onclick="loadAll()">Refresh now</button>
   </div>
 </div>
+
+<div class="overlay" id="overlay" onclick="closePanel()"></div>
 
 <div class="main">
   <div class="run-selector">
@@ -574,6 +751,18 @@ DASHBOARD_HTML = """<!DOCTYPE html>
   </div>
 </div>
 
+<!-- ── Side panel ─────────────────────────────────────────────────────── -->
+<div class="side-panel" id="side-panel">
+  <div class="panel-header">
+    <h2 id="panel-title">Product Details</h2>
+    <button class="close-btn" onclick="closePanel()">&times;</button>
+  </div>
+  <div class="panel-status-bar" id="panel-status-bar"></div>
+  <div class="panel-body" id="panel-content">
+    <p style="color:#718096;">Click a product row to view details</p>
+  </div>
+</div>
+
 <script>
 let currentRunId = null;
 let currentProductStatus = 'all';
@@ -584,170 +773,220 @@ function badgeHtml(status) {
                pending:'badge-pending', running:'badge-running'}[status] || 'badge-pending';
   return `<span class="${cls}">${status}</span>`;
 }
-
-function tierHtml(tier) {
-  if (!tier) return '';
-  const t = tier.replace('T','');
-  return `<span class="tier-${t}">${tier}</span>`;
+function tierHtml(t) {
+  if (!t) return '';
+  const n = t.replace('T','');
+  return `<span class="tier-${n}">${t}</span>`;
 }
-
 async function fetchJson(url, options = {}) {
   const r = await fetch(url, options);
   return r.json();
 }
-
 async function loadRuns() {
   const runs = await fetchJson('/api/runs');
   const sel = document.getElementById('run-select');
   sel.innerHTML = runs.length
     ? runs.map(r => `<option value="${r.id}">${r.id} — ${r.status} (${r.total_products} products) ${r.started_at ? r.started_at.slice(0,16) : ''}</option>`).join('')
     : '<option>No runs yet</option>';
-  if (runs.length && !currentRunId) {
-    currentRunId = runs[0].id;
-    sel.value = currentRunId;
-  }
+  if (runs.length && !currentRunId) { currentRunId = runs[0].id; sel.value = currentRunId; }
 }
-
 async function loadRunStats() {
   if (!currentRunId) return;
   const r = await fetchJson(`/api/runs/${currentRunId}`);
   document.getElementById('stat-progress').textContent = r.progress_pct + '%';
   document.getElementById('progress-fill').style.width = r.progress_pct + '%';
-  document.getElementById('stat-counts').textContent =
-    `${r.enriched_count + r.failed_count} / ${r.total_products} products`;
+  document.getElementById('stat-counts').textContent = `${r.enriched_count + r.failed_count} / ${r.total_products} products`;
   document.getElementById('stat-success').textContent = r.enriched_count;
   document.getElementById('stat-failed').textContent = r.failed_count;
   document.getElementById('stat-cost').textContent = '$' + r.estimated_cost_usd.toFixed(4);
-  document.getElementById('stat-tokens').textContent =
-    `${(r.total_input_tokens||0).toLocaleString()} in / ${(r.total_output_tokens||0).toLocaleString()} out`;
+  document.getElementById('stat-tokens').textContent = `${(r.total_input_tokens||0).toLocaleString()} in / ${(r.total_output_tokens||0).toLocaleString()} out`;
   document.getElementById('stat-writeback').textContent = r.writeback_status;
-  const badge = document.getElementById('run-status-badge');
-  badge.textContent = r.status;
-  badge.className = 'badge';
-  if (r.status === 'running') { badge.style.background = '#1a2a3a'; badge.style.color = '#63b3ed'; }
-  else if (r.status === 'completed') { badge.style.background = '#1a3a2a'; badge.style.color = '#74c69d'; }
-  else if (r.status === 'failed') { badge.style.background = '#3a1a1a'; badge.style.color = '#fc8181'; }
+  const b = document.getElementById('run-status-badge');
+  b.textContent = r.status; b.className = 'badge';
+  if (r.status==='running') { b.style.background='#1a2a3a'; b.style.color='#63b3ed'; }
+  else if (r.status==='completed') { b.style.background='#1a3a2a'; b.style.color='#74c69d'; }
+  else if (r.status==='failed') { b.style.background='#3a1a1a'; b.style.color='#fc8181'; }
 }
-
 async function loadProducts(status = 'all') {
   if (!currentRunId) return;
-  const url = status === 'all'
-    ? `/api/runs/${currentRunId}/products?limit=200`
-    : `/api/runs/${currentRunId}/products?status=${status}&limit=200`;
+  const url = status==='all' ? `/api/runs/${currentRunId}/products?limit=200` : `/api/runs/${currentRunId}/products?status=${status}&limit=200`;
   const data = await fetchJson(url);
   const tbody = document.getElementById('products-tbody');
-  if (!data.items.length) {
-    tbody.innerHTML = '<tr><td colspan="11" class="empty-state">No products found</td></tr>';
-    return;
-  }
+  if (!data.items.length) { tbody.innerHTML = '<tr><td colspan="11" class="empty-state">No products found</td></tr>'; return; }
   tbody.innerHTML = data.items.map(p => `
-    <tr>
+    <tr onclick="openPanel('${p.sku}')" data-sku="${p.sku}">
       <td style="font-family:monospace;font-size:12px;">${p.sku}</td>
-      <td style="max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;"
-          title="${p.title}">${p.title}</td>
-      <td>${tierHtml(p.tier)}</td>
-      <td>${badgeHtml(p.status)}</td>
-      <td style="font-size:11px;color:#718096;">${p.scrape_status || ''}</td>
+      <td style="max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;" title="${p.title}">${p.title}</td>
+      <td>${tierHtml(p.tier)}</td><td>${badgeHtml(p.status)}</td>
+      <td style="font-size:11px;color:#718096;">${p.scrape_status||''}</td>
       <td>${badgeHtml(p.writeback_status)}</td>
       <td style="font-size:12px;color:#718096;">${(p.input_tokens||0).toLocaleString()}</td>
       <td style="font-size:12px;color:#718096;">${(p.output_tokens||0).toLocaleString()}</td>
       <td style="font-size:12px;" class="cost-highlight">$${(p.cost_usd||0).toFixed(5)}</td>
       <td style="font-size:12px;color:#718096;">${p.retry_count}</td>
-      <td>
+      <td onclick="event.stopPropagation()">
         <button class="action-btn scrape" onclick="rescrape('${p.sku}')" title="Re-scrape">&#128269;</button>
         <button class="action-btn enrich" onclick="reenrich('${p.sku}')" title="Re-enrich">&#128260;</button>
         <button class="action-btn writeback" onclick="writeback('${p.sku}')" title="Write-back">&#128228;</button>
       </td>
     </tr>`).join('');
 }
-
 async function loadLogs() {
   if (!currentRunId) return;
   const data = await fetchJson(`/api/runs/${currentRunId}/logs?limit=200`);
-  const container = document.getElementById('logs-container');
-  if (!data.length) {
-    container.innerHTML = '<div class="empty-state">No logs yet</div>';
-    return;
-  }
-  container.innerHTML = data.map(l => `
+  const c = document.getElementById('logs-container');
+  if (!data.length) { c.innerHTML = '<div class="empty-state">No logs yet</div>'; return; }
+  c.innerHTML = data.map(l => `
     <div class="log-entry">
       <span class="log-time">${l.timestamp.slice(0,19).replace('T',' ')}</span>
       <span class="log-level-${l.level}">${l.level}</span>
-      <span style="color:#4a5568;min-width:120px;">${l.module || ''}</span>
-      <span style="color:#718096;min-width:100px;">${l.sku || ''}</span>
+      <span style="color:#4a5568;min-width:120px;">${l.module||''}</span>
+      <span style="color:#718096;min-width:100px;">${l.sku||''}</span>
       <span>${l.message}</span>
     </div>`).join('');
 }
-
 function switchTab(panel, status) {
   document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
   event.target.classList.add('active');
-  document.getElementById('products-panel').style.display = panel === 'products' ? '' : 'none';
-  document.getElementById('logs-panel').style.display = panel === 'logs' ? '' : 'none';
-  if (panel === 'products') { currentProductStatus = status; loadProducts(status); }
+  document.getElementById('products-panel').style.display = panel==='products' ? '' : 'none';
+  document.getElementById('logs-panel').style.display = panel==='logs' ? '' : 'none';
+  if (panel==='products') { currentProductStatus = status; loadProducts(status); }
   else { loadLogs(); }
 }
-
 function onRunChange() {
   currentRunId = parseInt(document.getElementById('run-select').value);
   loadAll();
 }
 
-// ── Per-product actions ──────────────────────────────────────────────────
-
-async function rescrape(sku) {
-  const customUrl = prompt('Enter custom URL (or leave blank for auto-search):', '');
-  const body = customUrl ? JSON.stringify({custom_url: customUrl}) : undefined;
-  try {
-    const data = await fetchJson(`/api/products/${sku}/scrape`, {
-      method: 'POST',
-      headers: {'Content-Type': 'application/json'},
-      body: body || '{}',
-    });
-    alert(`Scrape: ${data.scrape_status || data.error}`);
-  } catch (e) {
-    alert('Scrape failed: ' + e.message);
-  }
-  loadAll();
+/* ── Side panel ──────────────────────────────────────────────────── */
+function showSkeleton() {
+  return `<div class="skeleton skeleton-line"></div><div class="skeleton skeleton-line short"></div>
+          <div class="skeleton skeleton-block"></div><div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line short"></div>`;
 }
 
+function accordionHtml(title, id, content, open = false) {
+  return `<div class="accordion ${open ? 'open' : ''}" id="acc-${id}">
+    <button class="accordion-header" onclick="document.getElementById('acc-${id}').classList.toggle('open')">
+      <span>${title}</span><span class="arrow">&#9662;</span>
+    </button>
+    <div class="accordion-body">${content}</div></div>`;
+}
+
+function jsonToHtml(obj) {
+  if (!obj || Object.keys(obj).length===0) return '<pre>Empty</pre>';
+  const json = JSON.stringify(obj, null, 2);
+  const escaped = json
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+    .replace(/"([^"]+)":/g,'<span class="key">"$1"</span>:')
+    .replace(/: "([^"]*)"/g,': <span class="str">"$1"</span>')
+    .replace(/: (\d+\.?\d*)/g,': <span class="num">$1</span>')
+    .replace(/: (true|false|null)/g,': <span class="bool">$1</span>');
+  return `<pre>${escaped}</pre>`;
+}
+
+async function openPanel(sku) {
+  document.getElementById('overlay').classList.add('show');
+  document.getElementById('side-panel').classList.add('open');
+  document.getElementById('panel-title').textContent = sku + ' – Details';
+  document.getElementById('panel-content').innerHTML = showSkeleton();
+
+  try {
+    const data = await fetchJson(`/api/products/${sku}/details`);
+    if (data.error) {
+      document.getElementById('panel-content').innerHTML = `<p style="color:#fc8181;">${data.error}</p>`;
+      return;
+    }
+
+    const shopify = data.shopify_data || {};
+    const scraped = data.scraped_content || {};
+    const enriched = data.enriched_data || {};
+
+    // Status bar
+    const bar = document.getElementById('panel-status-bar');
+    bar.className = 'panel-status-bar ' + (data.enrichment_status==='success' ? 'success' : data.enrichment_status==='failed' ? 'failed' : 'pending');
+
+    // Shopify section
+    const shopifyHtml = `
+      <div class="field-row"><span class="field-label">Title</span><span class="field-value">${shopify.title||''}</span></div>
+      <div class="field-row"><span class="field-label">Vendor</span><span class="field-value">${shopify.vendor||''}</span></div>
+      <div class="field-row"><span class="field-label">Images</span><span class="field-value">${(shopify.images||[]).length}</span></div>
+      ${jsonToHtml(shopify.existing_content||{})}`;
+
+    // Scraped section
+    const scrapedHtml = `
+      <div class="field-row"><span class="field-label">Status</span><span class="field-value">${scraped.status||'none'}</span></div>
+      ${jsonToHtml(scraped)}`;
+
+    // Enriched – alt texts as a nice list if it's an array
+    let enrichedHtml = '';
+    const alt = enriched.image_alt_texts;
+    if (Array.isArray(alt) && alt.length > 0) {
+      let altList = '<ul class="alt-list">';
+      alt.forEach((a, i) => { altList += `<li><span class="alt-num">#${i+1}</span>${a}</li>`; });
+      altList += '</ul>';
+      const enrichedCopy = {...enriched};
+      delete enrichedCopy.image_alt_texts;
+      enrichedHtml = `<div style="margin-bottom:8px;"><strong style="color:#a0aec0;">Image Alt Texts</strong></div>${altList}${jsonToHtml(enrichedCopy)}`;
+    } else {
+      enrichedHtml = jsonToHtml(enriched);
+    }
+
+    // Writeback
+    const wb = data.writeback || {};
+    const wbHtml = `
+      <div class="field-row"><span class="field-label">Status</span><span class="field-value">${wb.status||'pending'}</span></div>
+      ${wb.error ? `<div class="field-row"><span class="field-label">Error</span><span class="field-value" style="color:#fc8181;">${wb.error}</span></div>` : ''}`;
+
+    document.getElementById('panel-content').innerHTML =
+      `<div style="margin-bottom:10px;display:flex;gap:8px;align-items:center;">
+        <span class="${data.enrichment_status==='success'?'badge-success':data.enrichment_status==='failed'?'badge-failed':'badge-pending'}">${data.enrichment_status}</span>
+        <span style="font-size:13px;color:#718096;">Tier: ${data.tier||'?'} &middot; Cost: $${(data.cost_usd||0).toFixed(4)}</span>
+      </div>` +
+      accordionHtml('Shopify Data', 'shopify', shopifyHtml) +
+      accordionHtml('Scraped Content', 'scraped', scrapedHtml) +
+      accordionHtml('Enriched Content', 'enriched', enrichedHtml, true) +
+      accordionHtml('Writeback', 'writeback', wbHtml);
+
+  } catch(e) {
+    document.getElementById('panel-content').innerHTML = `<p style="color:#fc8181;">Failed to load: ${e.message}</p>`;
+  }
+}
+
+function closePanel() {
+  document.getElementById('overlay').classList.remove('show');
+  document.getElementById('side-panel').classList.remove('open');
+}
+
+/* ── Per-product actions ─────────────────────────────────────────── */
+async function rescrape(sku) {
+  const u = prompt('Enter custom URL (or leave blank for auto-search):','');
+  const body = u ? JSON.stringify({custom_url:u}) : undefined;
+  try {
+    const d = await fetchJson(`/api/products/${sku}/scrape`,{method:'POST',headers:{'Content-Type':'application/json'},body:body||'{}'});
+    alert(`Scrape: ${d.scrape_status||d.error}`);
+  }catch(e){ alert('Scrape failed: '+e.message); }
+  loadAll();
+}
 async function reenrich(sku) {
   try {
-    const data = await fetchJson(`/api/products/${sku}/enrich`, {method: 'POST'});
-    if (data.status === 'success') {
-      alert(`Enrichment: ${data.status}\nTier: ${data.tier}\nCost: $${(data.cost_usd||0).toFixed(4)}\nTokens: ${data.input_tokens} in / ${data.output_tokens} out`);
-    } else {
-      alert(`Enrichment: ${data.status}\nError: ${data.error || 'Unknown'}`);
-    }
-  } catch (e) {
-    alert('Enrichment failed: ' + e.message);
-  }
+    const d = await fetchJson(`/api/products/${sku}/enrich`,{method:'POST'});
+    if (d.status==='success') alert(`Enrichment: ${d.status}\nTier: ${d.tier}\nCost: $${(d.cost_usd||0).toFixed(4)}\nTokens: ${d.input_tokens} in / ${d.output_tokens} out`);
+    else alert(`Enrichment: ${d.status}\nError: ${d.error||'Unknown'}`);
+  }catch(e){ alert('Enrichment failed: '+e.message); }
   loadAll();
 }
-
 async function writeback(sku) {
-  if (!confirm(`Write back ${sku} to Shopify? This will update the live product.`)) return;
+  if (!confirm(`Write back ${sku} to Shopify?`)) return;
   try {
-    const data = await fetchJson(`/api/products/${sku}/writeback`, {method: 'POST'});
-    if (data.status === 'success') {
-      alert(`Writeback: success\nPasses: ${data.passes_completed.join(', ')}`);
-    } else {
-      alert(`Writeback: failed\n${(data.errors||[]).join('\\n')}`);
-    }
-  } catch (e) {
-    alert('Writeback failed: ' + e.message);
-  }
+    const d = await fetchJson(`/api/products/${sku}/writeback`,{method:'POST'});
+    if (d.status==='success') alert(`Writeback: success\nPasses: ${d.passes_completed.join(', ')}`);
+    else alert(`Writeback: failed\n${(d.errors||[]).join('\\n')}`);
+  }catch(e){ alert('Writeback failed: '+e.message); }
   loadAll();
 }
 
-// ── Initial load ─────────────────────────────────────────────────────────
-
-async function loadAll() {
-  await loadRuns();
-  await loadRunStats();
-  await loadProducts(currentProductStatus);
-}
-
+async function loadAll() { await loadRuns(); await loadRunStats(); await loadProducts(currentProductStatus); }
 loadAll();
 autoRefreshInterval = setInterval(loadAll, 5000);
 </script>

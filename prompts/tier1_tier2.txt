@@ -35,6 +35,7 @@ CRITICAL RULES — these override anything else:
 - SEO DESCRIPTION: MUST be 160 characters or fewer. Aim for 150-158 characters to leave a safety margin. If it goes over 160, the response will be rejected.
 - FAQs: T1 products MUST have 3‑5 FAQ pairs (question + answer). T2 products MUST have an EMPTY array []. Do NOT generate any FAQs for T2. This rule is absolute and cannot be overridden by any other instruction.
 - TAGS: exactly 10 for T1/T2. Not 9, not 11.
+- IMAGE ALT TEXTS: generate exactly {image_count} alt texts. Each must be unique. Never repeat the same alt text across images. If there is only one image, output a single descriptive alt text.
 
 SCHEMA:
 {{
@@ -50,11 +51,7 @@ SCHEMA:
   "pack_size": "string — clean value only e.g. '1', 'Pack of 4', '20 Sheets'. Never a sentence.",
   "unit": "string — one of: Each, Pack, Box, Roll, Ream, Carton",
   "google_product_category_id": "string — numeric Google taxonomy ID",
-  "image_alt_texts": {{
-    "hero": "string — descriptive alt text for main product shot",
-    "lifestyle_1": "string — descriptive alt text for first lifestyle image",
-    "lifestyle_2": "string — descriptive alt text for second lifestyle image (T1 only, null for T2)"
-  }}
+    "image_alt_texts": ["array of strings — exactly {image_count} items. Each item is the alt text for the corresponding product image. Must be distinct and descriptive. Do NOT repeat the product title. Describe what is visible in that specific image (e.g., 'front view of blue fineliner pen on white background', 'side angle showing clip and nib', 'pen writing on paper')."]
 }}
 
 BODY_HTML STRUCTURE (follow exactly):
@@ -91,6 +88,6 @@ SELF-CHECK BEFORE OUTPUT:
 4. For T2: is "faqs" set to []? ☐ Yes  ☐ No
 5. Are there exactly 10 tags? Count them: _________
 6. Does body_html contain any em dashes, smart quotes, or banned phrases? ☐ No  ☐ Yes (fix if yes)
-
+7. Are there exactly {image_count} image alt texts, all distinct? ☐ Yes  ☐ No (fix if not)
 If any check fails, fix the JSON before returning it. The JSON will be rejected and you will be called again, wasting tokens.
 Return ONLY the JSON object. No markdown, no preamble, no explanation.

@@ -30,11 +30,12 @@ def _load_prompt(filename: str) -> str:
 def existing_content_is_substantial(existing: dict) -> bool:
     """
     Addendum 3.1 Section B: existing content counts as a first-class data source.
-    Substantial = key_features OR specifications has real content beyond trivial junk.
+    Substantial = key_features OR specifications has real content.
+    Lowered threshold (40 chars) to catch ACCO products with decent existing data.
     """
     for key in ("custom.key_features", "custom.specifications"):
         val = str(existing.get(key, "")).strip()
-        if len(val) > 80 and val.lower() not in ("nothing: here", "n/a", "none"):
+        if len(val) > 40 and val.lower() not in ("nothing: here", "n/a", "none"):
             return True
     return False
 
@@ -44,14 +45,21 @@ def classify_tier(
     has_brand_url: bool,
     image_count: int,
     existing_content: dict = None,
+    sku: str = "",   # NEW parameter
 ) -> str:
     """
     Classify enrichment tier per addendum 3.1 Section B.
-    Existing substantial content lifts a product to T2 -- not T3.
+    Existing substantial content lifts a product to T2.
+    ACCO products (AA, PQ, CU) are pushed to T2 if they have any real existing data.
     T3 is reserved for products with NO supplier data, NO brand access,
-    AND little/no usable existing content.
+    AND no usable existing content.
     """
     has_existing = existing_content_is_substantial(existing_content or {})
+
+    # ACCO products (prefixes AA, PQ, CU) — lift to T2 if they have any real existing content
+    is_acco = sku[:2].upper() in ("AA", "PQ", "CU")
+    if is_acco and has_existing:
+        return "T2"
 
     if has_feed_description and has_brand_url and image_count >= 3:
         return "T1"
@@ -84,6 +92,8 @@ def _build_user_message(product_data: dict, supplier_content: dict, tier: str) -
     existing_pack_size = existing.get("custom.pack_size", "") or "None"
     existing_unit = existing.get("custom.unit", "") or "None"
 
+    image_count = product_data.get("image_count", 0)
+
     if tier == "T3":
         template = _load_prompt("tier3.txt")
     else:
@@ -107,6 +117,7 @@ def _build_user_message(product_data: dict, supplier_content: dict, tier: str) -
         existing_specifications=existing_specifications[:600],
         existing_pack_size=existing_pack_size[:50],
         existing_unit=existing_unit[:30],
+        image_count=image_count,
     )
 
 
@@ -133,6 +144,9 @@ async def _enrich_one(
     last_output_tokens = 0
     last_raw = None
 
+    # number of product images – passed to validator for alt-text checks
+    image_count = product_data.get("image_count", 0)
+
     async with semaphore:
         for attempt in range(1, config.CLAUDE_MAX_RETRIES + 1):
             try:
@@ -153,7 +167,7 @@ async def _enrich_one(
                 last_output_tokens = output_tokens
                 last_raw = raw
 
-                is_valid, parsed, error = validate_claude_response(raw, tier)
+                is_valid, parsed, error = validate_claude_response(raw, tier, image_count=image_count)
                 if is_valid:
                     return {
                         "enrichment_id": enrichment_id,
