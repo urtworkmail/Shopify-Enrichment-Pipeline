@@ -29,7 +29,7 @@ class Config:
     META_DESC_MAX_CHARS: int = 160
     PRICE_INPUT_PER_MTK: float = 3.0
     PRICE_OUTPUT_PER_MTK: float = 15.0
-    DASHBOARD_PORT: int = int(os.getenv("DASHBOARD_PORT", "8080"))
+    DASHBOARD_PORT: int = int(os.getenv("DASHBOARD_PORT", "8083"))
     DASHBOARD_HOST: str = os.getenv("DASHBOARD_HOST", "0.0.0.0")
 
     @property

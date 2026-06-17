@@ -207,28 +207,57 @@ def upsert_product(db: Session, data: dict) -> "Product":
 
 
 def get_run_stats(db: Session, run_id: int) -> dict:
-    """Return current stats for a run -- used by dashboard."""
+    """Return current stats for a run – all aggregates in one efficient query."""
     run = db.query(Run).filter_by(id=run_id).first()
     if not run:
         return {}
+
+    from sqlalchemy import func, case
+
+    stats = (
+        db.query(
+            func.count(Enrichment.id).label("total"),
+            func.sum(case((Enrichment.status == "success", 1), else_=0)).label("ok"),
+            func.sum(case((Enrichment.status == "failed", 1), else_=0)).label("fail"),
+            func.sum(case((Enrichment.status == "skipped", 1), else_=0)).label("skipped"),
+            func.coalesce(func.sum(Enrichment.claude_input_tokens), 0).label("tokens_in"),
+            func.coalesce(func.sum(Enrichment.claude_output_tokens), 0).label("tokens_out"),
+            func.coalesce(func.sum(Enrichment.cost_usd), 0.0).label("cost"),
+            func.sum(case((Enrichment.writeback_status == "success", 1), else_=0)).label("wb_ok"),
+            func.sum(case((Enrichment.writeback_status == "pending", 1), else_=0)).label("wb_pending"),
+        )
+        .filter(Enrichment.run_id == run_id)
+        .first()
+    )
+
+    total = stats.total or 0
+    ok = stats.ok or 0
+    fail = stats.fail or 0
+    skipped = stats.skipped or 0
+    wb_ok = stats.wb_ok or 0
+    wb_pending = stats.wb_pending or 0
+
+    if wb_ok > 0 and wb_pending == 0:
+        wb_status = "completed"
+    elif wb_ok > 0:
+        wb_status = "partial"
+    else:
+        wb_status = "pending"
 
     return {
         "id": run.id,
         "status": run.status,
         "started_at": run.started_at.isoformat() if run.started_at else None,
         "completed_at": run.completed_at.isoformat() if run.completed_at else None,
-        "total_products": run.total_products,
-        "enriched_count": run.enriched_count,
-        "failed_count": run.failed_count,
-        "skipped_count": run.skipped_count,
-        "progress_pct": round(
-            (run.enriched_count + run.failed_count + run.skipped_count)
-            / max(run.total_products, 1) * 100, 1
-        ),
-        "total_input_tokens": run.total_input_tokens,
-        "total_output_tokens": run.total_output_tokens,
-        "estimated_cost_usd": round(run.estimated_cost_usd, 4),
-        "writeback_status": run.writeback_status,
+        "total_products": total,
+        "enriched_count": ok,
+        "failed_count": fail,
+        "skipped_count": skipped,
+        "progress_pct": round((ok + fail + skipped) / max(total, 1) * 100, 1),
+        "total_input_tokens": stats.tokens_in,
+        "total_output_tokens": stats.tokens_out,
+        "estimated_cost_usd": round(stats.cost or 0, 4),
+        "writeback_status": wb_status,
     }
 
 
