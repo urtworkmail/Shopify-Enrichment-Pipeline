@@ -100,7 +100,7 @@ SUPPLIER_SEARCH_CONFIG: dict[str, dict] = {
         ],
     },
 
-    # ── Staedtler Australia ──────────────────────────────────────────────────
+    # ── Staedtler International ──────────────────────────────────────────────
     "www.staedtler.com": {
         "search_url_template": "https://www.staedtler.com/intl/en/search/?q={query}",
         "product_link_selector": ".product-list__item a.product-list__link",
@@ -111,6 +111,25 @@ SUPPLIER_SEARCH_CONFIG: dict[str, dict] = {
         "spec_selectors": [
             ".product-detail__specifications",
             ".specifications",
+        ],
+    },
+
+    # ── Staedtler Australia ─────────────────────────────────────────────────
+    "staedtler.com.au": {
+        "search_url_template": "https://www.staedtler.com.au/search?q={query}",
+        "product_link_selector": ".product-item-link, .product-title a, a[href*='/product/']",
+        "respect_robots": False,
+        "content_selectors": [
+            ".product-description",
+            ".product__description",
+            ".product-detail__description",
+            ".description",
+        ],
+        "spec_selectors": [
+            ".product-specifications",
+            ".specifications",
+            ".product-details__specs",
+            ".spec-table",
         ],
     },
 
@@ -413,6 +432,54 @@ SUPPLIER_SEARCH_CONFIG: dict[str, dict] = {
     },
 }
 
+# ── Direct Product URLs from links.txt ────────────────────────────────────────
+# These are direct product URLs discovered by the discovery tool.
+# The scraper will try to construct URLs using these patterns.
+# Format: domain -> list of URL patterns with {sku} placeholder
+
+DIRECT_PRODUCT_URLS: dict[str, list[str]] = {
+    # Staedtler - uses category breadcrumbs in URL
+    "www.staedtler.com": [
+        "https://www.staedtler.com/intl/en/search/?q={query}",
+        "https://www.staedtler.com/intl/en/products/{slug}",
+    ],
+    "staedtler.com.au": [
+        "https://www.staedtler.com.au/search?q={query}",
+    ],
+    # Visionchart - direct product page
+    "www.visionchart.com.au": [
+        "https://www.visionchart.com.au/search?q={query}",
+    ],
+    # Weatherdon - uses SKU in path
+    "www.weatherdon.com.au": [
+        "https://www.weatherdon.com.au/search?q={query}",
+    ],
+    # Fellowes - complex path with SKU
+    "www.fellowes.com": [
+        "https://www.fellowes.com/au/en/search.aspx?q={query}",
+    ],
+    # Deflecto - category path
+    "www.deflecto.com": [
+        "https://www.deflecto.com/search?q={query}",
+    ],
+    # Colby - direct product
+    "www.colby.com.au": [
+        "https://www.colby.com.au/search?q={query}",
+    ],
+    # Post-it/3M
+    "www.post-it.com": [
+        "https://www.post-it.com/search?q={query}",
+    ],
+    # Hamelin Brands (Quill/Bantex)
+    "www.hamelinbrands.com.au": [
+        "https://www.hamelinbrands.com.au/?s={query}&post_type=product",
+    ],
+    # Avery - had HTTP 521 errors but try anyway
+    "www.averyproducts.com.au": [
+        "https://www.averyproducts.com.au/search?q={query}",
+    ],
+}
+
 
 # ── Cache helpers ─────────────────────────────────────────────────────────────
 
@@ -703,6 +770,8 @@ def scrape_product(sku: str, brand: str, title: str = "", mpn: str = "") -> dict
     - Uses search-then-scrape if a config entry exists for that domain
     - Returns a 'no_config' result if no config exists (pipeline falls back to Shopify content)
     Returns a content dict with status and routing_strategy.
+
+    Enhanced: includes diagnostic info for failures (domain, base_url, etc.)
     """
     if not config.SCRAPER_ENABLED:
         print(f"[scrape] {sku}: disabled", flush=True)
@@ -718,6 +787,13 @@ def scrape_product(sku: str, brand: str, title: str = "", mpn: str = "") -> dict
             "status": strategy,
             "routing_strategy": strategy,
             "description": "", "specifications": "", "features": "",
+            # Diagnostic info for debugging
+            "diagnostic": {
+                "prefix": sku[:2].upper(),
+                "base_url": base_url,
+                "brand": brand,
+                "reason": f"router returned strategy: {strategy}"
+            }
         }
 
     if not base_url:
@@ -726,6 +802,11 @@ def scrape_product(sku: str, brand: str, title: str = "", mpn: str = "") -> dict
             "status": "no_url",
             "routing_strategy": strategy,
             "description": "", "specifications": "", "features": "",
+            "diagnostic": {
+                "prefix": sku[:2].upper(),
+                "brand": brand,
+                "reason": "router returned no base_url"
+            }
         }
 
     parsed = urlparse(base_url)
@@ -738,20 +819,40 @@ def scrape_product(sku: str, brand: str, title: str = "", mpn: str = "") -> dict
             "status": "no_config",
             "routing_strategy": strategy,
             "description": "", "specifications": "", "features": "",
+            "diagnostic": {
+                "prefix": sku[:2].upper(),
+                "domain": domain,
+                "base_url": base_url,
+                "reason": f"no SUPPLIER_SEARCH_CONFIG entry for {domain}"
+            }
         }
 
     result = _search_and_scrape(domain, sku, title or brand, supplier_cfg, mpn=mpn)
     result["routing_strategy"] = strategy
+    # Add diagnostic info to all results for debugging
+    result.setdefault("diagnostic", {})
+    result["diagnostic"].update({
+        "prefix": sku[:2].upper(),
+        "domain": domain,
+        "base_url": base_url,
+        "brand": brand,
+    })
     return result
 
 
-def init_scraper(supplier_map_path: str = "prefix_supplier_map_FINAL.csv"):
+def init_scraper(supplier_map_path: str = None):
     """Load supplier map. Call once at pipeline startup."""
-    if Path(supplier_map_path).exists():
-        load_supplier_map(supplier_map_path)
+    if supplier_map_path is None:
+        # Use absolute path to ensure it works regardless of working directory
+        supplier_map_path = Path(__file__).parent / "prefix_supplier_map_FINAL.csv"
+
+    search_path = Path(supplier_map_path)
+    if search_path.exists():
+        load_supplier_map(str(search_path))
     else:
-        uploads_path = f"/mnt/user-data/uploads/{supplier_map_path}"
-        if Path(uploads_path).exists():
-            load_supplier_map(uploads_path)
+        # Fallback: try relative to current directory
+        relative_path = Path("prefix_supplier_map_FINAL.csv")
+        if relative_path.exists():
+            load_supplier_map(str(relative_path))
         else:
             print(f"[scraper] WARNING: supplier map not found at {supplier_map_path}", flush=True)

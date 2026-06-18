@@ -116,6 +116,7 @@ class Enrichment(Base):
     tier = Column(String(5), nullable=True)
     status = Column(String(32), default="pending")  # pending, success, failed, skipped
     scrape_status = Column(String(64), nullable=True)
+    scrape_url = Column(Text, nullable=True)  # The URL that was scraped (for debugging/verification)
     scraped_content = Column(JSON, nullable=True)
     claude_input_tokens = Column(Integer, default=0)
     claude_output_tokens = Column(Integer, default=0)

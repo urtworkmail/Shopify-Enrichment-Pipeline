@@ -4,8 +4,11 @@ for reliable upload.  Uses the same per‑product commit pattern as pipeline.py.
 """
 from database import get_db, Product, Enrichment, Run, SessionLocal, engine
 from claude_enricher import classify_tier
-from scraper import scrape_product
+from scraper import scrape_product, init_scraper
 from batch_enricher import submit_batch, poll_batch, download_and_merge
+
+# ── Load the supplier prefix map (same as pipeline.py does at startup) ──
+init_scraper()
 
 ANTHROPIC_BATCH_LIMIT = 10000   # max Anthropic accepts per batch
 SUBMIT_CHUNK = 2000             # upload in smaller chunks to avoid timeouts
@@ -17,7 +20,6 @@ with get_db() as db:
         run_id = existing_run.id
         already_prepared = db.query(Enrichment).filter_by(run_id=run_id).count()
         print(f"Resuming run {run_id}: {already_prepared} enrichment rows already prepared.")
-        # Skip products that already have enrichment rows in this run
         done_skus = {e.sku for e in db.query(Enrichment.sku).filter_by(run_id=run_id).all()}
     else:
         run_id = None
@@ -27,13 +29,11 @@ with get_db() as db:
 with get_db() as db:
     already_enriched = {e.sku for e in db.query(Enrichment.sku).filter_by(status="success").all()}
     all_products = db.query(Product).filter(Product.sku.notin_(already_enriched)).all()
-    # Filter out those already prepared in the current run
     if done_skus:
         all_products = [p for p in all_products if p.sku not in done_skus]
     total = len(all_products)
     print(f"Remaining products to prepare: {total}")
 
-    # Build lightweight dicts
     product_dicts = []
     for p in all_products:
         product_dicts.append({
@@ -83,6 +83,7 @@ if product_dicts:
                 e = Enrichment(run_id=run_id, product_id=pdict["id"], sku=pdict["sku"],
                                status="pending", tier=tier,
                                scrape_status=supplier_content.get("status", ""),
+                               scrape_url=supplier_content.get("source_url", ""),
                                scraped_content=supplier_content)
                 session.add(e)
                 session.flush()
@@ -99,13 +100,10 @@ else:
     print("All products already prepared. Proceeding to submission.")
 
 # ── 4. Submit all prepared enrichments (resume-safe) ──
-# Get all pending enrichments for this run, grouped by whatever makes sense.
-# We'll just fetch them all and split into sub-batches of SUBMIT_CHUNK.
 with get_db() as db:
     pending = db.query(Enrichment).filter_by(run_id=run_id, status="pending").all()
     print(f"\nTotal pending enrichments to submit: {len(pending)}")
 
-    # Build the items list directly from the enrichment rows
     all_items = []
     for e in pending:
         product = db.query(Product).filter_by(id=e.product_id).first()
@@ -126,7 +124,6 @@ with get_db() as db:
         }
         all_items.append((e.id, product_data, supplier_content, e.tier))
 
-# Split into sub‑batches of SUBMIT_CHUNK
 sub_batches = [all_items[i:i + SUBMIT_CHUNK] for i in range(0, len(all_items), SUBMIT_CHUNK)]
 print(f"Submitting {len(sub_batches)} sub‑batch(es) of up to {SUBMIT_CHUNK} requests each")
 

@@ -58,7 +58,7 @@ _BRAND_URL_OVERRIDES: dict[str, str] = {
 
 # MULTI-BRAND prefixes: these distributors carry many brands
 # Route by vendor/brand field, not by prefix domain
-_MULTI_BRAND_PREFIXES = {"DS", "GN", "AM", "GS", "LA", "CC"}
+_MULTI_BRAND_PREFIXES = {"DS", "GN", "AM", "GS", "LA", "CC", "SD"}
 
 # IGNORE prefixes: no supplier URL available, Shopify-only enrichment
 _IGNORE_PREFIXES = {
