@@ -1,0 +1,72 @@
+prefix,status,reason,strategy,content,domain
+AA,GATED,ACCO portal login required,acco_gated,NO,
+DS,multi_brand_no_match,Multi-brand: routes by brand (DS (distributor)),multi_brand_no_match,NO,https://www.canon.com.au/
+FX,cached,Has search config,single_brand,YES,rapidline.com.au
+PQ,GATED,ACCO portal login required,acco_gated,NO,
+EV,cached,Search did not find product,single_brand,NO,www.teaching.com.au
+SR,not_found,Search did not find product,single_brand,NO,staedtler.com.au
+AD,http_521,Search did not find product,single_brand,NO,www.averyproducts.com.au
+AH,NO_CONFIG,No search URL pattern in scraper config,no_config,NO,aerohealthcare.com
+PP,NO_CONFIG,No search URL pattern in scraper config,no_config,NO,pilotpen.com.au
+CS,cached,Search did not find product,single_brand,NO,www.teaching.com.au
+BH,cached,Search did not find product,single_brand,NO,www.hamelinbrands.com.au
+JS,NO_CONFIG,No search URL pattern in scraper config,no_config,NO,www.torkglobal.com
+GN,multi_brand_no_match,Multi-brand: routes by brand (GN (wholesaler)),multi_brand_no_match,NO,https://www.collinsdebden.com.au/
+AM,no_config,Multi-brand: routes by brand (Australian Merchandiser (Osmer)),multi_brand,NO,https://www.velcro.com.au/
+VC,not_found,Search did not find product,single_brand,NO,www.visionchart.com.au
+TN,cached,Has search config,single_brand,YES,www.thenotegroup.com.au
+UM,NO_CONFIG,No search URL pattern in scraper config,no_config,NO,uniball.com.au
+WE,not_found,Search did not find product,single_brand,NO,www.weatherdon.com.au
+SD,no_config,Multi-brand: routes by brand (Sanford / Newell Brands),multi_brand,NO,https://www.dymo.com.au/ or https://www.parkerpen.com/ or https://www.waterman.com/ or https://www.sunbeam.com.au/
+BT,NO_CONFIG,No search URL pattern in scraper config,no_config,NO,balatrading.com.au
+FM,not_found,Search did not find product,single_brand,NO,www.fellowes.com
+JP,not_found,Search did not find product,single_brand,NO,www.deflecto.com
+AP,cached,Search did not find product,single_brand,NO,www.hamelinbrands.com.au
+3M,cached,Search did not find product,single_brand,NO,www.post-it.com
+CO,not_found,Search did not find product,single_brand,NO,www.colby.com.au
+CU,GATED,ACCO portal login required,acco_gated,NO,
+PH,cached,Has search config,single_brand,YES,www.phe.com.au
+DO,cached,Has search config,single_brand,YES,dolphy.com.au
+IT,NO_CONFIG,No search URL pattern in scraper config,no_config,NO,www.italplast.com.au
+KC,cached,Has search config,single_brand,YES,www.kcprofessional.com
+ZN,cached,Has search config,single_brand,YES,www.thenotegroup.com.au
+ER,cached,Search did not find product,single_brand,NO,www.teaching.com.au
+AR,cached,Has search config,single_brand,YES,arnos.com.au
+CD,success,Has search config,single_brand,YES,www.collinsdebden.com.au
+BA,NO_CONFIG,No search URL pattern in scraper config,no_config,NO,corporate.bic.com
+SL,cached,Has search config,single_brand,YES,www.brother.com.au
+BR,NO_CONFIG,No search URL pattern in scraper config,no_config,NO,www.bouncerubberbands.com
+GS,cached,Multi-brand: routes by brand (GS (wholesaler)),multi_brand,YES,https://spencil.com.au/
+BX,cached,Search did not find product,single_brand,NO,www.hamelinbrands.com.au
+JA,cached,Has search config,single_brand,YES,www.jasco.com.au
+FC,cached,Has search config,single_brand,YES,www.faber-castell.com.au
+MO,IGNORED,No supplier URL available - Shopify-only enrichment,ignore,NO,
+AB,NO_CONFIG,No search URL pattern in scraper config,no_config,NO,www.abldistribution.com.au
+LA,no_config,Multi-brand: routes by brand (Lavazza),multi_brand,NO,https://twinings.com.au/
+RH,cached,Search did not find product,single_brand,NO,www.teaching.com.au
+DU,NO_CONFIG,No search URL pattern in scraper config,no_config,NO,www.durasales.com.au
+CC,no_config,Multi-brand: routes by brand (Campbells Cash & Carry),multi_brand,NO,https://www.campbells.com.au/
+PE,cached,Has search config,single_brand,YES,www.pentel.com.au
+AT,IGNORED,No supplier URL available - Shopify-only enrichment,ignore,NO,
+ST,NO_CONFIG,No search URL pattern in scraper config,no_config,NO,www.stylustapes.com.au
+BS,IGNORED,No supplier URL available - Shopify-only enrichment,ignore,NO,
+GG,cached,Has search config,single_brand,YES,au.whogivesacrap.org
+MT,IGNORED,No supplier URL available - Shopify-only enrichment,ignore,NO,
+ZA,cached,Search did not find product,single_brand,NO,www.teaching.com.au
+BF,NO_CONFIG,No search URL pattern in scraper config,no_config,NO,diy.bostik.com
+ND,IGNORED,No supplier URL available - Shopify-only enrichment,ignore,NO,
+PB,IGNORED,No supplier URL available - Shopify-only enrichment,ignore,NO,
+AL,IGNORED,No supplier URL available - Shopify-only enrichment,ignore,NO,
+SX,IGNORED,No supplier URL available - Shopify-only enrichment,ignore,NO,
+KP,cached,Search did not find product,single_brand,NO,www.jshayes.com.au
+EC,cached,Search did not find product,single_brand,NO,www.teaching.com.au
+#P,IGNORED,No supplier URL available - Shopify-only enrichment,ignore,NO,
+V9,IGNORED,No supplier URL available - Shopify-only enrichment,ignore,NO,
+GB,IGNORED,No supplier URL available - Shopify-only enrichment,ignore,NO,
+13,IGNORED,No supplier URL available - Shopify-only enrichment,ignore,NO,
+JH,cached,Search did not find product,single_brand,NO,www.jshayes.com.au
+S0,IGNORED,No supplier URL available - Shopify-only enrichment,ignore,NO,
+FF,IGNORED,No supplier URL available - Shopify-only enrichment,ignore,NO,
+SE,IGNORED,No supplier URL available - Shopify-only enrichment,ignore,NO,
+21,IGNORED,No supplier URL available - Shopify-only enrichment,ignore,NO,
+ME,IGNORED,No supplier URL available - Shopify-only enrichment,ignore,NO,

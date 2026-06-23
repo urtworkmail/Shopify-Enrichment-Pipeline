@@ -1,0 +1,52 @@
+prefix,supplier,domain,product_count,test_sku,test_title,test_mpn,search_method,status,has_content,url_found,verdict,reason
+DS,DS (distributor),www.canon.com.au,3634,DSCART057,Canon CART057 Toner Cartridge Black 3100,CART057,name,blocked_robots,False,,MARGINAL,Multi-brand - needs brand-specific routing
+FX,,rapidline.com.au,2795,FXSB2PWSCT1275 NW/WS,Rapidline Boost Static Back to Back Work,SB2PWSCT1275 NW/WS,name,cached,True,https://rapidline.com.au/products/,WORKS,"Search finds products, selectors work"
+EV,Educational Vantage,www.teaching.com.au,1289,EVP20,Educational Colours 20 Well Palette Tray,P20,name,cached,False,https://www.teaching.com.au/product/a4-double-sided-magnetic,MARGINAL,Status: cached
+SR,,staedtler.com.au,1216,SR351-30,Staedtler 351-30 Non-Permanent Light Blu,351-30,name,not_found,False,,WON'T WORK,SKU search returns nothing
+AD,,www.averyproducts.com.au,1128,AD936070,Avery White Address and Shipping Inkjet ,936070,name,http_521,False,,WON'T WORK,Server errors (HTTP 521)
+AH,,aerohealthcare.com,1117,AHIM13-SA07,Brayden Manikin Face Connection Adult,IM13-SA07,name,no_config,False,,WON'T WORK,No search config configured
+PP,,pilotpen.com.au,1037,PP720147,Pilot FriXion Point Erasable Gel Pen Ult,BL-FRP4-L,name,no_config,False,,WON'T WORK,No search config configured
+CS,Educational Vantage,www.teaching.com.au,1006,CS0119,Candida DL Envelopes Window Face Secreti,0119,name,cached,False,https://www.teaching.com.au/product/a4-double-sided-magnetic,MARGINAL,Status: cached
+BH,,www.hamelinbrands.com.au,800,BH10511,3L 100852410 (10511) INDEX TABS 25MM WHI,100852410,name,cached,False,https://www.hamelinbrands.com.au/products/,MARGINAL,Status: cached
+JS,,www.torkglobal.com,769,JSSCL100ML,Deb Stokolan Classic Enriched Skin Condi,SCL100ML,name,no_config,False,,WON'T WORK,No search config configured
+GN,GN (wholesaler),www.collinsdebden.com.au,703,GN46000,Livi 1301 Essentials Facial Tissue Hypoa,1301,name,multi_brand_no_match,False,,MARGINAL,Multi-brand - needs brand-specific routing
+AM,Australian Merchandiser (Osmer),www.velcro.com.au,557,AMECB02,Osmer Elastic Chair Bag Navy Blue,ECB02,name,no_config,False,,MARGINAL,Multi-brand - needs brand-specific routing
+VC,,www.visionchart.com.au,538,VCEPBY-SKY,Creative Kids Book Tub 145 x 300 x 190mm,EPBY-SKY,name,not_found,False,,WON'T WORK,SKU search returns nothing
+TN,,www.thenotegroup.com.au,518,TNNP4037,Writer Presentation Flipchart Pad 60gsm ,NP4037,name,cached,True,https://www.thenotegroup.com.au/category/1-filing-products,WORKS,"Search finds products, selectors work"
+UM,Uni / Mitsubishi Pencil,uniball.com.au,450,UMPC3M4PBWGS,Posca PC-3M Paint Marker Pen Bullet Fine,PC3M4PBWGS,name,no_config,False,,WON'T WORK,No search config configured
+WE,Weatherdon,www.weatherdon.com.au,445,WE20711,Weatherdon Laundry Liquid 20ml Sachet Ca,21003,name,not_found,False,,WON'T WORK,SKU search returns nothing
+SD,Sanford / Newell Brands,www.dymo.com.au,418,SDS18007010,Papermate Flexgrip Ultra Ballpoint Pen M,S18007010 | 9620131,name,no_config,False,,MARGINAL,Multi-brand - needs brand-specific routing
+BT,,balatrading.com.au,342,BT1195/70C,Bala Computer Paper Plain 70gsm 241 x 27,1195/70C,name,no_config,False,,WON'T WORK,No search config configured
+FM,,www.fellowes.com,335,FM9540802,AeraMax Wall Mount Recess Kit for AM II ,9540802,name,not_found,False,,WON'T WORK,SKU search returns nothing
+JP,Deflecto / Manhattan / Blueprint,www.deflecto.com,313,JPMLS12,Deflecto 12 Pocket 3 Tier Brochure Holde,MLS12,name,not_found,False,,WON'T WORK,SKU search returns nothing
+AP,,www.hamelinbrands.com.au,304,AP188961,Mondi Colour Copy Paper 120gsm A4 210 x ,188961,name,cached,False,https://www.hamelinbrands.com.au/products/,MARGINAL,Status: cached
+3M,,www.post-it.com,269,3M98044054124,"3M Privacy Filter for 19"" Widescreen Mon",98044054124,name,cached,False,https://www.post-it.com/3M/en_US/company-us/battery-embedded,MARGINAL,Status: cached
+CO,,www.colby.com.au,257,COKW-952-PACK,KW BY COLBY 2xCUTTER/4xDISC PACK KW-952,,name,not_found,False,,WON'T WORK,SKU search returns nothing
+PH,,www.phe.com.au,222,PHMQUPANB989,PHE Qupa NB989 Electric Binding Punch Sy,MQUPANB989,name,cached,True,https://www.phe.com.au/office-products-landing/,WORKS,"Search finds products, selectors work"
+DO,,dolphy.com.au,203,DODKTL0010,Dolphy 0.8L Stainless Steel Electric Ket,DKTL0010,name,cached,True,https://dolphy.com.au/products/1l-black-electric-kettle-high,WORKS,"Search finds products, selectors work"
+IT,,www.italplast.com.au,201,ITI 160NRD,Italplast Magazine Stand Neon Red,I 160NRD,name,no_config,False,,WON'T WORK,No search config configured
+KC,,www.kcprofessional.com,146,KC4735,Kleenex Toilet Tissue White 2 Ply 400 Sh,4735,name,cached,True,https://www.kcprofessional.com/en-in/products/dispensers/toi,WORKS,"Search finds products, selectors work"
+ZN,,www.thenotegroup.com.au,108,ZN212,Zions Business Income and Expenditure Ca,212,name,cached,True,https://www.thenotegroup.com.au/category/1-filing-products,WORKS,"Search finds products, selectors work"
+ER,Educational Vantage,www.teaching.com.au,89,ER5BBP,Elizabeth Richards Book Box Pack of 5 Pu,ER5BBP,name,cached,False,https://www.teaching.com.au/product/a4-double-sided-magnetic,MARGINAL,Status: cached
+AR,,arnos.com.au,87,ARB022,Arnos B022 Swingsign 5 Panel Expansion a,B022,name,cached,True,https://arnos.com.au/products/,WORKS,"Search finds products, selectors work"
+CD,,www.collinsdebden.com.au,396,CD10232,Collins 10232 Account Book Series A24 Mi,10232,name,success,True,https://www.collinsdebden.com.au/products/account-book-serie,WORKS,"Search finds products, selectors work"
+BA,,corporate.bic.com,52,BA10246.04,BIC Economy Ballpoint Pen Medium Black B,10246.04,name,no_config,False,,WON'T WORK,No search config configured
+SL,,www.brother.com.au,41,SLQL-1100,Brother QL1100 Label Printer,QL-1100,name,cached,True,https://www.brother.com.au/en/account/my-product,WORKS,"Search finds products, selectors work"
+BR,,www.bouncerubberbands.com,36,BRRETBAND018N,Bounce Rubber Bands Size 18 80 x 2.0mm 5,RETBAND018N,name,no_config,False,,WON'T WORK,No search config configured
+GS,GS (wholesaler),spencil.com.au,27,GSBCAYAR1,Spencil Yarrawala 1 A4 Book Cover Pack o,BCAYAR1,name,cached,True,https://spencil.com.au/shop/,MARGINAL,Multi-brand - needs brand-specific routing
+BX,,www.hamelinbrands.com.au,25,BX2034-38,Bantex A4 Sheet Protectors Economy 35 Mi,2034-38,name,cached,False,https://www.hamelinbrands.com.au/products/,MARGINAL,Status: cached
+JA,,www.jasco.com.au,25,JA0384304,Liquitex Acrylic Inks 316 Phthalocyanine,0384304,name,cached,True,https://www.jasco.com.au/products/whats-new,WORKS,"Search finds products, selectors work"
+FC,,www.faber-castell.com.au,25,FC18-110072,Faber Castell Polychromos Colour Pencils,18-110072,name,cached,True,https://www.faber-castell.com.au/products/24-25-03-colored-p,WORKS,"Search finds products, selectors work"
+AB,,www.abldistribution.com.au,21,AB3542,7 Rivers Compact Interleaved Towel 20x25,3542,name,no_config,False,,WON'T WORK,No search config configured
+LA,Lavazza,twinings.com.au,18,LA80013,Twinings Tea Chest 4 Compartment,80013,name,no_config,False,,MARGINAL,Multi-brand - needs brand-specific routing
+RH,Educational Vantage,www.teaching.com.au,18,RHWS171AS4,Nyda Airflow Softball Set of 4,WS171AS4,name,cached,False,https://www.teaching.com.au/product/a4-double-sided-magnetic,MARGINAL,Status: cached
+DU,Durasales,www.durasales.com.au,12,DUMN1604/72,Duracell MN1604 Coppertop Alkaline 9V Ba,MN1604/72,name,no_config,False,,WON'T WORK,No search config configured
+CC,Campbells Cash & Carry,www.campbells.com.au,11,CC967090,CADBURY CAFE BLEND DRINKING CHOCOLATE 1.,967090,name,no_config,False,,MARGINAL,Multi-brand - needs brand-specific routing
+PE,,www.pentel.com.au,9,PEN50-D,Pentel N50 Permanent Marker Bullet Point,N50-D,name,cached,True,https://www.pentel.com.au/product-page/pen-permanent-marker-,WORKS,"Search finds products, selectors work"
+ST,,www.stylustapes.com.au,8,ST0894,PP99 ACRYLIC PACKAGING TAPE CLEAR 48MMX7,ST0894,name,no_config,False,,WON'T WORK,No search config configured
+GG,,au.whogivesacrap.org,4,GGWGACDL48,Who Gives a Crap Recycled Toilet Paper C,WGACDL48,name,cached,True,https://au.whogivesacrap.org/products/the-splash-limited-edi,WORKS,"Search finds products, selectors work"
+ZA,Educational Vantage,www.teaching.com.au,4,ZAWP064,Creative School Supply Surfboard with St,WP064,name,cached,False,https://www.teaching.com.au/product/a4-double-sided-magnetic,MARGINAL,Status: cached
+BF,,diy.bostik.com,3,BF371351,Bostik Blu Tack Multi Purpose Adhesive 7,371351,name,no_config,False,,WON'T WORK,No search config configured
+KP,,www.jshayes.com.au,2,KP7230,Hamilton Active Family SPF50+ Sunscreen ,7230,name,cached,False,https://www.jshayes.com.au/products/paper-products,MARGINAL,Status: cached
+EC,Educational Vantage,www.teaching.com.au,2,ECCS2JB2L,EC CLASSROOM SPLASH 2LT JELLY BELLY BLUE,CS2JB,name,cached,False,https://www.teaching.com.au/product/a4-double-sided-magnetic,MARGINAL,Status: cached
+JH,,www.jshayes.com.au,1,JH0477829,Tork Black Cocktail Napkin Pack of 200 C,477829,name,cached,False,https://www.jshayes.com.au/products/paper-products,MARGINAL,Status: cached

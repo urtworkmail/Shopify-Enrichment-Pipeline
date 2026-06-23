@@ -2,7 +2,6 @@
 prefix_supplier_map_FINAL.csv
 sample_products_200_balanced.csv
 __pycache__/
-output/
 __pycache__/claude_enricher.cpython-314.pyc
 __pycache__/config.cpython-314.pyc
 __pycache__/config.cpython-310.pyc
